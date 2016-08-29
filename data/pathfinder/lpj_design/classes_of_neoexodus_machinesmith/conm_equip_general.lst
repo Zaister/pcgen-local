@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 11 14:04:53 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
+
+# Equipment Name	Type					Number of Pages	Page Usage	Cost		Weight
+Blueprint Book	TYPE:Goods.Tools.Spellbook	NUMPAGES:1000	PAGEUSAGE:0	COST:15	WT:3
+
+#
+# End
+#

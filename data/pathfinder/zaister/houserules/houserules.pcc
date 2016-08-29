@@ -1,0 +1,25 @@
+# CVS $Revision$ $Author$ -- Sun Oct 11 21:42:23 2009 -- reformated by prettylst.pl v1.39 (build 10232)
+CAMPAIGN:House Rules Collection
+GAMEMODE:Pathfinder
+TYPE:Zaister.Supplement
+STATUS:ALPHA
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Stefan Radermacher
+PUBNAMESHORT:Stefan Radermacher
+SOURCELONG:House Rules Collection
+SOURCESHORT:SR-HR
+SOURCEDATE:2099-12
+ISOGL:NO
+
+ABILITYCATEGORY:houserules_abilitycategories.lst
+ABILITY:houserules_abilities.lst
+EQUIPMENT:houserules_equipment.lst
+TEMPLATE:houserules_templates.lst
+
+#
+# End
+#

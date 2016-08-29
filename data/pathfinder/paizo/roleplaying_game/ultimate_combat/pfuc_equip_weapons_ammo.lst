@@ -1,0 +1,14 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Wed Aug 31 10:57:39 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Ultimate Combat	SOURCESHORT:PFUC	SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies	SOURCEDATE:2011-07
+# Pathfinder RPG Entry by: Stefan Radermacher
+
+####Block: Ammunition
+# Equipment Name		Type							Cost		Weight	Base Quantity	Modifier	Requires Modification?	Source Page
+Black Powder		TYPE:Ammunition.Standard.BlackPowder	COST:10	WT:0		BASEQTY:1								SOURCEPAGE:p.8
+Bullet (Blunderbuss)	TYPE:Ammunition.Standard.Bullet		COST:1	WT:0		BASEQTY:1		EQMOD:STEEL	MODS:YES			SOURCEPAGE:p.8
+Bullet (Musket)		TYPE:Ammunition.Standard.Bullet		COST:1	WT:0		BASEQTY:1		EQMOD:STEEL	MODS:YES			SOURCEPAGE:p.8
+Bullet (Pistol)		TYPE:Ammunition.Standard.Bullet		COST:1	WT:0		BASEQTY:1		EQMOD:STEEL	MODS:YES			SOURCEPAGE:p.8
+
+#
+# End
+#

@@ -1,0 +1,31 @@
+# CVS $Revision: $ $Author: $ -- Sun Apr 24 14:58:13 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Oliver's House Rules	SOURCESHORT:OLHR	SOURCEDATE:2099-12
+
+###Block: Swashbuckler Class features
+# Ability Name	Unique Key						Category of Ability		Type											Description																																																																				Bonus Ability Pool
+Personage		KEY:Legendary Swashbuckler ~ Personage	CATEGORY:Special Ability	TYPE:Swashbuckler Class Feature.SpecialQuality.Extraordinary	DESC:Each swashbuckler possesses a specific style and persona known as her personage. The personage grants the swashbuckler a number of bonuses and special abilities. This personage often represents the swashbuckler’s upbringing and personal persona, and is the source of her panache. A swashbuckler must pick one personage upon taking her first level of swashbuckler. Once made, this choice cannot be changed.	BONUS:ABILITYPOOL|Swashbuckler Personage|1
+
+###Block: Swashbuckler Personages
+# Ability Name	Unique Key			Category of Ability		Type														Description																																							Ability
+Madcap		KEY:Personage ~ Madcap	CATEGORY:Special Ability	TYPE:Swashbuckler Class Feature.SwashbucklerPersonage.SpecialQuality.Extraordinary	DESC:Although all swashbucklers are somewhat reckless, a madcap epitomizes the reckless flair that characterizes panache users. Fearless before danger by spell or by blade, a madcap is staunch in her resolve and tireless in her pursuits.	ABILITY:FEAT|AUTOMATIC|Steadfast Personality
+
+###Block Weapon Focus weapon groups
+# Ability Name	Unique Key		Category of Ability		Type							Visible		Description									Weapon prof. bonus									Benefits
+Axes			KEY:Axes		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using axes.			BONUS:WEAPONPROF=TYPE.Weapon Group Axes|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using axes.
+Blades/Heavy	KEY:Blades/Heavy	CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using heavy blades.		BONUS:WEAPONPROF=TYPE.Weapon Group Blades Heavy|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using heavy blades.
+Blades/Light	KEY:Blades/Light	CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using light blades.		BONUS:WEAPONPROF=TYPE.Weapon Group Blades Light|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using light blades.
+Bows			KEY:Bows		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using bows.			BONUS:WEAPONPROF=TYPE.Weapon Group Bows|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using bows.
+Close			KEY:Close		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using close combat weapons.	BONUS:WEAPONPROF=TYPE.Weapon Group Close|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using close combat weapons.
+Crossbows		KEY:Crossbows	CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using crossbows.		BONUS:WEAPONPROF=TYPE.Weapon Group Crossbows|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using crossbows.
+Double		KEY:Double		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using double weapons.		BONUS:WEAPONPROF=TYPE.Weapon Group Double|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using double weapons.
+Flails		KEY:Flails		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using flails.			BONUS:WEAPONPROF=TYPE.Weapon Group Flails|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using flails.
+Hammers		KEY:Hammers		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using hammers.			BONUS:WEAPONPROF=TYPE.Weapon Group Hammers|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using hammers.
+Monk			KEY:Monk		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using monk weapons.		BONUS:WEAPONPROF=TYPE.Weapon Group Monk|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using monk weapons.
+Natural		KEY:Natural		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using natural weapons.	BONUS:WEAPONPROF=TYPE.Weapon Group Natural|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using natural weapons.
+Pole Arms		KEY:Pole Arms	CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using pole arms.		BONUS:WEAPONPROF=TYPE.Weapon Group Pole Arms|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using pole arms.
+Spears		KEY:Spears		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using spears.			BONUS:WEAPONPROF=TYPE.Weapon Group Spears|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using spreas.
+Thrown		KEY:Thrown		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using thrown weapons.		BONUS:WEAPONPROF=TYPE.Weapon Group Thrown|TOHIT|1|TYPE=Competence		BENEFIT:You gain a +1 bonus on all attack rolls you make using thrown weapons.
+
+#
+# End
+#

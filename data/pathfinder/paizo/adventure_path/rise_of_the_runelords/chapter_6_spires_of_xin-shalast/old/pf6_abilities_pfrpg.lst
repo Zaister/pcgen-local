@@ -1,0 +1,22 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Oct  4 12:08:56 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2007-10
+
+# For Denizen of Leng, Rune Giant, and Wendigo, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+
+###Block: Crag Spider abilities
+# Ability Name	Unique Key				Category of Ability		Type						Description																																																																																																																			Source Page
+Tether		KEY:Tether ~ Crag Spider	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:As a move action, a crag spider can anchor itself to a surface within its reach by a tether of webbing. This web is identical in characteristics to its normal webbing. A tethered crag spider gains a +10 competence bonus on Climb and Acrobatics checks made to jump and can arrest any fall as a free action, taking no damage. The maximum distance a crag spider can jump or climb while tethered is 200 feet. It can release its tether as a free action and start another normally if it needs to move its anchor point. A crag spider cannot use any of its other web abilities while anchored to a tether. Creating a tether counts as one of the eight times a crag spider can throw its web per day.	SOURCEPAGE:p.77
+
+###Block: Kuchrima abilities
+# Ability Name			Unique Key						Category of Ability		Type								Define						Description																																																																																							Weapon prof. bonus			Wield Category bonus			Source Page		Aspects
+Catastrophic Shot			KEY:Catastrophic Shot ~ Kuchrima		CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary										DESC:By taking a full-round action to carefully steady its bow, a kuchrima can increase the critical threat range of its bow to 18-20 for one shot. This attack provokes an attack of opportunity. If the kuchrima takes damage during this action, it must make a Constitution check against DC 10 plus the damage taken. It gains a +%1 bonus to this check. If this check fails, the kuchrima still gets the shot off but with only the normal critical threat range. This ability only functions when the kuchrima is wielding a bow.|HD													SOURCEPAGE:p.80
+Disease				KEY:Disease ~ Kuchrima				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			DEFINE:KuchrimaDiseaseDC|10+(HD/2)+CON	DESC:Filth fever: Bite-injury; save Fortitude DC %1; onset 1d3 days; frequency 1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.|KuchrimaDiseaseDC																																																																								SOURCEPAGE:p.80
+Immunity to Magic Missile	KEY:Immunity to Magic Missile ~ Kuchrima	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity								DESC:A kuchrima is never affected by the Magic Missile spell.																																																																																										SOURCEPAGE:p.80	ASPECT:Immunity|Magic Missile
+Oversized Weapon			KEY:Oversized Weapon ~ Kuchrima		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary										DESC:Many kuchrima wield a great composite longbow (big enough for Large creatures) without penalty by gripping it with its talons. They can only fire these weapons when flying.																																																											BONUS:WEAPONPROF=Longbow|TOHIT|2	BONUS:WIELDCATEGORY|TwoHanded|-1	SOURCEPAGE:p.81
+
+###Block: Horror Tree abilities
+Fungus	KEY:Fungus ~ Horror Tree	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	DESC:The Horror Tree's branches are encrusted with a virulent fungus that grows rapidly when in contact with blood, sending filaments ripping through the bodies of any living creatures damaged by its slams and dealing 1d6 points of Dexterity damage in the process. A creature that takes damage to or in excess of its Dexterity score by this effect is slain.	SOURCEPAGE:p.13
+
+#
+# End
+#

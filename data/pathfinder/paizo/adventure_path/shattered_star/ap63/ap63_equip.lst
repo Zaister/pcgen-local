@@ -1,0 +1,18 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Nov 23 17:41:37 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Shattered Star, Part 2 - Curse of the Lady's Light	SOURCESHORT:AP63	SOURCEWEB:http://paizo.com/products/btpy8v2r?Pathfinder-Adventure-Path-63-The-Asylum-Stone	SOURCEDATE:2012-09
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 01 JUNE 2015
+
+####Block: Melee Weapons
+# Equipment Name	Required Weapon Proficiency	Type																	Cost		Weight	Crit Mult	Crit Range	Damage	Modifier								Wield Category	Size		Source Page		Special Property
+#Silverfang		PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Melee.OneHanded.Martial.Finesseable.Specifig.Piercing.Sword.BladeLight.MeleePiercing	COST:20	WT:2		CRITMULT:x2	CRITRANGE:3	DAMAGE:1d6	EQMOD:MITRAL_ITEM.PLUS1W.BANE|Undead.MAGIC_COST|1000	WIELD:OneHanded	SIZE:M	SOURCEPAGE:p.62	SPROP:1/day, on a critical hit vs. an undead creature, cast Halt Undead as swift action (DC 14 Will negates)
+
+###Block: Wondrous Items
+# Equipment Name			Type					Cost		Source Page		Special Property
+Halflight Charm (Greater)	TYPE:Magic.Wondrous.Neck	COST:20000	SOURCEPAGE:p.58	SPROP:+2 to Inititiva checks while underground
+Spine Flail												PROFICIENCY:WEAPON|Flail				TYPE:Weapon.Resizable.Melee.OneHanded.Martial.Standard.Slashing.Flail																					COST:8	WT:10				CRITMULT:x2	CRITRANGE:1							DAMAGE:1d8				EQMOD:DISARM.STEEL.TRIP.PLUS2W.MAGIC_COST|5000										WIELD:OneHanded													SIZE:M	SOURCEPAGE:p.59																																																																																																																																																										SPROP:Can be used to make trip attacks. On a critical hit, victim is blinded (Fort DC 15 negates).	REACHMULT:2
+
+
+#
+# End
+#

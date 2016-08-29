@@ -1,0 +1,64 @@
+# CVS $Revision: 13399 $ $Author: barako $ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Paizo - Rise of the Runelords Player's Guide
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Rise of the Runelords
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Rise of the Runelords Player's Guide
+SOURCESHORT:RotRPG
+SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8bd9
+SOURCEDATE:2007-08
+ISOGL:YES
+
+COVER:rise_of_the_runelords_players_guide.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8bd9|Buy this publication from Paizo Publishing!
+DESC:The 16-page Rise of the Runelords Player's Guide is an invaluable resource for players seeking to start this exciting new campaign. The guide presents details on how best to customize your character so that he'll fit into the campaign. What's the best choice of favored enemy for a ranger? Which of the region's deities will your cleric worship? What about new weapons for your fighter? And everyone loves new feats; there are several to choose from in this product, all of which are specifically designed to aid you in your fight against the Runelords.
+
+INFOTEXT:This dataset implements rules from a book that was originally designed for the 3.5 ruleset. For this dataset, these rules have been updated to the rules of the Pathfinder Roleplaying Game by the PCGen data team.
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Rise of the Runelords Player's Guide. Copyright 2007 Paizo Publishing LLC. Author F. Wesley Schneider.
+COPYRIGHT:Pathfinder Roleplaying Game Conversion Copyright 2009-2010, PCGen Data Team (including, but not limited to, Eddy Anthony).
+COPYRIGHT:PCGen dataset conversion for "Rise of the Runelords Player's Guide" Copyright 2007-2010, PCGen Data Team (including, but not limited to Stefan Radermacher, Eric C. Smith).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Imported 35e data files
+ABILITYCATEGORY:rise_of_the_runelords_players_guide_abilitycategories.lst
+ABILITY:rise_of_the_runelords_players_guide_abilities_background.lst
+ABILITY:rise_of_the_runelords_players_guide_abilities_racial.lst
+ARMORPROF:rise_of_the_runelords_players_guide_profs_armor.lst
+#COMPANIONMOD:rise_of_the_runelords_players_guide_companionmods.lst
+EQUIPMENT:rise_of_the_runelords_players_guide_equip_armorshields.lst
+EQUIPMENT:rise_of_the_runelords_players_guide_equip.lst
+EQUIPMENT:rise_of_the_runelords_players_guide_equip_weap_melee.lst|(EXCLUDE:Starknife)
+FEAT:rise_of_the_runelords_players_guide_feats.lst
+KIT:rise_of_the_runelords_players_guide_kits_races_animals.lst
+KIT:rise_of_the_runelords_players_guide_kits_races.lst
+LANGUAGE:rise_of_the_runelords_players_guide_languages.lst|(EXCLUDE:Boggard)
+RACE:rise_of_the_runelords_players_guide_races_animals.lst
+RACE:rise_of_the_runelords_players_guide_races_companions.lst
+RACE:rise_of_the_runelords_players_guide_races.lst
+SHIELDPROF:rise_of_the_runelords_players_guide_profs_shield.lst
+TEMPLATE:rise_of_the_runelords_players_guide_templates_background.lst
+TEMPLATE:rise_of_the_runelords_players_guide_templates.lst
+WEAPONPROF:rise_of_the_runelords_players_guide_profs_weapon.lst|(EXCLUDE:Starknife)
+
+# Hide internally used feat types
+HIDETYPE:FEAT|CityBorn|Varisia|VarisianTattoo
+
+#
+# End
+#

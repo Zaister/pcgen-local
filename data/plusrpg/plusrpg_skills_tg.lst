@@ -1,0 +1,14 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:51:39 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: New Skills
+# Skill Name	Key Stat	Untrained?		Type				Bonus to skill
+Techcraft		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Base	BONUS:SKILL|Techcraft|3|TYPE=ClassSkill|PRECSKILL:1,Techcraft|PRESKILL:1,Techcraft=1
+
+###Block: New skills Skill Focus implementation
+# Skill Name	Bonus to skill
+Techcraft.MOD	BONUS:SKILL|Techcraft|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Techcraft)	BONUS:SKILL|Techcraft|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Techcraft)|PRESKILL:1,Techcraft=10
+
+#
+# End
+#

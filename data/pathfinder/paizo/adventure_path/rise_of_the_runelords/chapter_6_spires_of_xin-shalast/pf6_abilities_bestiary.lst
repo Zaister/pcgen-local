@@ -1,0 +1,28 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Feb 21 18:41:43 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+# For Denizen of Leng, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+# For Rune Giant, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+# For Wendigo, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+
+###Block: Crag Spider abilities
+# Ability Name	Unique Key				Category of Ability		Type						Define					Description																																																																																																																			Modify VAR									Source Page		Aspects
+Poison		KEY:Poison ~ Crag Spider	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	DEFINE:PoisonSaveDC|10+(HD/2)+CON	DESC:Bite-injury; save Fort DC %1; frequency 1/round for 4 rounds; effect 1d2 Str damage; cure 1 save.|PoisonSaveDC																																																																																																	BONUS:VAR|PoisonSaveDC|2|PREFEAT:1,Ability Focus (Poison)	SOURCEPAGE:p.258	ASPECT:Ability Benefit|(Fort DC %1;1/round for 4 rounds;1d2 Str;1 save)|PoisonSaveDC
+Tether		KEY:Tether ~ Crag Spider	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary							DESC:As a move action, a crag spider can anchor itself to a surface within its reach by a tether of webbing. This web is identical in characteristics to its normal webbing. A tethered crag spider gains a +10 competence bonus on Climb and Acrobatics checks made to jump and can arrest any fall as a free action, taking no damage. The maximum distance a crag spider can jump or climb while tethered is 200 feet. It can release its tether as a free action and start another normally if it needs to move its anchor point. A crag spider cannot use any of its other web abilities while anchored to a tether. Creating a tether counts as one of the eight times a crag spider can throw its web per day.											SOURCEPAGE:p.77
+
+###Block: Harridan Abilities
+# Ability Name		Unique Key					Category of Ability		Type						Description																																	Weapon prof. bonus																		Wield Category bonus		Source Page		Aspects					Description of the Benefits
+Undersized Weapons	KEY:Undersized Weapons ~ Harridan	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Although a harridan is Huge, its upper torso is the same size as that of a Large humanoid. As a result, harridans wield weapons as if they were one size category smaller than their actual size.	BONUS:WEAPONPROF=TYPE.Simple|TOHIT|2	BONUS:WEAPONPROF=TYPE.Martial|TOHIT|2	BONUS:WEAPONPROF=TYPE.Exotic|TOHIT|2	BONUS:WIELDCATEGORY|ALL|1	SOURCEPAGE:p.86
+Wisdom Drain		KEY:Wisdom Drain ~ Harridan		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	DESC:A harridan drains 1d8 points of Wisdom each time it hits with its melee touch attack.																																													SOURCEPAGE:p.86	ASPECT:Ability Benefit|(1d8/touch)	BENEFIT:A harridan drains 1d8 points of Wisdom each time it hits with its melee touch attack. (Unlike with other kinds of ability drain attacks, a harridan does not heal any damage when it uses its Wisdom drain.)
+
+###Block: Kuchrima abilities
+# Ability Name			Unique Key						Category of Ability		Type								Define						Description																																																																																							Weapon prof. bonus			Wield Category bonus			Source Page		Aspects
+Catastrophic Shot			KEY:Catastrophic Shot ~ Kuchrima		CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary										DESC:By taking a full-round action to carefully steady its bow, a kuchrima can increase the critical threat range of its bow to 18-20 for one shot. This attack provokes an attack of opportunity. If the kuchrima takes damage during this action, it must make a Constitution check against DC 10 plus the damage taken. It gains a +%1 bonus to this check. If this check fails, the kuchrima still gets the shot off but with only the normal critical threat range. This ability only functions when the kuchrima is wielding a bow.|HD													SOURCEPAGE:p.80
+Disease				KEY:Disease ~ Kuchrima				CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			DEFINE:KuchrimaDiseaseDC|10+(HD/2)+CON	DESC:Filth fever: Bite-injury; save Fortitude DC %1; onset 1d3 days; frequency 1/day; effect 1d3 Dex damage and 1d3 Con damage; cure 2 consecutive saves.|KuchrimaDiseaseDC																																																																								SOURCEPAGE:p.80
+Immunity to Magic Missile	KEY:Immunity to Magic Missile ~ Kuchrima	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity								DESC:A kuchrima is never affected by the Magic Missile spell.																																																																																										SOURCEPAGE:p.80	ASPECT:Immunity|Magic Missile
+Oversized Weapon			KEY:Oversized Weapon ~ Kuchrima		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary										DESC:Many kuchrima wield a great composite longbow (big enough for Large creatures) without penalty by gripping it with its talons. They can only fire these weapons when flying.																																																											BONUS:WEAPONPROF=Longbow|TOHIT|2	BONUS:WIELDCATEGORY|TwoHanded|-1	SOURCEPAGE:p.81
+
+#
+# End
+#

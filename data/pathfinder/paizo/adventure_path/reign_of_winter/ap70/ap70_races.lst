@@ -1,0 +1,11 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Wed Sep 17 13:19:10 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+SOURCELONG:Reign of Winter, Part 4 - The Frozen Stars	SOURCESHORT:AP68	SOURCEWEB:http://paizo.com/products/btpy8yv3?Pathfinder-Adventure-Path-70-The-Frozen-Stars	SOURCEDATE:2013-05
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 26 September 2013
+
+# Race Name	Starting Feats	Size		Move			Face/Space	Reach		Bonus Languages	Bonus to Ability Pool				Stat bonus						Automatically Gained Language	Ability								Main Race Type	Race Subtype		Type				Source Page
+Triaxian	STARTFEATS:1	SIZE:M	MOVE:Walk,30	FACE:5	REACH:5	LANGBONUS:ALL	BONUS:ABILITYPOOL|Triaxian Subrace|1	BONUS:STAT|CON,WIS|2	BONUS:STAT|STR|-2	AUTO:LANG|Triaxian		ABILITY:Internal|AUTOMATIC|Race Traits ~ Triaxian	RACETYPE:Humanoid	RACESUBTYPE:Triaxian	TYPE:Humanoid.Base.PC	SOURCEPAGE:p.87
+
+#
+# End
+#

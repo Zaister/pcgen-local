@@ -1,0 +1,91 @@
+# CVS $Revision: $ $Author: $ -- Fri Sep 30 12:19:50 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Tome of Horrors Complete	SOURCESHORT:ToHC	SOURCEWEB:http://paizo.com/store/byCompany/f/frogGodGames/pathfinderRPG/other/v5748btpy8mqb	SOURCEDATE:2011-09
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Darnoc Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Darnoc],[!PRERACE:1,%]	SOURCEPAGE:p.144
+RACE:Darnoc	!PRERACE:1,%
+NAME:Darnoc
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=10|CHA=10
+SKILL:Bluff			RANK:8
+SKILL:Diplomacy		RANK:6
+SKILL:Intimidate		RANK:7
+SKILL:Perception		RANK:8
+SKILL:Sense Motive	RANK:4
+SKILL:Stealth		RANK:7
+FEAT:Blind-Fight
+FEAT:Combat Reflexes
+FEAT:Improved Initiative
+FEAT:Persuasive
+
+
+STARTPACK:Demon (Alu-Demon) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Demon (Alu-Demon)],[!PRERACE:1,%]	SOURCEPAGE:p.154
+RACE:Demon (Alu-Demon)	!PRERACE:1,%
+GENDER:Female
+NAME:Alu-Demon
+STAT:STR=11|DEX=11|CON=11|INT=11|WIS=11|CHA=10
+SKILL:Bluff				RANK:5
+SKILL:Diplomacy			RANK:6
+SKILL:Escape Artist		RANK:6
+SKILL:Fly				RANK:1
+SKILL:Intimidate			RANK:6
+SKILL:Knowledge (Planes)	RANK:6
+SKILL:Perception			RANK:6
+SKILL:Stealth			RANK:6
+SKILL:Survival			RANK:6
+FEAT:Blind-Fight
+FEAT:Cleave
+FEAT:Power Attack
+GEAR:Longsword	LOCATION:Primary Hand
+
+
+STARTPACK:Dragonfly (Giant) Default	TYPE:DefaultMonster.Vermin	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Dragonfly (Giant)],[!PRERACE:1,%]	SOURCEPAGE:p.330
+RACE:Dragonfly (Giant)	!PRERACE:1,%
+NAME:Giant Dragonfly
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+
+
+STARTPACK:Eye of the Deep Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Eye of the Deep],[!PRERACE:1,%]	SOURCEPAGE:p.190
+RACE:Eye of the Deep	!PRERACE:1,%
+NAME:Eye of the Deep
+STAT:STR=10|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+SKILL:Knowledge (Nature)	RANK:10
+SKILL:Perception			RANK:10
+SKILL:Stealth			RANK:10
+SKILL:Survival			RANK:10
+SKILL:Swim				RANK:10
+FEAT:Flyby Attack
+FEAT:Improved Initiative
+FEAT:Improved Natural Attack (Pincer)
+FEAT:Iron Will
+FEAT:Lightning Reflexes
+
+
+STARTPACK:Fear Guard Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Fear Guard],[!PRERACE:1,%]	SOURCEPAGE:p.277
+RACE:Fear Guard	!PRERACE:1,%
+NAME:Fear Guard
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+SKILL:Fly			RANK:6
+SKILL:Perception		RANK:6
+SKILL:Sense Motive	RANK:6
+SKILL:Stealth		RANK:6
+FEAT:Dodge
+FEAT:Improved Initiative
+FEAT:Weapon Focus (Incorporeal Touch)
+
+
+STARTPACK:Flind Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Flind],[!PRERACE:1,%]	SOURCEPAGE:p.287
+RACE:Flind	!PRERACE:1,%
+NAME:Flind
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+SKILL:Handle Animal	RANK:2
+SKILL:Intimidate		RANK:2
+SKILL:Perception		RANK:2
+FEAT:Power Attack
+GEAR:Flindbar			LOCATION:Primary Hand
+GEAR:Longbow			LOCATION:Carried
+GEAR:Arrow		QTY:20	LOCATION:Equipped
+GEAR:Scale Mail			LOCATION:Armor
+
+#
+# End
+#

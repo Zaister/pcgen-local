@@ -1,0 +1,20 @@
+<html>
+<head>
+<title>Party</title>
+</head>
+<body>
+    <table border="1">
+|FOR.0,50,1,
+      <tr>
+        <th style="text-align:left" colspan ="5">\\%.NAME\\</th>
+      </tr>
+\\%.FOR.0,100,1,
+      <td style="text-align:right">\EQ.IS.Magic.%.QTY\</td>
+      <td>\EQ.IS.Magic.%.NAME\</td>
+      <td>\EQ.IS.Magic.%.CHARGES\</td>
+      <td style="text-align:right">\EQ.IS.Magic.%.COST\</td>
+      <td style="text-align:right;font-weight:bold">\EQ.IS.Magic.%.QTY*EQ.IS.Magic.%.COST\</td>
+,<tr>,</tr>,1\\
+,,,1|
+</body>
+</html>

@@ -1,0 +1,11 @@
+# CVS $Revision: 13093 $ $Author: maredudd800 $ -- Mon Nov 17 17:35:48 2014 -- reformated by prettylst.pl v1.51 (build 25135)
+SOURCELONG:Inner Sea Gods	SOURCESHORT:ISM	SOURCEWEB:http://paizo.com/products/btpy8mfs?Pathfinder-Campaign-Setting-Inner-Sea-Magic	SOURCEDATE:2011-07
+# Original Entry by: Stefan Radermacher
+
+###Block: Other Deities
+# Deity Name	Product Identity?	Domains											Description of Deity/Title																																	Deity Weapon			Align		Pantheon					Source Page
+Brigh			NAMEISPI:YES	DOMAINS:Artifice,Earth,Fire,Knowledge|PREALIGN:LN,NG,TN,NE,CN		DESC:Goddess of clockwork, invention, and time																														DEITYWEAP:Hammer (Light)	ALIGN:TN	PANTHEON:Pathfinder Chronicles	SOURCEPAGE:p.176
+
+#
+# End
+#

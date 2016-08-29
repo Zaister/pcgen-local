@@ -1,0 +1,10 @@
+# CVS $Revision: 7440 $ $Author: eddyanthony $ -- Tue Oct 19 15:29:43 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 3: The Hook Mountain Massacre	SOURCESHORT:PF3	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80e8	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+# Equipment Name	Type					Cost		Weight	Source Page		Ability										Special Property
+Boots of the Mire	TYPE:Magic.Wondrous.Boot	COST:3500	WT:0		SOURCEPAGE:pg.33	ABILITY:Special Ability|AUTOMATIC|Save Bonus ~ Boots of the Mire	SPROP:Walk on water up to 5 ft. deep in swamps, leave no tracks in swamps.
+
+#
+# End
+#

@@ -1,0 +1,19 @@
+# CVS $Revision: 10678 $ $Author: eddyanthony $ -- Fri Sep  3 12:57:16 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 2: The Skinsaw Murders	SOURCESHORT:PF2	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8029	SOURCEDATE:2007-10
+# Original Entry by: Stefan Radermacher
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus											Combat bonus
+CLASS:Spherewalker	HD:8		TYPE:PC.Prestige	ABB:Sph		MAXLEVEL:5	SOURCEPAGE:p.73	BONUS:CHECKS|BASE.Will|CL/3	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name		Req. Att.	Required Deity	Required Feat																			Required Skill																				Req. Weapond Prof.
+CLASS:Spherewalker	PREATT:5	PREDEITY:1,Desna	PREFEAT:1,Great Fortitude,Iron Will,Lightning Reflexes	PREFEAT:1,Acrobatic,Agile,Athletic,Endurance,Run,Self Sufficient	PRESKILL:2,Climb=5,Knowledge (Geography)=5,Knowledge (Nature)=5,Knowledge (Religion)=5,TYPE.Perform=5,Ride=5,Survival=5,Swim=5	PREWEAPONPROF:1,Starknife
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Spherewalker	STARTSKILLPTS:4	CSKILL:Acrobatics|Climb|Escape Artist|Handle Animal|Heal|Knowledge (Geography)|Perception|TYPE=Perform|Ride|Survival|Swim
+1						ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Landmark ~ Spherewalker|Longstrider ~ Spherewalker
+2						ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Efficient Sleep ~ Spherewalker|Star Slinger ~ Spherewalker
+3						ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Dream Link ~ Spherewalker
+4	BONUS:VAR|DivineLuckLVL|CL	ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Divine Luck ~ Spherewalker
+5	BONUS:VAR|SwarmFormLVL|CL	ADD:SPELLCASTER|Arcane	ABILITY:Special Ability|AUTOMATIC|Swarm Form ~ Spherewalker
+
+#
+# End
+#

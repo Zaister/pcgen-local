@@ -1,0 +1,11 @@
+# CVS $Revision: 14531 $ $Author: elrotheonk $ -- Fri Sep 30 19:20:44 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Miscellaneous Data	SOURCESHORT:LoF	SOURCEDATE:2009-02
+# Original Entry by: Stefan Radermacher
+
+###Block:Magic Weapon Special Abilities
+# Modifier Name	Unique Key		Type				Plus		Visible		Source Page		Multiple Requirements								Special Property
+Bane (Genie)	KEY:BANE_GENIE	TYPE:Ammunition.Weapon	PLUS:1	VISIBLE:QUALIFY	SOURCEPAGE:p.469	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Ammunition.Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against Genies
+
+#
+# End
+#

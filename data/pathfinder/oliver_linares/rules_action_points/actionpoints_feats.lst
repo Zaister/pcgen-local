@@ -1,0 +1,11 @@
+# svn $Revision: $ $Author: $ -- Sun Mar  1 14:16:15 2009 -- reformatted by zprettylst.pl v1.40 (build 9329)
+SOURCELONG:Rules: Action Points	SOURCESHORT:Z.AP	SOURCEWEB:http://www.zaister.de/adventures/RulesActionPoints.pdf	SOURCEDATE:2099-12
+
+###Block: Action Point feats
+# Feat Name			Type			Required Ability							Req. Att.	Required Class							Required Feat			Description														Modify VAR
+Action Boost		TYPE:General																										DESC:You have the ability to alter your luck drastically in dire circumstances.		BONUS:VAR|ActionDiceSize|2
+Action Surge		TYPE:General										PREATT:3															DESC:By spending 2 action points, you can perform an additional action in a round.
+Heroic Spirit		TYPE:General																										DESC:You have a larger reservoir of luck than the average hero.					BONUS:VAR|Action|3
+Pursue			TYPE:General																					PREFEAT:1,Combat Reflexes	DESC:You have the ability to follow in an opponent's wake.
+Raging Luck			TYPE:General	PREABILITY:1,CATEGORY=Special Ability,Rage,Frenzy																	DESC:When raging, you have a greater ability to alter your luck than most others do.
+Spontaneous Casting	TYPE:General												PRECLASS:1,SPELLCASTER.Arcane=5,SPELLCASTER.Divine=5						DESC:You can swap a prepared spell on the fly.

@@ -1,0 +1,6 @@
+# CVS $Revision: 21675 $ $Author: amaitland $ -- Tue Dec 10 15:27:35 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+SOURCELONG:Mythic Adventures	SOURCESHORT:MA	SOURCEWEB:http://paizo.com/products/btpy8yop	SOURCEDATE:2013-04
+# Original Entry By: Stefan Radermacher
+
+# Ability Name		Category of Ability		Type						Description
+Mythic Test Ability	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Defensive	DESC:This is a test ability.

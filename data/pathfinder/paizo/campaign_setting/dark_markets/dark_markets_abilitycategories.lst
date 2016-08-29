@@ -1,0 +1,10 @@
+# CVS $Revision: 11464 $ $Author: eddyanthony $ -- Thu Mar 18 10:28:49 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+#SOURCELONG:Dark Markets	SOURCESHORT:DM	SOURCEWEB:http://paizo.com/pathfinder/pathfinderChronicles/35E/v5748btpy87ut	SOURCEDATE:2010-03
+# Original Entry by: Stefan Radermacher
+
+# Ability Category			Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Great Ghul Ability	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:GreatGhulAbility	PLURAL:Great Ghul Abilities	DISPLAYLOCATION:Racial Abilities
+
+#
+# End
+#

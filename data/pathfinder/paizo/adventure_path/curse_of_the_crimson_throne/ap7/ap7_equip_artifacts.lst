@@ -1,0 +1,10 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Wed Dec 11 11:40:54 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+SOURCELONG:Curse of the Crimson Throne, Chapter 1 - Edge of Anarchy	SOURCESHORT:AP7	SOURCEWEB:http://paizo.com/products/btpy81xw?Pathfinder-7-Curse-of-the-Crimson-Throne-Chapter-1-Edge-of-Anarchy	SOURCEDATE:2008-03
+# Original Entry: Stefan Radermacher
+
+# Equipment Name		Type				Cost		Weight	Modifier																													Source Page
+Zellara's Harrow Deck	TYPE:Artifact.Minor	COST:0	WT:1		EQMOD:IntItemPurpose|IntSense60|IntItemStatINT10|IntItemStatWIS13|IntItemStatCHA13|IntTelepathy|ItemPower_CastOneThree[Identify]|ItemPower_CastThreeOne[Major Image]|IntItemPurpose	SOURCEPAGE:p.21
+
+#
+# End
+#

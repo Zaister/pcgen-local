@@ -1,0 +1,20 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Tue Jul  7 11:13:03 2015 -- reformated by prettylst.pl v1.51 (build 25836)
+SOURCELONG:Shattered Star, Part 2 - Curse of the Lady's Light	SOURCESHORT:AP62	SOURCEWEB:http://paizo.com/products/btpy8tmi?Pathfinder-Adventure-Path-62-Curse-of-the-Ladys-Light	SOURCEDATE:2012-09
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 01 JUNE 2015
+
+####Block: Melee Weapons
+# Equipment Name	Required Weapon Proficiency	Type																	Cost		Weight	Crit Mult	Crit Range	Damage	Modifier								Wield Category	Size		Source Page		Special Property
+Silverfang		PROFICIENCY:WEAPON|Rapier	TYPE:Weapon.Melee.OneHanded.Martial.Finesseable.Specifig.Piercing.Sword.BladeLight.MeleePiercing	COST:20	WT:2		CRITMULT:x2	CRITRANGE:3	DAMAGE:1d6	EQMOD:MITHRAL_ITEM.PLUS1W.BANE|Undead.MAGIC_COST|1000	WIELD:OneHanded	SIZE:M	SOURCEPAGE:p.62	SPROP:1/day, on a critical hit vs. an undead creature, cast Halt Undead as swift action (DC 14 Will negates)
+
+###Block: Wondrous Items
+# Equipment Name		Type						Cost		Weight	Source Page		Innate Spells							Bonus to skill
+Deathbalm Talisman	TYPE:Magic.Wondrous.Amulet		COST:5000	WT:1		SOURCEPAGE:p.62
+Maiden's Helm		TYPE:Magic.Wondrous.Headgear		COST:3500	WT:3		SOURCEPAGE:p.62	SPELLS:Maiden's Helm|TIMES=3|CASTERLEVEL=6|Command	BONUS:SKILL|Intimidate|5|TYPE=Competence
+Orb of Consumption	TYPE:Magic.Wondrous			COST:10000	WT:9		SOURCEPAGE:p.62
+Wax of Defiance		TYPE:Magic.Wondrous.Consumable	COST:1200			SOURCEPAGE:p.63
+Whispering Coin		TYPE:Magic.Wondrous			COST:3000
+
+#
+# End
+#

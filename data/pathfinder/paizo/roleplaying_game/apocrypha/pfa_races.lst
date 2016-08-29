@@ -1,0 +1,12 @@
+# CVS $Revision: 14912 $ $Author: amaitland $ -- Tue May 17 13:06:24 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Apocypha	SOURCESHORT:PFA
+# Original Entry by: Stefan Radermacher
+
+###Block: Horses (James Jacobs 12/2/09)
+# Race Name				Output Name		Stat bonus		Template
+Horse (Pony).COPY=Donkey	OUTPUTNAME:Donkey
+Horse (Pony).COPY=Mule		OUTPUTNAME:Mule	BONUS:STAT|INT|-2	TEMPLATE:Advanced Creature
+
+#
+# End
+#

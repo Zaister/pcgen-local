@@ -1,0 +1,18 @@
+# CVS $Revision: 18059 $ $Author: zaister $ -- Sat Nov 20 04:10:09 2004 -- reformated by prettylst.pl v1.34 (build 422)
+CAMPAIGN:TEST Heroes
+GAMEMODE:TEST
+TYPE:Supplement
+RANK:3
+STATUS:TESTONLY
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:TEST
+PRECAMPAIGN:1,BOOKTYPE=Core
+PRECAMPAIGN:1,BOOKTYPE=Hero
+SOURCELONG:Heroes
+SOURCESHORT:HER
+ISOGL:YES
+
+#
+# End
+#

@@ -1,0 +1,42 @@
+# CVS $Revision$ $Author$ -- Mon May 11 11:53:18 2009 -- reformated by prettylst.pl v1.39 (build 9548)
+CAMPAIGN:Paizo Fans United - Wayfinder #2
+GAMEMODE:Pathfinder
+TYPE:Paizo Fans United.Supplement
+RANK:6
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Fans United
+PUBNAMESHORT:Paizo Fans United
+PUBNAMEWEB:https://www.facebook.com/pages/Wayfinder/114977378573
+SOURCELONG:Wayfinder #2
+SOURCESHORT:WF2
+SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&products_id=126
+SOURCEDATE:2011-06
+ISOGL:YES
+
+COVER:wayfinder_2.jpg
+#LOGO:&/publisher_logos/Open_Design.gif
+URL:WEBSITE|https://www.facebook.com/pages/Wayfinder/114977378573|Visit Paizo Fans United!
+URL:Paizo|http://paizo.com/products/btpy8ypc?Wayfinder-2|Get this publication from Paizo!
+DESC:Created for fans by fans, this issue of the Wayfinder fanzine includes dozens of articles designed to expand the Pathfinder Roleplaying Game and the world of Golarion. Inside you will find original fiction, new races, monsters, and even recipes--and this is just a small portion of what awaits you!
+
+COPYRIGHT:Open Game License v 1.0, Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document, Copyright 2000, Wizards of the Coast, Inc. Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Advanced Bestiary, Copyright 2004 Green Ronin Publishing LLC; Author Matthew Sernett.
+COPYRIGHT:The Collected Book of Experimental Might, Copyright 2008 Monte J. Cook.
+COPYRIGHT:PCGen dataset conversion for "Wayfinder #2" Copyright 2013, PCGen Data team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:wf2_abilities_class.lst
+ABILITYCATEGORY:wf2_abilitycategories.lst
+ABILITY:wf2_feats.lst
+
+#
+# End
+#

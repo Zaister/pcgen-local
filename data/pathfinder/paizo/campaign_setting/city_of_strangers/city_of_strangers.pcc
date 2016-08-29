@@ -1,0 +1,51 @@
+# CVS $Revision$ $Author$ -- Sat Nov 23 14:46:39 2013 -- reformated by prettylst.pl v1.50 (build 22134)
+CAMPAIGN:City of Strangers
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Campaign Setting
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com/
+SOURCELONG:City of Strangers
+SOURCESHORT:CoS
+SOURCEWEB:http://paizo.com/products/btpy8fda?Pathfinder-Chronicles-City-of-Strangers
+SOURCEDATE:2010-06
+ISOGL:YES
+
+COVER:city_of_strangers.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy8fda?Pathfinder-Chronicles-City-of-Strangers|Buy this publication from Paizo Publishing!
+DESC:While many legendary heroes of Golarion fit easily into the core classes of the Pathfinder Roleplaying Game—the sword-swinging fighters, fireball-flinging wizards, backstabbing rogues, and others—there are some who specialize in unique styles and techniques, perfectly customizing themselves for their roles. For these characters, there are prestige classes. From the undead-hunting Knights of Ozem to the revolutionary Gray Gardeners of Galt, this book collects 30 of the most prominent faiths and factions from around the Inner Sea and transforms them into prestige classes designed to help you take advantage of the tricks and tactics of some of Golarion’s most famous (and infamous) groups, all while rooting your character firmly in the lore and societies of the Pathfinder campaign setting.
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Chronicles: City of Strangers. Copyright 2010, Paizo Publishing, LLC; Author: James L. Sutter.Cave Fisher from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Lawrence Schick.
+COPYRIGHT:Dark Creeper from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Rik Shepard.
+COPYRIGHT:Dark Stalker from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Muth.
+COPYRIGHT:Mite from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Ian Livingstone and Mark Barnes.
+COPYRIGHT:Russet Mold from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Vegepygmy from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Yellow Musk Creeper from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Albie Fiore.
+COPYRIGHT:Yellow Musk Zombie from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Albie Fiore.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Chronicles: City of Strangers" Copyright 2010-2014, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:cos_abilities.lst
+ABILITYCATEGORY:cos_abilitycategories.lst
+CLASS:cos_classes_prestige.lst
+FEAT:cos_feats.lst
+
+#
+# End
+#

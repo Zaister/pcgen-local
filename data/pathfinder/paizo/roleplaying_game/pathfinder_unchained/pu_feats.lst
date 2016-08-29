@@ -1,0 +1,38 @@
+# CVS $Revision: 21663 $ $Author: amaitland $ -- Tue Apr 21 09:43:47 2015 -- reformated by prettylst.pl v1.51 (build 25836)
+SOURCELONG:Pathfinder Unchained	SOURCESHORT:PU	SOURCEWEB:http://paizo.com/products/btpy97vo	SOURCEDATE:2015-04
+# Original Entry by: Stefan Radermacher
+
+###Block: Feats
+Combat Stamina	CATEGORY:FEAT		TYPE:Combat	PREATT:1	DESC:You stop at nothing to drive your attack home.	BENEFIT:You gain a stamina pool. After you make an attack roll with a manufactured weapon, unarmed strike, or natural weapon attack with which you are proficient, but before the results are revealed, you can spend up to 5 stamina points. If you do, you gain a competence bonus on the attack roll equal to the number of stamina points you spent. If you miss with the attack, the stamina points you spent are still lost. Since you have a stamina pool, you can spend your stamina points to use any combat tricks associated with combat feats you possess.	SOURCEPAGE:p.112	ABILITY:Special Ability|AUTOMATIC|Combat Stamina Support|Combat Tricks Support
+
+CATEGORY=FEAT|Lunge.MOD			ABILITY:Special Ability|AUTOMATIC|Combat Trick ~ Lunge|PREABILITY:1,CATEGORY=FEAT,Combat Stamina
+CATEGORY=FEAT|Dodge.MOD			ABILITY:Special Ability|AUTOMATIC|Combat Trick ~ Dodge|PREABILITY:1,CATEGORY=FEAT,Combat Stamina
+CATEGORY=FEAT|Improved Critical.MOD	ABILITY:Special Ability|AUTOMATIC|Combat Trick ~ Improved Critical|PREABILITY:1,CATEGORY=FEAT,Combat Stamina
+CATEGORY=FEAT|Point-Blank Shot.MOD	ABILITY:Special Ability|AUTOMATIC|Combat Trick ~ Point-Blank Shot|PREABILITY:1,CATEGORY=FEAT,Combat Stamina
+CATEGORY=FEAT|Precise Shot.MOD	ABILITY:Special Ability|AUTOMATIC|Combat Trick ~ Precise Shot|PREABILITY:1,CATEGORY=FEAT,Combat Stamina
+CATEGORY=FEAT|Rapid Shot.MOD		ABILITY:Special Ability|AUTOMATIC|Combat Trick ~ Rapid Shot|PREABILITY:1,CATEGORY=FEAT,Combat Stamina
+CATEGORY=FEAT|Weapon Focus.MOD	ABILITY:Special Ability|AUTOMATIC|Combat Trick ~ Weapon Focus|PREABILITY:1,CATEGORY=FEAT,Combat Stamina
+
+
+
+###Block: Support abilities
+Combat Stamina	KEY:Combat Stamina Support			CATEGORY:Special Ability	DESC:After you make an attack roll with a manufactured weapon, unarmed strike, or natural weapon attack with which you are proficient, but before the results are revealed, you can spend up to 5 stamina points. If you do, you gain a competence bonus on the attack roll equal to the number of stamina points you spent. If you miss with the attack, the stamina points you spent are still lost.	DEFINE:StaminaPool|0	BONUS:VAR|StaminaPool|BAB+CON	ASPECT:CheckCount|%1|StaminaPool	ASPECT:CheckType|Stamina Pool	SOURCEPAGE:p.112
+Combat Tricks	KEY:Combat Tricks Support			CATEGORY:Special Ability	DESC:Since you have a stamina pool, you can spend your stamina points to use any combat tricks associated with combat feats you possess.	SOURCEPAGE:p.112	ASPECT:MasterAbility|CombatTricks
+
+###Block: Combat Tricks
+Dodge			KEY:Combat Trick ~ Dodge			CATEGORY:Special Ability	DESC:When you move your speed or farther, you can spend a number of stamina points up to double your Dexterity bonus [%1]. If you do, until the start of your next turn, you gain an increase to the dodge bonus granted by the Dodge feat equal to half the number of stamina points you spent.|2*DEX														SOURCEPAGE:p.118	ASPECT:ChildAbility|CombatTricks
+Improved Critical	KEY:Combat Trick ~ Improved Critical	CATEGORY:Special Ability	DESC:When you hit with an attack and the roll fails to threaten a critical hit by 3 or less, you can spend 5 stamina points to attempt to deal double damage anyway. Roll as if confirming a critical hit. If this confirmation roll succeeds, your attack is still not a critical hit, but it deals double damage.												SOURCEPAGE:p.123	ASPECT:ChildAbility|CombatTricks
+Lunge			KEY:Combat Trick ~ Lunge			CATEGORY:Special Ability	DESC:When you use this feat, you can spend 2 stamina points to avoid taking the –2 penalty to AC for that use.																																													SOURCEPAGE:p.125	ASPECT:ChildAbility|CombatTricks
+Point-Blank Shot	KEY:Combat Trick ~ Point-Blank Shot		CATEGORY:Special Ability	DESC:You can spend up to 6 stamina points to increase this feat's range by 5 feet for each stamina point you spent.																																												SOURCEPAGE:p.129	ASPECT:ChildAbility|CombatTricks
+Precise Shot	KEY:Combat Trick ~ Precise Shot		CATEGORY:Special Ability	DESC:As a standard action, you can spend 2 stamina points and make a ranged attack against a foe engaged in melee with an ally. If the attack hits, it deals no damage, but your ally gains your choice of either a +2 bonus on her next attack roll against that opponent or a +2 bonus to AC against that opponent's next attack. This bonus lasts until the start of your next turn. 	SOURCEPAGE:p.129	ASPECT:ChildAbility|CombatTricks
+Rapid Shot		KEY:Combat Trick ~ Rapid Shot			CATEGORY:Special Ability	DESC:When using this feat, you can spend a number of stamina points up to the number of shots taken using this feat. If you do, you decrease the penalty of a single Rapid Shot ranged attack by 2 for each stamina point you spent.																									SOURCEPAGE:p.130	ASPECT:ChildAbility|CombatTricks
+Weapon Focus	KEY:Combat Trick ~ Weapon Focus		CATEGORY:Special Ability	DESC:Once per round, you can spend 2 stamina points to gain your Weapon Focus bonus on attack rolls with a weapon with which you don't have Weapon Focus. This bonus lasts until the start of your next turn.																													SOURCEPAGE:p.135	ASPECT:ChildAbility|CombatTricks
+
+
+###Block: Barbarian support
+# Ability Name				Bonus Ability Pool
+CATEGORY=FEAT|Extra Rage Power.MOD	BONUS:ABILITYPOOL|Rage Power|-1|PREABILITY:1,CATEGORY=Special Ability,Unchained Barbarian ~ Rage Powers	BONUS:ABILITYPOOL|Unchained Rage Power|1|PREABILITY:1,CATEGORY=Special Ability,Unchained Barbarian ~ Rage Powers
+
+#
+# End
+#

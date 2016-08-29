@@ -1,0 +1,32 @@
+# CVS $Revision: 21080 $ $Author: amaitland $ -- Mon Apr 28 11:39:18 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:Divine Favor: The Cleric	SOURCESHORT:DFC	SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&cPath=6&products_id=146	SOURCEDATE:2011-10
+# Original Entry by: Stefan Radermacher
+
+# Feat Name				Type
+Acrobatics.MOD			TYPE:AsceticBonusFeat
+Agile Maneuvers.MOD		TYPE:AsceticBonusFeat
+Alertness.MOD			TYPE:AsceticBonusFeat
+Athletic.MOD			TYPE:AsceticBonusFeat
+Blind-Fight.MOD			TYPE:AsceticBonusFeat
+Combat Casting.MOD		TYPE:AsceticBonusFeat
+Combat Expertise.MOD		TYPE:AsceticBonusFeat
+Combat Reflexes.MOD		TYPE:AsceticBonusFeat
+Dodge.MOD				TYPE:AsceticBonusFeat
+Defensive Combat Training.MOD	TYPE:AsceticBonusFeat
+Diehard.MOD				TYPE:AsceticBonusFeat
+Endurance.MOD			TYPE:AsceticBonusFeat
+Fleet.MOD				TYPE:AsceticBonusFeat
+Great Fortitude.MOD		TYPE:AsceticBonusFeat
+Improved Initiative.MOD		TYPE:AsceticBonusFeat
+Iron Will.MOD			TYPE:AsceticBonusFeat
+Lightning Reflexes.MOD		TYPE:AsceticBonusFeat
+Lunge.MOD				TYPE:AsceticBonusFeat
+Nimble Moves.MOD			TYPE:AsceticBonusFeat
+Run.MOD				TYPE:AsceticBonusFeat
+Self-Sufficient.MOD		TYPE:AsceticBonusFeat
+Skill Focus.MOD			TYPE:AsceticBonusFeat
+Toughness.MOD			TYPE:AsceticBonusFeat
+
+#
+# End
+#

@@ -1,0 +1,58 @@
+# CVS $Revision$ $Author$ -- Wed Sep 17 13:03:50 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+CAMPAIGN:Reign of Winter, Part 4 - The Frozen Stars
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Reign of Winter
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder|Golarion
+PRECAMPAIGN:1,BOOKTYPE=Core Rules,BOOKTYPE=Complete Core
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Reign of Winter, Part 4 - The Frozen Stars
+SOURCESHORT:AP68
+SOURCEWEB:http://paizo.com/products/btpy8yv3?Pathfinder-Adventure-Path-70-The-Frozen-Stars
+SOURCEDATE:2013-05
+ISOGL:YES
+
+COVER:ap70.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy8yv3?Pathfinder-Adventure-Path-70-The-Frozen-Stars|Buy this publication from Paizo Publishing!
+DESC:Continuing their search for Baba Yaga, the heroes take the Dancing Hut to the planet of Triaxus, the seventh world in Golarion's solar system, now in the midst of its decades-long winter. On the hunt for more clues as to the whereabouts of Baba Yaga, the heroes soon find themselves embroiled in a conflict between the alien dragonriders of the Skyfire Mandate and the barbarian armies of a white dragon warlord looking to conquer the lands of humanoids. Will the PCs ally with one of the warring factions to get the information they need, or will their quest come to an end on a distant, alien world?
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:The Book of Fiends Copyright 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb.
+COPYRIGHT:Axe Beak from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Basidirond from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Daemon, Derghodaemon from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Daemon, Guardian from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall.
+COPYRIGHT:Dracolisk from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Golem, Ice from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Nereid from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pudding, White from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Wolf-in-Sheep's-Clothing from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Adventure Path #70: The Frozen Stars Copyright 2013, Paizo Publishing, LLC; Author: Matthew Goodall.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Adventure Path: Reign of Winter, Part 4 - The Frozen Stars" Copyright 2013-2014, PCGen Data Team (including, but not limited to Stefan Radermacher).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:ap70_abilities.lst
+ABILITYCATEGORY:ap70_abilitycategories.lst
+EQUIPMENT:ap70_equip_magic_items.lst
+#KIT:ap68_kits_races.lst
+LANGUAGE:ap70_languages.lst
+RACE:ap70_races.lst
+#SPELL:ap68_spells.lst
+#SKILL:ap68_skills_conditional.lst
+TEMPLATE:ap70_templates.lst
+
+#
+# End
+#

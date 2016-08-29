@@ -1,0 +1,105 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 5: The Impossible Eye	SOURCESHORT:PF23	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp	SOURCEDATE:2009-06
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2011/10/01
+
+STARTPACK:NPC (Qilzar Agha Bagoas)	TYPE:NPC	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Advance Elite Darnoc],[!PRERACE:1,%]	SOURCEPAGE:p.39
+RACE:Advanced Elite Darnoc	!PRERACE:1,%
+NAME:Qilzar Agha Bagoas
+ALIGN:CE
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+SKILL:Bluff				RANK:18
+SKILL:Diplomacy			RANK:18
+SKILL:Intimidate			RANK:18
+SKILL:Perception			RANK:18
+SKILL:Knowledge (Nobility)	RANK:18
+SKILL:Stealth			RANK:18
+FEAT:Blind-Fight
+FEAT:Combat Reflexes
+FEAT:Dodge
+FEAT:Improved Initiative
+FEAT:Improved Natural Attack (Incorporeal Touch)
+FEAT:Mobility
+FEAT:Persuasive
+FEAT:Spring Attack
+FEAT:Vital Strike
+
+STARTPACK:Div (Sepid) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Div (Sepid)]	SOURCEPAGE:p.84
+RACE:Div (Sepid)	!PRERACE:1,%
+NAME:Sepid Div
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+SKILL:Bluff				RANK:16
+SKILL:Intimidate			RANK:16
+SKILL:Knowledge (Arcana)	RANK:16
+SKILL:Knowledge (Planes)	RANK:16
+SKILL:Knowledge (Religion)	RANK:16
+SKILL:Perception			RANK:16
+SKILL:Sense Motive		RANK:16
+SKILL:Spellcraft			RANK:16
+SKILL:Survival			RANK:16
+SKILL:Use Magic Device		RANK:16
+FEAT:Blind-Fight
+FEAT:Bleeding Critical
+FEAT:Critical Focus
+FEAT:Improved Critical (Scimitar)
+FEAT:Improved Initiative
+FEAT:Iron Will
+FEAT:Power Attack
+FEAT:Weapon Focus (Scimitar)
+GEAR:Scimitar	SIZE:PC	LOCATION:Both Hands	EQMOD:MWORKW.PLUS3W
+SPELLS:SPELLBOOK=Known Spells|CLASS=Sorcerer|Disintegrate|True Seeing
+SPELLS:SPELLBOOK=Known Spells|CLASS=Sorcerer|Baleful Polymorph|Break Enchantment|Hold Monster
+SPELLS:SPELLBOOK=Known Spells|CLASS=Sorcerer|Animate Dead|Bestow Curse|Enervation|Ice Storm
+SPELLS:SPELLBOOK=Known Spells|CLASS=Sorcerer|Fireball|Fly|Haste|Magic Circle Against Good
+SPELLS:SPELLBOOK=Known Spells|CLASS=Sorcerer|Blindness/Deafness|Invisibility|Mirror Image|Scorching Ray|Touch of Idiocy
+SPELLS:SPELLBOOK=Known Spells|CLASS=Sorcerer|Comprehend Languages|Expeditious Retreat|Mage Armor|Ray of Enfeeblement|True Strike
+SPELLS:SPELLBOOK=Known Spells|CLASS=Sorcerer|Dancing Lights|Daze|Detect Magic|Ghost Sound|Mage Hand|Mending|Open/Close|Prestidigitation|Read Magic
+
+
+STARTPACK:Genie (Black Jinni) Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Genie (Black Jinni)]	SOURCEPAGE:p.82
+RACE:Genie (Black Jinni)	!PRERACE:1,%
+NAME:Black Jinni
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+SKILL:Acrobatics			RANK:16
+SKILL:Fly				RANK:16
+SKILL:Intimidate			RANK:16
+SKILL:Knowledge (Planes)	RANK:16
+SKILL:Knowledge (Religion)	RANK:16
+SKILL:Perception			RANK:16
+SKILL:Stealth			RANK:16
+FEAT:Combat Reflexes
+FEAT:Dodge
+FEAT:Improved Critical (Claw)
+FEAT:Iron Will
+FEAT:Mobility
+FEAT:Power Attack
+FEAT:Spring Attack
+FEAT:Toughness
+
+
+STARTPACK:Nephilim Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Black Jinni]	SOURCEPAGE:p.86
+RACE:Nephilim	!PRERACE:1,%
+NAME:Nephilim
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+SKILL:Acrobatics			RANK:12
+SKILL:Climb				RANK:12
+SKILL:Handle Animal		RANK:12
+SKILL:Intimidate			RANK:12
+SKILL:Knowledge (History)	RANK:12
+SKILL:Perception			RANK:12
+SKILL:Survival			RANK:12
+SKILL:Swim				RANK:12
+FEAT:Athletic
+FEAT:Cleave
+FEAT:Great Cleave
+FEAT:Improved Sunder
+FEAT:Power Attack
+FEAT:Vital Strike
+GEAR:Longsword			SIZE:PC	LOCATION:Primary Hand	EQMOD:MWORKW.PLUS2W
+GEAR:Spear				SIZE:PC	LOCATION:Carried		EQMOD:MWORKW
+GEAR:Scale Mail			SIZE:PC	LOCATION:Armor		EQMOD:MWORKA
+GEAR:Shield (Heavy/Steel)	SIZE:PC	LOCATION:Shield
+
+#
+# End
+#

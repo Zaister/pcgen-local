@@ -1,0 +1,11 @@
+# CVS $Revision: 7440 $ $Author: eddyanthony $ -- Tue Oct 19 15:22:31 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 3: The Hook Mountain Massacre	SOURCESHORT:PF3	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80e8	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Tools and Skill Kits
+# Equipment Name			Type							Cost		Weight	Source, Long Desc.						Source, Short Desc.	Source Page		Bonus to skill
+Artisan's Tools (Tattoo)	TYPE:Goods.Tools.Artisan.CraftToolsTattoo	COST:5	WT:5		SOURCELONG:Pathfinder Roleplaying Game Core Rulebook	SOURCESHORT:PFCR		SOURCEPAGE:p.161	BONUS:SKILL|Craft (Tattoo)|2|TYPE=Circumstance|PRETYPE:1,Masterwork
+
+#
+# End
+#

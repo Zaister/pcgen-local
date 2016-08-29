@@ -1,0 +1,10 @@
+# CVS $Revision: 12957 $ $Author: zaister $ -- Wed Dec 15 14:08:16 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Bestiary 2	SOURCESHORT:PFB2	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/pathfinderRPG/v5748btpy8ddb	SOURCEDATE:2010-12
+
+###Block: Custom Spells with restrictions as used in spell-like abilities
+# Spell Name			Output Name										School			Sub-School			Type				Components		Casting Time	Range		Target Area or Effect			Duration					Save Info		Spell Resistance	Description																																						Source Page
+Summon Monster V (Nycadaemon)	OUTPUTNAME:Summon Monster V (1 Nycadaemon or 1d3 Mezzodaemon 30%)	SCHOOL:Conjuration	SUBSCHOOL:Summoning	TYPE:Arcane.Divine	COMPS:V, S, F/DF	CASTTIME:1 round	RANGE:Close	TARGETAREA:One summoned creature	DURATION:(CASTERLEVEL) rounds [D]	SAVEINFO:None	SPELLRES:No		DESC:This spell functions like summon monster I, except that you can summon one creature from the 5th-level list, 1d3 creatures of the same kind from the 4th-level list, or 1d4+1 creatures of the same kind from a lower-level list.	SOURCEPAGE:p.352
+
+#
+# End
+#

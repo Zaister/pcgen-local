@@ -1,0 +1,54 @@
+CAMPAIGN:Paizo - Lords of Chaos, Book of the Damned Vol. 2 (Zaister)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Campaign Setting
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Lords of Chaos
+SOURCESHORT:LoC
+SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8hij
+SOURCEDATE:2010-12
+ISOGL:YES
+
+COVER:lords_of_chaos.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8a6f|Buy this publication from Paizo Publishing!
+DESC:Spawned from the darkest depths of the Abyss, the howling hordes of demonkind rise up to destroy and devour all of existence, their slavering, fiendish forms built to rend, enslave, and beguile. Whether in their horrid domains of madness in the Outer Rifts, or called forth into the material world by insane spellcasters, demons represent the fundamental immorality of the universe, evolving from sinful souls into entities both wretched and godlike, united under their vile taskmasters toward a single goal: to destroy all that mortal life holds.
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Campaign Setting: Lords of Chaos: Book of the Damned, Vol. 2. Copyright 2010, Paizo Publishing, LLC; Author: James Jacobs.
+COPYRIGHT:Advanced Bestiary. Copyright 2004, Green Ronin Publishing, LLC; Author: Matthew Sernett.
+COPYRIGHT:The Book of Fiends. Copyright 2003, Green Ronin Publishing.; Authors: Aaron Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb.
+COPYRIGHT:Baphomet from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Froghemoth from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Ice Golem from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene.
+COPYRIGHT:Jubilex from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Kostchtchie from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Nabasu from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Orcus from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Pazuzu from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Shadow Demon from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Neville White.
+COPYRIGHT:Vegepygmy from the Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Chronicles: Lords of Chaos, Book of the Damned Vol. II" Copyright 2010-2011, PCGen Data team (Including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data Files
+DEITY:lords_of_chaos_deities.lst
+
+# Forward references
+FORWARDREF:WEAPONPROF|War Razor
+
+#
+# End
+#

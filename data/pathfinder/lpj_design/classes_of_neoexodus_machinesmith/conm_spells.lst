@@ -1,0 +1,33 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 15:20:47 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
+
+###Block: New Spells
+# Spell Name	Type				Classes of caster								School			Sub-School			Components		Casting Time			Range			Target Area or Effect				Duration					Save Info			Spell Resistance	Source Page		Description
+Guardian Drone	TYPE:Arcane			CLASSES:Machinesmith=1							SCHOOL:Transmutation					COMPS:V, S, M	CASTTIME:1 standard action	RANGE:0 ft.		TARGETAREA:One guardian drone			DURATION:(CASTERLEVEL) rounds [D]	SAVEINFO:None		SPELLRES:No		SOURCEPAGE:p.11	DESC:You animate a tiny mechanical guardian to aid and protect you.
+Magnify Vision	TYPE:Arcane.Divine	CLASSES:Bard,Druid,Ranger,Sorcerer,Wizard=2|Machinesmith=1	SCHOOL:Transmutation					COMPS:V, S, DF/M	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You					DURATION:(CASTERLEVEL) rounds [D]								SOURCEPAGE:p.11	DESC:Your range of vision is doubled.
+Transcribe		TYPE:Arcane.Divine	CLASSES:Bard,Cleric,Machinesmith,Sorcerer,Wizard=1		SCHOOL:Conjuration	SUBSCHOOL:Creation	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close		TARGETAREA:A scroll, book, or tablet	DURATION:(CASTERLEVEL) minutes	SAVEINFO:Will negates	SPELLRES:Yes	SOURCEPAGE:p.13	DESC:You copy a conversation onto a scroll or similar material.
+
+###Block: Machinesmith Spells
+# Spell Name			Classes of caster
+Alarm.MOD				CLASSES:Machinesmith=1
+Animate Rope.MOD			CLASSES:Machinesmith=1
+Comprehend Languages.MOD	CLASSES:Machinesmith=1
+Erase.MOD				CLASSES:Machinesmith=1
+Expeditious Retreat.MOD		CLASSES:Machinesmith=1
+Feather Fall.MOD			CLASSES:Machinesmith=1
+Faerie Fire.MOD			CLASSES:Machinesmith=1
+Floating Disk.MOD			CLASSES:Machinesmith=1
+Hold Portal.MOD			CLASSES:Machinesmith=1
+Grease.MOD				CLASSES:Machinesmith=1
+Jump.MOD				CLASSES:Machinesmith=1
+Keen Senses.MOD			CLASSES:Machinesmith=1
+Longstrider.MOD			CLASSES:Machinesmith=1
+Mage Armor.MOD			CLASSES:Machinesmith=1
+Magic Mouth.MOD			CLASSES:Machinesmith=1
+Obscuring Mist.MOD		CLASSES:Machinesmith=1
+Shocking Grasp.MOD		CLASSES:Machinesmith=1
+Shield.MOD				CLASSES:Machinesmith=1
+
+#
+# End
+#

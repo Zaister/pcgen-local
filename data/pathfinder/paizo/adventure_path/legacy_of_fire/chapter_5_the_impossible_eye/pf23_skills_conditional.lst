@@ -1,0 +1,16 @@
+# CVS $Revision: 14405 $ $Author: zaister $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 5: The Impossible Eye	SOURCESHORT:PF23	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp	SOURCEDATE:2009-06
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2011/10/01
+
+###Block: Conditional Skills for output only
+# Skill Name			Key Stat	Untrained?		Classes	Type			Visible		Req. Rule (in options)		Prohibited Var. Value
+Stealth (In storms or clouds)	KEYSTAT:DEX	USEUNTRAINED:YES	CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	PRERULE:1,DISPLAYSKILLUSE	PREVARNEQ:var("SKILL.Stealth (In storms or clouds).MISC"),SKILL.Stealth.MISC
+
+###Block: Skill .MODs
+# Skill Name	Bonus to skill									Bonus to skill rank
+Stealth.MOD		BONUS:SKILL|Stealth (In storms or clouds)|SKILL.Stealth.MISC	BONUS:SKILLRANK|Stealth (In storms or clouds)|skillinfo("TOTALRANK","Stealth")|TYPE=SkillGranted|PREVARNEQ:var("SKILL.Stealth (In storms or clouds).MISC"),SKILL.Stealth.MISC
+
+#
+# End
+#

@@ -1,0 +1,23 @@
+# CVS $Revision: 12858 $ $Author: zaister $ -- Tue Oct 19 11:56:33 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords Player's Guide	SOURCESHORT:RotRPG	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8bd9	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Goblin (Golarion) Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Goblin (Golarion)]
+RACE:Goblin (Golarion)	!PRERACE:1,%
+NAME:Goblin
+ALIGN:NE
+STAT:STR=13|DEX=11|CON=12|INT=10|WIS=9|CHA=8
+CLASS:Warrior	LEVEL:1
+ABILITY:CATEGORY=Favored Class|Warrior
+ABILITY:CATEGORY=Favored Class Bonus|Bonus Hit Point
+SKILL:Ride	RANK:1
+SKILL:Swim	RANK:1
+FEAT:Improved Initiative
+GEAR:Leather			SIZE:S	LOCATION:Equipped
+GEAR:Shield (Light/Wooden)	SIZE:S	LOCATION:Equipped
+GEAR:Dogslicer			SIZE:S	LOCATION:Primary Hand
+GEAR:Javelin			SIZE:S	LOCATION:Carried
+
+#
+# End
+#

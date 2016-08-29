@@ -1,0 +1,6 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Thu Sep 26 14:15:17 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Reign of Winter, Part 1: The Snows of Summer	SOURCESHORT:AP67	SOURCEWEB:http://paizo.com/products/btpy8w7d/discuss?Pathfinder-Adventure-Path-67-The-Snows-of-Summer	SOURCEDATE:2013-02
+
+# Language	Type								Required Var. value
+Russian	TYPE:Spoken.Written.Read
+Triaxian	TYPE:Spoken.Written.Read

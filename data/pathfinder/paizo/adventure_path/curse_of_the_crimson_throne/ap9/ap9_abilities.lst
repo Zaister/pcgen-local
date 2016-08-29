@@ -1,0 +1,12 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Tue Jul 16 13:36:20 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Curse of the Crimson Throne, Chapter 3: Escape for Old Korvosa	SOURCESHORT:AP9	SOURCEWEB:http://paizo.com/products/btpy82t5?Pathfinder-9-Curse-of-the-Crimson-Throne-Chapter-3-Escape-from-Old-Korvosa	SOURCEDATE:2008-04
+# Original Entry: Stefan Radermacher
+
+###Block: Rajput Ambari abilities
+# Ability Name	Unique Key					Category of Ability		Type						Define					Description																																																																		Source Page		Aspects
+Undead Servitor	KEY:Undead Servitor ~ Rajput Ambari	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural							DESC:Rajput ambaris are completely subservient to their creators and any other creature capable of commanding undead. A rajput ambari is treated as an undead creature of half its Hit Dice for the purposes of being commanded and when counting the total Hit Dice of undead an evil cleric has under his control. A rajput ambari always understands the language of its master and anyone controlling it.	SOURCEPAGE:p.84
+War Stomp		KEY:War Stomp ~ Rajput Ambari		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	DEFINE:WarStompDC|10+(HD/2)+STR	DESC:As a full-round action, a rajput ambari can slam its skeletal front feet hard into the earth, creating a small shockwave that can knock nearby opponents prone. Any opponent standing immediately adjacent to a rajput ambari when it uses this ability must make a DC %1 Reflex save or be knocked prone.|WarStompDC															SOURCEPAGE:p.84	ASPECT:Ability Benefit|(DC %1)|WarStompDC
+
+#
+# End
+#

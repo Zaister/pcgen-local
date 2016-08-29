@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Thu May  6 14:58:21 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Chapter 1: Howl of the Carrion King	SOURCESHORT:PF19	SOURCEWEB:http://paizo.com/store/paizo/pathfinder/adventurePath/legacyOfFire/v5748btpy8735	SOURCEDATE:2009-02
+
+STARTPACK:Gremlin (Pugwampi) Default	TYPE:DefaultMonster.Fey	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gremlin (Pugwampi)]	SOURCEPAGE:p.83
+RACE:Gremlin (Pugwampi)	!PRERACE:1,%
+NAME:Pugwampi
+ALIGN:NE
+STAT:STR=11|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+#SKILL:Stealth		RANK:3
+#SKILL:Sense Motive	RANK:3
+FEAT:Improved Initiative

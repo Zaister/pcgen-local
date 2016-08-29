@@ -1,0 +1,10 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Sat Oct  1 12:17:42 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Chapter 5 - The Impossible Eye	SOURCESHORT:PF23	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp	SOURCEDATE:2009-06
+
+###Block: Custom Spells with restrictions as used in spell-like abilities
+# Spell Name			Output Name									School			Sub-School			Type				Components		Casting Time	Range		Target Area or Effect			Duration					Save Info		Spell Resistance	Description																	Source, Long Desc.		Source, Short Desc.	Source Page
+Summon Monster IV (Sepid Div)	OUTPUTNAME:Summon Monster IV (1 Ghawwas or Shir Devil 40%)	SCHOOL:Conjuration	SUBSCHOOL:Summoning	TYPE:Arcane.Divine	COMPS:V, S, F/DF	CASTTIME:1 round	RANGE:Close	TARGETAREA:One summoned creature	DURATION:(CASTERLEVEL) rounds [D]	SAVEINFO:None	SPELLRES:No		DESC:This spell functions like summon monster I, except that you can only summon one ghawwas or shir div.	SOURCELONG:Core Rulebook	SOURCESHORT:PFCR		SOURCEPAGE:p.352
+
+#
+# End
+#

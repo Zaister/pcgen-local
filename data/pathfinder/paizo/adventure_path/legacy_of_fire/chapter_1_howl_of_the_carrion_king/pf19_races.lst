@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 16 14:53:18 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Chapter 1: Howl of the Carrion King	SOURCESHORT:PF19	SOURCEWEB:http://paizo.com/store/paizo/pathfinder/adventurePath/legacyOfFire/v5748btpy8735	SOURCEDATE:2009-02
+
+# Race Name
+Donkey.COPY=Goat
+Gremlin (Pugwampi)	OUTPUTNAME:[NAME]		STARTFEATS:1	SIZE:T	MOVE:WALK,30		FACE:2.5	REACH:0									LANGAUTO:Gnoll,Terran									BONUS:SKILL|Stealth|4|TYPE=Racial	BONUS:SKILL|Perception|-4|TYPE=Racial	BONUS:STAT|STR|-8	BONUS:STAT|DEX|2	BONUS:STAT|WIS|4	BONUS:STAT|CHA|-4																																																								AUTO:WEAPONPROF|Dagger|Shortbow		AUTO:FEAT|Weapon Finesse	ABILITY:Special Ability|AUTOMATIC|Unluck ~ Pugwampi				LEGS:2	HANDS:2																																							SR:7		MONSTERCLASS:Fey:1				RACETYPE:Fey																				CR:1/2		SOURCEPAGE:p.83

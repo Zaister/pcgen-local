@@ -1,0 +1,8 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Oct  4 12:08:56 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2007-10
+
+###Block: Thrown Rocks
+# Equipment Name	Output Name		Required Weapon Proficiency	Type										Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Range		Size		Source Page
+Rock (Large)	OUTPUTNAME:Rock	PROFICIENCY:WEAPON|Rock		TYPE:Weapon.Simple.Ranged.Standard.Bludgeoning.Thrown.Rock	COST:0.0	WT:150	CRITMULT:x2			CRITRANGE:1			DAMAGE:3d6	RANGE:240	SIZE:G	SOURCEPAGE:p.303
+
+

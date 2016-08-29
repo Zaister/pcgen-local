@@ -1,0 +1,64 @@
+# CVS $Revision: 639 $ $Author: stefan $ $Date: 2007-05-30 17:32:10 +0200 (Mi, 30 Mai 2007) $
+CAMPAIGN:Shattered Star Campaign
+GAMEMODE:Pathfinder
+TYPE:Campaigns
+RANK:1
+BOOKTYPE:Core Rules
+GENRE:Fantasy
+SETTING:Pathfinder Campaign Setting
+SHOWINMENU:YES
+
+COVER:@/d20ogl/paizo/pathfinder_adventure_path/shattered_star/shattered_star_players_guide/shattered_star_players_guide.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+
+INFOTEXT:This pcc loads all the source materials needed for the Shattered Star Pathfinder Adventure Path Campaign.
+
+# Pathfinder Roleplaying Game
+PCC:@/pathfinder/paizo/roleplaying_game/core_rulebook/core_rulebook.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/bestiary/bestiary.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_players_guide/advanced_players_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_class_guide/_advanced_class_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_race_guide/advanced_race_guide.pcc
+PCC:$/pathfinder/paizo/roleplaying_game/gamemastery_guide/gamemastery_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_campaign/_ultimate_campaign.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_magic/_ultimate_magic.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_equipment/ultimate_equipment.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_combat/_ultimate_combat.pcc
+
+# Pathfinder Sourcebooks
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_world_guide/inner_sea_world_guide.pcc
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_gods/_inner_sea_gods.pcc
+PCC:$/pathfinder/paizo/campaign_setting/inner_sea_magic/inner_sea_magic.pcc
+#PCC:@/pathfinder/paizo/campaign_setting/seekers_of_secrets/seekers_of_secrets.pcc
+PCC:&/pathfinder/paizo/player_companion/advanced_class_origins/_advanced_class_origins.pcc
+PCC:@/pathfinder/paizo/player_companion/blood_of_angels/blood_of_angels.pcc
+PCC:@/pathfinder/paizo/player_companion/blood_of_fiends/blood_of_fiends.pcc
+PCC:@/pathfinder/paizo/player_companion/cheliax_empire_of_devils/cheliax_empire_of_devils.pcc
+PCC:@/pathfinder/paizo/player_companion/varisia_birthplace_of_legends/_varisia_birthplace_of_legends.pcc
+#PCC:&/pathfinder/paizo/player_companion/pathfinder_society_primer/pathfinder_society_primer.pcc
+PCC:@/pathfinder/paizo/player_companion/champions_of_purity/_champions_of_purity.pcc
+PCC:@/pathfinder/paizo/player_companion/melee_tactics_toolbox/melee_tactics_toolbox.pcc
+PCC:@/pathfinder/paizo/player_companion/knights_of_the_inner_sea/knights_of_the_inner_sea.pcc
+
+# Shattered Star Adventure Path
+PCC:@/pathfinder/paizo/adventure_path/shattered_star/shattered_star_players_guide/shattered_star_players_guide.pcc
+PCC:@/pathfinder/paizo/adventure_path/shattered_star/ap61/ap61.pcc
+PCC:$/pathfinder/paizo/adventure_path/shattered_star/ap62/ap62.pcc
+PCC:$/pathfinder/paizo/adventure_path/shattered_star/ap63/ap63.pcc
+PCC:$/pathfinder/paizo/adventure_path/shattered_star/ap64/ap64.pcc
+PCC:&/pathfinder/paizo/player_companion/pathfinder_society_primer/pathfinder_society_primer.pcc
+PCC:@/pathfinder/paizo/campaign_setting/seekers_of_secrets/seekers_of_secrets.pcc
+
+# Shattered Star Adventure Path miscellaneous data files
+ABILITY:$/pathfinder/paizo/adventure_path/shattered_star/shattered_star_misc/ss_abilities.lst
+ABILITYCATEGORY:$/pathfinder/paizo/adventure_path/shattered_star/shattered_star_misc/ss_abilitycategories.lst
+
+# Other includes
+EQUIPMENT:@/pathfinder/paizo/player_companion/adventurers_armory/aa_equip.lst|(INCLUDE:Wrist Sheath (Spring Loaded))
+
+# House Rules
+PCC:$/pathfinder/zaister/houserules/houserules.pcc
+
+#
+# End
+#

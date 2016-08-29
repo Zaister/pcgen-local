@@ -1,0 +1,10 @@
+# CVS $Revision: 7270 $ $Author: eddyanthony $ -- Tue Oct 19 15:29:43 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 3: The Hook Mountain Massacre	SOURCESHORT:PF3	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80e8	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+# Ability Name	Unique Key					Category of Ability		Type				Visible	Aspects
+Save Bonus		KEY:Save Bonus ~ Boots of the Mire	CATEGORY:Special Ability	TYPE:Internal.SaveBonus	VISIBLE:NO	ASPECT:SaveBonus|+2 resistance vs. poison and disease
+
+#
+# End
+#

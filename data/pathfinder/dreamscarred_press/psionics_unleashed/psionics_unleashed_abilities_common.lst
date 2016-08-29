@@ -1,0 +1,18 @@
+# CVS $Revision: 14299 $ $Author: elrotheonk $ -- Tue Feb  8 17:30:03 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Psionics Unleashed	SOURCESHORT:PsU	SOURCEWEB:http://dreamscarredpress.com/dragonfly/Store/product/pid=70.html	SOURCEDATE:2010-11
+# Original Entry by: Stefan Radermacher
+
+###Block: Weapon Proficiencies
+# Ability Name				Category of Ability		Type			Visible	Automatically Gained Weapon Prof.
+Soulknife Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Mind Blade
+
+###Block: Common Abilities
+# Ability Name		Category of Ability		Type						Visible		Required Race		Define				Description										Stackable?	Multiple?	Choose
+Bonus Power Point		CATEGORY:Special Ability	TYPE:FavoredClassBonus			VISIBLE:DISPLAY	PRERACE:1,Blue,Dromite																	STACK:YES	MULT:YES	CHOOSE:NOCHOICE
+
+# Ability Name		Category of Ability		Type						Visible		Required Race		Define				Description										Stackable?	Multiple?	Choose
+Power Point Reserve	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural								DEFINE:PowerPointReserve|0	DESC:You have a reserve of %1 power points.|PowerPointReserve
+
+#
+# End
+#

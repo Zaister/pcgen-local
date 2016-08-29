@@ -1,0 +1,11 @@
+# CVS $Revision: 11259 $ $Author: zaister $ -- Mon Aug 23 14:22:16 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Miscellaneous Data	SOURCESHORT:RotR	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Conditional Skills for output only
+# Skill Name					Key Stat	Untrained?		Classes	Type			Visible
+Diplomacy (Against citizens of Magnimar)	KEYSTAT:CHA	USEUNTRAINED:NO	CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT
+
+###Block: Skill .MODs
+# Skill Name	Bonus to skill											Bonus to skill rank
+Diplomacy.MOD	BONUS:SKILL|Diplomacy (Against citizens of Magnimar)|SKILL.Diplomacy.MISC	BONUS:SKILLRANK|Diplomacy (Against citizens of Magnimar)|SKILLRANK=Diplomacy|TYPE=SkillGranted|PRERULE:1,DISPLAYSKILLUSE|PREVARNEQ:var("SKILL.Diplomacy (Against citizens of Magnimar).MISC"),var("SKILL.Diplomacy.MISC")

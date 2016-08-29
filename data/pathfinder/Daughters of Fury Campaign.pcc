@@ -1,0 +1,48 @@
+# CVS $Revision: 639 $ $Author: stefan $ $Date: 2007-05-30 17:32:10 +0200 (Mi, 30 Mai 2007) $
+CAMPAIGN:Daughters of Fury Campaign
+GAMEMODE:Pathfinder
+TYPE:Campaigns
+RANK:1
+BOOKTYPE:Core Rules
+GENRE:Fantasy
+SETTING:Pathfinder Campaign Setting
+PUBNAMELONG:Paizo Publishing
+SOURCELONG:Daughters of Fury
+SHOWINMENU:YES
+
+COVER:$/pathfinder/paizo/modules/daughters_of_fury/daughters_of_fury.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+
+INFOTEXT:This pcc loads all the source materials needed for the Daughters of Fury Campaign.
+
+# Pathfinder Roleplaying Game
+PCC:@/pathfinder/paizo/roleplaying_game/core_rulebook/core_rulebook.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/bestiary/bestiary.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_players_guide/advanced_players_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_class_guide/_advanced_class_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_race_guide/advanced_race_guide.pcc
+#PCC:$/pathfinder/paizo/roleplaying_game/gamemastery_guide/gamemastery_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_campaign/_ultimate_campaign.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_magic/_ultimate_magic.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_equipment/ultimate_equipment.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_combat/_ultimate_combat.pcc
+PCC:$/pathfinder/paizo/roleplaying_game/occult_adventures/occult_adventures.pcc
+PCC:$/pathfinder/paizo/roleplaying_game/pathfinder_unchained/pathfinder_unchained.pcc
+
+# Pathfinder Sourcebooks
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_world_guide/inner_sea_world_guide.pcc
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_gods/_inner_sea_gods.pcc
+PCC:@/pathfinder/paizo/player_companion/bastards_of_golarion/bastards_of_golarion.pcc
+
+# Daughters of Fury Module
+#PCC:$/pathfinder/paizp/modules/daughters_of_fury/daughters_of_fury.pcc
+
+# PlusRPG rule modifications
+PCC:$/plusrpg/plusrpg.pcc
+
+# Use Armor and Weapon Attunement rules
+BONUS:VAR|UseAttunement|1
+
+#
+# End
+#

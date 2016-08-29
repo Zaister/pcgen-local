@@ -1,0 +1,7 @@
+# CVS $Revision: $ $Author: $ -- Wed Jul  2 13:16:21 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+#SOURCELONG:City of Strangers	SOURCESHORT:CoS	SOURCEWEB:http://paizo.com/products/btpy8fda?Pathfinder-Chronicles-City-of-Strangers	SOURCEDATE:2010-06
+# Original Entry by: Stefan Radermacher
+
+###Block: Class Feature
+# Ability Category				Visible		Editable or Static?	Change Pool?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Bloatmage Class Feature	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		CATEGORY:Special Ability	TYPE:BloatmageClassFeatures	PLURAL:Bloatmage Class Features	DISPLAYLOCATION:Class Features

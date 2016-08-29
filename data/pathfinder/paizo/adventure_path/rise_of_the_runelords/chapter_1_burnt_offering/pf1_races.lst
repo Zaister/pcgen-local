@@ -1,0 +1,16 @@
+# CVS $Revision: 12905 $ $Author: amaitland $ -- Tue Oct 19 13:26:29 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 1: Burnt Offerings	SOURCESHORT:PF1	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy7zkq	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+# For Attic Whisperer, load the Pathfinder Roleplaying Game Bestiary 2 dataset
+# For Goblin Dog, load the Pathfinder Roleplaying Game Bestiary dataset
+# For Sinspawn, load the Pathfinder Roleplaying Game Bestiary 2 dataset
+
+# Race Name		Output Name			Starting Feats	Size		Move				Face/Space	Reach		Vision				Combat bonus				Bonus to skill						Stat bonus													Weapon prof. bonus					Ability																						Nb Legs	Natural Attacks																										Spell Res.	Monster Class Name and Starting Level	Main Race Type		Race Subtype		Challenge Rating	Source Page		Innate Spells																															Apply Kit
+Gecko (Giant)	OUTPUTNAME:[NAME] Gecko	STARTFEATS:1	SIZE:M	MOVE:Walk,40,Climb,40	FACE:5	REACH:5	VISION:Darkvision (120')	BONUS:COMBAT|AC|2|TYPE=NaturalArmor	BONUS:SKILL|Acrobatics,Climb|8|TYPE=Racial	BONUS:STAT|STR,CON|2	BONUS:STAT|DEX,WIS|4	BONUS:STAT|INT|-8	BONUS:STAT|CHA|-4									ABILITY:Special Ability|AUTOMATIC|Scent|Expert Climber ~ Giant Gecko												LEGS:4	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d4																MONSTERCLASS:Animal:2				RACETYPE:Animal						CR:1			SOURCEPAGE:p.89																																		KIT:1|TN
+Goblin Snake					STARTFEATS:1	SIZE:S	MOVE:Walk,30,Burrow,5	FACE:5	REACH:5						BONUS:COMBAT|AC|1|TYPE=NaturalArmor									BONUS:STAT|DEX,CON|4	BONUS:STAT|INT|-2	BONUS:STAT|WIS,CHA|2				BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))	ABILITY:Special Ability|AUTOMATIC|Can't Be Tripped|Scent|Goblin Breath ~ Goblin Snake|Lunge ~ Goblin Snake|Snake Empathy ~ Goblin Snake	LEGS:0	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,1d6																MONSTERCLASS:Aberration:2			RACETYPE:Aberration					CR:1			SOURCEPAGE:p.88																																		KIT:1|CE
+Sandpoint Devil					STARTFEATS:1	SIZE:L	MOVE:Walk,40,Fly,60	FACE:10	REACH:10	VISION:Low-light			BONUS:COMBAT|AC|9|TYPE=NaturalArmor									BONUS:STAT|STR|16	BONUS:STAT|DEX,WIS,CHA|6	BONUS:STAT|CON|8	BONUS:STAT|INT|-2									ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Scent|Trample|Bay ~ Sandpoint Devil|Hellfire Breath ~ Sandpoint Devil			LEGS:4	NATURALATTACKS:Kick,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d8	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing,*1,2d6	SR:14		MONSTERCLASS:Outsider (Fort/Ref):12		RACETYPE:Outsider		RACESUBTYPE:Native	CR:8			SOURCEPAGE:p.94	SPELLS:Innate|TIMES=ATWILL|CASTERLEVEL=10|Fog Cloud,12+CHA|Gust of Wind,12+CHA|Pyrotechnics,12+CHA|Scare,12+CHA	SPELLS:Innate|TIMES=3|CASTERLEVEL=10|Dimension Door,14+CHA|Phantasmal Killer,15+CHA	KIT:1|NE
+
+#
+# End
+#

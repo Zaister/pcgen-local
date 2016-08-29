@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 11 14:04:53 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
+
+STARTPACK:Mechanus	TYPE:Companion	VISIBLE:NO	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Mechanus]
+RACE:Mechanus	!PRERACE:1,%
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+
+#
+# End
+#

@@ -1,0 +1,36 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 15:21:16 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Modified spells
+# Spell Name			Clear School	School		Clear Casting Time	Casting Time
+
+# Spell Name			Clear School	School		Clear Casting Time	Casting Time
+Alter Self.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Arcane Mark.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Bless.MOD										CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Bull's Strength.MOD								CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Comprehend Languages.MOD							CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Cure Light Wounds.MOD		SCHOOL:.CLEAR	SCHOOL:Necromancy	CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Cure Moderate Wounds.MOD	SCHOOL:.CLEAR	SCHOOL:Necromancy	CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Deathwatch.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Detect Evil.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Detect Magic.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 3 acts) or 10 minutes
+Detect Poison.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 3 acts)
+Divine Favor.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 3 acts) or 10 minutes
+Faerie Fire.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Feather Fall.MOD									CASTTIME:.CLEAR		CASTTIME:1 reaction
+Ghost Sound.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Guidance.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Ill Omen.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Mage Hand.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Message.MOD										CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Oracle's Burden.MOD								CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Protection from Evil.MOD							CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Read Magic.MOD									CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Shield.MOD										CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Shocking Grasp.MOD								CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Stabilize.MOD			SCHOOL:.CLEAR	SCHOOL:Necromancy	CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+
+#
+# End
+#

@@ -1,0 +1,6 @@
+# CVS $Revision: $ $Author: $ -- Thu May  6 14:58:21 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Chapter 1: Howl of the Carrion King	SOURCESHORT:PF19	SOURCEWEB:http://paizo.com/store/paizo/pathfinder/adventurePath/legacyOfFire/v5748btpy8735	SOURCEDATE:2009-02
+
+###Block: Gremlin Abilities
+# Ability Name	Unique Key			Category of Ability		Type							Description																																																																																		Source Page
+Unluck		KEY:Unluck ~ Pugwampi	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.Aura	DESC:A pugwampi radiates an aura of unluck to a radius of 20 feet. A creature in this area must roll 2d20 whenever a situation calls for a d20 roll (such as an attack roll, a skill check, or a saving throw) and must use the lowest of the two results generated. This is a mind-affecting effect that does not work on animals, other gremlins, and gnolls. Any character that gains any sort of luck bonus (such as that granted by a luckstone or divine favor) is immune to the pugwampi unluck aura.	SOURCEPAGE:p.83

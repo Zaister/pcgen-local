@@ -1,0 +1,19 @@
+# CVS $Revision$ $Author$ -- Sun Oct 11 21:42:23 2009 -- reformated by prettylst.pl v1.39 (build 10232)
+CAMPAIGN:Oliver - House Rules
+GAMEMODE:Pathfinder
+TYPE:Oliver Linares.Supplement
+RANK:9
+STATUS:ALPHA
+BOOKTYPE:Supplement
+GENRE:Fantasy
+PUBNAMELONG:Oliver Linares
+PUBNAMESHORT:Oliver
+SOURCELONG:Oliver's House Rules
+SOURCESHORT:OLHR
+SOURCEDATE:2099-12
+ISOGL:NO
+
+ABILITY:houserules_abilities.lst
+ABILITY:houserules_feats.lst
+ABILITYCATEGORY:houserules_abilitycategories.lst
+CLASS:houserules_classes.lst

@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 18 16:59:21 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Test	SOURCESHORT:Test	SOURCEDATE:2099-12
+
+###Block: Changed spells
+# Spell Name	Type				Classes of caster						Domains granting the spell	School		Sub-School		Components	Casting Time				Range		Item		Target Area or Effect		Duration			Save Info						Spell Resistance				Description
+Cure Light Wounds	TYPE:Arcane.Divine	CLASSES:Bard,Cleric,Druid,Paladin=1|Ranger=2	DOMAINS:Healing=1			SCHOOL:Necromancy	SUBSCHOOL:Healing	COMPS:V, S	CASTTIME:1 standard action		RANGE:Touch	ITEM:Potion	TARGETAREA:Creature touched	DURATION:Instantaneous	SAVEINFO:Will half (harmless); see text	SPELLRES:Yes (harmless); see text	DESC:When laying your hand upon a living creature, you channel positive energy that cures 1d8+(min(5,CASTERLEVEL)) points of damage.
+Detect Magic	TYPE:Arcane.Divine	CLASSES:Bard,Cleric,Druid,Sorcerer,Wizard=0						SCHOOL:Divination				COMPS:V, S	CASTTIME:1 round or 10 minutes	RANGE:Touch			TARGETAREA:Object or creature touched	DURATION:Instantaneous			SAVEINFO:Will negates (object)		SPELLRES:Yes (object)			DESC:You detect magical auras.
+Remove Fatigue	TYPE:Divine			CLASSES:Paladin=1|Cleric,Druid=1								SCHOOL:Necromancy	SUBSCHOOL:Healing	COMPS:V, S	CASTTIME:1 standard action		RANGE:Touch	ITEM:Potion	TARGETAREA:Creature touched	DURATION:Instantaneous	SAVEINFO:Will negates (harmless)		SPELLRES:Yes (harmless)			DESC:Eliminate fatigue condition suffered by subject, or improve exhausted condition to fatigued.
+
+#
+# End
+#

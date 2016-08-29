@@ -1,0 +1,20 @@
+# CVS $Revision: $ $Author: $ -- Wed Aug 12 16:52:32 2015 -- reformated by PCGen PrettyLST v6.04.01
+#SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
+
+###Block: Archetype Buckets
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object	Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Machinesmith Archetype	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Archetype	TYPE:MachinesmithArchetype	PLURAL:Machinesmith Archetypes	DISPLAYLOCATION:Archetype
+
+###Block: Base Class Feature Display
+# Ability Category					Visible		Editable?		Change Pool?	Category of Object		Type of Object								Plural description for UI			Display Location
+ABILITYCATEGORY:Machinesmith Class Feature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO		CATEGORY:Special Ability	TYPE:MachinesmithClassFeatures.Machinesmith Class Feature	PLURAL:Machinesmith Class Features		DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Machinesmith Greatwork		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	CATEGORY:Special Ability	TYPE:MachinesmithGreatwork						PLURAL:Machinesmith Greatwork			DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Machinesmith Greatwork Update	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	CATEGORY:Special Ability	TYPE:MachinesmithGreatworkUpdate					PLURAL:Machinesmith Greatwork Update	DISPLAYLOCATION:Class Features
+
+###Block: Mechanus Buckets
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object	Type of Object			Display Location
+ABILITYCATEGORY:Mechanus Type Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Internal		TYPE:MechanusTypeSelection	DISPLAYLOCATION:Racial Abilities
+
+#
+# End
+#

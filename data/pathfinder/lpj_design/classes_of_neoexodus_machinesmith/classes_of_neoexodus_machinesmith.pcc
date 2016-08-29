@@ -1,0 +1,71 @@
+# CVS $Revision: 9628 $ $Author: zaister $ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Classes of NeoExodus: Machinesmith
+GAMEMODE:Pathfinder
+TYPE:Louis Porter jr. Design.Classes of NeoExodus
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:NeoExodus
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+#PRECAMPAIGN:1,Advanced Player's Guide
+PUBNAMELONG:Louis Porter jr. Design
+PUBNAMESHORT:LPJ Design
+PUBNAMEWEB:http://paizo.com/
+SOURCELONG:Classes of NeoExodus: Machinesmith
+SOURCESHORT:CONM
+SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith
+SOURCEDATE:2012-03
+ISOGL:YES
+
+COVER:classes_of_neoexodus_machinesmith.jpg
+LOGO:$/publisher_logos/Louis_Porter_jr_Design.jpg
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith|Buy this publication from Paizo Publishing!
+DESC:Machinesmiths walk in two worlds, using science and magic to invent new and powerful devices. Above all else machinesmiths are makers of things. The quest to perfect their next great invention drives them to become masters of many talents. From enchanting engines to advanced mathematics, the machinesmith brings together both magic and technology to realize his vision. Whether forging a simple blade or building a mechanical man, machinesmiths take pride in producing only the best. Some machinesmiths craft time and labor saving machines to help them in their research and benefit all.
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:The Book of Experimental Might. Copyright 2008, Monte J. Cook. All rights reserved.
+COPYRIGHT:Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+COPYRIGHT:101 3rd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.
+COPYRIGHT:Sorcery and Steam. Copyright 2003, Fantasy Flight Games, Author: Mark Chance, Gareth Hanrahan, Lizard, Brian Patterson, Ross Watson
+COPYRIGHT:101 2nd Level Spells. Copyright 2011, Steven D. Russell; Author: Steven D. Russell.
+COPYRIGHT:Classes of NeoExodus: Machinesmith Copyright 2012, Louis Porter Jr. Design, Inc.
+COPYRIGHT:PCGen dataset conversion for "Classes of NeoExodus: Machinesmith" Copyright 2015, PCGen Data Team (including, but not limited to Stefan Radermacher).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:conm_abilities_class.lst
+ABILITY:conm_abilities_companion.lst
+ABILITYCATEGORY:conm_abilitycategories.lst
+CLASS:conm_classes.lst
+COMPANIONMOD:conm_companionmods.lst
+EQUIPMENT:conm_equip_general.lst
+KIT:conm_kits.lst
+KIT:conm_kits_companion.lst
+RACE:conm_races_companion.lst
+SPELL:conm_spells.lst
+TEMPLATE:conm_templates.lst
+
+# ENTRY DATE:
+# LST MONKEY:
+# LICENSE MONKEY:
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.05.01
+# Updated to work with version: -
+# MINVER:6.5
+# MINDEVVER:6.05.1
+# COMMENTS:
+
+
+#
+# End
+#

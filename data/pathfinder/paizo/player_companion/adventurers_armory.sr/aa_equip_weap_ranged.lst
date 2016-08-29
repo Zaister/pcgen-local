@@ -1,0 +1,26 @@
+# CVS $Revision: 11254 $ $Author: eddyanthony $ -- Tue Apr 20 14:25:11 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Adventurer's Armory	SOURCESHORT:AA	SOURCEWEB:http://paizo.com/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy88wi	SOURCEDATE:2010-04
+# Original Entry by: Stefan Radermacher
+
+# This file includes errata from the second printing of this book.
+#
+# TODO: Throwing shield
+
+####Block: Simple Weapons
+# Equipment Name		Output Name				Required Weapon Proficiency			Type												Contains			Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier		Wield Category	Range		Source Page		Special Property
+Stingchuck								PROFICIENCY:WEAPON|Stingchuck			TYPE:Weapon.Simple.Ranged.Standard.Bludgeoning.Thrown								COST:0	WT:9		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	EQMOD:WOOD					RANGE:10	SOURCEPAGE:p.5	SPROP:Can cause opponent to become nauseated.
+
+####Block: Martial Weapons
+Chakram								PROFICIENCY:WEAPON|Chakram			TYPE:Weapon.Martial.Ranged.Standard.Slashing.Thrown								COST:1	WT:1		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	EQMOD:STEEL					RANGE:30	SOURCEPAGE:p.3
+Hunga Munga								PROFICIENCY:WEAPON|Hunga Munga		TYPE:Weapon.Martial.Ranged.Standard.Piercing.Thrown								COST:4	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	EQMOD:STEEL		WIELD:Light		RANGE:15	SOURCEPAGE:p.x
+Pilum									PROFICIENCY:WEAPON|Pilum			TYPE:Weapon.Martial.Ranged.Standard.Piercing.Thrown								COST:5	WT:4		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	EQMOD:STEEL					RANGE:20	SOURCEPAGE:p.4	SPROP:Can neutralize an opponent's shield; destroyed on successful hit.
+
+####Block: Exotic Weapons
+# Equipment Name		Output Name				Required Weapon Proficiency			Type												Contains			Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier		Wield Category	Range		Source Page		Special Property
+Boomerang								PROFICIENCY:WEAPON|Boomerang			TYPE:Weapon.Exotic.Ranged.Standard.Bludgeoning									COST:3	WT:3		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	EQMOD:WOOD					RANGE:30	SOURCEPAGE:p.x
+Crossbow (Double)		OUTPUTNAME:Crossbow, [NAME]	PROFICIENCY:WEAPON|Crossbow (Double)	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Container.Projectile		CONTAINS:1|Bolt=1		COST:300	WT:18		CRITMULT:x2			CRITRANGE:2			DAMAGE:1d8	EQMOD:WOOD					RANGE:80	SOURCEPAGE:p.x
+Lasso									PROFICIENCY:WEAPON|Lasso			TYPE:Weapon.Exotic.Ranged.Standard											COST:0.1	WT:5																				SOURCEPAGE:p.3	SPROP:Can entangle opponent.
+Crossbow (Launching)	OUTPUTNAME:Crossbow, [NAME]	PROFICIENCY:WEAPON|Crossbow (Launching)	TYPE:Weapon.Exotic.Ranged.Standard.Container.Projectile			CONTAINS:1|ANY=1		COST:75	WT:8												EQMOD:WOOD					RANGE:20	SOURCEPAGE:p.4	SPROP:Can be used to launch splash weapons.
+Bola (Shoanti)		OUTPUTNAME:[NAME] Bola		PROFICIENCY:WEAPON|Bola (Shoanti)		TYPE:Weapon.Exotic.Ranged.Standard.Bludgeoning									COST:15	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	EQMOD:WOOD					RANGE:10	SOURCEPAGE:p.x
+Sling Glove								PROFICIENCY:WEAPON|Sling Glove		TYPE:Weapon.Exotic.Ranged.Standard.Bludgeoning.Container.Projectile	CONTAINS:1|SlingStone=1	COST:5	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d4	EQMOD:LEATHER				RANGE:50	SOURCEPAGE:p.x
+#Shield (Throwing)						PROFICIENCY:WEAPON|Shield (Throwing)		TYPE:Weapon.Exotic.Ranged.Standard.Bludgeoning												COST:50	WT:0				CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	EQMOD:WOOD											RANGE:20			SOURCEPAGE:p.x

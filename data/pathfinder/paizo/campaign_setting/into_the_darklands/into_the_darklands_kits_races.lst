@@ -1,0 +1,30 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Into the Darklands	SOURCESHORT:ItD	SOURCEWEB:http://paizo.com/pathfinder/campaignSetting/35E/v5748btpy85ej	SOURCEDATE:2008-11
+# Original Entry by:Stefan Radermacher
+
+STARTPACK:Serpentfolk Default	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Serpentfolk]	SOURCEPAGE:p.90
+ALIGN:NE
+RACE:Serpentfolk	!PRERACE:1,%
+NAME:Serpentfolk
+SKILL:Bluff				RANK:5
+SKILL:Disguise			RANK:5
+SKILL:Knowledge (Arcana)	RANK:5
+SKILL:Perception			RANK:5
+SKILL:Spellcraft			RANK:5
+SKILL:Swim				RANK:5
+SKILL:Sense Motive		RANK:5
+SKILL:Use Magic Device		RANK:5
+FEAT:Dodge
+FEAT:Great Fortitude
+FEAT:Weapon Finesse
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+
+STARTPACK:Serpentfolk (Degenerate) Default	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Serpentfolk (Degenerate)]	SOURCEPAGE:p.90
+ALIGN:NE
+RACE:Serpentfolk (Degenerate)	!PRERACE:1,%
+NAME:Degenerate Serpentfolk
+SKILL:Perception	RANK:5
+FEAT:Great Fortitude
+FEAT:Power Attack
+FEAT:Toughness
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10

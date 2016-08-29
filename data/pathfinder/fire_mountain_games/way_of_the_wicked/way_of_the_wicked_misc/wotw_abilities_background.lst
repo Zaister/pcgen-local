@@ -1,0 +1,11 @@
+# CVS $Revision: 15516 $ $Author: amaitland $ -- Thu Sep 20 13:59:05 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Knot of Thorns	SOURCESHORT:WotW1	SOURCEWEB:http://paizo.com/products/btpy8q8e?Way-of-the-Wicked-Book-One-Knot-of-Thorns	SOURCEDATE:2012-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Human Ethnicities
+# Ability Name	Product Identity?	Category of Ability	Type				Visible		Template						Source Page
+Talirean		NAMEISPI:YES	CATEGORY:Background	TYPE:HumanEthnicity	VISIBLE:DISPLAY	TEMPLATE:Human Ethnicity (Talirean)		SOURCEPAGE:p.78
+
+###Block: Regional Affinities
+# Ability Name	Product Identity?	Category of Ability	Type		Visible		Description						Template						Source Page
+Talingarde		NAMEISPI:YES	CATEGORY:Background	TYPE:Region	VISIBLE:DISPLAY	DESC:A Shining Paragon of Virtue and Law	TEMPLATE:Regional Affinity (Talingarde)	SOURCEPAGE:p.78

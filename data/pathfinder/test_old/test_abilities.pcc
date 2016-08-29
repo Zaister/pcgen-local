@@ -1,0 +1,27 @@
+# CVS $Revision: 18059 $ $Author: zaister $ -- Sat Nov 20 04:10:09 2004 -- reformated by prettylst.pl v1.34 (build 422)
+CAMPAIGN:TEST DATASET FOR HIDETYPE FOR ABILITIES
+GAMEMODE:Pathfinder
+TYPE:TEST
+RANK:3
+STATUS:TESTONLY
+GENRE:Fantasy
+BOOKTYPE:Test
+SETTING:Pathfinder RPG
+PRECAMPAIGN:1,BOOKTYPE=Core
+PUBNAMELONG:Test
+PUBNAMESHORT:Test
+SOURCELONG:Test
+SOURCESHORT:TEST
+SOURCEDATE:2013-05
+ISOGL:YES
+
+# Data Files
+ABILITY:test_abilities.lst
+ABILITYCATEGORY:test_abilitycategories.lst
+
+#HIDETYPE:FEAT|Testing
+###HIDETYPE:ABILITYCATEGORY=Test Category Hide|Testing
+
+#
+# End
+#

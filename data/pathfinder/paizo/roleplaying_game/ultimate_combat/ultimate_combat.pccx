@@ -1,0 +1,54 @@
+# CVS $Revision: 13092 $ $Author: maredudd800 $ -- Sat Nov 20 04:10:09 2004 -- reformated by prettylst.pl v1.34 (build 422)
+CAMPAIGN:Paizo - Pathfinder Roleplaying Game Ultimate Combat (ZAISTER)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Roleplaying Game
+RANK:3
+STATUS:Alpha
+GENRE:Fantasy
+BOOKTYPE:Supplement
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing LLC
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SETTING:Pathfinder Camapign Setting
+SOURCELONG:Ultimate Combat
+SOURCESHORT:PFUC
+SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies
+SOURCEDATE:2011-07
+ISOGL:YES
+
+COVER:ultimate_combat.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/pathfinderRPG/v5748btpy8ies|Buy this publication from Paizo Publishing!
+DESC:Seize the initiative and chop your foes to pieces with this exhaustive guide to the art of martial combat in this exciting new rulebook for the smash-hit Pathfinder Roleplaying Game, suitable for players and Game Masters alike! This comprehensive 256-page hardcover reference reveals the martial secrets of the Pathfinder RPG rules like never before! Tons of new tricks and techniques for combat-oriented character classes put a sharp edge on your weapons and a sure step in your tactics, ranging from new barbarian rage powers, new cavalier orders, tons of new rogue talents, and more than 60 new archetypes for nearly every Pathfinder RPG character class, including spellcasters like wizards and clerics.
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Roleplaying Game Core Rulebook. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:Marid from the Tome of Horrors III. Copyright 2005, Necromancer Games, Inc.; Author: Scott Greene.
+COPYRIGHT:Pathfinder Roleplaying Game Ultimate Combat. Copyright 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Roleplaying Game Ultimate Combat" Copyright 2011, PCGen Data team (Including, but not limited to Stefan Radermacher).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:pfuc_abilities_archetypes.lst
+ABILITY:pfuc_abilities_class.lst
+ABILITYCATEGORY:pfuc_abilitycategories.lst
+CLASS:pfuc_classes_base.lst
+EQUIPMENT:pfuc_equip_weapons_ammo.lst
+EQUIPMENT:pfuc_equip_weapons_melee.lst
+EQUIPMENT:pfuc_equip_weapons_ranged.lst
+FEAT:pfuc_feats.lst
+SKILL:pfuc_skills_conditional.lst
+SPELL:pfuc_spells.lst
+WEAPONPROF:pfuc_weaponprofs.lst
+
+FORWARDREF:CLASSSPELLLIST|Magus
+#
+# End
+#

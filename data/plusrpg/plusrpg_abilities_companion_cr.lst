@@ -1,0 +1,17 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 18 15:30:00 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: dropped abilities
+# Ability Name										Visible
+CATEGORY=Special Ability|Animal Companion Feat ~ Acrobatic.MOD		VISIBLE:NO
+CATEGORY=Special Ability|Animal Companion Feat ~ Agile Maneuvers.MOD	VISIBLE:NO
+CATEGORY=Special Ability|Animal Companion Feat ~ Endurance.MOD		VISIBLE:NO
+CATEGORY=Special Ability|Animal Companion Feat ~ Improved Bull Rush.MOD	VISIBLE:NO
+CATEGORY=Special Ability|Animal Companion Feat ~ Improved Overrun.MOD	VISIBLE:NO
+CATEGORY=Special Ability|Animal Companion Feat ~ Mobility.MOD		VISIBLE:NO
+CATEGORY=Special Ability|Animal Companion Feat ~ Power Attack.MOD		VISIBLE:NO
+CATEGORY=Special Ability|Animal Companion Feat ~ Weapon Finesse.MOD	VISIBLE:NO
+
+#
+# End
+#

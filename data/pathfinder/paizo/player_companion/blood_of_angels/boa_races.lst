@@ -1,0 +1,5 @@
+# CVS $Revision: 17406 $ $Author: amaitland $ -- Wed Oct  3 16:23:11 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Blood of Angels	SOURCESHORT:BoA	SOURCEWEB:http://paizo.com/products/btpy8qzz?Pathfinder-Player-Companion-Blood-of-Angels	SOURCEDATE:2012-04
+
+# Race Name			Output Name				Starting Feats	Size		Move			Face/Space	Reach		Vision			Automatic Languages		Bonus Languages								Stat bonus			Ability																					Nb Legs	Nb Hands	Define															Main Race Type	Race Subtype		Challenge Rating	Source Page		Innate Spells
+Aasimar (Musetouched)	OUTPUTNAME:[NAME] Aasimar	STARTFEATS:1	SIZE:M	MOVE:Walk,30	FACE:5	REACH:5	VISION:Darkvision (60')	LANGAUTO:Celestial|Common	LANGBONUS:Draconic,Dwarven,Elven,Gnome,Halfling,Sylvan	BONUS:STAT|DEX,CHA|2	ABILITY:Special Ability|AUTOMATIC|Resistance to Acid|Resistance to Cold|Resistance to Electricity|Skilled ~ Musetouched Aasimar	LEGS:2	HANDS:2	DEFINE:AcidResistanceBonus|5	DEFINE:ColdResistanceBonus|5	DEFINE:ElectricityResistanceBonus|5	RACETYPE:Outsider	RACESUBTYPE:Native	CR:1/2		SOURCEPAGE:p.22	SPELLS:Innate|TIMES=1|CASTERLEVEL=TL|Glitterdust

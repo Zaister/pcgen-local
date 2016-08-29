@@ -1,0 +1,26 @@
+# CVS $Revision: $ $Author: $ -- Mon Nov 25 11:30:25 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+STARTPACK:Demon (Marilith) Default	TYPE:DefaultMonster.xxx	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Demon (Marilith)],[!PRERACE:1,%]	SOURCEPAGE:p.63
+ALIGN:CE
+RACE:Demon (Marilith)	!PRERACE:1,%
+NAME:Marilith
+SKILL:Acrobatics			RANK:16
+SKILL:Bluff				RANK:16
+SKILL:Diplomacy			RANK:16
+SKILL:Fly				RANK:16
+SKILL:Intimidate			RANK:16
+SKILL:Knowledge (Engineering)	RANK:16
+SKILL:Perception			RANK:16
+SKILL:Sense Motive		RANK:16
+SKILL:Stealth			RANK:16
+SKILL:Use Magic Device		RANK:16
+FEAT:Bleeding Critical
+FEAT:Combat Expertise
+FEAT:Combat Reflexes
+FEAT:Critical Focus
+FEAT:Improved Critical (Longsword)
+FEAT:Improved Disarm
+FEAT:Power Attack
+FEAT:Weapon Focus (Longsword)
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+GEAR:Longsword		SIZE:L	LOCATION:Primary Hand
+GEAR:Longsword	QTY:5	SIZE:L	LOCATION:Carried

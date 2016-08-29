@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:51:39 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Changed feats
+# Ability Name		Category of Ability	Type		Required Ability								Required Stat	PRETOTALAB		Description																					Modify VAR							Benefits
+Furious Focus		CATEGORY:FEAT		TYPE:Combat														PRETOTALAB:1	DESC:Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.									BENEFIT:When you are wielding a two-handed weapon or a one-handed weapon with two hands, and making a power attack, you do not suffer the power attack penalty on the first attack you make each turn. You still suffer the penalty on any additional attacks, including attacks of opportunity.
+Greater Dirty Trick	CATEGORY:FEAT		TYPE:Combat	PREABILITY:1,CATEGORY=FEAT,Improved Deft Maneuvers		PRESTAT:1,DEX=13	PRETOTALAB:6	DESC:When you pull a dirty trick, your foe is truly hindered.												BONUS:VAR|CMB_DirtyTricks|4|TYPE=Competence	BENEFIT:You receive a +2 bonus on checks made to attempt a dirty trick. This bonus stacks with the bonus granted by Improved Deft Maneuvers. Whenever you successfully perform a dirty trick, the penalty lasts for 1d4 rounds, plus 1 round for every 5 by which your attack exceeds the target's CMD. In addition, removing the condition requires the target to spend a standard action.
+Greater Drag		CATEGORY:FEAT		TYPE:Combat	PREABILITY:1,CATEGORY=FEAT,Improved Powerful Maneuvers	PRESTAT:1,STR=13	PRETOTALAB:6	DESC:Foes that you drag around are thrown out of balance.													BONUS:VAR|CMB_Drag|4|TYPE=Competence		BENEFIT:You receive a +2 bonus on checks made to drag a foe. This bonus stacks with the bonus granted by Improved Powerful Maneuvers. Whenever you drag a foe, his movement provokes attacks of opportunity from all of your allies (but not you).
+Greater Reposition	CATEGORY:FEAT		TYPE:Combat	PREABILITY:1,CATEGORY=FEAT,Improved Deft Maneuvers		PRESTAT:1,DEX=13	PRETOTALAB:6	DESC:When you reposition foes, they are left vulnerable to attacks of your allies.									BONUS:VAR|CMB_Reposition|4|TYPE=Competence	BENEFIT:You receive a +2 bonus on checks made to reposition a foe. This bonus stacks with the bonus granted by Improved Deft Maneuvers. Whenever you reposition a foe, his movement provokes attacks of opportunity from all of your allies (but not you).
+Greater Steal		CATEGORY:FEAT		TYPE:Combat	PREABILITY:1,CATEGORY=FEAT,Improved Deft Maneuvers		PRESTAT:1,DEX=13	PRETOTALAB:6	DESC:You have a knack for snatching items from your opponent in combat.											BONUS:VAR|CMB_Steal|4|TYPE=Competence		BENEFIT:You receive a +2 bonus on checks made to steal an item from a foe. This bonus stacks with the bonus granted by Improved Deft Maneuvers. If you successfully steal an item from a foe during combat, it does not notice the theft until after combat is over or if it attempts to use the missing item.
+
+###Block: Removed feats
+# Ability Name					Visible
+CATEGORY=FEAT|Improved Dirty Trick.MOD	VISIBLE:NO
+CATEGORY=FEAT|Improved Drag.MOD		VISIBLE:NO
+CATEGORY=FEAT|Improved Reposition.MOD	VISIBLE:NO
+CATEGORY=FEAT|Improved Steal.MOD		VISIBLE:NO
+
+#
+# End
+#

@@ -1,0 +1,5 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon May 27 10:22:58 2013 -- reformated by prettylst.pl v1.50 (build 19091)
+SOURCELONG:Test	SOURCESHORT:TEST	SOURCEDATE:2012-10
+
+# Ability Name	Category of Ability	Type			Description	Cost
+Test Ability	CATEGORY:Test		TYPE:Testing	DESC:Test	COST:0

@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Wed Aug 12 16:57:17 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
+
+# Template Name	Visible	Apply Kit
+Blueprint Book	VISIBLE:NO	KIT:1|Machinesmith Blueprint Book
+
+###Block: Mechanus support
+# Template Name	Nb Legs	Visible
+LEGS 2		LEGS:2	VISIBLE:NO
+LEGS 4		LEGS:4	VISIBLE:NO

@@ -1,0 +1,19 @@
+# CVS $Revision: 21663 $ $Author: amaitland $ -- Thu Jul 31 10:23:28 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+SOURCELONG:Legendary Classes: Covenant Magic	SOURCESHORT:LCCM	SOURCEWEB:http://www.rpgnow.com/product/113081/Legendary-Classes-Covenant-Magic	SOURCEDATE:2013-04
+# Original Entry by: Stefan Radermacher
+
+###Block: Favored Class Bonus Abilities
+#
+# Aasimar Medium
+# Ability Name					Unique Key									Category of Ability		Type										Visible	Required Ability						Required Class		Required Race					Define				Description														Stackable?	Multiple?	Choose		Modify VAR
+Bonus Spell-like Ability Concetration	KEY:Favored Class Bonus ~ Spell-like Ability Concetration	CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassMedium	VISIBLE:YES	PREABILITY:1,CATEGORY=Special Ability,Medium	PRECLASS:1,Medium=1	PRERACE:1,Human%,RACESUBTYPE=Human		DEFINE:SLAConcentration|0	DESC:Add a +1 bonus on concentration checks when using spell-like abilities.			STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|SLAConcentration|1
+# Human Medium
+Bonus Armor Class Deflection			KEY:Favored Class Bonus ~ Armor Class Deflection		CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassMedium	VISIBLE:YES	PREABILITY:1,CATEGORY=Special Ability,Medium	PRECLASS:1,Medium=1	PRERACE:1,Aasimar%,RACESUBTYPE=Aasimar	DEFINE:AasimarACCount|0		DESC:Add a +1/4 deflection bonus to the medium's AC as abenefit granted by its influence.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|AasimarACCount|1
+
+###Block: Support abilities
+# Ability Name		Category of Ability	Define			Combat bonus						Modify VAR
+Aasimar AC Tracker	CATEGORY:Internal		DEFINE:BonusAasimarAC|0	BONUS:COMBAT|AC|BonusAasimarAC|TYPE=Deflection	BONUS:VAR|BonusAasimarAC|floor(AasimarACCount/4)
+
+#
+# End
+#

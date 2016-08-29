@@ -1,0 +1,34 @@
+# CVS $Revision: 14274 $ $Author: zaister $ -- Sat Nov 20 04:10:09 2004 -- reformated by prettylst.pl v1.34 (build 422)
+CAMPAIGN:Paizo - Pathfinder RPG Apocrypha
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder RPG
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder RPG
+!PRECAMPAIGN:1,BOOKTYPE=Core Rules,[Paizo - Pathfinder Roleplaying Game Core Rulebook]
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Apocypha
+SOURCESHORT:PFA
+ISOGL:YES
+
+DESC:This dataset contains entries for various rulings made by Paizo personnel on the Paizo messageboards, intended to go along with the Pathfinder RPG rules, but not officially part of them.
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder RPG Apocrypha" Copyright 2009-2011, PCGen Data team (Including, but not limited to Stefan Radermacher).
+
+#Do Not Remove Comment
+#EXTRAFILE:OGL.txt
+
+# Data Files
+RACE:pfa_races.lst
+
+#
+# End
+#

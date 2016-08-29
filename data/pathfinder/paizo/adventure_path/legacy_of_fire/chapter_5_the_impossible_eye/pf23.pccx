@@ -1,0 +1,53 @@
+# CVS $Revision$ $Author$ -- Tue Mar 16 14:49:51 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+CAMPAIGN:Paizo - Legacy of Fire, Chapter 5 - The Impossible Eye (Conversion)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Legacy of Fire
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Legacy of Fire, Chapter 5: The Impossible Eye
+SOURCESHORT:PF23
+SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp
+SOURCEDATE:2009-06
+ISOGL:YES
+
+COVER:pf23.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp|Buy this publication from Paizo Publishing!
+DESC:A world of fire and wonder awaits! The path of the planes is fickle, and the PCs' road home proves far more difficult than any had anticipated. Emerging from the pleasure plane of Kakishon reveals all the wealth and terror of a vast efreeti palace, tightly sealed by ancient magics and situated at the heart of the incredible City of Brass. In this lavish citadel of sculpted flame, the PCs gain a glimpse into the burning obsession of their hidden foe. But will their discoveries be of any help to their imperiled world, hidden away in some distant reality? And can they ever hope to escape a prison that has for untold centuries caged some of the most powerful creatures of a realm of endless flame?
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Adventure Path volume #23: The Impossible Eye. Copyright 2009, Paizo Publishing, LLC; Author: Greg A. Vaughan.
+COPYRIGHT:Advanced Bestiary. Copyright 2004, Green Ronin Publishing, LLC; Author: Matthew Sernett.
+COPYRIGHT:City of Brass. Copyright 2007, Necromancer Games, Inc.; Authors: Casey Christofferson and Scott Greene.
+COPYRIGHT:Tome of Horrors, Revised. Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+COPYRIGHT:Tome of Horrors II. Copyright 2004, Necromancer Games, Inc.; Author: Scott Greene; Additional Authors: Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Ian S. Johnston, Patrick Lawinger, Nathan Paul, Clark Peterson, Greg Ragland, Robert Schwalb, and Bill Webb.
+COPYRIGHT:Tome of Horrors III. Copyright 2005, Necromancer Games, Inc.; Author: Scott Greene; Additional Authors: Casey Christofferson, Erica Balsley, Kevin Baase, Lance Hawvermale, Travis Hawvermale, Ian S. Johnston, Patrick Lawinger, Nathan Paul, Clark Peterson, Greg Ragland, Robert Schwalb, and Bill Webb.
+COPYRIGHT:Pathfinder RPG Conversion Copyright 2009-2011, Stefan Radermacher
+COPYRIGHT:PCGen dataset conversion for "Legacy of Fire, Chapter 5: The Impossible Eye" Copyright 2009-2011, PCGen Data Team (including, but not limited to, Stefan Radermacher.)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:pf23_abilities_racial.lst
+CLASS:pf23_classes_monster_specific.lst
+KIT:pf23_kits_races.lst
+RACE:pf23_races.lst
+SKILL:pf23_skills_conditional.lst
+SPELL:pf23_spells.lst
+TEMPLATE:pf23_templates_types.lst
+
+#
+# End
+#

@@ -1,0 +1,10 @@
+# CVS $Revision: 11462 $ $Author: eddyanthony $ -- Tue Oct 19 12:35:07 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Campaign Setting	SOURCESHORT:CS	SOURCEWEB:http://paizo.com/pathfinder/campaignSetting/35E/v5748btpy84eo	SOURCEDATE:2008-08
+
+
+# Template Name	Visible	Class Skill
+Skilled Fighter	VISIBLE:NO	CSKILL:Diplomacy|Knowledge (Engineering)|Knowledge (Geography)|Knowledge (Nobility)|Sense Motive
+
+#
+# End
+#

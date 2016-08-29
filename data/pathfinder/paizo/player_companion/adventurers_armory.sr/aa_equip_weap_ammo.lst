@@ -1,0 +1,13 @@
+# CVS $Revision: 11254 $ $Author: eddyanthony $ -- Tue Apr 20 14:48:42 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Adventurer's Armory	SOURCESHORT:AA	SOURCEWEB:http://paizo.com/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy88wi	SOURCEDATE:2010-04
+# Original Entry by: Stefan Radermacher
+
+# Equipment Name		Output Name					Type								Cost		Weight	Base Quantity	Modifier		Requires Modification?	Source Page
+Arrows (Whistling/20)	OUTPUTNAME:Arrow, Whistling (20)	TYPE:Ammunition.Standard.Arrow			COST:2	WT:3		BASEQTY:20		EQMOD:STEEL.WOOD	MODS:YES			SOURCEPAGE:p.2
+Bullets (Groaning/10)	OUTPUTNAME:Bullets, Sling (10)	TYPE:Ammunition.Standard.Bullet			COST:2	WT:5		BASEQTY:10		EQMOD:STEEL		MODS:YES			SOURCEPAGE:p.3
+Arrow (Whistling)		OUTPUTNAME:Arrow, [NAME]		TYPE:Ammunition.Standard.Arrow.Individual		COST:0.1	WT:0.15	BASEQTY:1		EQMOD:STEEL.WOOD	MODS:YES			SOURCEPAGE:p.2
+Bullet (Groaning)		OUTPUTNAME:Bullet, [NAME]		TYPE:Ammunition.Standard.Bullet.Individual	COST:0.2	WT:0.5	BASEQTY:1		EQMOD:STEEL		MODS:YES			SOURCEPAGE:p.3
+
+#
+# End
+#

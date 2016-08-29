@@ -1,0 +1,65 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Feb 21 10:36:10 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+# For Denizen of Leng, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+# For Rune Giant, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+# For Wendigo, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+
+STARTPACK:Crag Spider Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Craig Spider]
+RACE:Crag Spider	!PRERACE:1,%
+NAME:Crag Spider
+ALIGN:TN
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=10|CHA=10
+
+
+STARTPACK:Kuchrima Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Kuchrima]
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=11|CHA=10
+RACE:Kuchrima	!PRERACE:1,%
+NAME:Kuchrima
+ALIGN:CE
+SKILL:Perception	RANK:11
+FEAT:Alertness
+FEAT:Altitude Affinity
+FEAT:Endurance
+FEAT:Point-Blank Shot
+FEAT:Precise Shot
+FEAT:Rapid Shot
+GEAR:Longbow (Composite)			SIZE:L	LOCATION:Equipped	EQMOD:MWORKW|BOWSTR|+2
+GEAR:Arrow				QTY:20			LOCATION:Equipped
+
+
+STARTPACK:Harridan Default	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Harridan]
+RACE:Harridan	!PRERACE:1,%
+NAME:Harridan
+ALIGN:CE
+DEITY:None
+DOMAIN:Destruction|Evil
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+SKILL:Bluff				RANK:17
+SKILL:Diplomacy			RANK:17
+SKILL:Stealth			RANK:17
+SKILL:Knowledge (Arcana)	RANK:17
+SKILL:Perception			RANK:17
+FEAT:Altitude Affinity
+FEAT:Dodge
+FEAT:Iron Will
+FEAT:Mobility
+FEAT:Multiattack
+FEAT:Spring Attack
+FEAT:Improved Initiative
+FEAT:Toughness
+FEAT:Weapon Focus(Greatsword)
+GEAR:Breastplate	SIZE:H	LOCATION:Equipped		EQMOD:MWORKA
+GEAR:Greatsword	SIZE:L	LOCATION:Both Hands	EQMOD:MWORKW
+SPELLS:SPELLBOOK=Prepared Spells|CLASS=Cleric|Detect Magic|Detect Poison|Read Magic|Resistance
+SPELLS:SPELLBOOK=Prepared Spells|CLASS=Cleric|Command|Comprehend Languages|Cure Light Wounds|Doom|Shield of Faith
+SPELLS:SPELLBOOK=Prepared Spells|CLASS=Cleric|Aid|Cure Moderate Wounds=3|Death Knell
+SPELLS:SPELLBOOK=Prepared Spells|CLASS=Cleric|Blindness/Deafness|Dispel Magic|Invisibility Purge|Meld into Stone|Prayer
+SPELLS:SPELLBOOK=Prepared Spells|CLASS=Cleric|Air Walk|Dimensional Anchor|Freedom of Movement
+SPELLS:SPELLBOOK=Prepared Spells|CLASS=Cleric|Flame Strike|Command (Greater)|True Seeing
+SPELLS:SPELLBOOK=Prepared Spells|CLASS=Cleric|Blade Barrier|Dispel Magic (Greater)
+
+#
+# End
+#

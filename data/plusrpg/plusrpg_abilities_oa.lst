@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:54:29 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Class skills
+# Ability Name						Remove Class Skill	Class Skill
+CATEGORY=Internal|Class Skills ~ Kineticist.MOD	CSKILL:.CLEAR		CSKILL:Acrobatics|TYPE=Craft|Endurance|Heal|Intimidate|Perception|TYPE=Profession|Stealth|Use Magic Device
+
+#
+# End
+#

@@ -1,0 +1,18 @@
+# CVS $Revision: 20567 $ $Author: zaister $ -- Thu Sep  5 12:22:39 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Wayfinder #2	SOURCESHORT:WF2	SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&products_id=126	SOURCEDATE:2011-06
+# Original Entry by: Stefan Radermacher
+
+###Block: Modified Feats for Sorcerer Bloodlines
+# Feat Name						Type
+CATEGORY=FEAT|Alertness.MOD			TYPE:PsionicBloodline
+CATEGORY=FEAT|Dodge.MOD				TYPE:PsionicBloodline
+CATEGORY=FEAT|Improved Initiative.MOD	TYPE:PsionicBloodline
+CATEGORY=FEAT|Iron Will.MOD			TYPE:PsionicBloodline
+CATEGORY=FEAT|Persuasive.MOD			TYPE:PsionicBloodline
+CATEGORY=FEAT|Quicken Spell.MOD		TYPE:PsionicBloodline
+CATEGORY=FEAT|Silent Spell.MOD		TYPE:PsionicBloodline
+CATEGORY=FEAT|Still Spell.MOD			TYPE:PsionicBloodline
+
+#
+# End
+#

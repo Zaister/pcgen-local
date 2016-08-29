@@ -1,0 +1,27 @@
+# CVS $Revision: 862 $ $Author: stefan $ -- Mon Aug 23 14:32:57 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Miscellaneous Data	SOURCESHORT:RotR	SOURCEDATE:2007-08
+# Original Entry: Stefan Radermacher
+
+###Block:Magic Weapon Special Abilities
+# Modifier Name			Unique Key		Type		Plus		Visible		Multiple Requirements						Special Property
+Runeforged (Miserly)		KEY:RUNE_MIS	TYPE:Weapon	PLUS:2	VISIBLE:QUALIFY	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against illusionists and creatures from the shadow plane. Dispels illusions upon striking up to three times per day.
+Runeforged (Covetous)		KEY:RUNE_COV	TYPE:Weapon	PLUS:2	VISIBLE:QUALIFY	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against evokers and fire creatures. Grants fire restance 5 while held.
+Runeforged (Jealous)		KEY:RUNE_JEA	TYPE:Weapon	PLUS:2	VISIBLE:QUALIFY	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against necromancers and created undead. Absorbs up to three negative levels per day.
+Runeforged (Domineering)	KEY:RUNE_DOM	TYPE:Weapon	PLUS:2	VISIBLE:QUALIFY	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against transmuters and shapechangers. Absorbs up to three harmful transmutation effects per day.
+Runeforged (Tyrannical)		KEY:RUNE_TYR	TYPE:Weapon	PLUS:2	VISIBLE:QUALIFY	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against conjurers and summoned creatures. Casts dismussal on extraplanar creatures upon stiking them up to three times per day.
+Runeforged (Sadistic)		KEY:RUNE_SAD	TYPE:Weapon	PLUS:2	VISIBLE:QUALIFY	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against abjurers and creatures with active abjuration effects. Protects against Dispel Magic.
+Runeforged (Parasitic)		KEY:RUNE_PAR	TYPE:Weapon	PLUS:2	VISIBLE:QUALIFY	PREMULT:1,[PRETYPE:1,Enhancement],[PRETYPE:1,Weapon]	SPROP:+2 enhancement bonus and does +2d6 bonus damage against enchanters and charmed/dominated creatures. Dispels enchantments on creatures upon striking them once per day.
+
+###Block: Enhancements for Amulet of Mighty Fists
+# Modifier Name			Unique Key		Type					Plus		Visible		Special Property
+Runeforged (Miserly)		KEY:RUNE_MIS_AMF	TYPE:AmuletOfMightyFists	PLUS:2	VISIBLE:QUALIFY	SPROP:unarmed and natural attacks gain a+2 enhancement bonus and do +2d6 bonus damage against illusionists and creatures from the shadow plane. Dispels illusions upon striking up to three times per day.
+Runeforged (Covetous)		KEY:RUNE_COV_AMF	TYPE:AmuletOfMightyFists	PLUS:2	VISIBLE:QUALIFY	SPROP:unarmed and natural attacks gain a+2 enhancement bonus and do +2d6 bonus damage against evokers and fire creatures. Grants fire restance 5 while held.
+Runeforged (Jealous)		KEY:RUNE_JEA_AMF	TYPE:AmuletOfMightyFists	PLUS:2	VISIBLE:QUALIFY	SPROP:unarmed and natural attacks gain a+2 enhancement bonus and do +2d6 bonus damage against necromancers and created undead. Absorbs up to three negative levels per day.
+Runeforged (Domineering)	KEY:RUNE_DOM_AMF	TYPE:AmuletOfMightyFists	PLUS:2	VISIBLE:QUALIFY	SPROP:unarmed and natural attacks gain a+2 enhancement bonus and do +2d6 bonus damage against transmuters and shapechangers. Absorbs up to three harmful transmutation effects per day.
+Runeforged (Tyrannical)		KEY:RUNE_TYR_AMF	TYPE:AmuletOfMightyFists	PLUS:2	VISIBLE:QUALIFY	SPROP:unarmed and natural attacks gain a+2 enhancement bonus and do +2d6 bonus damage against conjurers and summoned creatures. Casts dismussal on extraplanar creatures upon stiking them up to three times per day.
+Runeforged (Sadistic)		KEY:RUNE_SAD_AMF	TYPE:AmuletOfMightyFists	PLUS:2	VISIBLE:QUALIFY	SPROP:unarmed and natural attacks gain a+2 enhancement bonus and do +2d6 bonus damage against abjurers and creatures with active abjuration effects. Protects against Dispel Magic.
+Runeforged (Parasitic)		KEY:RUNE_PAR_AMF	TYPE:AmuletOfMightyFists	PLUS:2	VISIBLE:QUALIFY	SPROP:unarmed and natural attacks gain a+2 enhancement bonus and do +2d6 bonus damage against enchanters and charmed/dominated creatures. Dispels enchantments on creatures upon striking them once per day.
+
+#
+# End
+#

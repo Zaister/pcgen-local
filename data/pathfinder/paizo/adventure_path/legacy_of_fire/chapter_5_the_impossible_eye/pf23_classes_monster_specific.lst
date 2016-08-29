@@ -1,0 +1,21 @@
+# CVS $Revision: 14405 $ $Author: zaister $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 5: The Impossible Eye	SOURCESHORT:PF23	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp	SOURCEDATE:2009-06
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2011/10/01
+
+# Class Name	Output Name			Hit Dice	Type			Max Level		Source Page		Ability														Save checks bonus											Combat bonus
+CLASS:Sepid Div	OUTPUTNAME:Outsider	HD:10		TYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:p.84	ABILITY:Special Ability|AUTOMATIC|Outsider Traits	ABILITY:FEAT|AUTOMATIC|CMB Output	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required Race		Reg. Race Type
+CLASS:Sepid Div	PRERACE:1,Div (Sepid)	PRERACETYPE:Outsider
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?	Class Skill
+CLASS:Sepid Div	STARTSKILLPTS:6	MODTOSKILLS:YES			CSKILL:Bluff|TYPE.Craft|Knowledge (Planes)|Perception|Sense Motive|Stealth
+# Class Name	Spell Stat		Spell Type		Memorize	Use Spell List
+CLASS:Sepid Div	SPELLSTAT:CHA	SPELLTYPE:Arcane	MEMORIZE:NO	SPELLLIST:1|Sorcerer
+###Block:Proficiencies
+1											ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output
+1						ADD:SPELLCASTER|Sorcerer
+16	BONUS:PCLEVEL|Sorcerer|12
+
+#
+# End
+#

@@ -1,0 +1,55 @@
+# CVS $Revision: 13093 $ $Author: maredudd800 $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Ultimate Combat	SOURCESHORT:PFUC	SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies	SOURCEDATE:2011-07
+# Original Entry by: Stefan Radermacher
+
+###Block: Weapon Proficiencies
+# Ability Name				Category of Ability		Type			Visible	Automatically Gained Weapon Prof.
+Gunslinger Weapon Proficiencies	CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Firearms
+Ninja Weapon Proficiencies		CATEGORY:Special Ability	TYPE:Special	VISIBLE:NO	AUTO:WEAPONPROF|Kama|Katana|Kusarigama|Nunchaku|Sai|Shortbow|Sword (Short)|Shuriken|Siangham|Wakizashi
+
+###Block: Favored Classes
+# Ability Name	Category of Ability		Type			Visible		Stackable?	Multiple?	Bonus to Ability Pool
+Gunslinger		CATEGORY:Special Ability	TYPE:FavoredClass	VISIBLE:DISPLAY	STACK:NO	MULT:NO	BONUS:ABILITYPOOL|Favored Class Bonus|var("CL=Gunslinger")
+
+###Block: Gunslinger class features
+# Ability Name	Unique Key				Category of Ability		Type								Define					Description																																																																			Automatically Gained Feat	Bonus to Ability Pool								Modify VAR						Source Page		Aspects
+Gunsmith		KEY:Gunsmith ~ Gunslinger	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary									DESC:You gain one of the following firearms of your choice: blunderbuss, musket, or pistol. Your starting weapon is battered, and only you know how to use it properly. All other creatures treat your gun as if it had the broken condition. If it already has the broken condition, it does not work at all for others. This starting weapon can only be sold for scrap (it's worth 4d10 gold pieces when sold).	AUTO:FEAT|Gunsmithing																				SOURCEPAGE:p.2
+Grit			KEY:Grit ~ Gunslinger		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.CheckList	DEFINE:GunslingerGritMax|0		DESC:You can have up to %1 grit points|GunslingerGritMax																																																																											BONUS:VAR|GunslingerGritMax|max(1,WIS)				ASPECT:CheckType|Points per day	ASPECT:CheckCount|%1|GunslingerGritMax
+Deeds			KEY:Deeds ~ Gunslinger		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary									DESC:Bla
+Gun Training	KEY:Gun Training ~ Gunslinger	CATEGORY:Special Ability	TYPE:Internal						DEFINE:GunslingerGunTrainingLVL|0																																																																										BONUS:ABILITYPOOL|Gun Training|floor(GunslingerGunTrainingLVL/4)
+True Grit		KEY:True Grit ~ Gunslinger	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary									DESC:Bla
+
+###Block: Gun Training
+# Ability Name			Unique Key				Category of Ability		Type			Visible		Multiple?	Combat bonus							Source Page
+Gun Training (Blunderbuss)	KEY:Gun Training Blunderbuss	CATEGORY:Special Ability	TYPE:GunTraining	VISIBLE:DISPLAY	MULT:NO	BONUS:COMBAT|DAMAGE.Blunderbuss|DEX|TYPE=GunTraining	SOURCEPAGE:p.6
+Gun Training (Musket)		KEY:Gun Training Musket		CATEGORY:Special Ability	TYPE:GunTraining	VISIBLE:DISPLAY	MULT:NO	BONUS:COMBAT|DAMAGE.Musket|DEX|TYPE=GunTraining		SOURCEPAGE:p.6
+Gun Training (Pistol)		KEY:Gun Training Pistol		CATEGORY:Special Ability	TYPE:GunTraining	VISIBLE:DISPLAY	MULT:NO	BONUS:COMBAT|DAMAGE.Pistol|DEX|TYPE=GunTraining		SOURCEPAGE:p.6
+
+
+###Block: Alchemist Discoveries
+# Ability Name		Unique Key					Category of Ability		Type									Var. Min. Value					Description
+Breath Weapon Bomb*	KEY:Discovery ~ Breath Weapon Bomb	CATEGORY:Special Ability	TYPE:SpecialAttack.AlchemistDiscovery.Supernatural	PREVARGTEQ:classlevel("Alchemist"),6	DESC:Instead of drawing the components of, creating, and throwing a bomb, you can draw the components, drink them, mix them within your body, and then expel them as a breath weapon as a standard action. This breath weapon is a 15-foot cone. Each creature within the cone takes damage as if it had suffered a direct hit from your bomb, but succeeding at a Reflex save (DC = %1) halves the damage. Unlike throwing normal bombs, drawing, drinking, and expelling breath weapon bombs does not provoke attacks of opportunity.|AlchemistBombDC
+
+
+###Block: Barbarian Rage Powers
+# Ability Name	Category of Ability		Type								Required Ability							Var. Min. Value				Description								Source Page		Aspects				Description of the Benefits
+Eater of Magic	CATEGORY:Special Ability	TYPE:RagePower.SpecialQuality.Supernatural	PREABILITY:1,CATEGORY=Special Ability,Superstition	PREVARGTEQ:RagePowersPrereqLVL,10	DESC:While raging, you can reroll a saving throw	SOURCEPAGE:p.27	ASPECT:ChildAbility|Rage	BENEFIT:Once per rage, when you faila a saving throw against a spell, supernatural ability, or spell-like ability, you can reroll the saving throw against the effect (this is not an action). If you succeed at the second saving throw, you are not affected by the spell, supernatural ability, or spell-like ability and gain a number of temporary hit points equal to the effect's caster level (in the case of spell or spell-like abilities) or the CR of the effect's creator (in the case of supernatural abilities). These temporary hit points last until damage is applied to them or 1 minute, whichever occurs first.
+
+
+###Block: Magus Arcana
+# Ability Name	Unique Key					Category of Ability		Type								Var. Min. Value			Description																																															Source Page
+Ghost Blade		KEY:Ghost Blade ~ MAGUS ARCANA	CATEGORY:Special Ability	TYPE:Supernatural.MagusArcana.SpecialQuality	PREVARGTEQ:MagusArcanaLVL,9	DESC:Whenever the magus enchants his weapon using his arcane pool, he may spend 1 additional point from his arcane pool to add the brilliant energy and ghost touch special abilities to the list of available options. The magus must be at least 9th level before selecting this arcana.	SOURCEPAGE:p.54
+
+
+###Block: Rogue Talents
+# Ability Name	Unique Key					Category of Ability		Type								Visible		Description																																																															Stackable?	Multiple?	Choose		Bonus to Ability Pool			Bonus to skill										Source Page
+Ninja Trick		KEY:Ninja Trick ~ Rogue Talent	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.RogueTalent	VISIBLE:DISPLAY	DESC:bla																																																															STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:ABILITYPOOL|Ninja Trick|1
+Underhanded*	KEY:Underhanded ~ Rogue Talent	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.RogueTalent				DESC:You gain a +4 circumstance bonus on all Sleight of Hand checks made to conceal a weapon. Furthermore, if you make a sneak attack during the surprise round using a concealed weapon that your opponent didn't know about, you do not have to roll sneak attack damage, and the sneak attack deals maximum damage. You can only use the underhanded talent %1 times per day.|max(CHA,0)														BONUS:SKILL|Sleight of Hand (Conceal a Weapon)|4|TYPE=Circumstance	SOURCEPAGE:p.70
+
+###Block: Advanced Rogue Talents
+# Ability Name	Unique Key					Category of Ability		Type								Var. Min. Value			Description																																																																																					Source Page
+Hard to Fool	KEY:Hard to Fool ~ Ultimate Combat	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.RogueTalent	PREVARGTEQ:RogueTalentLVL,10	DESC:You are hard to fool with mind-affecting effects. At the start of your turn, if you are still subject to any mind-affecting spells or effects, you can make a Will saving throw with a standard DC for the effect's level, and if you succeed at the check, you are no longer subject to the mind-affecting effect. You can make this saving throw even against mind-affecting effects that normally don't allow a saving throw. In those cases, generate the saving throw as if the spell or effect did allow a saving throw.	SOURCEPAGE:p.70
+
+#
+# End
+#

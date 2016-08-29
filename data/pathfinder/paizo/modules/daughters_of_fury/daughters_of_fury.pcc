@@ -1,0 +1,56 @@
+# CVS $Revision$ $Author$ -- Wed Apr 20 09:51:35 2016 -- reformated by PCGen PrettyLST v6.06.00
+CAMPAIGN:Daughters of Fury
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Module
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Module
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com/
+SOURCELONG:Daughters of Fury
+SOURCESHORT:DoF
+SOURCEWEB:http://paizo.com/products/btpy9au7/discuss&page=2?Pathfinder-Module-Daughters-of-Fury
+SOURCEDATE:2016-04
+ISOGL:YES
+
+COVER:daughters_of_fury.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy9au7/discuss&page=2?Pathfinder-Module-Daughters-of-Fury|Buy this publication from Paizo Publishing!
+
+DESC:Unleash Your Fury! When devils slay the knightly leader of Arwyll Stead and orcs from the Hell's Fury tribe attack the town, all hope seems lost for the brave people living on Lastwall's border. The coincidental arrival of the mysterious half-orc Vegazi also raises unsettling questions, and it's up to the heroes to make sense of these events and end the Hell's Fury tribe's threat to Arwyll Stead once and for all. What does Vegazi have to do with the raiders' diabolical plot? Who will rally Arwyll Stead now that the town's icon has been cut down? And who is the mastermind orchestrating the orc tribe's alliance with devils from beyond? Daughters of Fury is a deluxe adventure for 3rd-level characters, and includes 64 action-packed pages of exciting battles, enticing social encounters, and new monstrous foes, plus a gorgeous double-sided poster map featuring an overview of Arwyll Stead and a miniatures-scale battlemap! The author of this adventure, Victoria Jaczko, was the winner of the 2014 RPG Superstar contest, in which hundreds of unpublished authors compete for the chance to write a Pathfinder Module, and in addition to her adventure, this book contains a host of new monsters and magic items designed by the contest's runners-up. Players can expect to reach 6th level upon completion of this adventure--if they can survive the onslaught of hell-tainted orcs and deadly devils!
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Cave Fisher from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lawrence Schick.
+COPYRIGHT:Grippli from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Swarm, Raven from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Module: Daughters of Fury Copyright 2015, Paizo Inc.; Authors: Victoria Jaczko, with Tyler Beck, Robert Brookes, J. R. Casey, Casey Clements, Clay Clouser, Tyler Cowart, Terry Dutton, Kenneth “Tripp” Elliott, Brian J. Fruzen, Emmanuel Greene, Sam Harris, Peter Johansen, Mikko Kallio, Joseph L. Kellogg, Mike Kimmel, Michele La Barbera, Brian Lefebvre, Richard Malena, Andrew Marlowe, Jacob W. Michaels, Mark Nordheim, Kalervo Oikarinen, Michael Patrick, Iain Reid, Calder Rooney, Mikael Sebag, Andrew Shumate, Jesse Southwick, Andrew Umphrey, and Christopher Wasko.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Module: Daughters of Fury" Copyright 2016, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+# ENTRY DATE:
+# LST MONKEY:
+# LICENSE MONKEY:
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.05.01
+# Updated to work with version: -
+# MINVER:6.5
+# MINDEVVER:6.05.1
+# COMMENTS:
+
+#
+# End
+#

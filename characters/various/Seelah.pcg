@@ -1,0 +1,251 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Core Rulebook|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Inner Sea World Guide
+VERSION:6.03.00-dev
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:statblock_pathfinder.htm
+POOLPOINTS:15
+POOLPOINTSAVAIL:15
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:1
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Seelah
+TABNAME:
+PLAYERNAME:
+HEIGHT:64
+WEIGHT:0
+AGE:26
+GENDER:Female
+HANDED:Left
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:14
+STAT:INT|SCORE:8
+STAT:WIS|SCORE:13
+STAT:CHA|SCORE:12
+ALIGN:LG
+RACE:Human
+
+# Character Class(es)
+CLASS:Paladin|LEVEL:1|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:2|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:0
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Katapesh)]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity (Garundi)]
+
+# Character Region
+REGION:Katapesh
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Appraise|OUTPUTORDER:8|
+SKILL:Bluff|OUTPUTORDER:9|
+SKILL:Climb|OUTPUTORDER:10|
+SKILL:Craft (Untrained)|OUTPUTORDER:14|
+SKILL:Diplomacy|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Fly|OUTPUTORDER:21|
+SKILL:Heal|OUTPUTORDER:22|
+SKILL:Intimidate|OUTPUTORDER:23|
+SKILL:Perception|OUTPUTORDER:26|
+SKILL:Perform (Untrained)|OUTPUTORDER:27|
+SKILL:Ride|OUTPUTORDER:28|
+SKILL:Sense Motive|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:37|
+SKILL:Survival|OUTPUTORDER:76|
+SKILL:Swim|OUTPUTORDER:77|
+SKILL:Knowledge (Religion)|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Jump)|OUTPUTORDER:2|
+SKILL:Disable Device|OUTPUTORDER:16|
+SKILL:Sleight of Hand|OUTPUTORDER:35|
+SKILL:Acrobatics (Jump/Underground)|OUTPUTORDER:3|
+SKILL:Acrobatics (Move Through)|OUTPUTORDER:4|
+SKILL:Acrobatics (Swing)|OUTPUTORDER:5|
+SKILL:Acrobatics (Underground)|OUTPUTORDER:6|
+SKILL:Acrobatics (Uneven Ground)|OUTPUTORDER:7|
+SKILL:Climb (Narrow Surfaces)|OUTPUTORDER:11|
+SKILL:Climb (Rope)|OUTPUTORDER:12|
+SKILL:Climb (Underground)|OUTPUTORDER:13|
+SKILL:Disable Device (Magical Traps)|OUTPUTORDER:17|
+SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:20|
+SKILL:Knowledge (Religion/ID monster)|OUTPUTORDER:25|
+SKILL:Ride (Samurai Mount)|OUTPUTORDER:29|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:31|
+SKILL:Sense Motive (Secret Messages)|OUTPUTORDER:32|
+SKILL:Sense Motive (Sense Enchantment)|OUTPUTORDER:33|
+SKILL:Sense Motive (Social Hunch)|OUTPUTORDER:34|
+SKILL:Sleight of Hand (Conceal Small Object)|OUTPUTORDER:36|
+SKILL:Stealth (Darkness or smoke)|OUTPUTORDER:38|
+SKILL:Stealth (In ambush)|OUTPUTORDER:39|
+SKILL:Stealth (In bright light)|OUTPUTORDER:40|
+SKILL:Stealth (In caverns)|OUTPUTORDER:41|
+SKILL:Stealth (In darkness)|OUTPUTORDER:42|
+SKILL:Stealth (In deserts)|OUTPUTORDER:43|
+SKILL:Stealth (In dim light)|OUTPUTORDER:44|
+SKILL:Stealth (In forests)|OUTPUTORDER:45|
+SKILL:Stealth (In hilly or rocky areas)|OUTPUTORDER:46|
+SKILL:Stealth (In lair)|OUTPUTORDER:47|
+SKILL:Stealth (In marshes)|OUTPUTORDER:48|
+SKILL:Stealth (In metal or stony areas)|OUTPUTORDER:49|
+SKILL:Stealth (In mud)|OUTPUTORDER:50|
+SKILL:Stealth (In rocky areas)|OUTPUTORDER:51|
+SKILL:Stealth (In rocky terrain)|OUTPUTORDER:52|
+SKILL:Stealth (In sand)|OUTPUTORDER:53|
+SKILL:Stealth (In scrubland or brush)|OUTPUTORDER:54|
+SKILL:Stealth (In shadowy conditions)|OUTPUTORDER:55|
+SKILL:Stealth (In shallow water)|OUTPUTORDER:56|
+SKILL:Stealth (In snow)|OUTPUTORDER:57|
+SKILL:Stealth (In stony environs)|OUTPUTORDER:58|
+SKILL:Stealth (In stony or icy areas)|OUTPUTORDER:59|
+SKILL:Stealth (In swamps)|OUTPUTORDER:60|
+SKILL:Stealth (In tall grass)|OUTPUTORDER:61|
+SKILL:Stealth (In thick vegetation)|OUTPUTORDER:62|
+SKILL:Stealth (In undergrowth)|OUTPUTORDER:63|
+SKILL:Stealth (In vegetation)|OUTPUTORDER:64|
+SKILL:Stealth (In water)|OUTPUTORDER:65|
+SKILL:Stealth (In webs)|OUTPUTORDER:66|
+SKILL:Stealth (Load Crossbow)|OUTPUTORDER:67|
+SKILL:Stealth (Poison Ammo)|OUTPUTORDER:68|
+SKILL:Stealth (Sniping)|OUTPUTORDER:69|
+SKILL:Stealth (Stationary for at least one round)|OUTPUTORDER:70|
+SKILL:Stealth (Underground)|OUTPUTORDER:71|
+SKILL:Stealth (Underwater)|OUTPUTORDER:72|
+SKILL:Stealth (Webs)|OUTPUTORDER:73|
+SKILL:Stealth (When moving)|OUTPUTORDER:74|
+SKILL:Stealth (When submerged)|OUTPUTORDER:75|
+
+# Character Languages
+LANGUAGE:Osiriani|LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:-2.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longsword|TYPE:Combat.WeaponFocus.DestinedBloodline.OracleWeaponMastery|DESC:You are especially good at using your chosen weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Garundi|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Katapesh|TYPE:Region|DESC:Bazaar of the Bizarre
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun|WEAPON:Broadsword (Nine Ring)]
+WEAPONPROF:[WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer]
+WEAPONPROF:[WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple]
+WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Iron Brush]
+WEAPONPROF:[WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Lucern Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi]
+WEAPONPROF:[WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Longsword|OUTPUTORDER:1|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword$EQMOD=STEEL]
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:7|COST:0.5|WT:1.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Backpack|OUTPUTORDER:4|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Holy Symbol (Silver)|OUTPUTORDER:9|COST:25|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:6|COST:25|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shield (Heavy/Wooden)|OUTPUTORDER:3|COST:7.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Wooden)|DATA:NAME=Shield (Heavy/Wooden)$EQMOD=WOOD]
+EQUIPNAME:Scale Mail|OUTPUTORDER:2|COST:50.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scale Mail|DATA:NAME=Scale Mail$EQMOD=STEEL]
+EQUIPNAME:Shortbow|OUTPUTORDER:10|COST:30.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow|DATA:NAME=Shortbow$EQMOD=WOOD]
+EQUIPNAME:Arrow|OUTPUTORDER:8|COST:0.05|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:5|COST:1|WT:0.02|QUANTITY:18.0|NOTE:
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.01|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.01|VALUE:Coin (Gold Piece)|QUANTITY:18.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.02|VALUE:Holy Water (Flask)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.03|VALUE:Rations (Trail/Per Day)|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Arrow|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.03|VALUE:Holy Symbol (Silver)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.04|VALUE:Longsword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.05|VALUE:Shield (Heavy/Wooden)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Shortbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.07|VALUE:Scale Mail|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Iomedae|DEITYDOMAINS:[DOMAIN:Glory|DOMAIN:Good|DOMAIN:Law|DOMAIN:Sun|DOMAIN:War|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Day Subdomain|DOMAIN:Heroism Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Light Subdomain|DOMAIN:Tactics Subdomain]|ALIGNALLOW:|DESC:Goddess of valor, rulership, justice, honor|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Longsword]|DEITYALIGN:Lawful Good
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

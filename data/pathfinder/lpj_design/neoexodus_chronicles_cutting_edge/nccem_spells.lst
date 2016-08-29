@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 15:18:58 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:NeoExodus Chronicles: Cutting Edge Machinesmith	SOURCESHORT:NCCEM	SOURCEWEB:http://paizo.com/products/btpy8xvl/discuss?NeoExodus-Chronicles-Cutting-Edge-Machinesmith	SOURCEDATE:2012-03
+
+###Block: New Spells
+# Spell Name	Type		Classes of caster		School			Components		Casting Time			Range		Target Area or Effect		Duration					Save Info		Spell Resistance	Source Page		Description
+Servant Drone	TYPE:Arcane	CLASSES:Machinesmith=1	SCHOOL:Transmutation	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One servant drone	DURATION:(CASTERLEVEL) rounds [D]	SAVEINFO:None	SPELLRES:No		SOURCEPAGE:p.7	DESC:You animate a small mechanical construct to assist you with tasks.
+
+#
+# End
+#

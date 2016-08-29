@@ -1,0 +1,9 @@
+# CVS $Revision: 9484 $ $Author: eddyanthony $ -- Fri Mar  5 13:57:06 2010 -- reformated by prettylst.pl v1.39 (build 10232)
+# SOURCELONG:Legacy of Fire Player's Guide	SOURCESHORT:LFPG	SOURCEWEB:http://paizo.com/paizo/messageboards/paizo/products/v5748btpy84bh	SOURCEDATE:2009-02
+
+# Ability Category			Visible	Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Campaign Traits	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:CampaignTrait	PLURAL:Campaign Traits		DISPLAYLOCATION:Traits
+
+#
+# End
+#

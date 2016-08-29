@@ -1,0 +1,12 @@
+# CVS $Revision$ $Author$ -- Wed Jan 22 09:56:40 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:Humans of Golarion	SOURCESHORT:HOG	SOURCEWEB:http://paizo.com/products/btpy8l3k?Pathfinder-Player-Companion-Humans-of-Golarion	SOURCEDATE:2011-06
+# Original Entry by: Stefan Radermacher
+
+###Block: Spells
+# Spell Name		Classes of caster					School		Spell Descriptors	Type				Components		Casting Time			Range			Target Area or Effect																			Duration					Save Info			Spell Resistance	Description																									Source Page
+Burning Arc			CLASSES:Sorcerer,Wizard=2			SCHOOL:Evocation	DESCRIPTOR:Fire	TYPE:Arcane			COMPS:V, S		CASTTIME:1 standard action	RANGE:Close		TARGETAREA:One primary target plus (CASTERLEVEL/3) additiona targets (each of which must be within 35 ft. of the primary target)	DURATION:Instantaneous			SAVEINFO:Reflex half	SPELLRES:Yes	DESC:An arc of flames leaps from your fingers, causing (min(CASTERLEVEL,10))d6 fire damage to primary target and progressively less for additional targets.	SOURCEPAGE:p.28
+Cultural Adaptation	CLASSES:Bard,Cleric,Sorcerer,Wizard=1	SCHOOL:Divination				TYPE:Arcane.Divine	COMPS:V, S, M/DF	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Your																				DURATION:(CASTERLEVEL*10) minutes								DESC:Blend in with foreign culture																					SOURCEPAGE:p.28
+
+#
+# End
+#

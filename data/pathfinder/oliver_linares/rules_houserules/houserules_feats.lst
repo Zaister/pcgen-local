@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Sun Apr 24 14:58:13 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Oliver's House Rules	SOURCESHORT:OLHR	SOURCEDATE:2099-12
+
+###Block: Core Rulebook feats
+# Ability Name		Category of Ability	Type				Required Ability					PRETOTALAB		Var. Min. Value			Description										Stackable?	Multiple?	Choose													Ability						Weapon prof. bonus			Source Page		Benefits
+Weapon Focus		CATEGORY:FEAT		TYPE:Combat.WeaponFocus								PRETOTALAB:1						DESC:You are especially good at using weapon of your chosen type.	STACK:YES	MULT:YES	CHOOSE:ABILITYSELECTION|Weapon Focus Selection|QUALIFIED[TYPE=WeaponFocusSelection]	ABILITY:Special Ability|AUTOMATIC|%LIST										BENEFIT:You gain a +1 bonus on all attack rolls you make weapons of the chosen type.
+Weapon Specialization	CATEGORY:FEAT		TYPE:Combat			PREABILITY:1,CATEGORY=FEAT,Weapon Focus				PREVARGTEQ:WeapSpecQualify,1	DESC:You deal extra damage when using your chosen weapon.				MULT:YES	CHOOSE:WEAPONPROFICIENCY|PC																	BONUS:WEAPONPROF=%LIST|DAMAGE|2	SOURCEPAGE:p.137	BENEFIT:You gain a +2 bonus on all damage rolls you make using the selected weapon.
+
+###Block: Advanced Class Options feats
+# Ability Name	Category of Ability	Type		Required Ability																	Required Stat	Description																			Weapon prof. bonus															Benefits
+Fencing Grace	CATEGORY:FEAT		TYPE:Combat	PREABILITY:2,CATEGORY=FEAT,Weapon Finesse,Weapon Focus	PREABILITY:1,CATEGORY=Special Ability,Blades/Light	PRESTAT:1,DEX=13	DESC:Your dashing style and fluid rapier forms allow you to use agility rather than brute force to fell your foes.	BONUS:WEAPONPROF=Rapier|DAMAGE|(max(STR,DEX)-STR)|TYPE=NotRanged	BONUS:WEAPONPROF=Dagger|DAMAGE|(max(STR,DEX)-STR)|TYPE=NotRanged	BENEFIT:When wielding a rapier one-handed or a simple light piercing melee weapon, you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The rapier must be one appropriate for your size. In addition, if you have the panache class feature, you gain a +2 bonus to CMD against attempts to disarm you of your rapier while you have at least 1 panache point.
+
+#
+# End
+#

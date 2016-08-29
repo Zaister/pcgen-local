@@ -1,0 +1,41 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Lords of Chaos	SOURCESHORT:LoC	SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8hij	SOURCEDATE:2010-12
+# Original Entry by: Stefan Radermacher
+
+###Block: Demon Lords
+# Deity Name	Product Identity?	Domains									Desciption of Deity/Title					Deity Weapon			Alignment	Pantheon			Source Page
+Abraxas		NAMEISPI:YES	DOMAINS:Chaos,Evil,Knowledge,Magic|PREALIGN:NE,CN,CE		DESC:Demon lord of forbidden lore, magic, snakes	DEITYWEAP:Whip			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.9
+Aldinach		NAMEISPI:YES	DOMAINS:Animal,Chaos,Evil,Sun|PREALIGN:NE,CN,CE			DESC:Demon lord of sand, scorpions, thirst		DEITYWEAP:Kukri			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.10
+Andrifhku		NAMEISPI:YES	DOMAINS:Chaos,Evil,Luck,Trickery|PREALIGN:NE,CN,CE		DESC:Demon lord of knives, illusions, traps		DEITYWEAP:Kukri			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.10
+Angazhan		NAMEISPI:YES	DOMAINS:Animal,Chaos,Evil,Plant|PREALIGN:NE,CN,CE		DESC:Demon lord of apes, jungles, tyrants			DEITYWEAP:Spear			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.11
+Areshkagal		NAMEISPI:YES	DOMAINS:Air,Chaos,Evil,Trickery|PREALIGN:NE,CN,CE		DESC:Demon lord of greed, portals, riddles		DEITYWEAP:Sickle			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.12
+Baphomet		NAMEISPI:YES	DOMAINS:Animal,Chaos,Evil,Strength|PREALIGN:NE,CN,CE		DESC:Demon lord of beasts, labyrinths, minotaurs	DEITYWEAP:Glaive			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.12
+Cyth-V'sug		NAMEISPI:YES	DOMAINS:Chaos,Earth,Evil,Plant|PREALIGN:NE,CN,CE		DESC:Demon lord of disease, fungus, parasites		DEITYWEAP:Scimitar		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.13
+Dagon			NAMEISPI:YES	DOMAINS:Chaos,Destruction,Evil,Water|PREALIGN:NE,CN,CE	DESC:Demon lord of deformities, sea monsters, the sea	DEITYWEAP:Trident			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.14
+Deskari		NAMEISPI:YES	DOMAINS:Chaos,Destruction,Evil,War|PREALIGN:NE,CN,CE		DESC:Demon lord of chasms, infestation, locusts		DEITYWEAP:Scythe			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.14
+Flauros		NAMEISPI:YES	DOMAINS:Chaos,Evil,Fire,War|PREALIGN:NE,CN,CE			DESC:Demon lord of fire, salamanders, volcanoes		DEITYWEAP:Spear			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.15
+Gogunta		NAMEISPI:YES	DOMAINS:Chaos,Death,Evil,Water|PREALIGN:NE,CN,CE		DESC:Demon lord of amphibians, boggards, swamps		DEITYWEAP:Whip			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.16
+Haagenti		NAMEISPI:YES	DOMAINS:Artifice,Chaos,Evil,Strength|PREALIGN:NE,CN,CE	DESC:Demon lord of alchemy, invention, transformation	DEITYWEAP:Battleaxe		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.16
+Jezelda		NAMEISPI:YES	DOMAINS:Animal,Chaos,Evil,Trickery|PREALIGN:NE,CN,CE		DESC:Demon lord of desolation, the moon, werewolves	DEITYWEAP:Scimitar		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.17
+Jubilex		NAMEISPI:YES	DOMAINS:Chaos,Destruction,Evil,Water|PREALIGN:NE,CN,CE	DESC:Demon lord of ooze, poison, sloth			DEITYWEAP:Mace (Heavy)		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.18
+Kabriri		NAMEISPI:YES	DOMAINS:Chaos,Death,Evil,Knowledge|PREALIGN:NE,CN,CE		DESC:Demon lord of ghouls, graves, secrets		DEITYWEAP:Flail			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.18
+Kostchtchie		NAMEISPI:YES	DOMAINS:Chaos,Evil,Strength,War|PREALIGN:NE,CN,CE		DESC:Demon lord of cold, giants, revenge			DEITYWEAP:Warhammer		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.19
+Mazmezz		NAMEISPI:YES	DOMAINS:Animal,Chaos,Destruction,Evil|PREALIGN:NE,CN,CE	DESC:Demon lord of bindings, driders, vermin		DEITYWEAP:Net			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.20
+Mestama		NAMEISPI:YES	DOMAINS:Chaos,Charm,Evil,Trickery|PREALIGN:NE,CN,CE		DESC:Demon lord of cruelty, deception, hags		DEITYWEAP:Dagger (Punching)	ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.20
+Nocticula		NAMEISPI:YES	DOMAINS:Chaos,Charm,Evil,Darkness|PREALIGN:NE,CN,CE		DESC:Demon lord of assassins, darkness, lust		DEITYWEAP:Crossbow (Hand)	ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.21
+Nurgal		NAMEISPI:YES	DOMAINS:Chaos,Evil,Fire,Sun|PREALIGN:NE,CN,CE			DESC:Demon lord of deserts, the sun, warfare		DEITYWEAP:Mace (Heavy)		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.22
+Orcus			NAMEISPI:YES	DOMAINS:Chaos,Death,Evil,Magic|PREALIGN:NE,CN,CE		DESC:Demon lord of necromancy, undead, wrath		DEITYWEAP:Mace (Heavy)		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.22
+Pazuzu		NAMEISPI:YES	DOMAINS:Air,Chaos,Evil,Trickery|PREALIGN:NE,CN,CE		DESC:Demon lord of sky, temptation, winged creatures	DEITYWEAP:Longsword		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.23
+Shax			NAMEISPI:YES	DOMAINS:Chaos,Destruction,Evil,Trickery|PREALIGN:NE,CN,CE	DESC:Demon lord of envy, lies, murder			DEITYWEAP:Dagger			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.24
+Shivaska		NAMEISPI:YES	DOMAINS:Chaos,Darkness,Evil,Madness|PREALIGN:NE,CN,CE		DESC:Demon lord of aberrations, clocks, prisons		DEITYWEAP:Flail (Heavy)		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.24
+Sifkesh		NAMEISPI:YES	DOMAINS:Chaos,Evil,Madness,Trickery|PREALIGN:NE,CN,CE		DESC:Demon lord of despair, heresy, suicide		DEITYWEAP:War Razor		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.25
+Socothbenoth	NAMEISPI:YES	DOMAINS:Charm,Chaos,Evil,Travel|PREALIGN:NE,CN,CE		DESC:Demon lord of perversion, pride, taboos		DEITYWEAP:Quarterstaff		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.26
+Urxehl		NAMEISPI:YES	DOMAINS:Chaos,Evil,Fire,Weather|PREALIGN:NE,CN,CE		DESC:Demon lord of natural desasters, storms, trolls	DEITYWEAP:Greatclub		ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.26
+Xoveron		NAMEISPI:YES	DOMAINS:Chaos,Earth,Evil,Strength|PREALIGN:NE,CN,CE		DESC:Demon lord of gargoyles, gluttony, ruins		DEITYWEAP:Ranseur			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.27
+Yhidothrus		NAMEISPI:YES	DOMAINS:Chaos,Death,Evil,Repose|PREALIGN:NE,CN,CE		DESC:Demon lord of age, time, worms				DEITYWEAP:Chain (Spiked)	ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.28
+Zevgavizeb		NAMEISPI:YES	DOMAINS:Animal,Chaos,Evil,Strength|PREALIGN:NE,CN,CE		DESC:Demon lord of caverns, reptiles, troglodytes	DEITYWEAP:Gauntlet (Spiked)	ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.28
+Zura			NAMEISPI:YES	DOMAINS:Chaos,Death,Evil,Madness|PREALIGN:NE,CN,CE		DESC:Demon lord of blood, cannibalism, vampires		DEITYWEAP:Rapier			ALIGN:CE	PANTHEON:Demon Lords	SOURCEPAGE:p.29
+
+#
+# End
+#

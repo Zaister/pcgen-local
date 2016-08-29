@@ -1,0 +1,23 @@
+# CVS $Revision: 12603 $ $Author: zaister $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Paths of Prestige	SOURCESHORT:PoP	SOURCEWEB:http://paizo.com/products/btpy8rce?Pathfinder-Campaign-Setting-Paths-of-Prestige	SOURCEDATE:2012-08
+# Original Entry by: Stefan Radermacher
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Aldori Swordlord	HD:10		TYPE:PC.Prestige	ABB:ASw		MAXLEVEL:10	SOURCEPAGE:p.4	BONUS:CHECKS|BASE.Reflex|(CL+1)/2	BONUS:CHECKS|BASE.Fortitude,BASE.Will|(CL+1)/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Required Feat																				Required Skill
+CLASS:Aldori Swordlord	PREFEAT:4,Dazzling Display,Exotic Weapon Proficiency (Aldori Dueling Sword),Weapon Finesse, Weapon Focus (Aldori Dueling Sword)	PRESKILL:4,Acrobatics=3,Intimidate=5,Knowledge (Nobility)=3,Sense Motive=3
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Aldori Swordlord	STARTSKILLPTS:2	CSKILL:Acrobatics|Bluff|Diplomacy|Intimidate|Knowledge (Nobility)|TYPE.Perform|Sense Motive
+1	ABILITY:Special Ability|AUTOMATIC|Deft Strike ~ Aldori Swordlord			AUTO:FEAT|Aldori Dueling Mastery
+2	ABILITY:Special Ability|AUTOMATIC|Display Weapon Prowess ~ Aldori Swordlord
+3	ABILITY:Special Ability|AUTOMATIC|Defensive Parry ~ Aldori Swordlord
+4	ABILITY:Special Ability|AUTOMATIC|Adaptive Tactics ~ Aldori Swordlord
+5	ABILITY:Special Ability|AUTOMATIC|Shatter Confidence ~ Aldori Swordlord
+6	ABILITY:Special Ability|AUTOMATIC|Saving Slash ~ Aldori Swordlord
+7	ABILITY:Special Ability|AUTOMATIC|Dextrous Duelist ~ Aldori Swordlord
+9	ABILITY:Special Ability|AUTOMATIC|Greater Saving Slash ~ Aldori Swordlord
+10	ABILITY:Special Ability|AUTOMATIC|Confounding Duelist ~ Aldori Swordlord
+
+#
+# End
+#

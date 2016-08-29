@@ -1,0 +1,44 @@
+# CVS $Revision: $ $Author: $ -- Thu Oct 14 12:00:08 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Chapter 2: House of the Beast	SOURCESHORT:PF20	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy86xw	SOURCEDATE:2009-03
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Edimmu Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Edimmu]	SOURCEPAGE:p.88
+RACE:Edimmu	!PRERACE:1,%
+NAME:Edimmu
+ALIGN:CE
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+SKILL:Fly				RANK:5
+SKILL:Intimidate			RANK:5
+SKILL:Knowledge (History)	RANK:5
+SKILL:Perception			RANK:5
+SKILL:Stealth			RANK:5
+FEAT:Improved Initiative
+FEAT:Lightning Reflexes
+FEAT:Toughness
+
+
+STARTPACK:Gnoll (Unchosen) Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Gnoll (Unchosen)]	SOURCEPAGE:p.88
+RACE:Gnoll (Unchosen)	!PRERACE:1,%
+NAME:Unchosen Gnoll
+ALIGN:CE
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+SKILL:Climb	RANK:5
+FEAT:Improved Bull Rush
+FEAT:Power Attack
+FEAT:Toughness
+
+
+STARTPACK:Sand Kraken Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Sand Kraken]	SOURCEPAGE:p.88
+RACE:Sand Kraken	!PRERACE:1,%
+NAME:Sand Kraken
+ALIGN:TN
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=10
+#SKILL:Fly				RANK:5
+#SKILL:Intimidate			RANK:5
+#SKILL:Knowledge (History)	RANK:5
+#SKILL:Perception			RANK:5
+#SKILL:Stealth			RANK:5
+FEAT:Improved Initiative
+FEAT:Iron Will
+FEAT:Power Attack
+FEAT:Weapon Focus (Tentacle)

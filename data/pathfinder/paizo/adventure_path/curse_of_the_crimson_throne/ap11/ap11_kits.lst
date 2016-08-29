@@ -1,0 +1,40 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Feb  3 16:31:38 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:Curse of the Crimson Throne, Chapter 5 - Skeletons of Scarwall	SOURCESHORT:AP11	SOURCEWEB:http://paizo.com/products/btpy83yw?Pathfinder-11-Curse-of-the-Crimson-Throne-Chapter-5-Skeletons-of-Scarwall	SOURCEDATE:2008-06
+# Original Entry: Stefan Radermacher
+
+STARTPACK:Devil (Judgment) Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Devil (Judgment)],[!PRERACE:1,%]	SOURCEPAGE:p.45
+ALIGN:LE
+RACE:Devil (Judgment)	!PRERACE:1,%
+NAME:Judgment Devil
+SKILL:Bluff				RANK:12
+SKILL:Fly				RANK:12
+SKILL:Intimidate			RANK:12
+SKILL:Knowledge (Planes)	RANK:12
+SKILL:Perception			RANK:12
+SKILL:Sense Motive		RANK:12
+SKILL:Stealth			RANK:12
+SKILL:Survival			RANK:12
+FEAT:Combat Expertise
+FEAT:Critical Focus
+FEAT:Flyby Attack
+FEAT:Improved Critical (Scythe)
+FEAT:Iron Will
+FEAT:Weapon Focus (Scythe)
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=10|CHA=11
+GEAR:Scythe	LOCATION:Both Hands
+
+STARTPACK:Kleestad Default	TYPE:DefaultMonster.Aberration	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Kleestad],[!PRERACE:1,%]	SOURCEPAGE:p.45
+ALIGN:NE
+RACE:Kleestad	!PRERACE:1,%
+NAME:Kleestad
+SKILL:Perception	RANK:16
+FEAT:Ability Focus (Pain)
+FEAT:Improved Critical (Claw)
+FEAT:Improved Initiative
+FEAT:Power Attack
+FEAT:Weapon Focus (Claw)
+STAT:STR=10|DEX=10|CON=10|INT=11|WIS=11|CHA=11
+
+#
+# End
+#

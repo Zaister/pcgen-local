@@ -1,0 +1,5 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon May 27 10:25:24 2013 -- reformated by prettylst.pl v1.50 (build 19091)
+SOURCELONG:Test	SOURCESHORT:TEST	SOURCEDATE:2012-10
+
+# Equipment Name	Type		Cost		Special Property
+TEST ITEM		TYPE:Goods	COST:0	SPROP:This is the first sentence of the special properties.	SPROP:This is the second sentence of the special properties.

@@ -1,0 +1,6 @@
+# CVS $Revision: 17783 $ $Author: amaitland $ -- Mon Oct 29 13:41:30 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Test	SOURCESHORT:TEST	SOURCEDATE:2012-10
+
+###Block: A
+# Spell Name	Classes of caster			School			Sub-School			Spell Descriptors	Type		Components		Casting Time			Range		Target Area or Effect		Duration					Save Info		Spell Resistance	Description
+Acid Arrow		CLASSES:Sorcerer,Wizard=2	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Acid	TYPE:Arcane	COMPS:V, S, M, F	CASTTIME:1 standard action	RANGE:Long	TARGETAREA:One arrow of acid	DURATION:((CASTERLEVEL/3)+1) rounds	SAVEINFO:None	SPELLRES:No		DESC:THIS IS THE DUPLICATE FROM THE TEST DATASET.

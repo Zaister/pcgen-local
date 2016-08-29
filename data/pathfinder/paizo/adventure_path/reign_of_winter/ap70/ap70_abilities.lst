@@ -1,0 +1,29 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Wed Sep 17 13:37:15 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+SOURCELONG:Reign of Winter, Part 4 - The Frozen Stars	SOURCESHORT:AP68	SOURCEWEB:http://paizo.com/products/btpy8yv3?Pathfinder-Adventure-Path-70-The-Frozen-Stars	SOURCEDATE:2013-05
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 18 June 2013
+
+# Ability Name						Category of Ability	Ability
+Race Traits ~ Triaxian					CATEGORY:Internal
+
+CATEGORY=Internal|Race Traits ~ Triaxian.MOD					ABILITY:Triaxian Racial Trait|AUTOMATIC|Triaxian ~ Bonus Feat|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianBonusFeat
+CATEGORY=Internal|Race Traits ~ Triaxian.MOD					ABILITY:Triaxian Racial Trait|AUTOMATIC|Triaxian ~ Keen Senses|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianSenses,TYPE.TriaxianKeenSenses
+CATEGORY=Internal|Race Traits ~ Triaxian.MOD					ABILITY:Triaxian Racial Trait|AUTOMATIC|Triaxian ~ Low-Light Vision|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianRacialVision
+
+###Block: Triaxian Abilities
+# Ability Name	Unique Key					Category of Ability		Type																	Visible		Multiple Requirements																						Description																																																										Ability								Bonus to Ability Pool		Bonus to skill					Modify VAR				Source Page
+Keen Senses		KEY:Triaxian ~ Keen Senses		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.TriaxianRacialTrait.TriaxianRacialDefault.KeenSenses				PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Triaxian ~ Keen Senses],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianSenses]			DESC:Triaxians' unique ear construction grants them a +2 bonus on Perception checks.																																																											BONUS:SKILL|Perception|2|TYPE=Racial						SOURCEPAGE:p.87
+Low-Light Vision	KEY:Triaxian ~ Low-Light Vision	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.TriaxianRacialTrait.TriaxianRacialDefault.RacialVision	VISIBLE:DISPLAY	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Triaxian ~ Low-Light Vision],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianRacialVision]	DESC:In dim light, Triaxians can see twice as far as humans.																																																	ABILITY:Special Ability|AUTOMATIC|Low-Light Vision													BONUS:VAR|RacialVision|1
+Bonus Feat		KEY:Triaxian ~ Bonus Feat		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.TriaxianRacialTrait.TriaxianRacialDefault								PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Triaxian ~ Bonus Feat],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianBonusFeat]			DESC:Triaxians select one extra feat at 1st level.																																																												BONUS:ABILITYPOOL|FEAT|1													SOURCEPAGE:p.87
+Seasoned		KEY:Triaxian ~ Seasoned Summerborn	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.TriaxianRacialTrait.TriaxianRacialDefault						PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Triaxian ~ Seasoned Summerborn],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianSeasoned]		DESC:Summerborn Triaxians suffer no harm from being in hot environments. Summerborn Triaxians can exist comfortably in conditions between 90 and 140 degrees Fahrenheit without having to attempt Fortitude saves. When in conditions of severe heat, Summerborn Triaxians only have to attempt Fortitude saves once per hour instead of once every 10 minutes.																											SOURCEPAGE:p.87
+Seasoned		KEY:Triaxian ~ Seasoned Winterborn	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.TriaxianRacialTrait.TriaxianRacialDefault						PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Triaxian ~ Seasoned Winterborn],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianSeasoned]		DESC:Winterborn Triaxians suffer no harm from being in hot environments. Winterborn Triaxians can exist comfortably in conditions between 40 and –20 degrees Fahrenheit without having to attempt Fortitude saves. When in conditions of severe cold, Winterborn Triaxians only have to attempt Fortitude saves once per hour instead of once every 10 minutes.																											SOURCEPAGE:p.87
+
+###Block: Subrace Selection
+# Ability Name		Unique Key				Category of Ability		Type				Template					Ability																					Source Page
+Triaxian (Summerborn)	KEY:Triaxian ~ Summerborn	CATEGORY:Special Ability	TYPE:TriaxianSubrace	TEMPLATE:Triaxian ~ Summerborn	ABILITY:Triaxian Racial Trait|AUTOMATIC|Triaxian ~ Seasoned Summerborn|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianSeasoned	SOURCEPAGE:p.86
+Triaxian (Winterborn)	KEY:Triaxian ~ Winterborn	CATEGORY:Special Ability	TYPE:TriaxianSubrace	TEMPLATE:Triaxian ~ Winterborn	ABILITY:Triaxian Racial Trait|AUTOMATIC|Triaxian ~ Seasoned Winterborn|!PREABILITY:1,CATEGORY=Special Ability,TYPE.TriaxianSeasoned	SOURCEPAGE:p.86
+Triaxian (Transitional)	KEY:Triaxian ~ Transitional	CATEGORY:Special Ability	TYPE:TriaxianSubrace	TEMPLATE:Triaxian ~ Transitional																							SOURCEPAGE:p.86
+
+#
+# End
+#

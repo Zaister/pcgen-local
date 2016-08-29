@@ -1,0 +1,17 @@
+# CVS $Revision: 12858 $ $Author: zaister $ -- Tue Oct 19 11:53:35 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords Player's Guide	SOURCESHORT:RotRPG	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8bd9	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Human Ethinicities
+# Race Name		Template
+Half-Elf.MOD	TEMPLATE:Human Ethnicity
+Half-Orc.MOD	TEMPLATE:Human Ethnicity
+Human.MOD		TEMPLATE:Human Ethnicity
+
+###Block: Other races
+# Race Name		Output Name		Starting Feats	Size		Move			Face/Space	Reach		Vision			Automatic Languages	Bonus Languages								Stat bonus						Automatically Gained Weapon Prof.	Ability								Nb Legs	Main Race Type	Template			Challenge Rating	Source Page
+Goblin (Golarion)	OUTPUTNAME:Goblin	STARTFEATS:1	SIZE:S	MOVE:Walk,30	FACE:5	REACH:5	VISION:Darkvision (60')	LANGAUTO:Goblin		LANGBONUS:Common,Draconic,Dwarven,Gnoll,Gnome,Halfling,Orc	BONUS:STAT|DEX|4	BONUS:STAT|STR,CHA|-2	AUTO:WEAPONPROF|Dogslicer		ABILITY:Special Ability|AUTOMATIC|Skilled ~ Goblin	LEGS:2	RACETYPE:Humanoid	TEMPLATE:Goblinoid	CR:1/3		SOURCEPAGE:p.156
+
+#
+# End
+#

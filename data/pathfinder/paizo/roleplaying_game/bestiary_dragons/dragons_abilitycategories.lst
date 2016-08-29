@@ -1,0 +1,3 @@
+# CVS $Revision: $ $Author: $ -- Thu May 23 17:08:33 2013 -- reformated by prettylst.pl v1.50 (build 19091)
+# Ability Category			Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Dragon Age Category	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:DragonAgeCategory	PLURAL:Dragon Age Categories	DISPLAYLOCATION:Racial Abilities

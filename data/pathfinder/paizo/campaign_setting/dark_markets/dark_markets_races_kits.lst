@@ -1,0 +1,39 @@
+# CVS $Revision: 11435 $ $Author: eddyanthony $ -- Tue Mar  9 17:36:48 2010 -- reformated by prettylst.pl v1.39 (build 10232)
+SOURCELONG:Dark Markets	SOURCESHORT:DM	SOURCEWEB:http://paizo.com/pathfinder/pathfinderChronicles/35E/v5748btpy87ut	SOURCEDATE:2010-03
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Ghul Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ghul]	SOURCEPAGE:p.62
+RACE:Ghul	!PRERACE:1,%
+NAME:Ghul
+ALIGN:CE
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+SKILL:Bluff			RANK:8
+SKILL:Diplomacy		RANK:8
+SKILL:Perception		RANK:8
+SKILL:Sense Motive	RANK:8
+SKILL:Stealth		RANK:8
+SKILL:Survival		RANK:8
+FEAT:Dodge
+FEAT:Great Fortitude
+FEAT:Lightning Reflexes
+FEAT:Toughness
+
+STARTPACK:Ghul (Great) Default	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Ghul (Great)]	SOURCEPAGE:p.63
+RACE:Ghul (Great)	!PRERACE:1,%
+NAME:Great Ghul
+ALIGN:CE
+STAT:STR=10|DEX=11|CON=11|INT=10|WIS=11|CHA=10
+SKILL:Bluff			RANK:8
+SKILL:Diplomacy		RANK:8
+SKILL:Perception		RANK:8
+SKILL:Sense Motive	RANK:8
+SKILL:Stealth		RANK:8
+SKILL:Survival		RANK:8
+FEAT:Dodge
+FEAT:Great Fortitude
+FEAT:Lightning Reflexes
+FEAT:Toughness
+
+#
+# End
+#

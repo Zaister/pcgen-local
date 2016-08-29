@@ -1,0 +1,11 @@
+# CVS $Revision: 21399 $ $Author: evilmynex $ -- Thu Jan  8 10:36:25 2015 -- reformated by prettylst.pl v1.51 (build 25135)
+#SOURCELONG:Reign of Winter Campaign	SOURCESHORT:SS	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/reignOfWinter	SOURCEDATE:2013-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Baba Yaga's Boons
+# Ability Category			Visible	Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object	Plural description for UI	Display Location
+ABILITYCATEGORY:Baba Yaga's Boon	VISIBLE:YES	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BabaYagaBoon	PLURAL:Baba Yaga's Boons	DISPLAYLOCATION:Misc
+
+#
+# End
+#

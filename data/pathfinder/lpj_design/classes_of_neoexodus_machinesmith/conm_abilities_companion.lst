@@ -1,0 +1,25 @@
+# CVS $Revision: $ $Author: $ -- Wed Aug 12 16:59:15 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
+
+###Block: Mechanus base ability
+# Ability Name			Category of Ability	Bonus Ability Pool
+Racial Traits ~ Mechanus	CATEGORY:Internal		BONUS:ABILITYPOOL|Mechanus Type Selection|1
+
+###Block: Mechanus types
+# Ability Name	Unique Key					Category of Ability	Type					Template		Stat bonus
+Aquatic		KEY:Mechanus Type ~ Aquatic		CATEGORY:Internal		TYPE:MechanusTypeSelection				BONUS:STAT|STR|6|TYPE=Race
+Humanoid		KEY:Mechanus Type ~ Humanoid		CATEGORY:Internal		TYPE:MechanusTypeSelection	TEMPLATE:LEGS 2	BONUS:STAT|STR|6|TYPE=Race
+Quadruped		KEY:Mechanus Type ~ Quadruped		CATEGORY:Internal		TYPE:MechanusTypeSelection	TEMPLATE:LEGS 4	BONUS:STAT|STR|4|TYPE=Race	BONUS:STAT|DEX|4|TYPE=Race
+Serpentine		KEY:Mechanus Type ~ Serpentine	CATEGORY:Internal		TYPE:MechanusTypeSelection				BONUS:STAT|STR|2|TYPE=Race	BONUS:STAT|DEX|6|TYPE=Race
+
+###Block: Mechanus abilities
+# Ability Name			Unique Key				Category of Ability		Type				Description
+Share Trick				KEY:Mechanus ~ Share Trick	CATEGORY:Special Ability	TYPE:MechanusAbility	DESC:Bla
+Mechanus Upgrade 1		KEY:Mechanus ~ Upgrade 1	CATEGORY:Special Ability	TYPE:MechanusUpgrade	DESC:Bla
+Mechanus Upgrade 2		KEY:Mechanus ~ Upgrade 2	CATEGORY:Special Ability	TYPE:MechanusUpgrade	DESC:Bla
+Mechanus Upgrade 3		KEY:Mechanus ~ Upgrade 3	CATEGORY:Special Ability	TYPE:MechanusUpgrade	DESC:Bla
+Mechanus Master Upgrade 1	KEY:Mechanus ~ Master Upgrade	CATEGORY:Special Ability	TYPE:MechanusUpgrade	DESC:Bla
+
+#
+# End
+#

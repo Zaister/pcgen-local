@@ -1,0 +1,11 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Tue May 29 14:46:06 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Jade Regent Campaign	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/store/v5748btpy806v	SOURCEDATE:2008-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Modern Human Languages
+# Language		Product Identity?	Type
+Erutaki		NAMEISPI:YES	TYPE:Spoken.Written.Read
+
+#
+# End
+#

@@ -1,0 +1,11 @@
+# CVS $Revision: 14247 $ $Author: papa_drb $ -- Wed Apr 20 15:45:21 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Taldor, Echoes of Glory	SOURCESHORT:TEoG	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/companion/v5748btpy8853	SOURCEDATE:2009-00
+# Original Entry by: Stefan Radermacher
+
+###Block: Race traits
+# Ability Name	Unique Key				Category of Ability		Type						Multiple Requirements																			Required Race	Required Template					Description																																										Save checks bonus				Source Page		Aspects
+Carefully Hidden	KEY:Carefully Hidden ~ Trait	CATEGORY:Special Ability	TYPE:Trait.RaceTrait.SaveBonus	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Carefully Hidden ~ Trait],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RaceTrait]	PRERACE:1,Human	PRETEMPLATE:1,Human Ethnicity (Keleshite)	DESC:Modern Taldor is not kind to Keleshites. Your life as a member of an unpopular ethnic group has given you an uncanny knack for avoiding detection. You gain a +1 trait bonus to Will saves and a +2 trait bonus to saving throws versus divination effects.	BONUS:CHECKS|Will|+1|TYPE=Trait	SOURCEPAGE:P.14	ASPECT:SaveBonus|+2 trait bonus vs. divination effects
+
+#
+# End
+#

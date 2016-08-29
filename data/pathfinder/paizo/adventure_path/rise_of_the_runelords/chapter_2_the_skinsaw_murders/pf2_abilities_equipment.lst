@@ -1,0 +1,11 @@
+# CVS $Revision: 7270 $ $Author: eddyanthony $ -- Fri Sep  3 12:57:16 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 2: The Skinsaw Murders	SOURCESHORT:PF2	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8029	SOURCEDATE:2007-10
+# Original Entry by: Stefan Radermacher
+
+# Ability Name	Unique Key					Category of Ability		Type				Visible	Aspects
+Save Bonus		KEY:Save Bonus ~ Medusa Mask		CATEGORY:Special Ability	TYPE:Internal.SaveBonus	VISIBLE:NO	ASPECT:SaveBonus|+4 vs. visual effects
+Save Bonus		KEY:Save Bonus ~ Snakeskin Tunic	CATEGORY:Special Ability	TYPE:Internal.SaveBonus	VISIBLE:NO	ASPECT:SaveBonus|+2 resistance vs. poison
+
+#
+# End
+#

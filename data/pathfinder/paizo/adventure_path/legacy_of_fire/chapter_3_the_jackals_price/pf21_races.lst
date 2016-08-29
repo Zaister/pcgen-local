@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 3: The Jackal's Price	SOURCESHORT:PF21	SOURCEDATE:2009-04
+# Original Entry by: Stefan Radermacher
+
+# Race Name	Starting Feats	Size		Move		Face/Space	Reach		Combat bonus					Stat bonus															Modify VAR										Ability																												Nb Legs	Nb Hands	Natural Attacks																									Monster Class Name and Starting Level	Main Race Type		Challenge Rating	Source Page		Apply Kit
+Emkrah	STARTFEATS:1	SIZE:L	MOVE:30	FACE:10	REACH:10	BONUS:COMBAT|AC|10|TYPE=NaturalArmor	BONUS:STAT|STR|14	BONUS:STAT|DEX,WIS|6	BONUS:STAT|CON|12	BONUS:STAT|INT|-2	BONUS:STAT|CHA|8	BONUS:VAR|SwallowWholeDice|2	BONUS:VAR|SwallowWholeDamageDie|8	ABILITY:Special Ability|AUTOMATIC|Grab|Immunity to Acid|Immunity to Cold|Immunity to Critical Hits|Swallow Whole|Acid Spittle ~ Emkrah|Acidic ~ Emkrah|Doom Gaze ~ Emkrah	LEGS:4	HANDS:0	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing.Acid,*1,1d8|Tentacles,Weapon.Natural.Melee.Finesseable.Bludgeoning.Grab,*4,1d6	MONSTERCLASS:Aberration:12			RACETYPE:Aberration	CR:9			SOURCEPAGE:p.80	KIT:1|CE
+
+#
+# End
+#

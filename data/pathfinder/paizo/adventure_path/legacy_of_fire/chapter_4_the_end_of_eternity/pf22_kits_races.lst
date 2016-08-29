@@ -1,0 +1,13 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 4: The End of Eternity	SOURCESHORT:PF22	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy87ux	SOURCEDATE:2009-04
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Spikestone Guardian Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Spikestone Guardian]	SOURCEPAGE:p.43
+RACE:Spikestone Guardian	!PRERACE:1,%
+NAME:Spikestone Guardian
+ALIGN:TN
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+
+#
+# End
+#

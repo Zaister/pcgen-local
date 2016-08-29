@@ -1,0 +1,39 @@
+# CVS $Revision: 8248 $ $Author: eddyanthony $ -- Tue Oct 19 15:19:53 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 3: The Hook Mountain Massacre	SOURCESHORT:PF3	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80e8	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Smoke Haunt Racial Abilities
+# Ability Name	Category of Ability		Type							Visible	Special ABility								Define			Modify VAR
+Flameseer		CATEGORY:Special Ability	TYPE:SpecialQuality.Aura.Supernatural	VISIBLE:NO	SAB:Flameseer (Su)
+Flamewalker		CATEGORY:Special Ability	TYPE:SpecialQuality.Aura.Supernatural	VISIBLE:NO	SAB:Flamewalker (Su)
+Lifedrinker		CATEGORY:Special Ability	TYPE:SpecialQuality.Aura.Supernatural	VISIBLE:NO	SAB:Lifedrinker (Su) ~ Fortitude save DC %|LifedrinkerDC	DEFINE:LifedrinkerDC|0	BONUS:VAR|LifedrinkerDC|10+(HD/2)+CHA
+Smoke Pattern	CATEGORY:Special Ability	TYPE:SpecialQuality.Aura.Supernatural	VISIBLE:NO	SAB:Smoke Pattern (Su) ~ Will save DC %|SmokePatternDC	DEFINE:SmokePatternDC|0	BONUS:VAR|SmokePatternDC|10+(HD/2)+CHA
+
+###Block: Totenmaske Racial Abilities
+# Ability Name	Category of Ability		Type						Visible	Special ABility								Define				Modify VAR
+Death Mask		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:NO	SAB:Death Mask (Su)
+Devour Memories	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:NO	SAB:Devour Memories (Su) ~ Will save DC %|DevourMemoriesDC	DEFINE:DevourMemoriesDC|0	BONUS:VAR|DevourMemoriesDC|10+(HD/2)+CHA
+Fleshdrinking	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:NO	SAB:Fleshdrinking (Su)
+Shape Flesh		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	VISIBLE:NO	SAB:Shape Flesh (Su) ~ Fortitude save DC %|ShapeFaceDC	DEFINE:ShapeFaceDC|0		BONUS:VAR|ShapeFaceDC|10+(HD/2)+CHA
+
+###Block: Skull Ripper Racial Abilities
+# Ability Name	Category of Ability		Type							Visible	Special ABility							Define			Modify VAR
+Behead		CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary		VISIBLE:NO	SAB:Behead (Ex)
+Dread Visage	CATEGORY:Special Ability	TYPE:SpecialAbility.Aura.Supernatural	VISIBLE:NO	SAB:Dread Visage (Su) ~ Will save DC %|DreadVisageDC	DEFINE:DreadVisageDC|0	BONUS:VAR|DreadVisageDC|10+(HD/2)+CHA
+
+###Block: Argorth Racial Abilities
+# Ability Name		Unique Key				Category of Ability		Type						Visible	Special ABility											Define				Description																																								Modify VAR
+Argorth Immunities						CATEGORY:Special Ability	TYPE:SpecialAbility.Immunity		VISIBLE:NO	SAB:Immune to gaze attacks, mind-effecting and visual effects
+Fearful Shriek							CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:NO	SAB:Fearful Shriek (Su) ~ Will save DC % or be shaken.|FearfulShriekDC		DEFINE:FearfulShriekDC|0																																										BONUS:VAR|FearfulShriekDC|10+(HD/2)+CHA
+Ground Slam								CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:NO	SAB:Ground Slam (Ex) ~ Reflex save DC % or be knocked prone.|GroundSlamDC	DEFINE:GroundSlamDC|0																																											BONUS:VAR|GroundSlamDC|10+(HD/2)+CON
+Death Throes		KEY:Death Throes ~ Argorth	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:YES																			DESC:When an argorth is reduced to -10 hit points, it collapses to the ground and thrashes wildly. It gets one final tail slam attack on every creature within 10 feet, after which it dies. It cannot grapple or constrict with this final attack.
+
+###Block: Mother of Oblivion Racial Abilities
+# Ability Name			Category of Ability		Type						Visible	Special ABility												Define					Modify VAR
+Breath of Madness			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Breath of Madness (Su) ~ Reflex save DC % for half damage.|BreathofMadnessDC	DEFINE:BreathofMadnessDC|0		BONUS:VAR|BreathofMadnessDC|10+(HD/2)+CON
+Transdimensional Tentacles	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Transdimensional Tentacles (Su)
+Warp Dimensions			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	VISIBLE:NO	SAB:Warp Dimensions (Su) ~ Fortitude save DC %|WarpDimensionNauseatedDC			DEFINE:WarpDimensionNauseatedDC|0	BONUS:VAR|WarpDimensionNauseatedDC|10+(HD/2)+CON
+
+#
+# End
+#

@@ -1,0 +1,341 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Iron Gods Campaign
+VERSION:6.07.01-dev
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Dloan Geis
+TABNAME:
+PLAYERNAME:Gereon
+HEIGHT:69
+WEIGHT:175
+AGE:23
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:11
+STAT:DEX|SCORE:18
+STAT:CON|SCORE:12
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:15
+STAT:CHA|SCORE:10
+ALIGN:CG
+RACE:Human
+
+# Character Class(es)
+CLASS:Gunslinger|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Gunslinger=1|HITPOINTS:10|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=2|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=3|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=5|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=6|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=7|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=8|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=9|HITPOINTS:5|SKILLSGAINED:7|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Gunslinger=10|HITPOINTS:6|SKILLSGAINED:7|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:105000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity (Kellid)]
+
+# Character Region
+REGION:Numeria
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Artistry (Untrained)|OUTPUTORDER:4|
+SKILL:Athletics|OUTPUTORDER:5|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Craft (Alchemy)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:13|
+SKILL:Diplomacy|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:18|
+SKILL:Disable Device|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:10.0|COST:1|CLASSSKILL:N]
+SKILL:Disguise|OUTPUTORDER:21|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:22|
+SKILL:Ecology|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Endurance|OUTPUTORDER:24|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:25|
+SKILL:Fly|OUTPUTORDER:26|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:27|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:29|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:30|
+SKILL:Heal|OUTPUTORDER:31|
+SKILL:Intimidate|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:33|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Engineering)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (History)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Local)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:42|
+SKILL:Linguistics|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial|ASSOCIATEDDATA:Androffan
+SKILL:Perception|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:46|
+SKILL:Profession (Untrained)|OUTPUTORDER:47|
+SKILL:Ride|OUTPUTORDER:48|
+SKILL:Samurai Mount|OUTPUTORDER:49|
+SKILL:Search|OUTPUTORDER:50|
+SKILL:Sense Motive|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:7.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:52|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:53|
+SKILL:Stealth|OUTPUTORDER:56|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Survival|OUTPUTORDER:57|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:58|
+SKILL:Swim|OUTPUTORDER:59|
+SKILL:Techcraft|OUTPUTORDER:60|CLASSBOUGHT:[CLASS:Gunslinger|RANKS:7.0|COST:1|CLASSSKILL:N]
+SKILL:Untrained Charisma|OUTPUTORDER:61|
+SKILL:Untrained Dexterity|OUTPUTORDER:62|
+SKILL:Untrained Intelligence|OUTPUTORDER:63|
+SKILL:Untrained Strength|OUTPUTORDER:64|
+SKILL:Untrained Wisdom|OUTPUTORDER:65|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:28|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:44|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:54|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:55|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:66|
+
+# Character Languages
+LANGUAGE:Androffan|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Hallit
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Monstrous Humanoids|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify monstrous humanoids.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Plants|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify plant creatures.
+USERPOOL:Ecology Specialization|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Snap Shot|TYPE:Combat|DESC:You can take advantage of your opponent's vulnerabilities from a greater distance, and without exposing yourself.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.FeyBloodline.StormbornBloodline|DESC:You are especially accurate when making ranged attacks against close target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Reload|APPLIEDTO:Pistol|TYPE:Combat|DESC:You can reload your chosen type of crossbow quickly.|DESC:Choose a type of crossbow (hand, light, heavy) or a single type of one-handed or two-handed firearm that you are proficient with. You can reload such a weapon quickly. (revised to include firearms in Ultimate Combat p.115)|DESC:You can reload your chosen type of weapon quickly.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:Combat.AttackOption|DESC:You can make an additional ranged attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snap Shot|TYPE:Combat|DESC:With a ranged weapon, you can take advantage of any opening in your opponent's defenses.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:CATEGORY=Special Ability&pipe;Firearms|TYPE:Combat.WeaponFocus.DestinedBloodline.OracleWeaponMastery.CelestialBloodragerBloodline.DestinedBloodragerBloodline.ElementalBloodragerBloodline|DESC:You are especially good at using weapon of your chosen type.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Gunslinger|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Gunslinger Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Gunslinger Archetype ~ Pistolero|TYPE:Archetype.GunslingerArchetype.GunslingerGunTraining.GunslingerDeadeyeDeed.GunslingerStartlingShotDeed.GunslingerBleedingWoundDeed|DESC:While most gunslingers have favorite firearms, there are those rare ones who choose to specialize in onehanded firearms exclusively. These gunslingers are called pistoleros. While they lack the flexibility of being able to pick up any kind of firearm and use it with reasonable proficiency, they are crackerjack shots with pistols and similar firearms. Their skill and aim with these firearms at close range is second to none, and they rarely misfire with these weapons.
+USERPOOL:Gunslinger Archetype|POOLPOINTS:0.0
+ABILITY:Gunslinger Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Gunslinger Feat|APPLIEDTO:,|TYPE:Gunslinger Bonus Feat Selection
+USERPOOL:Gunslinger Bonus Feat Selection|POOLPOINTS:0.0
+ABILITY:Gunslinger Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Grit|APPLIEDTO:|TYPE:Grit|DESC:You have more grit than the ordinary gunslinger.
+ABILITY:Gunslinger Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Pistol|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
+USERPOOL:Gunslinger Feat|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Kellid|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Mental Prowess I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Wisdom ~ Mental Prowess Basic|TYPE:WisdomProgression.MentalProwessBasic
+USERPOOL:Mental Prowess I|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rules ~ Use Hero Points|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Physical Prowess I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Dexterity ~ Physical Prowess Basic|TYPE:DexterityProgression.PhysicalProwessBasic
+USERPOOL:Physical Prowess I|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Numeria|TYPE:Region|DESC:Savage Land of Super-Science
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Skymetal Smith Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skymetal Smith ~ Kept Item|TYPE:Skymetal Smith
+USERPOOL:Skymetal Smith Selection|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Skymetal Smith|TYPE:Trait.BasicTrait.CampaignTrait|DESC:The fires atop Torch Hill have long been a boon to smiths and metalworkers, and your family is no exception. Whether you grew up in Torch or simply made several trips here with your parents to use the fire, this was to be your first time to use the torch for your own project. You managed to use the fires to craft a small weapon or piece of armor from skymetal, but not long thereafter the fires went out. The violet flames are as much a part of your upbringing as anything else, and their loss distresses you; you hope to find a way to rekindle the torch below the hill. You've long hoped to work with skymetal, and begin the game with a small metal bauble made of the skymetal of your choice-you made this item yourself. The item is nothing more than a valuable art object worth 100 gp. You can sell it to gain an additional 100 gp when creating your character, but if you keep it, your pride in its crafting grants you a +2 trait bonus on Will saving throws made against emotion and fear effects. You lose this bonus if you willingly sell or give up the item, but if it is destroyed or lost through no fault of your own, you retain a +1 trait bonus on such Will saves.|DESC:&lbracket;Kept Item&rbracket;&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Skymetal Smith ~ Kept Item|DESC:&lbracket;Lost Item&rbracket;&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Skymetal Smith ~ Lost Item|DESC:&lbracket;Sold Item&rbracket;&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Skymetal Smith ~ Sold Item
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Ankus|WEAPON:Arc Pistol|WEAPON:Arc Rifle|WEAPON:Atlatl|WEAPON:Autograpnel|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum]
+WEAPONPROF:[WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun|WEAPON:Blunderbuss|WEAPON:Boar Spear|WEAPON:Bombard (Heavy)|WEAPON:Bombard (Light)|WEAPON:Bombard (Standard)]
+WEAPONPROF:[WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Buckler Gun|WEAPON:Butterfly Sword|WEAPON:Cannon|WEAPON:Cannon (Fiend's Mouth)|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Culverin|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dart Gun|WEAPON:Death Ray|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Double Hackbut]
+WEAPONPROF:[WEAPON:Earth Breaker|WEAPON:EMP Pistol|WEAPON:EMP Rifle|WEAPON:Estoc|WEAPON:Falchion|WEAPON:Fire Lance|WEAPON:Firearms|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flare Gun]
+WEAPONPROF:[WEAPON:Gandasa|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Gravity Pistol|WEAPON:Gravity Rifle|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Id Rifle]
+WEAPONPROF:[WEAPON:Inferno Pistol|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Kumade|WEAPON:Lance]
+WEAPONPROF:[WEAPON:Laser Pistol|WEAPON:Laser Rifle|WEAPON:Laser Torch|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Machete|WEAPON:Manople|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Mind Burner|WEAPON:Mindrender|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Musket|WEAPON:Musket (Axe)]
+WEAPONPROF:[WEAPON:Musket (Double-Barreled)|WEAPON:Musket (Warhammer)|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pepperbox|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pistol]
+WEAPONPROF:[WEAPON:Pistol (Coat)|WEAPON:Pistol (Dagger)|WEAPON:Pistol (Double-Barreled)|WEAPON:Pistol (Dragon)|WEAPON:Pistol (Sword Cane)|WEAPON:Planson|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier]
+WEAPONPROF:[WEAPON:Revolver|WEAPON:Rhomphaia|WEAPON:Rifle|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife]
+WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shotgun|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Sonic Pistol|WEAPON:Sonic Rifle]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stun Gun|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter]
+WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart|WEAPON:Zero Pistol|WEAPON:Zero Rifle]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Alchemical Cartridge (Flare)|OUTPUTORDER:15|COST:10|WT:0.0|QUANTITY:10.0|NOTE:
+EQUIPNAME:Alchemical Cartridge (Paper/Bullet)|OUTPUTORDER:16|COST:12|WT:0.0|QUANTITY:50.0|NOTE:
+EQUIPNAME:Arc Pistol (Timeworn)|OUTPUTORDER:27|COST:10000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arc Pistol|DATA:NAME=Arc Pistol (Timeworn)$EQMOD=RECHARGEABLE_ITEM_10&pipe;CHARGES&lbracket;4&rbracket;]
+EQUIPNAME:Backpack|OUTPUTORDER:4|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battery|OUTPUTORDER:18|COST:100|WT:0.1|QUANTITY:7.0|NOTE:
+EQUIPNAME:Battery (Depleted)|OUTPUTORDER:20|COST:100|WT:0.1|QUANTITY:2.0|NOTE:
+EQUIPNAME:Black Powder (Dose)|OUTPUTORDER:8|COST:10|WT:0.0|QUANTITY:97.0|NOTE:
+EQUIPNAME:Bullet (Firearm)|OUTPUTORDER:10|COST:1|WT:0.0|QUANTITY:37.0|NOTE:
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:12|COST:0.01|WT:0.02|QUANTITY:8.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:11|COST:1|WT:0.02|QUANTITY:26.0|NOTE:
+EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:17|COST:10|WT:0.02|QUANTITY:569.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:13|COST:0.1|WT:0.02|QUANTITY:9.0|NOTE:
+EQUIPNAME:EMP Pistol|OUTPUTORDER:28|COST:12000.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:EMP Pistol|DATA:NAME=EMP Pistol$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;]
+EQUIPNAME:EMP Pistol +2|OUTPUTORDER:25|COST:20300.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:EMP Pistol|DATA:NAME=EMP Pistol +2$EQMOD=RECHARGEABLE_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;.PLUS2W]
+EQUIPNAME:Flint and Steel|OUTPUTORDER:19|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gunsmith's Kit|OUTPUTORDER:5|COST:15|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hammer +1 (Light)|OUTPUTORDER:29|COST:2301.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Hammer (Light)|DATA:NAME=Hammer +1 (Light)$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Inferno Pistol +1|OUTPUTORDER:26|COST:7300.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Inferno Pistol|DATA:NAME=Inferno Pistol +1$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;.PLUS1W]
+EQUIPNAME:Laser Sight|OUTPUTORDER:24|COST:8000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Laser Sight|DATA:NAME=Laser Sight$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;]
+EQUIPNAME:Lesser Burrowing Bullet|OUTPUTORDER:0|COST:1722.0|WT:0.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bullet (Burrowing/Lesser)|DATA:NAME=Lesser Burrowing Bullet$EQMOD=MAGIC_COST&pipe;3446.PLUS1M$COSTMOD=-1771.0]
+EQUIPNAME:Masterwork Rapier|OUTPUTORDER:30|COST:320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Masterwork Rapier$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Mithral Shirt +3|OUTPUTORDER:4|COST:10100.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mithral Shirt|DATA:NAME=Mithral Shirt +3$EQMOD=MITHRAL_ARMR_LT.PLUS3A]
+EQUIPNAME:Muleback Cords|OUTPUTORDER:3|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Nanite Canister|OUTPUTORDER:9|COST:500|WT:0.5|QUANTITY:9.0|NOTE:
+EQUIPNAME:Nanite Hypogun (Black/Timeworn)|OUTPUTORDER:6|COST:1200.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Nanite Hypogun (Black)|DATA:NAME=Nanite Hypogun (Black/Timeworn)$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;7&rbracket;.TIMEWORN]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:2|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
+EQUIPNAME:Pistol +1|OUTPUTORDER:1|COST:3300.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pistol|DATA:NAME=Pistol +1$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:6|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Powder Horn 1|OUTPUTORDER:21|COST:3|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Powder Horn|DATA:NAME=Powder Horn 1]
+EQUIPNAME:Powder Horn 2|OUTPUTORDER:22|COST:3|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Powder Horn|DATA:NAME=Powder Horn 2]
+EQUIPNAME:Powder Keg|OUTPUTORDER:7|COST:0|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:24|COST:10|WT:5.0|QUANTITY:1.0|NOTE:40 ft. only
+EQUIPNAME:Silverdisk|OUTPUTORDER:14|COST:10|WT:0.1|QUANTITY:7.0|NOTE:
+EQUIPNAME:Wirejack Tendons (Mark II)|OUTPUTORDER:23|COST:12000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.01|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.01|VALUE:Gunsmith's Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.02|VALUE:Nanite Hypogun (Black/Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.03|VALUE:Powder Keg|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Powder Keg|ID:0.1.01.03.01|VALUE:Black Powder (Dose)|QUANTITY:77.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.04|VALUE:Rope (Silk/50 ft)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.05|VALUE:Nanite Canister|QUANTITY:7.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.01|VALUE:Bullet (Firearm)|QUANTITY:37.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.02|VALUE:Coin (Gold Piece)|QUANTITY:26.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.03|VALUE:Coin (Copper Piece)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.04|VALUE:Coin (Silver Piece)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.05|VALUE:Silverdisk|QUANTITY:7.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.06|VALUE:Alchemical Cartridge (Flare)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.07|VALUE:Alchemical Cartridge (Paper/Bullet)|QUANTITY:50.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.08|VALUE:Coin (Platinum Piece)|QUANTITY:569.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.10|VALUE:Battery|QUANTITY:7.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.11|VALUE:Nanite Canister|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.12|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.13|VALUE:Bullet (Burrowing/Lesser)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.14|VALUE:Battery (Depleted)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.07|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Powder Horn 1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Powder Horn 1|ID:0.1.10.01|VALUE:Black Powder (Dose)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.11|VALUE:Powder Horn 2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Powder Horn 2|ID:0.1.11.01|VALUE:Black Powder (Dose)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.27|VALUE:Pistol +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.54|VALUE:Wirejack Tendons (Mark II)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.55|VALUE:Muleback Cords|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.56|VALUE:Mithral Shirt +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.57|VALUE:Laser Sight|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.58|VALUE:EMP Pistol +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.59|VALUE:Inferno Pistol +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.60|VALUE:Arc Pistol (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.61|VALUE:EMP Pistol|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.62|VALUE:Hammer +1 (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.63|VALUE:Masterwork Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:No Backpack|ID:0.2|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.2.03|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.2.03.01|VALUE:Coin (Copper Piece)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.2.03.02|VALUE:Coin (Gold Piece)|QUANTITY:26.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.2.03.03|VALUE:Coin (Silver Piece)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.2.03.04|VALUE:Bullet (Firearm)|QUANTITY:37.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.2.05|VALUE:Powder Horn 1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.2.06|VALUE:Powder Horn 2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.2.07|VALUE:Black Powder (Dose)|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.2.08|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Gunslinger ~ Gunslinger Initiative|TBTARGET:PC|TBBONUS:COMBAT&pipe;INITIATIVE&pipe;GUNSLINGERINITIATIVE
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;2
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

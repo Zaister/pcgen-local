@@ -1,0 +1,33 @@
+# CVS $Revision: 14615 $ $Author: elrotheonk $ -- Tue Apr  5 14:30:51 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Karzoug Stuff	SOURCESHORT:RotR	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Karzoug's Ioun Stones
+# Equipment Name				Type				Cost		Weight	Save checks bonus								Bonus to HP			Stat bonus
+Ioun Stone (Amber Spindle)		TYPE:Magic.Wondrous	COST:10000	WT:0		BONUS:CHECKS|Fortitude,Reflex,Will|1|TYPE=Resistance.STACK
+Ioun Stone (Crimson Sphere)		TYPE:Magic.Wondrous	COST:24000	WT:0																BONUS:STAT|INT|2|TYPE=Enhancement.STACK
+Ioun Stone (Emerald Ellipsoid)	TYPE:Magic.Wondrous	COST:20000	WT:0												BONUS:HP|CURRENTMAX|5
+Ioun Stone (Onyx Rhomboid)		TYPE:Magic.Wondrous	COST:24000	WT:0																BONUS:STAT|CON|2|TYPE=Enhancement.STACK
+
+###Block: Karzoug's Burning Glaive
+# Equipment Name			Required Weapon Proficiency	Type													Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier							Wield Category	Reach Multiplier	Size		Innate Spells																															Special Property
+Karzoug's Burning Glaive	PROFICIENCY:WEAPON|Glaive	TYPE:Weapon.Melee.TwoHanded.Martial.Specific.Reach.Standard.Slashing.Polearm	COST:8	WT:10		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d10	EQMOD:FLAME.DANCE.MAGIC_COST|82000.PLUS2W.STEEL	WIELD:TwoHanded	REACHMULT:2		SIZE:M	SPELLS:Magic Item|TIMES=3|CASTERLEVEL=17|Cure Moderate Wounds|Faerie Fire	SPELLS:Magic Item|TIMES=1|CASTERLEVEL=17|Major Image,16	SPELLS:Magic Item|TIMES=ATWILL|CASTERLEVEL=17|Fireball,16	SPROP:Alignment NE; Ego 22, Senses 120 ft. darkvision, hearing; Int 17, Wis 10, Cha 17; read languages, speech (Ignan, Thassilonian), telepathy; Special Purpose defeat non-spellcasters
+
+###Block: Robes of Xin-Shalast
+# Equipment Name		Type						Contains		Cost		Weight	Spell Res.	Caster level						Combat bonus			Special Property
+Robes of Xin-Shalast	TYPE:Magic.Wondrous.Robe.Container	CONTAINS:*240	COST:198000	WT:1		SR:24		BONUS:CASTERLEVEL|TYPE.Arcane,TYPE.Divine|1	BONUS:COMBAT|AC|6|TYPE=Armor	SPROP:Wearer is immune to high altitude effects and ignores Xin-Shalast occluding field
+
+###Block: Runewell Amulet
+# Equipment Name	Type						Ability											Combat bonus														Add to base move			Modify VAR
+Runewell Amulet	TYPE:Magic.Wondrous.Amulet.Artifact	ABILITY:Special Ability|AUTOMATIC|Fast Healing|Flight Maneuverability	BONUS:COMBAT|AC|5|TYPE=NaturalArmorEnhancement	BONUS:COMBAT|AC|5|TYPE=NaturalArmorEnhancement	BONUS:MOVEADD|TYPE.Fly|60	BONUS:VAR|FastHealingRate|10	BONUS:VAR|Maneuverability|5
+
+###Block: Sihedron Tome
+# Equipment Name	Type								Page Usage	Weight	Stat bonus
+Sihedron Tome	TYPE:Magic.Wondrous.Book.Spellbook.Artifact	PAGEUSAGE:0	WT:1		BONUS:STAT|BASESPELLSTAT|6
+
+###Block: Talons of Leng
+# Equipment Name	Required Weapon Proficiency		Type																Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier			Wield Category	Size		Stat bonus		Special Property
+Talons of Leng	PROFICIENCY:WEAPON|Unarmed Strike	TYPE:Magic.Wondrous.Glove	TYPE:Weapon.Natural.Melee.Unarmed.Bludgeoning.Finesseable.Close	COST:67000	WT:1		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d4	EQMOD:PLUS3W.STEEL	WIELD:Light		SIZE:M	BONUS:STAT|WIS|-2	SPROP:On a critical hit, victim is subject to Insanity (Will DC 20, confused for 1 round), wearer is immune to confusion and insanity
+
+
+

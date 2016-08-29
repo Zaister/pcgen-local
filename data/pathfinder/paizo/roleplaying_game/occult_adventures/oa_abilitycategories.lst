@@ -1,0 +1,18 @@
+# CVS $Revision: 21663 $ $Author: amaitland $ -- Fri Aug  7 12:45:23 2015 -- reformated by prettylst.pl v1.51 (build 25836)
+#SOURCELONG:Occult Adventures	SOURCESHORT:OA	SOURCEWEB:http://paizo.com/products/btpy97vo	SOURCEDATE:2015-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Class Feature
+# Ability Category				Visible		Editable?		Change Pool?	Category of Object		Type of Object							Plural description for UI		Display Location
+ABILITYCATEGORY:Kineticist Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:Kineticist Class Feature.KineticistClassFeatures	PLURAL:Kineticist Class Features	DISPLAYLOCATION:Class Features
+
+###Block: Class Feature Categories
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Elemental Focus		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ElementalFocus	PLURAL:Elemental Focuses	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Kinetic Blast			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SimpleBlast		PLURAL:Kinetic Blasts		DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Infusion Wild Talent	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:WildTalentInfusion	PLURAL:Infusion Wild Talents	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Utility Wild Talent		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:WildTalentUtility	PLURAL:Utility Wild Talents	DISPLAYLOCATION:Class Features
+
+#
+# End
+#

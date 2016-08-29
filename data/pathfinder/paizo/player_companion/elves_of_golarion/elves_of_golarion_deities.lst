@@ -1,0 +1,12 @@
+# CVS $Revision: 9485 $ $Author: eddyanthony $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Elves of Golarion	SOURCESHORT:EoG	SOURCEWEB:http://paizo.com/pathfinder/v5748btpy81x8	SOURCEDATE:2008-10
+
+###Block: Gods of the Elves
+# Deity Name	Product Identity?	Domains										Desciption of Deity/Title				Deity Weapon			Alignment	Pantheon		Deity Title			Source Page
+Findeladlara	NAMEISPI:YES	DOMAINS:Air,Chaos,Community,Creation,Good|PREALIGN:NG,CG,CN		DESC:Godess of art, architecture, and twilight	DEITYWEAP:Quarterstaff		ALIGN:CG	PANTHEON:Elven	TITLE:The Guiding Hand	SOURCEPAGE:p.10
+Ketephys		NAMEISPI:YES	DOMAINS:Animal,Chaos,Good,Plant,Weather|PREALIGN:NG,CG,CN		DESC:God of hunting, forestry, and running	DEITYWEAP:Shortbow|Longbow	ALIGN:CG	PANTHEON:Elven	TITLE:The Hunter		SOURCEPAGE:p.10
+Yuelral		NAMEISPI:YES	DOMAINS:Artifice,Earth,Good,Knowledge,Magic|PREALIGN:NG,CG,CN	DESC:Goddess of magic, crystals, and jewelers	DEITYWEAP:Dagger			ALIGN:NG	PANTHEON:Elven	TITLE:The Wise		SOURCEPAGE:p.10
+
+#
+# End
+#

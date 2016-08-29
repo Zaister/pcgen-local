@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Advanced Race Guide	SOURCESHORT:PFARG	SOURCEWEB:http://paizo.com/products/btpy8rv2?Pathfinder-Roleplaying-Game-Advanced-Race-Guide	SOURCEDATE:2012-06
+# ORIGINAL ENTRY: none
+# ORIGINAL ENTRY DATE: none
+
+###Block: Elf Racial Trait Abilities
+# Ability Name	Unique Key			Category of Ability		Type														Multiple Requirements																				Description																																																															Cost		Source Page
+Arcane Focus	KEY:Arcane Focus ~ Elf	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.ElfRacialTrait.ElfWeaponFamiliarity	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Arcane Focus ~ Elf],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.ElfWeaponFamiliarity]	DESC:Some elven families have such long traditions of producing wizards (and other arcane spellcasters) that they raise their children with the assumption each is destined to be a powerful magic-user, with little need for mundane concerns such as skill with weapons. Elves with this racial trait gain a +2 racial bonus on concentration checks made to cast arcane spells defensively.	COST:0	SOURCEPAGE:p.22
+
+###Block: Half-Orc Racial Trait Abilities
+# Ability Name	Unique Key				Category of Ability		Type														Multiple Requirements																				Description																																															Bonus to Ability Pool		Cost		Source Page
+Skilled		KEY:Skilled ~ Half-Orc		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.HalfOrcRacialTrait.HalfOrcRacialVision			PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Skilled ~ Half-Orc],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalfOrcRacialVision]	DESC:Second- and third-generation half-orcs often favor their human heritage more than their orc heritage. Half-orcs with this trait gain 1 additional skill rank per level.																				BONUS:SKILLPOINTS|NUMBER|1	COST:0	SOURCEPAGE:p.52
+
+###Block: Human Racial Trait Abilities
+# Ability Name	Unique Key				Category of Ability		Type														Multiple Requirements																				Description																																															Bonus to Ability Pool																														Bonus to skill			Cost		Source Page
+Focused Study	KEY:Focused Study ~ Human	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.HumanRacialTrait.HumanBonusFeat	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Focused Study ~ Human],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.HumanBonusFeat]	DESC:All humans are skillful, but some, rather than being generalists, tend to specialize in a handful of skills. At 1st, 8th, and 16th level, such humans gain Skill Focus in a skill of their choice as a bonus feat.													BONUS:ABILITYPOOL|Focused Study Bonus Feat|1|PREPCLEVEL:MIN=1	BONUS:ABILITYPOOL|Focused Study Bonus Feat|1|PREPCLEVEL:MIN=8	BONUS:ABILITYPOOL|Focused Study Bonus Feat|1|PREPCLEVEL:MIN=16						COST:0	SOURCEPAGE:p.72
+Silver Tongued	KEY:Silver Tongued ~ Human	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.Extraordinary.HumanRacialTrait.HumanSkilled		PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Silver Tongued ~ Human],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.HumanSkilled]		DESC:Human are often adept at subtle manipulation and putting even sworn foes at ease. Humans with this trait gain a +2 bonus on Diplomacy and Bluff checks. In addition, when they use Diplomacy to shift a creature’s attitude, they can shift up to three steps up rather than just two.																																		BONUS:SKILL|Bluff,Diplomacy|2	COST:0	SOURCEPAGE:p.72
+
+#
+# End
+#

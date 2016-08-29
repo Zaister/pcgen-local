@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Thu Aug 11 14:35:51 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Changed tech items
+# Equipment Name				Type									Cost		Source Page		Special Property
+Thoracic Nanite Chamber (Mark I)	TYPE:Cybertech.Technological Gear.CyberSlot_Body	COST:3000	SOURCEPAGE:p.38	SPROP:3/day as a swiftr action, for 5 minutes, gain a +1 bonus to Constitution checks, Constitution-based skill checks, Fortitude saves, the DC of any ability based on Constitution, and an amount of temporary hit point equal to your hit dice.
+Thoracic Nanite Chamber (Mark II)	TYPE:Cybertech.Technological Gear.CyberSlot_Body	COST:12000	SOURCEPAGE:p.38	SPROP:3/day as a swiftr action, for 5 minutes, gain a +2 bonus to Constitution checks, Constitution-based skill checks, Fortitude saves, the DC of any ability based on Constitution, and an amount of temporary hit point equal to twice your hit dice.
+Thoracic Nanite Chamber (Mark III)	TYPE:Cybertech.Technological Gear.CyberSlot_Body	COST:27000	SOURCEPAGE:p.38	SPROP:3/day as a swiftr action, for 5 minutes, gain a +3 bonus to Constitution checks, Constitution-based skill checks, Fortitude saves, the DC of any ability based on Constitution, and an amount of temporary hit point equal to three times your hit dice.
+Wirejack Tendons (Mark I)		TYPE:Cybertech.Technological Gear.CyberSlot_Body	COST:3000	SOURCEPAGE:p.38	SPROP:3/day as a swiftr action, for 5 minutes, gain a +1 bonus to Dexterity checks, Dexterity-based skill checks, Initiative checks, Reflex saves, to attack and damage rolls where the Dexterity modifier is applied, the DC of any spell or ability based on Charisma, to Combat Maneuver Bonus if it uses the Dexterity modifier, and a +1 dodge bonus to Armor Class and Combat Maneuver Defense.
+Wirejack Tendons (Mark II)		TYPE:Cybertech.Technological Gear.CyberSlot_Body	COST:12000	SOURCEPAGE:p.38	SPROP:3/day as a swiftr action, for 5 minutes, gain a +2 bonus to Dexterity checks, Dexterity-based skill checks, Initiative checks, Reflex saves, to attack and damage rolls where the Dexterity modifier is applied, the DC of any spell or ability based on Charisma, to Combat Maneuver Bonus if it uses the Dexterity modifier, and a +1 dodge bonus to Armor Class and Combat Maneuver Defense.
+Wirejack Tendons (Mark III)		TYPE:Cybertech.Technological Gear.CyberSlot_Body	COST:27000	SOURCEPAGE:p.38	SPROP:3/day as a swiftr action, for 5 minutes, gain a +3 bonus to Dexterity checks, Dexterity-based skill checks, Initiative checks, Reflex saves, to attack and damage rolls where the Dexterity modifier is applied, the DC of any spell or ability based on Charisma, to Combat Maneuver Bonus if it uses the Dexterity modifier, and a +1 dodge bonus to Armor Class and Combat Maneuver Defense.
+
+###Block: Weapon Groups
+# Equipment Name	Type
+Chainsaw.MOD	TYPE:Powered Melee.Weapon Group Powered Melee

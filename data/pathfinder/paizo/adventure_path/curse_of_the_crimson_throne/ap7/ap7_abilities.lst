@@ -1,0 +1,12 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Wed Dec 11 11:40:54 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+SOURCELONG:Curse of the Crimson Throne, Chapter 1 - Edge of Anarchy	SOURCESHORT:AP7	SOURCEWEB:http://paizo.com/products/btpy81xw?Pathfinder-7-Curse-of-the-Crimson-Throne-Chapter-1-Edge-of-Anarchy	SOURCEDATE:2008-03
+# Original Entry: Stefan Radermacher
+
+###Block: Dream Spider Abilities
+# Ability Name	Unique Key				Category of Ability		Type						Define					Description																																																																																																																							Ability						Modify VAR									Source Page		Aspects
+Dream Web		KEY:Dream Web ~ Dream Spider	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	DEFINE:DreamWebDC|10+(HD/2)+CON	DESC:A dream spider's webs carry an iridescent hue, making them easy to notice with a DC 15 Perception check. Any animal, humanoid, giant, or monstrous humanoid that comes in contact with these webs experiences strange hallucinations, taking 1 point of Wisdom damage per round of contact. A DC %1 Fortitude save negates this damage. If the webs of a dream spider are burned, they create a spread of poisonous gas in a 10-foot radius. This gas deals 1d4 points of Wisdom damage to all creatures in the area, not just to those susceptible to contact with webs as listed above. A DC %1 Fortitude save halves this damage. The cloud of colorful vapor remains for only a single round before dissipating harmlessly.|DreamWebDC	ABILITY:Special Ability|AUTOMATIC|Web	BONUS:VAR|DreamWebDC|2|PREFEAT:1,Ability Focus (Dream Web)	SOURCEPAGE:p.82
+Poison		KEY:Poison ~ Dream Spider	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	DEFINE:PoisonSaveDC|10+(HD/2)+CON	DESC:Bite-injury; save Fort DC %1; frequency 1/round for 4 rounds; effect 1d2 Wis damage; cure 1 save.|PoisonSaveDC																																																																																																												BONUS:VAR|PoisonSaveDC|2|PREFEAT:1,Ability Focus (Poison)	SOURCEPAGE:p.82	ASPECT:Ability Benefit|(Fort DC %1;1/round for 4 rounds;1d2 Wis;1 save)|PoisonSaveDC
+
+#
+# End
+#

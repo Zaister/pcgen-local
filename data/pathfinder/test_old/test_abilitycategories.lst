@@ -1,0 +1,8 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+#SOURCELONG:Test	SOURCESHORT:TEST	SOURCEDATE:2012-10
+
+# Ability Category			Visible	Editable or Static?	Change Pool?	Fractional values?	Category of Object	Type of Object	Plural description for UI	Display Location
+ABILITYCATEGORY:Test			VISIBLE:NO	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Test
+
+ABILITYCATEGORY:Test Category Show	VISIBLE:YES	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Test		TYPE:Testing	PLURAL:Test Category Show	DISPLAYLOCATION:Test
+ABILITYCATEGORY:Test Category Hide	VISIBLE:YES	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Test		TYPE:Testing	PLURAL:Test Category Hide	DISPLAYLOCATION:Test

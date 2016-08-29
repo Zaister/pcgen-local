@@ -1,0 +1,16 @@
+# CVS $Revision$ $Author$ -- Sun Oct 11 21:37:53 2009 -- reformated by prettylst.pl v1.39 (build 10232)
+CAMPAIGN:Oliver - Rules: Action Points
+GAMEMODE:Pathfinder
+TYPE:Oliver Linares.Supplement
+RANK:9
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+PUBNAMELONG:Oliver Linares
+PUBNAMESHORT:Oliver
+SOURCELONG:Rules: Action Points
+SOURCESHORT:OL.AP
+SOURCEDATE:2099-12
+ISOGL:NO
+
+TEMPLATE:actionpoints_templates.lst

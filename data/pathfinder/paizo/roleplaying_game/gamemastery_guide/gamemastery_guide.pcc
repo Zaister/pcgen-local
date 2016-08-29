@@ -1,0 +1,59 @@
+# CVS $Revision: 17479 $ $Author: amaitland $ -- Tue Sep  4 07:13:30 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+CAMPAIGN:GameMastery Guide
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder RPG
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder
+PRECAMPAIGN:1,INCLUDES=Core Rulebook
+PUBNAMELONG:Paizo Inc.
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:GameMastery Guide
+SOURCESHORT:GMG
+SOURCEWEB:http://paizo.com/products/btpy8ffn?Pathfinder-Roleplaying-Game-GameMastery-Guide
+SOURCEDATE:2010-06
+ISOGL:YES
+
+COVER:gamemastery_guide.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy8ffn?Pathfinder-Roleplaying-Game-GameMastery-Guide|Buy this publication from Paizo Publishing!
+DESC:Rule Your World! Players may be the heroes of the Pathfinder Roleplaying Game, but whole worlds rest on the Game Master's shoulders. Fortunately for GMs, the Pathfinder RPG GameMastery Guide is here to back you up. Packed with invaluable hints and information, this book contains everything you need to take your game to the next level, from advice on the nuts and bolts of running a session to the greater mysteries of crafting engaging worlds and storylines. Whether you've run one game or a thousand, this book has page after page of secrets to make you sharper, faster, and more creative, while always staying one step ahead of your players.
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder RPG GameMastery Guide, Copyright 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scott, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.
+COPYRIGHT:Basidirond from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Cave Fisher from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Lawrence Schick.
+COPYRIGHT:Dark Creeper from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Rik Shepard.
+COPYRIGHT:Dark Stalker from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Simon Muth.
+COPYRIGHT:Dracolisk from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Ear Seeker from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene and Erica Balsley, based on original material by Gary Gygax.
+COPYRIGHT:Froghemoth from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Giant Slug from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Ice Golem from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene.
+COPYRIGHT:Iron Cobra from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Philip Masters.
+COPYRIGHT:Marid from the Tome of Horrors III, Copyright 2005, Necromancer Games, Inc.; Author Scott Greene.
+COPYRIGHT:Mite from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Ian Livingstone and Mark Barnes.
+COPYRIGHT:Nabasu Demon from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Rot Grub from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Shadow Demon from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Neville White.
+COPYRIGHT:Wood Golem from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Authors Scott Greene and Patrick Lawinger.
+COPYRIGHT:Yellow Musk Creeper from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.
+COPYRIGHT:Yeti from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+EQUIPMENT:gmg_equip.lst
+
+#
+# End
+#

@@ -1,0 +1,13 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Feb 21 18:41:43 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+# Class Name	Hit Dice	Type			Max Level		Source Page		Ability																			Save checks bonus											Combat bonus
+CLASS:Harridan	HD:10		TYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:p.86	ABILITY:Special Ability|AUTOMATIC|Monstrous Humanoid Traits|PREVAREQ:NoTypeTraits,0	ABILITY:FEAT|AUTOMATIC|CMB Output	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Required Race		Reg. Race Type
+CLASS:Harridan	PRERACE:1,Harridan	PRERACETYPE:Monstrous humanoid
+# Class Name	Skill Pts/Lvl	Add INT to Skill Points?	Class Skill
+CLASS:Harridan	STARTSKILLPTS:4	MODTOSKILLS:YES			CSKILL:Climb|TYPE.Craft|Fly|Intimidate|Perception|Ride|Stealth|Survival|Swim
+1	BONUS:DOMAIN|NUMBER|2									ADD:SPELLCASTER|Cleric	ABILITY:Special Ability|AUTOMATIC|Domains
+17					BONUS:PCLEVEL|Cleric|11	BONUS:VAR|DomainLVL|12
+

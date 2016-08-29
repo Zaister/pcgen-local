@@ -1,0 +1,73 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+#SOURCELONG:Advanced Race Guide	SOURCESHORT:PFARG	SOURCEWEB:http://paizo.com/products/btpy8rv2?Pathfinder-Roleplaying-Game-Advanced-Race-Guide	SOURCEDATE:2012-06
+# ORIGINAL ENTRY: Douglas Limmer
+# ORIGINAL ENTRY DATE: 2012/07/28
+
+###Block: Racial Traits ability categories
+# Ability Category						Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object			Specific choices list	Plural description for UI				Display Location
+ABILITYCATEGORY:Focused Study Bonus Feat			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:FEAT								ABILITYLIST:Skill Focus	PLURAL:Focused Study Bonus Feats			DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Tiefling Language				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:TieflingLanguageTrait					PLURAL:Tiefling Languages				DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Hag Racial Trait				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:HagRacialTrait						PLURAL:Hag Racial Traits				DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Shards of the Past Knowledge Skill	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ShardsOfPastKnowledge					PLURAL:Shards of the Past Knowledge Skills	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Suli Language Choice			VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SuliLanguage							PLURAL:Suli Language Choices				DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Vishkanya Perform Skill Bonus		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:VishkanyaPerformSkill					PLURAL:Vishkanya Perform Skill Bonuss		DISPLAYLOCATION:Racial Abilities
+
+
+###Block: Class Bonus Feat Categories
+# Ability Category				Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object	Type of Object		Specific choices list					Plural description for UI		Display Location
+ABILITYCATEGORY:Imperious Bloodline Feat	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT		TYPE:ImperiousBloodline	ABILITYLIST:Skill Focus(Perform (Oratory))	PLURAL:Imperious Bloodline Feats	DISPLAYLOCATION:Feats
+
+
+###Block: Featured Races ability categories
+# Ability Category				Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Aasimar Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AasimarRacialTrait		PLURAL:Aasimar Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Catfolk Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:CatfolkRacialTrait		PLURAL:Catfolk Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Dhampir Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:DhampirRacialTrait		PLURAL:Dhampir Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Drow Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:DrowRacialTrait		PLURAL:Drow Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Fetchling Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:FetchlingRacialTrait	PLURAL:Fetchling Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Goblin Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:GoblinRacialTrait		PLURAL:Goblin Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Hobgoblin Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:HobgoblinRacialTrait	PLURAL:Hobgoblin Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Ifrit Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:IfritRacialTrait		PLURAL:Ifrit Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Kobold Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:KoboldRacialTrait		PLURAL:Kobold Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Orc Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:OrcRacialTrait		PLURAL:Orc Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Oread Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:OreadRacialTrait		PLURAL:Oread Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Ratfolk Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:RatfolkRacialTrait		PLURAL:Ratfolk Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Sylph Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SylphRacialTrait		PLURAL:Sylph Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Tengu Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:TenguRacialTrait		PLURAL:Tengu Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Tiefling Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:TieflingRacialTrait	PLURAL:Tiefling Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Undine Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:UndineRacialTrait		PLURAL:Undine Racial Traits		DISPLAYLOCATION:Racial Abilities
+
+
+###Block: Uncommon Races ability categories
+# Ability Category				Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Changeling Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:ChangelingRacialTrait	PLURAL:Changeling Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Duergar Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:DuergarRacialTrait		PLURAL:Duergar Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Gillman Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:GillmanRacialTrait		PLURAL:Gillman Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Grippli Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:GrippliRacialTrait		PLURAL:Grippli Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Kitsune Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:KitsuneRacialTrait		PLURAL:Kitsune Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Merfolk Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MerfolkRacialTrait		PLURAL:Merfolk Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Nagaji Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:NagajiRacialTrait		PLURAL:Nagaji Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Samsaran Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SamsaranRacialTrait	PLURAL:Samsaran Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Strix Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:StrixRacialTrait		PLURAL:Strix Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Suli Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SuliRacialTrait		PLURAL:Suli Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Svirfneblin Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SvirfneblinRacialTrait	PLURAL:Svirfneblin Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Vanara Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:VanaraRacialTrait		PLURAL:Vanara Racial Traits		DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Vishkanya Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:VishkanyaRacialTrait	PLURAL:Vishkanya Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Wayang Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:WayangRacialTrait		PLURAL:Wayang Racial Traits		DISPLAYLOCATION:Racial Abilities
+
+###Block: Archetype ability categories
+# Ability Category				Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Bonded Spell Level 1	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel1	PLURAL:Bonded Spell Level 1	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 2	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel2	PLURAL:Bonded Spell Level 2	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 3	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel3	PLURAL:Bonded Spell Level 3	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 4	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel4	PLURAL:Bonded Spell Level 4	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 5	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel5	PLURAL:Bonded Spell Level 5	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 6	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel6	PLURAL:Bonded Spell Level 6	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 7	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel7	PLURAL:Bonded Spell Level 7	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 8	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel8	PLURAL:Bonded Spell Level 8	DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Bonded Spell Level 9	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BondedSpellLevel9	PLURAL:Bonded Spell Level 9	DISPLAYLOCATION:Class Abilities
+
+
+#
+# End
+#

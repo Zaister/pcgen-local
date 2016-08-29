@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Wed Apr 20 12:00:17 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Melee Tactics Toolbox	SOURCESHORT:MTT	SOURCEWEB:http://paizo.com/products/btpy9c23?Pathfinder-Player-Companion-Melee-Tactics-Toolbox	SOURCEDATE:2016-04
+# Original Entry by:Stefan Radermacher
+
+###Block: Spells
+# Spell Name		Type				Classes of caster									School			Sub-School			Components	Casting Time			Range			Target Area or Effect	Duration					Source Page		Description
+Blade Tutor's Spirit	TYPE:Arcane.Divine	CLASSES:Magus=1|Antipaladin,Paladin,Sorcerer,Summoner,Wizard=2	SCHOOL:Conjuration	SUBSCHOOL:Creation	COMPS:V, S	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:Your		DURATION:(CASTERLEVEL) minutes	SOURCEPAGE:p.30	DESC:Force sprit reduces voluntary penalties to your attack rolls
+
+#
+# End
+#

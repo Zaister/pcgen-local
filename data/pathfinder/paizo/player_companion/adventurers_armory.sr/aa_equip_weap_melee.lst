@@ -1,0 +1,83 @@
+# CVS $Revision: 11254 $ $Author: eddyanthony $ -- Mon Apr 19 14:37:13 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Adventurer's Armory	SOURCESHORT:AA	SOURCEWEB:http://paizo.com/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy88wi	SOURCEDATE:2010-04
+# Original Entry by: Stefan Radermacher
+
+# This file includes errata from the second printing of this book.
+#
+# TODO: finish special treatment for madu and meteor hammer, consolidate klar
+
+####Block: Simple Weapons
+#-----unarmed--------
+# Equipment Name			Output Name					Required Weapon Proficiency			Type													Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Alternative Critical	Alternative Critical Range	Damage	Alternative Damage	Modifier				Alternative Modifier	Wield Category	Range		Reach Multiplier	Size		Source Page		Combat bonus			Weapon prop. bonus	Special Property
+Brass Knuckles									PROFICIENCY:WEAPON|Brass Knuckles		TYPE:Weapon.Melee.Unarmed.Finesseable.Simple.Monk.Bludgeoning.Close		COST:1	WT:1		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d3					EQMOD:STEEL.MONK							WIELD:Light							SIZE:M	SOURCEPAGE:p.2
+#------light---------
+# Equipment Name			Output Name					Required Weapon Proficiency			Type													Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Alternative Critical	Alternative Critical Range	Damage	Alternative Damage	Modifier				Alternative Modifier	Wield Category	Range		Reach Multiplier	Size		Source Page		Combat bonus			Weapon prop. bonus	Special Property
+Cestus										PROFICIENCY:WEAPON|Cestus			TYPE:Weapon.Melee.Light.Finesseable.Simple.Standard.Bludgeoning.Monk		COST:5	WT:1		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d4					EQMOD:LEATHER.MONK						WIELD:Light							SIZE:M	SOURCEPAGE:p.3
+Hanbo											PROFICIENCY:WEAPON|Hanbo			TYPE:Weapon.Melee.Light.Finesseable.Simple.Standard.Bludgeoning.Monk		COST:1	WT:2		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d6					EQMOD:WOOD.TRIP.MONK						WIELD:Light							SIZE:M	SOURCEPAGE:p.3
+Wooden Stake									PROFICIENCY:WEAPON|Wooden Stake		TYPE:Weapon.Melee.Light.Finesseable.Simple.Standard.Piercing			COST:0	WT:1		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4					EQMOD:WOOD								WIELD:Light		RANGE:10				SIZE:M	SOURCEPAGE:p.5
+#-----one handed -------
+Mere Club										PROFICIENCY:WEAPON|Mere Club			TYPE:Weapon.Melee.OneHanded.Simple.Standard.Bludgeoning.Piercing			COST:2	WT:2		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4														WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.4
+#-----two handed -------
+Bayonet										PROFICIENCY:WEAPON|Bayonet			TYPE:Weapon.Melee.TwoHanded.Simple.Standard.Piercing					COST:5	WT:1		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d6					EQMOD:STEEL								WIELD:TwoHanded						SIZE:M	SOURCEPAGE:p.2
+
+####Block: Martial Weapons
+#------light---------
+# Equipment Name			Output Name					Required Weapon Proficiency			Type													Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Alternative Critical	Alternative Critical Range	Damage	Alternative Damage	Modifier				Alternative Modifier	Wield Category	Range		Reach Multiplier	Size		Source Page		Combat bonus			Weapon prop. bonus	Special Property
+Blade Boot										PROFICIENCY:WEAPON|Blade Boot			TYPE:Weapon.Melee.Light.Finesseable.Martial.Standard.Piercing			COST:25	WT:2		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4					EQMOD:STEEL								WIELD:Light							SIZE:M	SOURCEPAGE:p.2
+Dogslicer										PROFICIENCY:WEAPON|Dogslicer			TYPE:Weapon.Melee.Light.Finesseable.Martial.Standard.Slashing			COST:8	WT:1		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d6					EQMOD:STEEL								WIELD:Light							SIZE:M	SOURCEPAGE:p.18
+Switchblade Knife									PROFICIENCY:WEAPON|Dagger			TYPE:Weapon.Melee.Light.Finesseable.Martial.Standard.Piercing			COST:5	WT:2		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d4					EQMOD:STEEL								WIELD:Light		RANGE:10				SIZE:M	SOURCEPAGE:p.5
+War Razor										PROFICIENCY:WEAPON|War Razor			TYPE:Weapon.Melee.Light.Finesseable.Martial.Standard.Slashing			COST:8	WT:1		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d4					EQMOD:STEEL								WIELD:Light							SIZE:M	SOURCEPAGE:p.18
+#-----one handed -------
+Combat Scabbard (Sharpened)	OUTPUTNAME:Combat Scabbard, [NAME]	PROFICIENCY:WEAPON|Combat Scabbard		TYPE:Weapon.Melee.OneHanded.Martial.Standard.Slashing					COST:10	WT:1		CRITMULT:x2			CRITRANGE:3												DAMAGE:1d6					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.3
+Klar (as weapon)									PROFICIENCY:WEAPON|Klar				TYPE:Weapon.Melee.OneHanded.Martial.Standard.Slashing					COST:12	WT:6		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d6					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.18
+Scizore										PROFICIENCY:WEAPON|Scizore			TYPE:Weapon.Melee.OneHanded.Martial.Standard.Piercing					COST:20	WT:3		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d10					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.4	BONUS:COMBAT|AC|1|TYPE=Shield	BONUS:WEAPON|TOHIT|-1
+Terbutje										PROFICIENCY:WEAPON|Terbutje			TYPE:Weapon.Melee.OneHanded.Martial.Standard.Slashing					COST:5	WT:2		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d8					EQMOD:WOOD								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.5										SPROP:Gains the broken condition on a roll of 1.
+Terbutje (Steel)			OUTPUTNAME:Terbutje, [NAME]		PROFICIENCY:WEAPON|Terbutje			TYPE:Weapon.Melee.OneHanded.Martial.Standard.Slashing					COST:20	WT:4		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d8					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.5
+#-----two handed -------
+Bardiche										PROFICIENCY:WEAPON|Bardiche			TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Slashing					COST:13	WT:14		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d10					EQMOD:STEEL.BRACE							WIELD:TwoHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.2										SPROP:+2 to CMD vs. sunder.
+Bec de Corbin									PROFICIENCY:WEAPON|Bec de Corbin		TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Bludgeoning.Piercing			COST:15	WT:12		CRITMULT:x3			CRITRANGE:1												DAMAGE:1d10					EQMOD:STEEL.BRACE							WIELD:TwoHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.2										SPROP:+2 to CMB to sunder medium or heavy armor.
+Bill											PROFICIENCY:WEAPON|Bill				TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Slashing					COST:11	WT:11		CRITMULT:x3			CRITRANGE:1												DAMAGE:1d8					EQMOD:STEEL.BRACE.DISARM					WIELD:TwoHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.2										SPROP:+1 shield bonus to AC when fighting defensively or with full defense.
+Earth Breaker									PROFICIENCY:WEAPON|Earth Breaker		TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Bludgeoning				COST:40	WT:14		CRITMULT:x3			CRITRANGE:1												DAMAGE:2d6					EQMOD:STEEL								WIELD:TwoHanded						SIZE:M	SOURCEPAGE:p.18
+Glaive-Guisarme									PROFICIENCY:WEAPON|Glaive-Guisarme		TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Slashing					COST:12	WT:10		CRITMULT:x3			CRITRANGE:1												DAMAGE:1d0					EQMOD:STEEL.BRACE							WIELD:TwoHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.3
+Lucerne Hammer									PROFICIENCY:WEAPON|Lucerne Hammer		TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Bludgeoning.Piercing			COST:15	WT:12		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d12					EQMOD:STEEL.BRACE							WIELD:TwoHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.4										SPROP:+2 to CMB to sunder medium or heavy armor.
+Ogre Hook										PROFICIENCY:WEAPON|Ogre Hook			TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Piercing					COST:24	WT:10		CRITMULT:x3			CRITRANGE:1												DAMAGE:1d10					EQMOD:STEEL.TRIP							WIELD:TwoHanded						SIZE:M	SOURCEPAGE:p.18
+Syringe Spear									PROFICIENCY:WEAPON|Syringe Spear		TYPE:Weapon.Melee.TwoHanded.Martial.Standard.Piercing					COST:100	WT:6		CRITMULT:x3			CRITRANGE:1												DAMAGE:1d8					EQMOD:STEEL.BRACE							WIELD:TwoHanded	RANGE:20				SIZE:M	SOURCEPAGE:p.5
+
+####Block: Exotic Weapons
+#------light---------
+Aklys											PROFICIENCY:WEAPON|Aklys			TYPE:Weapon.Melee.Light.Finesseable.Exotic.Standard.Bludgeoning			COST:5	WT:2		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d6					EQMOD:STEEL.TRIP							WIELD:Light		RANGE:20				SIZE:M	SOURCEPAGE:p.2										SPROP:Can be used to make trip attacks at range.
+Maulaxe (Dwarven)			OUTPUTNAME:[NAME] Maulaxe		PROFICIENCY:WEAPON|Maulaxe (Dwarven)	TYPE:Weapon.Melee.Light.Finesseable.Exotic.Standard.Bludgeoning.Slashing	COST:25	WT:5		CRITMULT:x3			CRITRANGE:1												DAMAGE:1d6					EQMOD:STEEL								WIELD:Light		RANGE:10				SIZE:M	SOURCEPAGE:p.3
+Rope Gauntlet									PROFICIENCY:WEAPON|Rope Gauntlet		TYPE:Weapon.Melee.Light.Finesseable.Exotic.Standard.Bludgeoning.Slashing	COST:0.2	WT:2		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4														WIELD:Light							SIZE:M	SOURCEPAGE:p.4
+Sawtooth Sabre									PROFICIENCY:WEAPON|Sawtooth Sabre		TYPE:Weapon.Melee.Light.Finesseable.Exotic.Standard.Slashing			COST:35	WT:2		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d8					EQMOD:STEEL								WIELD:Light							SIZE:M	SOURCEPAGE:p.18
+Sica											PROFICIENCY:WEAPON|Sica				TYPE:Weapon.Melee.Light.Finesseable.Exotic.Standard.Slashing			COST:10	WT:3		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d6					EQMOD:STEEL								WIELD:Light							SIZE:M	SOURCEPAGE:p.5										SPROP:+1 on attack rolls vs. oppopnents using bucklers, light shields, or heavy shields.
+Swordbreaker Dagger								PROFICIENCY:WEAPON|Swordbreaker Dagger	TYPE:Weapon.Melee.Light.Finesseable.Exotic.Standard.Slashing			COST:10	WT:3		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4					EQMOD:STEEL.DISARM						WIELD:Light							SIZE:M	SOURCEPAGE:p.5										SPROP:+4 to CMB to disarm or sunder bladed weapons.
+#-----one handed -------
+Battle Poi										PROFICIENCY:WEAPON|Battle Poi			TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Fire				COST:5	WT:2		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4														WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.2										SPROP:Deals fire damage only.
+Butterfly Knife									PROFICIENCY:WEAPON|Dagger			TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Piercing.Slashing		COST:5	WT:1		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d4					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.3
+Dueling Sword (Aldori)		OUTPUTNAME:[NAME] Dueling Sword	PROFICIENCY:WEAPON|Dueling Sword (Aldori)	TYPE:Weapon.Melee.OneHanded.Finesseable.Martial.Exotic.Standard.Slashing	COST:20	WT:3		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d8					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.18
+Falcata										PROFICIENCY:WEAPON|Falcata			TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Slashing			COST:18	WT:4		CRITMULT:x3			CRITRANGE:2												DAMAGE:1d8					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.18
+Khopesh										PROFICIENCY:WEAPON|Khopesh			TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Slashing			COST:20	WT:8		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d8					EQMOD:STEEL.TRIP							WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.18
+Madu (Leather)			OUTPUTNAME:Madu, [NAME]			PROFICIENCY:WEAPON|Madu				TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Piercing			COST:40	WT:5		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4					EQMOD:LEATHER							WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.x
+Madu (Steel)			OUTPUTNAME:Madu, [NAME]			PROFICIENCY:WEAPON|Madu				TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Piercing			COST:40	WT:6		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.x
+Rhoka											PROFICIENCY:WEAPON|Rhoka			TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Slashing			COST:5	WT:6		CRITMULT:x2			CRITRANGE:3												DAMAGE:1d8					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.4
+Whip (Scorpion)			OUTPUTNAME:[NAME] Whip			PROFICIENCY:WEAPON|Whip				TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Slashing			COST:5	WT:3		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d4					EQMOD:STEEL.DISARM.TRIP						WIELD:OneHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.4
+Shotel										PROFICIENCY:WEAPON|Shotel			TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Piercing			COST:30	WT:2		CRITMULT:x3			CRITRANGE:1												DAMAGE:1d8					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.5										SPROP:+1 on attack rolls vs. oppopnents using bucklers, light shields, or heavy shields.
+Temple Sword									PROFICIENCY:WEAPON|Temple Sword		TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Slashing			COST:30	WT:3		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d8					EQMOD:STEEL.TRIP.MONK						WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.18
+Urumi											PROFICIENCY:WEAPON|Urumi			TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Slashing			COST:50	WT:6		CRITMULT:x2			CRITRANGE:3												DAMAGE:1d8					EQMOD:STEEL								WIELD:OneHanded						SIZE:M	SOURCEPAGE:p.18
+#-----two handed -------
+Chain Spear										PROFICIENCY:WEAPON|Chain Spear		TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Double.Slashing				COST:15	WT:13		CRITMULT:x2			CRITRANGE:1			ALTCRITMULT:x2		ALTCRITRANGE:1			DAMAGE:1d6	ALTDAMAGE:1d6		EQMOD:STEEL				ALTEQMOD:STEEL.TRIP	WIELD:TwoHanded						SIZE:M	SOURCEPAGE:p.3
+Flambard										PROFICIENCY:WEAPON|Flambard			TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Slashing					COST:50	WT:6		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d10					EQMOD:STEEL								WIELD:TwoHanded						SIZE:M	SOURCEPAGE:p.3										SPROP:+4 to CMB to sunder weapons with wooden haft.
+Garrote										PROFICIENCY:WEAPON|Garrote			TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Slashing					COST:3	WT:1		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d6					EQMOD:STEEL								WIELD:TwoHanded						SIZE:M	SOURCEPAGE:p.3
+Mancatcher										PROFICIENCY:WEAPON|Mancatcher			TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Piercing					COST:15	WT:10		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d2					EQMOD:STEEL								WIELD:TwoHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.4										SPROP:Can be used to make grapple attacks at range.
+Meteor Hammer									PROFICIENCY:WEAPON|Meteor Hammer		TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Bludgeoning				COST:10	WT:10		CRITMULT:x2			CRITRANGE:2												DAMAGE:1d10					EQMOD:STEEL.TRIP							WIELD:TwoHanded			REACHMULT:2		SIZE:M	SOURCEPAGE:p.4
+Scarf (Bladed)			OUTPUTNAME:Scarf, [NAME]		PROFICIENCY:WEAPON|Scarf (Bladed)		TYPE:Weapon.Melee.TwoHanded.Exotic.Standard.Slashing					COST:12	WT:2		CRITMULT:x2			CRITRANGE:1												DAMAGE:1d6					EQMOD:CLOTH.DISARM.TRIP						WIELD:TwoHanded						SIZE:M	SOURCEPAGE:p.18
+
+
+# Remove some weapons that were renamed from the Pathfinder Chronicles Campaign Setting
+Flying Talon.FORGET
+Khopesh (Osirian).FORGET
+Maulaxe.FORGET
+
+#
+# End
+#

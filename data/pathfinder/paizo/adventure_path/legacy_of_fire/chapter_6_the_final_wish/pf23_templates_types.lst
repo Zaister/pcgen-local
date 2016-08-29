@@ -1,0 +1,12 @@
+# CVS $Revision: 14405 $ $Author: zaister $ -- Sat Oct  1 11:52:55 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Chapter 5 - The Impossible Eye	SOURCESHORT:PF23	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp	SOURCEDATE:2009-06
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2011/10/01
+
+###Block: Creature Subtypes
+# Template Name	Visible	Source, Long Desc.								Source, Short Desc.	Source Page		Define											Ability																										Automatic Languages			Race Subtype
+Div			VISIBLE:NO	SOURCELONG:Legacy of Fire, Chapter 1 - Howl of the Carrion King	SOURCESHORT:PF19		SOURCEPAGE:p.81	DEFINE:AcidResistanceBonus|10	DEFINE:ElectricityResistanceBonus|10	ABILITY:Special Ability|AUTOMATIC|Immunity to Fire|Immunity to Poison|Resistance to Acid|Resistance to Electricity|See in Darkness ~ Div|Telepathy|Aligned (Evil)	LANGAUTO:Abyssal,Celestial,Infernal	RACESUBTYPE:Div
+
+#
+# End
+#

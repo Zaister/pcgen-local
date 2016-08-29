@@ -1,0 +1,29 @@
+# CVS $Revision: 11477 $ $Author: zaister $ -- Mon May  9 15:12:34 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Adventurer's Armory	SOURCESHORT:AA	SOURCEWEB:http://paizo.com/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy88wi	SOURCEDATE:2010-04
+# Original Entry by:Stefan Radermacher
+
+###Block: Adventuring Gear
+# Equipment Name			Output Name					Type							Contains				Cost		Weight	Source Page		Special Property
+Backpack (Masterwork)		OUTPUTNAME:Backpack, [NAME]		TYPE:Goods.Container.General.Resizable	CONTAINS:UNLIM|Any=UNLIM	COST:50	WT:4		SOURCEPAGE:p.6	SPROP:Treat Strength score as +1 for encumbrance.
+Earplugs										TYPE:Goods.General.Consumable								COST:0.03			SOURCEPAGE:p.6	SPROP:+2 circumstance bonus on saves against effects that require hearing, -5 penalty on hearing-based Perception checks.
+Iron Vial										TYPE:Goods.General.Container			CONTAINS:UNLIM|Potion=1		COST:0.1	WT:1		SOURCEPAGE:p.7	SPROP:Hardness 5, 3 hit points, break DC 14.
+Powder										TYPE:Goods.General.Consumable								COST:0.01	WT:0.5	SOURCEPAGE:p.7
+Shaving Kit										TYPE:Goods.General									COST:1.5	WT:0.5	SOURCEPAGE:p.8
+Wrist Sheath									TYPE:Goods.General.Container.Resizable	CONTAINS:1|Weapon=1|Wand=1	COST:1	WT:1		SOURCEPAGE:p.8	SPROP:+2 to Sleight of Hand to hide item, move action to retrieve.
+Wrist Sheath (Spring Loaded)	OUTPUTNAME:Wrist Sheath, [NAME]	TYPE:Goods.General.Container.Resizable	CONTAINS:1|Weapon=1|Wand=1	COST:5	WT:1		SOURCEPAGE:p.8	SPROP:+2 to Sleight of Hand to hide item, swift action to retrieve.
+
+###Block: Special Substances and Items
+# Equipment Name		Type							Cost		Source Page
+Bladeguard (Pot)		TYPE:Goods.Alchemical.Flask.Consumable	COST:40	SOURCEPAGE:p.9
+Vermin Repellant (Pot)	TYPE:Goods.Alchemical.Flask.Consumable	COST:5	SOURCEPAGE:p.11
+
+###Block: Clothing
+# Equipment Name		Output Name				Type					Cost		Weight	Source Page		Special Property
+Outfit (Hot Weather)	OUTPUTNAME:[NAME] Outfit	TYPE:Goods.Clothing.Resizable	COST:8	WT:4		SOURCEPAGE:p.13	SPROP: +2 bonus on Fortitude saves vs. warm or hot weather
+
+###Block: Mounts, Pets, and Related Gear
+Rat				TYPE:Goods.Pets		COST:0.01	WT:1	SOURCEPAGE:p.16
+
+#
+# End
+#

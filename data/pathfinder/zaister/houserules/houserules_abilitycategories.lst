@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Tue Jul 22 11:47:18 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+#SOURCELONG:House Rules Collection	SOURCESHORT:OL.HR	SOURCEDATE:2099-12
+
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object		Display Location
+ABILITYCATEGORY:Ioun Stone Skill Choice	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:IounStoneSkill	DISPLAYLOCATION:Misc
+
+#
+# End
+#

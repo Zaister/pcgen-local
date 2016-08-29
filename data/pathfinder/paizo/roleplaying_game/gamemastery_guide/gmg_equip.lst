@@ -1,0 +1,18 @@
+# CVS $Revision: 12957 $ $Author: jbaril $ -- Mon Jul 21 11:35:08 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:GameMastery Guide	SOURCESHORT:GMG	SOURCEWEB:http://paizo.com/products/btpy8ffn?Pathfinder-Roleplaying-Game-GameMastery-Guide	SOURCEDATE:2010-06
+# Original Entry by: Stefan Radermacher
+
+###Block: Drugs
+# Equipment Name		Output Name		Type					Cost		Source Page		Special Property
+Drug (Aether)		OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:20	SOURCEPAGE:p.237	SPROP:Inhaled; Addiction moderate, Fort DC 16; Effect 1 hour, +1 caster level, 1d4 hours, user must make a caster check to cast spells, DC 15 + spell level; Damage 1d2 Con
+Drug (Dwarven Fire Ale)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:50	SOURCEPAGE:p.237	SPROP:Ingested; Addiction moderate, Fort DC 20; Effect 1d4 rounds, Rage as per the spell, 1 hour, Cold Resistance 5; Damage 1d2 Con
+Drug (Elven Absinthe)	OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:500	SOURCEPAGE:p.237	SPROP:Ingested; Addiction moderate, Fort DC 16; Effect 1 hour, +1d4 Cha; Damage 1d4 Con
+Drug (Flayleaf)		OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:10	SOURCEPAGE:p.237	SPROP:Inhaled or ingested; Addiction minor, Fort DC 12; Effect 1 hour, +2 alchemical bonus on saves against mind-affecting effect, fatigue; Damage 1 Wis
+Drug (Pesh)			OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:15	SOURCEPAGE:p.237	SPROP:Ingested or inhaled; Addiction moderate, Fort DC 20; Effect 1 hour, +1d2 alchemical bonus to Strength, -2 penalty on saves against illusions and mind-affecting effects, after 1 hour, 1d2 hours of fatigue; Damage 1d2 Con and 1d2 Wis
+Drug (Scour)		OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:45	SOURCEPAGE:p.237	SPROP:Ingested or inhaled; Addiction major, Fort DC 24; Effect 3 hours, +1d4 alchemical bonus to Dexterity, -1d4 penalty to Wisdom; Damage 1d6 Con
+Drug (Shiver)		OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:500	SOURCEPAGE:p.237	SPROP:Injury or ingested; Addiction major, Fort DC 18; Effect variable, 50% chance to sleept for 1d4 hours or gain immunity to fear for 1d4 minutes; Damage 1d2 Con
+Drug (Zerk)			OUTPUTNAME:[NAME]	TYPE:Goods.Drug.Consumable	COST:50	SOURCEPAGE:p.237	SPROP:Injury; Addiction minor, Fort DC 18; Effect 1 hour; +1 alchemical bonus to initiative, if addicted, the user also gains a +1d4 alchemical bonus to Strength for as long as he is addicted; Damage 1d2 Con
+
+#
+# End
+#

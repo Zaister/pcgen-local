@@ -1,0 +1,60 @@
+# CVS $Revision$ $Author$ -- Wed Sep 17 13:03:50 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+CAMPAIGN:Reign of Winter, Part 6 - The Witch Queen's Revenge
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Reign of Winter
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder|Golarion
+PRECAMPAIGN:1,BOOKTYPE=Core Rules,BOOKTYPE=Complete Core
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Reign of Winter, Part 6 - The Witch Queen's Revenge
+SOURCESHORT:AP72
+SOURCEWEB:http://paizo.com/products/btpy8yv7?Pathfinder-Adventure-Path-72-The-Witch-Queen-s-Revenge
+SOURCEDATE:2013-07
+ISOGL:YES
+
+COVER:ap72.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy8yv7?Pathfinder-Adventure-Path-72-The-Witch-Queen-s-Revenge|Buy this publication from Paizo Publishing!
+DESC:Baba Yaga has been rescued from the clutches of her son Rasputin, but the Queen of Witches remains trapped inside a magical matryoshka doll. Delving into hidden chambers deep within the Dancing Hut, the heroes must open the nesting dolls imprisoning Baba Yaga, but they must also contend with the hut's most dedicated guardians, including the former queens of Irrisen. When the time comes to finally face Queen Elvanna inside the Dancing Hut's innermost sanctum, will the heroes defeat her and free Baba Yaga, or plunge Golarion into a new ice age?
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Advanced Bestiary Copyright 2004, Green Ronin Publishing, LLC; Author: Matthew Sernett.
+COPYRIGHT:Demodand, Slime from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Demodand, Tarry from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Demon Lord, Kostchtchie from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on material by Gary Gygax.
+COPYRIGHT:Genie, Marid from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Golem, Furnace from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Golem, Witch-Doll from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Golem, Wood from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Patrick Lawinger.
+COPYRIGHT:Ooze, Entropic from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Ooze, Glacial from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Pit Hag from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Quickwood from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Adventure Path #72: The Witch Queen’s Revenge Copyright 2013, Paizo Publishing, LLC; Author: Greg A. Vaughan.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Adventure Path: Reign of Winter, Part 6 - The Witch Queen's Revenge" Copyright 2013-2016, PCGen Data Team (including, but not limited to Stefan Radermacher).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:ap72_abilities.lst
+ABILITYCATEGORY:ap72_abilitycategories.lst
+EQUIPMENT:ap72_equip_magic_items.lst
+#KIT:ap68_kits_races.lst
+#LANGUAGE:ap70_languages.lst
+#RACE:ap70_races.lst
+#SPELL:ap68_spells.lst
+#SKILL:ap68_skills_conditional.lst
+#TEMPLATE:ap70_templates.lst
+
+#
+# End
+#

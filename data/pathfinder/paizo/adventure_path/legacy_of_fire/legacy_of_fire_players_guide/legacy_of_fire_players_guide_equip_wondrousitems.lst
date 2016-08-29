@@ -1,0 +1,9 @@
+# CVS $Revision: 9485 $ $Author: eddyanthony $ -- Thu Sep  2 13:01:41 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire Player's Guide	SOURCESHORT:LoFPG	SOURCEWEB:http://paizo.com/pathfinder/v5748btpy84bh	SOURCEDATE:2009-02
+
+###Block:G
+# Equipment Name		Type					Cost		Weight	Source Page		Special Property
+Glarecutter Goggles	TYPE:Magic.Wondrous.Eyegear	COST:2000	WT:1		SOURCEPAGE:p.27	SPROP:+5 resistance bonus on Fortitude save against sight- and light-based hazards or attacks.
+#
+# End
+#

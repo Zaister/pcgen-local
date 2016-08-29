@@ -1,0 +1,14 @@
+# CVS $Revision: 7270 $ $Author: eddyanthony $ -- Fri Sep  3 13:00:44 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 2: The Skinsaw Murders	SOURCESHORT:PF2	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8029	SOURCEDATE:2007-10
+# Original Entry by: Stefan Radermacher
+
+# Equipment Name	Type					Cost		Weight	Source Page		Ability										Innate Spells								Combat bonus			Bonus to skill					Stat bonus					Special Property
+Medusa Mask		TYPE:Magic.Wondrous.Headgear	COST:10000	WT:0		SOURCEPAGE:p.54	ABILITY:Special Ability|AUTOMATIC|Save Bonus ~ Medusa Mask																														SPROP:Once per day, petrify a creature within 30 ft. for 1 minute (Fort DC 15 negates)
+Reaper's Mask	TYPE:Magic.Wondrous.Headgear	COST:12000	WT:0		SOURCEPAGE:p.47												SPELLS:Reaper's Mask|TIMES=1|CASTERLEVEL=7|Confusion,16																			SPROP:+2 on Listen, Search, and Spot checks vs. creatures not immune to fear; +1 on attack rolls vs. living creatures; wearer takes 1 point of Charisma damage when donned.
+Snakeskin Tunic	TYPE:Magic.Wondrous.Clothing	COST:8000	WT:0		SOURCEPAGE:p.54	ABILITY:Special Ability|AUTOMATIC|Save Bonus ~ Snakeskin Tunic											BONUS:COMBAT|AC|1|TYPE=Armor								BONUS:STAT|DEX|2|TYPE=Enhancement
+Skinsaw Mask	TYPE:Magic.Wondrous.Headgear	COST:1500	WT:0		SOURCEPAGE:p.45																																								SPROP:+2 on Listen, Search, and Spot checks vs. creatures not immune to fear; +1 on attack rolls vs. living creatures; wearer takes 1 point of Charisma damage when donned.
+Stalker's Mask	TYPE:Magic.Wondrous.Headgear	COST:3500	WT:0		SOURCEPAGE:p.40																											BONUS:SKILL|Stealth|5|TYPE=Competence							SPROP:Once per day, take on appearance of another creature within 60 ft. and gain +2 to attack and damage rolls vs. that creature.
+
+#
+# End
+#

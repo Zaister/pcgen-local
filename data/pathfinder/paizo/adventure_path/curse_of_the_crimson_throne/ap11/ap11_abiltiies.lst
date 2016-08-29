@@ -1,0 +1,14 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Feb  3 16:31:38 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:Curse of the Crimson Throne, Chapter 5 - Skeletons of Scarwall	SOURCESHORT:AP11	SOURCEWEB:http://paizo.com/products/btpy83yw?Pathfinder-11-Curse-of-the-Crimson-Throne-Chapter-5-Skeletons-of-Scarwall	SOURCEDATE:2008-06
+# Original Entry: Stefan Radermacher
+
+###Block: Kleestad abilities
+# Ability Name		Unique Key					Category of Ability		Type							Define					Description																																																																																Ability										Modify VAR											Source Page		Aspects																					Description of the Benefits
+Breath Weapon		KEY:Breath Weapon ~ Kleestad		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural		DEFINE:BreathWeaponDC|10+(HD/2)+CON	DESC:A neothelid unleashes a 50-ft cone of acid																																																																																					BONUS:VAR|BreathWeaponDC|2|PREFEAT:1,Ability Focus (Breath Weapon)	SOURCEPAGE:p.214	ASPECT:Ability Benefit|(50-ft. cone, 12d6 acid and nauseated 1 round, Reflex DC %1 partial, once every 1d4 rounds)|BreathWeaponDC	BENEFIT:As a standard action, Kleestad can unleash a 50-ft. cone of acidic blood every 1d4 rounds dealing 12d6 acid damage. Affected creatures are nauseated for 1 round. A reflex save (DC %1) halves the damage and negates the nausea.|BreathWeaponDC
+Curse of Zon-Kuthon	KEY:Curse of Zon-Kuthon ~ Kleestad	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural								DESC:Kleestad's abhorrent form is as a result of Zon-Kuthon's curse. A side effect of it, however, is that is has made him effectively immortal. He cannot die except through violence. This curse also constantly wracks him with pain and agony. He's grown used to this torment, and is now immune to all pain-based effects, including symbols of pain.																								ABILITY:Special Ability|AUTOMATIC|Immunity to Pain ~ Kleestad
+Immunity to Pain		KEY:Immunity to Pain ~ Kleestad	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Immunity							DESC:You are immune to all forms of pain.																																																																																																					ASPECT:Immunity|Pain
+
+Pain				KEY:Pain ~ Kleestad			CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural		DEFINE:PainDC|10+(HD/2)+CON		DESC:Any creature struck by Kleestad's claws becomes wracked with supernatural waves of pain--this is, in fact, the pain that Kleestad feels every second of his immortal life, transmitted into the bodies of those he savages with his talons. The pain inflicts 1d4 points of Strength damage. In addition, the victim must make a DC %1 Fortitude save to avoid suffering a -4 penalty on attack rolls, skill checks, and ability checks for as long as he suffers this Strength damage.|PainDC												BONUS:VAR|PainDC|2|PREFEAT:1,Ability Focus (Pain)
+#
+# End
+#

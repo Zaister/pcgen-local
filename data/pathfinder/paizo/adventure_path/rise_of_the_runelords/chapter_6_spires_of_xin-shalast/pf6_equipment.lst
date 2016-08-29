@@ -1,0 +1,10 @@
+# CVS $Revision: 12905 $ $Author: amaitland $ -- Mon Feb 21 19:01:03 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+# Equipment Name	Type			Cost		Save checks bonus				Combat bonus
+Sihedron Ring	TYPE:Ring.Magic	COST:35000	BONUS:CHECKS|ALL|3|TYPE=Resistance	BONUS:COMBAT|AC|3|TYPE=Deflection
+
+#
+# End
+#

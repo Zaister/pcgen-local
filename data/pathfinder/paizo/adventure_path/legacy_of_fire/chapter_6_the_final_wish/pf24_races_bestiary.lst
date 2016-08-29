@@ -1,0 +1,15 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 6: The Final Wish	SOURCESHORT:PF24	SOURCEWEB:paizo.com/products/btpy89a2?Pathfinder-Adventure-Path-24-The-Final-Wish	SOURCEDATE:2009-06
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2012/02/16
+
+# For Golem, Brass, see Pathfinder Bestiay 3 dataset
+# For Simurgh, see Pathfinder Bestiay 3 dataset
+
+###Block: Bestiary
+# Race Name	Starting Feats	Size		Move						Face/Space	Reach		Vision				Combat bonus					Bonus to skill						Stat bonus																	Modify VAR																																																																				Ability																																																																	Nb Legs	Nb Hands	Natural Attacks																											Spell Res.	Damage Reduction	Monster Class Name and Starting Level	Main Race Type		Template		Challenge Rating	Source Page		Apply Kit
+Xotani	STARTFEATS:1	SIZE:C	MOVE:Walk,60,Burrow,60,Climb,60	FACE:40	REACH:40	VISION:Blindsight (120')	BONUS:COMBAT|AC|34|TYPE=NaturalArmor	BONUS:SKILL|Climb,Perception|8|TYPE=Racial	BONUS:STAT|STR|28	BONUS:STAT|DEX|8	BONUS:STAT|CON|20	BONUS:STAT|INT|-8	BONUS:STAT|WIS|6	BONUS:STAT|CHA|4	BONUS:VAR|ElectricityResistanceBonus,SonicResistanceBonus|20	BONUS:VAR|FrightfulPresenceRange|60	BONUS:VAR|RegenerationRate|40	BONUS:VAR|SwallowWholeDice|6	BONUS:VAR|SwallowWholeDamageDie|6	BONUS:VAR|SwallowWholeBonusDamage|floor(STR*3/2)	BONUS:VAR|BreathWeaponDice|16	BONUS:VAR|BreathWeaponDamageDie|10	BONUS:VAR|BreathWeaponCone|70	BONUS:VAR|TrampleDamageDice|2	BONUS:VAR|TrampleDamageDieSize|8	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Cone of Fire|Can't Be Tripped|Frightful Presence|Grab|Immunity to Ability Damage|Immunity to Energy Drain|Immunity to Fire|Immunity to Paralysis|Immunity to Poison|Immunity to Sleep|Resistance to Electricity|Light Blindness|Resistance to Sonic|Swallow Whole|Trample|Vulnerability to Cold|Firebleed ~ Xotani|Heat ~ Xotani|Regeneration ~ Xotani	LEGS:100	HANDS:2	NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Fire,*1,2d8	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing.Fire,*2,4d8	SR:34		DR:15/Epic		MONSTERCLASS:Magical Beast:30			RACETYPE:Magical Beast	TEMPLATE:Fire	CR:24			SOURCEPAGE:p.88	KIT:1|CE
+
+#
+# End
+#

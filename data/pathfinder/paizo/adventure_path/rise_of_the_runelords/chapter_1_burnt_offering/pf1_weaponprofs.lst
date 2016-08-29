@@ -1,0 +1,12 @@
+# CVS $Revision: 8290 $ $Author: eddyanthony $ -- Fri Sep  3 12:04:50 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 1: Burnt Offerings	SOURCESHORT:PF1	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy7zkq	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+# MARTIAL
+# 2-handers
+# Weapon Name	Type
+Horsechopper	TYPE:Martial.Melee.Slashing.MeleeSlashing.Polearm.TwoHanded.Piercing.MeleePiercing
+
+#
+# End
+#

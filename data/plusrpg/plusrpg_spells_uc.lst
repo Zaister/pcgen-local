@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 16 14:59:45 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Changed spells
+# Spell Name		Sub-School				Source, Long Desc.	Clear Source Page
+Compel Hostility.MOD	SUBSCHOOL:.CLEAR|Control	SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
+
+#
+# End
+#

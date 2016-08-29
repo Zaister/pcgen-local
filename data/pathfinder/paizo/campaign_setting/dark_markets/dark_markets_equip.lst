@@ -1,0 +1,8 @@
+# CVS $Revision: 11464 $ $Author: eddyanthony $ -- Thu Mar 18 15:38:27 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Dark Markets	SOURCESHORT:DM	SOURCEWEB:http://paizo.com/pathfinder/pathfinderChronicles/35E/v5748btpy87ut	SOURCEDATE:2010-03
+# Original Entry by: Stefan Radermacher
+
+###Block: Clothing
+# Equipment Name			Output Name				Type							Cost		Weight	Source Page
+Outfit (Kaftan)			OUTPUTNAME:[NAME]			TYPE:Goods.Clothing.Resizable.Starting	COST:1	WT:2		SOURCEPAGE:p.3
+Outfit (Kaftan/Enhanced)	OUTPUTNAME:Kaftan, Enhanced	TYPE:Goods.Clothing.Resizable.		COST:50	WT:2		SOURCEPAGE:p.3

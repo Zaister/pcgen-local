@@ -1,0 +1,272 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Iron Gods Campaign
+VERSION:6.05.04-dev
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:20
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Calistril Baine
+TABNAME:
+PLAYERNAME:Oliver
+HEIGHT:69
+WEIGHT:143
+AGE:23
+GENDER:Female
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:yellow-green
+HAIRCOLOR:wheat
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:12
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:10
+ALIGN:TN
+RACE:Tiefling
+
+# Character Class(es)
+CLASS:Machinesmith|LEVEL:1|SKILLPOOL:0
+CLASSABILITIESLEVEL:Machinesmith=1|HITPOINTS:8|SKILLSGAINED:10|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:0
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
+
+# Character Region
+REGION:Numeria
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Artistry (Untrained)|OUTPUTORDER:4|
+SKILL:Athletics|OUTPUTORDER:5|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Fool someone)|OUTPUTORDER:7|
+SKILL:Bluff (Pass messages)|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:10|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:11|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:12|
+SKILL:Climb|OUTPUTORDER:13|
+SKILL:Craft (Mechanical)|OUTPUTORDER:14|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:15|
+SKILL:Diplomacy|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:18|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:19|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:20|
+SKILL:Disable Device|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:23|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:24|
+SKILL:Ecology|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Endurance|OUTPUTORDER:26|
+SKILL:Escape Artist|OUTPUTORDER:27|
+SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:28|
+SKILL:Fly|OUTPUTORDER:29|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:30|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:32|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:33|
+SKILL:Heal|OUTPUTORDER:34|
+SKILL:Intimidate|OUTPUTORDER:35|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:36|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:37|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:38|
+SKILL:Knowledge (Engineering)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:40|
+SKILL:Perception|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:43|
+SKILL:Profession (Untrained)|OUTPUTORDER:44|
+SKILL:Ride|OUTPUTORDER:45|
+SKILL:Samurai Mount|OUTPUTORDER:46|
+SKILL:Search|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive|OUTPUTORDER:48|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:49|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:50|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:51|
+SKILL:Spellcraft|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:55|
+SKILL:Survival|OUTPUTORDER:56|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:57|
+SKILL:Swim|OUTPUTORDER:58|
+SKILL:Techcraft|OUTPUTORDER:59|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Untrained Charisma|OUTPUTORDER:60|
+SKILL:Untrained Dexterity|OUTPUTORDER:61|
+SKILL:Untrained Intelligence|OUTPUTORDER:62|
+SKILL:Untrained Strength|OUTPUTORDER:63|
+SKILL:Untrained Wisdom|OUTPUTORDER:64|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:22|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:31|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:41|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:52|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:54|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:65|
+SKILL:Use Magic Device|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Machinesmith|RANKS:1.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Abyssal|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Gnome|LANGUAGE:Orc
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Draconic,Gnome,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Draconic,Gnome,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Draconic,Gnome,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Draconic,Gnome,Dwarven|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Reload|APPLIEDTO:Crossbow (Light)|TYPE:Combat|DESC:You can reload your chosen type of crossbow quickly.|DESC:Choose a type of crossbow (hand, light, heavy) or a single type of one-handed or two-handed firearm that you are proficient with. You can reload such a weapon quickly. (revised to include firearms in Ultimate Combat p.115)|DESC:You can reload your chosen type of weapon quickly.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Machinesmith|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Machinesmith Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Machinesmith Archetype ~ Combat Engineer|TYPE:Archetype.MachinesmithArchetype.MachinesmithWeaponProficiencies.MachinesmithCrafter|DESC:On the frontlines, machinesmiths often don't have the luxury of time to deploy fanciful strategies or build complex devices. More often than not, the stresses of combat demand that they take a pragmatic approach; building for durability, learning to use needed equipment on the fly, and ready to use strength of arms when necessary. These machinesmiths are known as combat engineers.
+USERPOOL:Machinesmith Archetype|POOLPOINTS:0.0
+ABILITY:Machinesmith Greatwork|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Greatworks ~ Mechanus|TYPE:MachinesmithClassFeatures.SpecialQuality.Supernatural.MachinesmithGreatwork|DESC:Many machinesmiths create automatons capable of performing a host of duties. Whether or not the servitor is created from intricate clockwork, or steam driven pistons, they share the same capabilities. Unless granted a Master Upgrade, all mechani are unintelligent constructs that follow the machinesmith's instructions unfailingly.
+USERPOOL:Machinesmith Greatwork|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rules ~ Use Hero Points|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Numeria|TYPE:Region|DESC:Savage Land of Super-Science
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Tiefling Language|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Tiefling ~ Abyssal Language|TYPE:TieflingLanguageTrait
+USERPOOL:Tiefling Language|POOLPOINTS:0.0
+ABILITY:Tiefling Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Tiefling ~ Fiendish Sprinter|TYPE:TieflingRacialTrait.TieflingSkilled.SpecialQuality|DESC:Some tieflings have feet that are more bestial than human. Whether their feet resemble those of a clawed predator or are the cloven hooves common to many of their kind, tieflings with this trait gain a 10-foot racial bonus to their speed when using the charge, run, or withdraw actions. This racial trait replaces skilled.
+ABILITY:Tiefling Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Tiefling ~ Soul Seer|TYPE:TieflingRacialTrait.TieflingFiendishSorcery.TieflingSLA.SpecialQuality|DESC:Rare tieflings have a peculiar sight that allows them to see the state of a creature's soul. They can use deathwatch at will as spell-like ability. This racial trait replaces the spell-like ability and fiendish sorcery racial traits.
+USERPOOL:Tiefling Racial Trait|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Local Ties|APPLIEDTO:Disable Device|TYPE:Trait.BasicTrait.CampaignTrait|DESC:You have ties to a prominent local in the town of Torch�the missing wizard Khonnir Baine. If you're a wizard, alchemist, or other scholarly type, he may have been your tutor or teacher. If you're of a more martial bent, Khonnir could instead have been a friend or business associate of your mother, father, or patron. He may even have been your adoptive father, in which case you likely have a bond of friendship or rivalry with his adopted daughter Val (your GM has more information on her in this case if you wish to know more for your character's background). Your association with Khonnir has given you insight into how technology works. Choose Disable Device or Knowledge (engineering). You gain a +1 trait bonus on checks with this skill, and it is a class skill for you. In addition, you are treated as if you possessed the Technologist feat for the purposes of resolving checks associated with that skill. If you gain the Technologist feat, your trait bonus for the selected skill increases to +3.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Rough and Ready|TYPE:Trait.EquipmentTrait|DESC:Your intense familiarity with the tools of your trade allows you to use them in combat as if they were actual weapons and makes them more effective for that purpose than they would normally be.&pipe;!PRERULE&colon;1,DisplayFullAbility|DESC:When you use a tool of your trade (requiring at least 1 rank in the appropriate Craft or Profession skill) as a weapon, you do not take the improvised weapon penalty and instead receive a +1 trait bonus on your attack. This trait is commonly used with shovels, picks, blacksmith hammers, and other sturdy tools - lutes and brooms make terribly fragile weapons.&pipe;PRERULE&colon;1,DisplayFullAbility
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)]
+WEAPONPROF:[WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Great Terbutje|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte]
+WEAPONPROF:[WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)]
+WEAPONPROF:[WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap]
+WEAPONPROF:[WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle]
+WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)]
+WEAPONPROF:[WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Artisan's Tools (Mechanical)|OUTPUTORDER:6|COST:5|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Traps)|DATA:NAME=Artisan's Tools (Mechanical)]
+EQUIPNAME:Backpack|OUTPUTORDER:5|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Blueprint Book|OUTPUTORDER:7|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Blueprint Book|DATA:NAME=Blueprint Book]
+EQUIPNAME:Bolt (Crossbow)|OUTPUTORDER:15|COST:0.1|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt (Crossbow)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Bolts (Crossbow/10)|OUTPUTORDER:16|COST:1.0|WT:1.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolts (Crossbow/10)|DATA:NAME=Bolts (Crossbow/10)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:12|COST:0.01|WT:0.02|QUANTITY:9.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:13|COST:1|WT:0.02|QUANTITY:19.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:14|COST:0.1|WT:0.02|QUANTITY:8.0|NOTE:
+EQUIPNAME:Crossbow (Light)|OUTPUTORDER:1|COST:35.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Light)|DATA:NAME=Crossbow (Light)$EQMOD=WOOD]
+EQUIPNAME:Oil (1 Pint Flask)|OUTPUTORDER:8|COST:0.1|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:3|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:11|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:String (50 ft.)|OUTPUTORDER:9|COST:0.01|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Studded Leather|OUTPUTORDER:4|COST:25.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:NAME=Studded Leather$EQMOD=LEATHER]
+EQUIPNAME:Sunrod|OUTPUTORDER:10|COST:2|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Thieves' Tools|OUTPUTORDER:17|COST:30|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Working Gloves|OUTPUTORDER:2|COST:0|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gloves|DATA:NAME=Working Gloves$EQMOD=_WEIGHTADD&pipe;0,5]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.02.01|VALUE:Artisan's Tools (Mechanical)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.02.02|VALUE:Blueprint Book|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.02.03|VALUE:Oil (1 Pint Flask)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.02.04|VALUE:String (50 ft.)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.02.05|VALUE:Sunrod|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.03|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.03.01|VALUE:Coin (Copper Piece)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.03.02|VALUE:Coin (Gold Piece)|QUANTITY:19.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.03.03|VALUE:Coin (Silver Piece)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.04|VALUE:Crossbow (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Bolt (Crossbow)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.06|VALUE:Bolts (Crossbow/10)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.07|VALUE:Thieves' Tools|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Hands|ID:0.1.08|VALUE:Working Gloves|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.09|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.10|VALUE:Studded Leather|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;3
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Brigh|DEITYDOMAINS:[DOMAIN:Artifice|DOMAIN:Earth|DOMAIN:Fire|DOMAIN:Knowledge]|ALIGNALLOW:|DESC:Goddess of clockwork, invention, and time|DEITYFAVWEAP:[WEAPON:Hammer (Light)]|DEITYALIGN:TN
+
+# Character Spells Information
+SPELLBOOK:Blueprint Book|TYPE:3
+SPELLNAME:Faerie Fire|TIMES:1|CLASS:Machinesmith|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Machinesmith]
+SPELLNAME:Feather Fall|TIMES:1|CLASS:Machinesmith|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Machinesmith]
+SPELLNAME:Guardian Drone|TIMES:1|CLASS:Machinesmith|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Machinesmith]
+SPELLNAME:Servant Drone|TIMES:1|CLASS:Machinesmith|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Machinesmith]
+SPELLNAME:Shield|TIMES:1|CLASS:Machinesmith|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Machinesmith]
+SPELLNAME:Shocking Grasp|TIMES:1|CLASS:Machinesmith|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Machinesmith]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+KIT:Machinesmith Blueprint Book
+
+# Character Master/Follower
+FOLLOWER:Panthera 4.4 CLX|TYPE:Mechanus|RACE:MECHANUS|HITDICE:0|FILE:/data/PCGen/local/characters/Iron Gods
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

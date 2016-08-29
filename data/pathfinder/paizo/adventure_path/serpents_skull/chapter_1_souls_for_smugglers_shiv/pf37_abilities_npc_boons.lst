@@ -1,0 +1,15 @@
+# CVS $Revision: 8900 $ $Author: eddyanthony $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Serpent's Skull, Chapter 1: Souls for Smuggler's Shiv	SOURCESHORT:PF37	SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+###Block: NPC Boons
+# Ability Name		Category of Ability		Type				Description																																												Combat bonus			Bonus to DC									Cost		Source Page		Aspects							Bonus
+Aerys Mavato		CATEGORY:Special Ability	TYPE:Boon.SaveBonus	DESC:Aerys has allowed you to read her unfinished epic. The Abendego Cantos are very well written and contain compelling themes of the strength of personality against incalculable odds. You gain a permanent +1 bonus on all Will saving throws against compulsion effects.																COST:0	SOURCEPAGE:p.59	ASPECT:SaveBonus|+1 Will vs. compulsion effects
+Gelik Ebberschwinge	CATEGORY:Special Ability	TYPE:Boon			DESC:Gelik has shared several secrets of comedy and speech with you. These techniques grant a permanent +1 bonus to the save DC of any charm or language-dependent effect you use.																					BONUS:DC|DESCRIPTOR.Charm,DESCRIPTOR.Language-Dependent|1	COST:0	SOURCEPAGE:p.60
+Ischiro			CATEGORY:Special Ability	TYPE:Boon			DESC:Ischiro has taught you some of his swordfighting styles and tricks. These simple but effective tricks grant a +1 bonus to CMB and CMD while wielding a sword or similar weapon.																														COST:0	SOURCEPAGE:p.61
+Jask Derindi		CATEGORY:Special Ability	TYPE:Boon			DESC:Jask has shared a number of mantras and focusing chants with you. These chants grant a +2 bonus on concentration checks.																																								COST:0	SOURCEPAGE:p.62									BONUS:CONCENTRATION|ALLSPELLS|2
+Tascha Nevah		CATEGORY:Special Ability	TYPE:Boon			DESC:Tascha has taught you some combat secrets that she learned from her mother, an infamous Red Mantis Assassin. Her techniques grant a permanent +1 bonus on Initiative checks.																BONUS:COMBAT|INITIATIVE|1											COST:0	SOURCEPAGE:p.63
+
+#
+# End
+#

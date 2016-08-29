@@ -1,0 +1,35 @@
+# CVS $Revision: $ $Author: $ -- Fri Sep 30 12:19:50 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Tome of Horrors Complete	SOURCESHORT:ToHC	SOURCEWEB:http://paizo.com/store/byCompany/f/frogGodGames/pathfinderRPG/other/v5748btpy8mqb	SOURCEDATE:2011-09
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Babbler Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Babbler],[!PRERACE:1,%]	SOURCEPAGE:p.47
+RACE:Babbler	!PRERACE:1,%
+NAME:Babbler
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=10|CHA=11
+SKILL:Acrobatics	RANK:2
+SKILL:Climb		RANK:2
+SKILL:Perception	RANK:2
+SKILL:Stealth	RANK:2
+FEAT:Improved Initiative
+FEAT:Skill Focus (Perception)
+
+
+STARTPACK:Brass Man Default	TYPE:DefaultMonster.Construct	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Brass Man],[!PRERACE:1,%]	SOURCEPAGE:p.20
+RACE:Brass Man	!PRERACE:1,%
+NAME:Brass Man
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=10
+GEAR:Greatsword	SIZE:L	LOCATION:Both Hands
+
+
+STARTPACK:Coffer Corpse Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Coffer Corpse],[!PRERACE:1,%]	SOURCEPAGE:p.69
+RACE:Coffer Corpse	!PRERACE:1,%
+NAME:Coffer Corpse
+STAT:STR=10|DEX=10|CON=11|INT=10|WIS=11|CHA=10
+SKILL:Intimidate	RANK:1
+SKILL:Perception	RANK:2
+SKILL:Stealth	RANK:1
+FEAT:Toughness
+
+#
+# End
+#

@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Mon Aug  3 14:11:56 2015 -- reformated by prettylst.pl v1.51 (build 25836)
+#SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Mental Prowess I		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MentalProwessBasic		PLURAL:Mental Prowess I			DISPLAYLOCATION:Automatic Bonus Progression
+ABILITYCATEGORY:Mental Prowess II		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MentalProwess		PLURAL:Mental Prowess II		DISPLAYLOCATION:Automatic Bonus Progression
+ABILITYCATEGORY:Mental Prowess III		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MentalProwess		PLURAL:Mental Prowess III		DISPLAYLOCATION:Automatic Bonus Progression
+ABILITYCATEGORY:Improved Mental Prowess	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MentalProwessImproved	PLURAL:Improved Mental Prowess	DISPLAYLOCATION:Automatic Bonus Progression
+ABILITYCATEGORY:Physical Prowess I		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:PhysicalProwessBasic	PLURAL:Physical Prowess I		DISPLAYLOCATION:Automatic Bonus Progression
+ABILITYCATEGORY:Physical Prowess II		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:PhysicalProwess		PLURAL:Physical Prowess II		DISPLAYLOCATION:Automatic Bonus Progression
+ABILITYCATEGORY:Physical Prowess III	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:PhysicalProwess		PLURAL:Physical Prowess III		DISPLAYLOCATION:Automatic Bonus Progression
+ABILITYCATEGORY:Improved Physical Prowess	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:PhysicalProwessImproved	PLURAL:Improved Physical Prowess	DISPLAYLOCATION:Automatic Bonus Progression
+
+#
+# End
+#

@@ -1,0 +1,19 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Paths of Prestige	SOURCESHORT:PoP	SOURCEWEB:http://paizo.com/products/btpy8rce?Pathfinder-Campaign-Setting-Paths-of-Prestige	SOURCEDATE:2012-08
+# Original Entry by: Stefan Radermacher
+
+##Block: Aldori Swordlord class features
+# Ability Name		Unique Key							Category of Ability		Type						Description
+Deft Strike			KEY:Deft Strike ~ Aldori Swordlord			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Display Weapon Prowess	KEY:Display Weapon Prowess ~ Aldori Swordlord	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Defensive Parry		KEY:Defensive Parry ~ Aldori Swordlord		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Adaptive Tactics		KEY:Adaptive Tactics ~ Aldori Swordlord		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Shatter Confidence	KEY:Shatter Confidence ~ Aldori Swordlord		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Saving Slash		KEY:Saving Slash ~ Aldori Swordlord			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Dextrous Duelist		KEY:Dextrous Duelist ~ Aldori Swordlord		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Greater Saving Slash	KEY:Greater Saving Slash ~ Aldori Swordlord	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+Confounding Duelist	KEY:Confounding Duelist ~ Aldori Swordlord	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:bla
+
+#
+# End
+#

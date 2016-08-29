@@ -1,0 +1,30 @@
+# CVS $Revision$ $Author$ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Paizo - Legacy of Fire, Miscellaneous Data
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Legacy of Fire
+RANK:4
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Legacy of Fire, Miscellaneous Data
+SOURCESHORT:LoF
+SOURCEDATE:2009-02
+ISOGL:YES
+
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Legacy of Fire Player's Guide. Copyright 2007 Paizo Publishing LLC. Author F. Wesley Schneider.
+COPYRIGHT:PCGen dataset conversion for "Legacy of Fire, Miscellaneous Data" Copyright 2007-2008, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Data files
+EQUIPMENT:legacy_of_fire_equip_wondrousitems.lst
+EQUIPMOD:legacy_of_fire_equipmods_material.lst
+EQUIPMOD:legacy_of_fire_equipmods_weapons.lst
+#
+# End
+#

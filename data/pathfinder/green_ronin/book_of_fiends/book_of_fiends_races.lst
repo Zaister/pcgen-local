@@ -1,0 +1,11 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Jul 22 16:09:03 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:The Book of Fiends	SOURCESHORT:BoF	SOURCEWEB:http://greenroninstore.com/products/the-book-of-fiends-pdf	SOURCEDATE:2003-01
+# Original Entry: Stefan Radermacher
+
+###Block: Bestiary
+# Race Name	Starting Feats	Size		Move				Face/Space	Reach		Combat bonus					Stat bonus															Modify VAR																					Class Skill						Ability																																																																																								Nb Legs	Natural Attacks											Spell Res.	Damage Reduction	Monster Class Name and Starting Level	Main Race Type	Race Subtype			Challenge Rating	Source Page		Innate Spells																																	Apply Kit
+Darksphinx	STARTFEATS:1	SIZE:L	MOVE:Walk,40,Fly,60	FACE:10	REACH:5	BONUS:COMBAT|AC|12|TYPE=NaturalArmor	BONUS:STAT|STR,INT|12	BONUS:STAT|DEX|6	BONUS:STAT|CON|4	BONUS:STAT|WIS|8	BONUS:STAT|CHA|10	BONUS:VAR|AcidResistanceBonus,ColdResistanceBonus,ElectricityResistanceBonus,FireResistanceBonus|10	BONUS:VAR|Maneuverability|2	CSKILL:Climb|Diplomacy|Heal|Intimidate	ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Immunity to Poison|Pounce|Resistance to Acid|Resistance to Cold|Resistance to Electricity|Resistance to Fire|Comprehend Languages ~ Constant|Detect Magic ~ Constant|Read Magic ~ Constant|See Invisibility ~ Constant|Rake ~ Darksphinx|Symbol of Fear ~ Darksphinx|Symbol of Death ~ Darksphinx|Symbol of Insanity ~ Darksphinx|Symbol of Pain ~ Darksphinx|Symbol of Persuasion ~ Darksphinx|Symbol of Sleep ~ Darksphinx|Symbol of Stunning ~ Darksphinx|Undersized Weapons ~ Darksphinx	LEGS:4	NATURALATTACKS:Tail Slap,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d8	SR:22		DR:10/Good		MONSTERCLASS:Outsider (Ref/Will):9		RACETYPE:Outsider	RACESUBTYPE:Evil|Extraplanar	CR:10			SOURCEPAGE:p.156	SPELLS:Innate|TIMES=3|CASTERLEVEL=14|Clairaudience/Clairvoyance|Darkness|Poison,14+CHA	SPELLS:Innate|TIMES=1|CASTERLEVEL=14|Desecrate|Dispel Magic|Legend Lore|Locate Object|Remove Curse|Unholy Blight,14+CHA	KIT:1|LE
+
+#
+# End
+#

@@ -1,0 +1,7 @@
+# CVS $Revision: 14615 $ $Author: elrotheonk $ -- Tue Apr  5 13:37:02 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Karzoug Stuff	SOURCESHORT:RotR	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Talons of Leng support
+# Template Name	Visible	Weapon prof. bonus												Type					Natural Attacks
+Talons of Leng	VISIBLE:NO	BONUS:WEAPONPROF=Claw|DAMAGE,TOHIT|3|TYPE=Enhancement	BONUS:WEAPONPROF=Claw|CRITMULTADD|1	TYPE:Magic.Wondrous.Glove	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4

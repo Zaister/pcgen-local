@@ -1,0 +1,17 @@
+# CVS $Revision: 18059 $ $Author: zaister $ -- Sat Nov 20 04:10:09 2004 -- reformated by prettylst.pl v1.34 (build 422)
+CAMPAIGN:TEST Traits
+GAMEMODE:TEST
+TYPE:Supplement
+RANK:3
+STATUS:TESTONLY
+GENRE:Fantasy
+BOOKTYPE:Traits
+SETTING:TEST
+PRECAMPAIGN:1,BOOKTYPE=Core
+SOURCELONG:Traits
+SOURCESHORT:TRA
+ISOGL:YES
+
+#
+# End
+#

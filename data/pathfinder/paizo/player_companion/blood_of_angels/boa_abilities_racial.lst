@@ -1,0 +1,6 @@
+# CVS $Revision: 15356 $ $Author: gjorbjond $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Blood of Angels	SOURCESHORT:BoA	SOURCEWEB:http://paizo.com/products/btpy8qzz?Pathfinder-Player-Companion-Blood-of-Angels	SOURCEDATE:2012-04
+
+###Block: Aasimar abilities
+# Ability Name	Unique Key					Category of Ability		Type						Description													Bonus to skill							Source Page
+Skilled		KEY:Skilled ~ Musetouched Aasimar	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Musetouched Aasimars gain a +2 racial bonus on Diplomacy and Perform checks.	BONUS:SKILL|Diplomacy,TYPE.Perform|2|TYPE=Racial	SOURCEPAGE:p.22

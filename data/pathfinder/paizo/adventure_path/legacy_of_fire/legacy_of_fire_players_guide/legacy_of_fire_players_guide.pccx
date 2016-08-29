@@ -1,0 +1,52 @@
+# CVS $Revision: 9628 $ $Author: eddyanthony $ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Paizo - Legacy of Fire Player's Guide
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Legacy of Fire
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Chronicles
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+#PRECAMPAIGN:1,Paizo - Pathfinder Character Traits Web Enhancement
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com/
+SOURCELONG:Legacy of Fire Player's Guide
+SOURCESHORT:LoFPG
+SOURCEWEB:http://paizo.com/pathfinder/v5748btpy84bh
+SOURCEDATE:2009-02
+ISOGL:YES
+
+COVER:legacy_of_fire_players_guide.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/pathfinder/v5748btpy84bh|Buy this publication from Paizo Publishing!
+DESC:Do what you will, but do not interfere with trade. This is the only law of Katapesh. Under the guidance of the mysterious and alien Pactmasters, this simple rule has allowed Katapesh to become one of the wealthiest nations of the Inner Sea region, where goods, services, and creatures of all kinds are available for the right price. As the location of the Legacy of Fire Adventure Path, Katapesh is a wild land of danger and temptation, home to scheming merchants and bestial gnoll slavers—a perfect place for bold adventurers to prove themselves. The information contained within these pages gives players the edge they need to survive in this harsh country of sand and magic, from new rules and details on making campaign-specific characters to background information no adventurer should be without. Even those not playing the Legacy of Fire Adventure Path can indulge in new feats, new magic items, and fully-fleshed NPCs perfect for any game. Come in out of the sun and see what the bazaars of Katapesh have in store.
+
+INFOTEXT:This dataset implements rules from a book that was originally designed for the 3.5 ruleset. For this dataset, these rules have been updated to the rules of the Pathfinder Roleplaying Game by the PCGen data team.
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Companion: Legacy of Fire Player's Guide, Copyright 2009, Paizo Publishing, LLC; Authors: Brian Cortijo, Stephen S. Greer, James Jacobs, Jonathan H. Keith, F. Wesley Schneider, Amber E. Scott, and James L. Sutter.
+COPYRIGHT:Pathfinder Roleplaying Game Conversion Copyright 2009-2010, Stefan Radermacher
+COPYRIGHT:PCGen dataset conversion for "Legacy of Fire Player's Guide" Copyright 2009-2010, PCGen Data Team (including, but not limited to Eddy Anthony and Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Imported 35e data files
+# Customized Pathfinder RPG data files
+ABILITY:legacy_of_fire_players_guide_abilities_traits.lst
+#ABILITY:legacy_of_fire_players_guide_abilities.lst
+#COMPANIONMOD:legacy_of_fire_players_guide_companionmods.lst
+DEITY:legacy_of_fire_players_guide_deities.lst
+EQUIPMENT:legacy_of_fire_players_guide_equipment.lst
+EQUIPMENT:legacy_of_fire_players_guide_equip_wondrousitems.lst
+FEAT:legacy_of_fire_players_guide_feats.lst
+#KIT:legacy_of_fire_players_guide_kits.lst
+#RACE:legacy_of_fire_players_guide_races.lst
+SHIELDPROF:legacy_of_fire_players_guide_prof_shield.lst
+WEAPONPROF:legacy_of_fire_players_guide_prof_weapon.lst
+TEMPLATE:legacy_of_fire_players_guide_templates.lst

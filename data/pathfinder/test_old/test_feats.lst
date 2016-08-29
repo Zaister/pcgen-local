@@ -1,0 +1,7 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon May 27 10:25:24 2013 -- reformated by prettylst.pl v1.50 (build 19091)
+SOURCELONG:Test	SOURCESHORT:TEST	SOURCEDATE:2012-10
+
+###Block: General Feats
+# Feat Name	Type			Description																	Description of the Benefits
+#TEST FEAT	TYPE:General	DESC:This is the first sentence of the description.	DESC:This is the second sentence of the description.	BENEFIT:This is the first sentence of the benefit.	BENEFIT:This is the second sentence of the benefit.
+AAAA TEST FEAT	TYPE:General	CATEGORY:FEAT	STACK:NO	MULT:YES	CHOOSE:SPELLS|TYPE=Arcane	DESC:This is a tet feat for spell choice.

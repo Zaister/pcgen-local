@@ -1,0 +1,12 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Tue Jul  7 10:44:30 2015 -- reformated by prettylst.pl v1.51 (build 25836)
+SOURCELONG:Shattered Star, Part 2 - Curse of the Lady's Light	SOURCESHORT:AP62	SOURCEWEB:http://paizo.com/products/btpy8tmi?Pathfinder-Adventure-Path-62-Curse-of-the-Ladys-Light	SOURCEDATE:2012-09
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 01 JUNE 2015
+
+###Block: Objects granting abilites
+# Ability Name			Category of Ability	Type			Aspects
+Deathbalm Talisman Save Bonus	CATEGORY:Internal		TYPE:SaveBonus	ASPECT:SaveBonus|+5 resistance bonus vs. disease or poison
+
+#
+# End
+#

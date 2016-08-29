@@ -1,0 +1,22 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 3: The Jackal's Price	SOURCESHORT:PF21	SOURCEDATE:2009-04
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Emkrah Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Emkrah]	SOURCEPAGE:p.88
+RACE:Emkrah	!PRERACE:1,%
+NAME:Emkrah
+ALIGN:TN
+STAT:STR=11|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+SKILL:Climb		RANK:12
+SKILL:Perception	RANK:12
+SKILL:Swim		RANK:12
+FEAT:Combat Reflexes
+FEAT:Dodge
+FEAT:Great Fortitude
+FEAT:Improved Initiative
+FEAT:Mobility
+FEAT:Multiattack
+
+#
+# End
+#

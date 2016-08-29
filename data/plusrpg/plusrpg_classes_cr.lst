@@ -1,0 +1,17 @@
+# CVS $Revision: $ $Author: $ -- Wed Jul  6 10:58:20 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Class modifications
+
+# Class Name
+CLASS:Ranger.MOD
+1	ABILITY:Special Ability|AUTOMATIC|Ranger ~ Stamina|PREVAREQ:Ranger_CF_Endurance,0
+3	ABILITY:FEAT|AUTOMATIC|.CLEAR.Endurance
+
+# Class Name
+CLASS:Fighter.MOD
+1	ABILITY:FEAT|AUTOMATIC|Combat Stamina
+
+#
+# End
+#

@@ -1,0 +1,27 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Jul 22 15:28:37 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:The Book of Fiends	SOURCESHORT:BoF	SOURCEWEB:http://greenroninstore.com/products/the-book-of-fiends-pdf	SOURCEDATE:2003-01
+# Original Entry: Stefan Radermacher
+
+STARTPACK:Darksphinx Default	TYPE:DefaultMonster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Darksphinx]	SOURCEPAGE:p.156
+RACE:Darksphinx	!PRERACE:1,%
+GENDER:Female
+NAME:Darksphinx
+ALIGN:LE
+STAT:STR=11|DEX=10|CON=11|INT=10|WIS=10|CHA=11
+SKILL:Acrobatics			RANK:9
+SKILL:Bluff				RANK:9
+SKILL:Climb				RANK:9
+SKILL:Diplomacy			RANK:9
+SKILL:Fly				RANK:9
+SKILL:Heal				RANK:9
+SKILL:Intimidate			RANK:9
+SKILL:Knowledge (Planes)	RANK:9
+SKILL:Perception			RANK:9
+SKILL:Sense Motive		RANK:9
+SKILL:Stealth			RANK:9
+SKILL:Survival			RANK:9
+FEAT:Alertness
+FEAT:Hover
+FEAT:Improved Initiative
+FEAT:Iron Will
+FEAT:Two-Weapon Fighting

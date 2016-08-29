@@ -1,0 +1,17 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Fri Sep 30 19:57:56 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Ultimate Combat	SOURCESHORT:PFUC	SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies	SOURCEDATE:2011-07
+# Original RSRD Entry by: PCGen Data Team
+# Pathfinder RPG Entry by: Stefan Radermacher and Eric Smith (Maredudd)
+
+####Block: Eastern Weapons - Exotic
+#------light---------
+# Equipment Name	Required Weapon Proficiency	Type													Alternative Type					Cost		Weight	Slot Needed	Critical Hit Multiplier	Critical Hit Range	Alternative Critical	Alternative Critical Range	Damage	Alternative Damage	Modifier			Alternative Modifier	Wield Category	Size		Source Page		Weapon prop. bonus
+Wakizashi		PROFICIENCY:WEAPON|Wakizashi	TYPE:Weapon.Melee.Light.Finesseable.Exotic.Standard.Piercing.Slashing.Sword								COST:35	WT:2				CRITMULT:x2			CRITRANGE:3												DAMAGE:1d6					EQMOD:STEEL.DEADLY					WIELD:Light		SIZE:M	SOURCEPAGE:p.134
+#-----one handed -------
+Katana		PROFICIENCY:WEAPON|Katana	TYPE:Weapon.Melee.OneHanded.Martial.Exotic.Standard.Slashing.Sword									COST:50	WT:6				CRITMULT:x2			CRITRANGE:3												DAMAGE:1d8					EQMOD:STEEL.DEADLY					WIELD:TwoHanded	SIZE:M	SOURCEPAGE:p.131	BONUS:WEAPON|WIELDCATEGORY|-1|PREFEAT:1,Exotic Weapon Proficiency (Katana)
+#-----two handed -------
+Kusarigama		PROFICIENCY:WEAPON|Kusarigama	TYPE:Weapon.Melee.TwoHanded.Exotic.Reach.Standard.Double.Slashing			ALTTYPE:Weapon.Melee.Exotic.Bludgeoning	COST:12	WT:3		SLOTS:2	CRITMULT:x2			CRITRANGE:1			ALTCRITMULT:x2		ALTCRITRANGE:1			DAMAGE:1d3	ALTDAMAGE:1d6		EQMOD:STEEL.TRIP.MONK	ALTEQMOD:STEEL		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:p.132
+
+#
+# End
+#

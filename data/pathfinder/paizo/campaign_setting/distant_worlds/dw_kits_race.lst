@@ -1,0 +1,19 @@
+# CVS $Revision: $ $Author: $ -- Wed Sep 17 14:38:20 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+SOURCELONG:Distant Worlds	SOURCESHORT:DW	SOURCEWEB:http://paizo.com/products/btpy8qib?Pathfinder-Campaign-Setting-Distant-Worlds	SOURCEDATE:2011-07
+
+STARTPACK:Dragonkin Default	TYPE:Default Monster.Outsider	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Dragonkin],[!PRERACE:1,%]	SOURCEPAGE:p.61
+ALIGN:LN
+RACE:Dragonkin	!PRERACE:1,%
+NAME:Dragonkin
+SKILL:Bluff		RANK:10
+SKILL:Fly		RANK:10
+SKILL:Intimidate	RANK:10
+SKILL:Perception	RANK:10
+SKILL:Stealth	RANK:10
+SKILL:Survival	RANK:10
+FEAT:Combat Reflexes
+FEAT:Flyby Attack
+FEAT:Power Attack
+FEAT:Vital Strike
+FEAT:Weapon Focus (bite)
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11

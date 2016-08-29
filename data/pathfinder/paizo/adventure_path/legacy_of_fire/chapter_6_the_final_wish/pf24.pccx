@@ -1,0 +1,53 @@
+# CVS $Revision$ $Author$ -- Tue Mar 16 14:49:51 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+CAMPAIGN:Paizo - Legacy of Fire, Chapter 6: The Final Wish (Conversion)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Legacy of Fire
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Legacy of Fire, Chapter 6: The Final Wish
+SOURCESHORT:PF24
+SOURCEWEB:paizo.com/products/btpy89a2?Pathfinder-Adventure-Path-24-The-Final-Wish
+SOURCEDATE:2009-06
+ISOGL:YES
+
+COVER:pf24.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|paizo.com/products/btpy89a2?Pathfinder-Adventure-Path-24-The-Final-Wish|Buy this publication from Paizo Publishing!
+DESC:Fear and ruin grip the land as the long-imprisoned army of a mad genie renews its ancient war. From the streets of the exotic city of Katapesh to the shadow of cursed Pale Mountain, this horde of immortal warriors leaves only fire and ruin in its wake. Empowered and perverted by the granting of wild wishes, this seemingly invincible legion strangles the realm in its fearful grasp as an obsessed general stokes the embers of an age-old devastation. Can the PCs save Katapesh from both a burning tyrant and the resurrection of a living apocalypse? Find out in this, the climax of the Legacy of Fire Adventure Path!
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet,Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Adventure Pathvolume #24:The Final Wish Copyright 2009, Paizo Publishing, LLC;Author: Rob McCreary.
+COPYRIGHT:Dracolisk from the Tome of Horrors Revised Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based onoriginal material by Gary Gygax.
+COPYRIGHT:Firefiend from the Tome of Horrors Revised Copyright 2002, Necromancer Games, Inc.; Author Erica Balsley.
+COPYRIGHT:Tarry Demodand from the Tome of Horrors Revised Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Tome of Horrors III Copyright 2005, Necromancer Games, Inc.; Author: ScottGreene; AdditionalAuthors: Casey Christofferson, Erica Balsley, Kevin Baase, Lance Hawvermale, Travis Hawvermale, Ian S. Johnston, Patrick Lawinger, Nathan Paul, Clark Peterson, Greg Ragland, Robert Schwalb, and BillWebb.
+COPYRIGHT:Pathfinder RPG Conversion Copyright 2009-2012, Stefan Radermacher
+COPYRIGHT:PCGen dataset conversion for "Legacy of Fire, Chapter 6: The Final Wish" Copyright 2009-2012, PCGen Data Team (including, but not limited to, Stefan Radermacher.)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:pf24_abilities.lst
+ABILITY:pf24_abilities_racial_bestiary.lst
+#CLASS:pf24_classes_monster_specific.lst
+KIT:pf24_kits_races_bestiary.lst
+RACE:pf24_races_bestiary.lst
+#SKILL:pf24_skills_conditional.lst
+#SPELL:pf24_spells.lst
+TEMPLATE:pf24_templates.lst
+
+#
+# End
+#

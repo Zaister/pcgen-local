@@ -1,0 +1,16 @@
+# CVS $Revision: 21080 $ $Author: amaitland $ -- Mon Apr 28 11:52:45 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+#SOURCELONG:Divine Favor: The Cleric	SOURCESHORT:DFC	SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&cPath=6&products_id=146	SOURCEDATE:2011-10
+# Original Entry by: Stefan Radermacher
+
+###Block: Ascetic
+# Ability Category			Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Ascetic Bonus Feat	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT			TYPE:AsceticBonusFeat	PLURAL:Ascetic Bonus Feats	DISPLAYLOCATION:Feats
+ABILITYCATEGORY:Mind Is Body Bonus	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MindIsBody		PLURAL:Mind Is Body Bonuses	DISPLAYLOCATION:Class Abilities
+
+###Block: Theosophist
+# Ability Category					Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object				Plural description for UI				Display Location
+ABILITYCATEGORY:Studied Spellcasting Domain	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:StudiedSpellcastingDomain	PLURAL:Studied Spellcasting Domain Choices	DISPLAYLOCATION:Class Abilities
+
+#
+# End
+#

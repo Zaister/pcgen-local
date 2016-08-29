@@ -1,0 +1,14 @@
+# CVS $Revision: $ $Author: $ -- Tue Jul 22 12:23:12 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+SOURCELONG:House Rules Collection	SOURCESHORT:SR-HR	SOURCEDATE:2099-12
+
+###Block: Potions
+# Equipment Name			Type					Cost		Weight	Source, Long Desc.			Source, Short Desc.	Source Page		Special Property
+Potion of Touch of the Sea	TYPE:Magic.Potion.Consumable	COST:50	WT:0		SOURCELONG:Advanced Player's Guide	SOURCESHORT:APG		SOURCEPAGE:p.250	SPROP:Gain swim speed 30 ft. for 1 minute
+
+###Block: Wondrous items
+# Equipment Name					Bonus to Ability Pool
+Ioun Stone (Scarlet and blue Sphere).MOD	BONUS:ABILITYPOOL|Ioun Stone Skill Choice|1
+
+#
+# End
+#

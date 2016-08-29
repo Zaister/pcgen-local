@@ -1,0 +1,21 @@
+# CVS $Revision: $ $Author: $ -- Mon Sep  6 16:00:34 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+###Block: Master Category
+# Ability Category		Visible	Editable or Static?	Change Pool?	Fractional values?	Category of Object
+ABILITYCATEGORY:Archetype	VISIBLE:NO	EDITABLE:NO			EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Archetype
+
+###Block: Archetype Categories
+# Ability Category			Visible	Editable or Static?	Change Pool?	Fractional values?	Category of Object	Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Ranger Archetype	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Archetype	TYPE:RangerArchetype	PLURAL:Ranger Archetypes	DISPLAYLOCATION:Class Archetypes
+ABILITYCATEGORY:Rogue Archetype	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Archetype	TYPE:RogueArchetype	PLURAL:Rogue Archetypes		DISPLAYLOCATION:Class Archetypes
+
+###Block: Class Bonus Feat Categories
+# Ability Category					Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI			Display Location
+ABILITYCATEGORY:Swashbuckler Weapon Proficiency	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT			TYPE:MartialWeaponProficiency	PLURAL:Swashbuckler Weapon Proficiencies	DISPLAYLOCATION:Feats
+
+# Antipaladin
+ABILITYCATEGORY:Fiendish Boon				VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:FiendishBoon			PLURAL:Fiendish Boons				DISPLAYLOCATION:Class Abilities
+ABILITYCATEGORY:Cruelty					VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Cruelty			PLURAL:Cruelties					DISPLAYLOCATION:Class Abilities
+
+#
+# End
+#

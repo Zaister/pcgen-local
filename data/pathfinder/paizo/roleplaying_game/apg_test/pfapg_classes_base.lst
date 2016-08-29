@@ -1,0 +1,64 @@
+# CVS $Revision: 4 $ $Author: amaitland $ -- Mon Sep  6 16:44:22 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Advanced Player's Guide	SOURCESHORT:PFAPG	SOURCEWEB:http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy8fo1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Save checks bonus												Combat bonus
+CLASS:Rogue		HD:8		TYPE:Base.PC	ABB:Rog		MAXLEVEL:20	SOURCEPAGE:p.67	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Rogue		STARTSKILLPTS:8	CSKILL:Acrobatics|Appraise|Bluff|Climb|TYPE.Craft|Diplomacy|Disable Device|Disguise|Escape Artist|Intimidate|Knowledge (Dungeoneering)|Knowledge (Local)|Linguistics|Perception|TYPE.Perform|TYPE.Profession|Sense Motive|Sleight of Hand|Stealth|Swim|Use Magic Device
+###Block:Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Rogue Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency
+1																AUTO:FEAT|Armor Proficiency (Light)
+###Block: Level progression
+1	BONUS:VAR|RogueSneakAttackLVL|CL	BONUS:VAR|TrapfindingLVL|CL							ABILITY:Special Ability|AUTOMATIC|Sneak Attack|Sneak Attack ~ Rogue	ABILITY:Special Ability|AUTOMATIC|Trapfinding|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueTrapfinding
+2	BONUS:VAR|RogueTalentLVL|CL													ABILITY:Special Ability|AUTOMATIC|Evasion|Rogue Talents
+3	BONUS:VAR|RogueTrapSenseLVL|CL												ABILITY:Special Ability|AUTOMATIC|Trap Sense ~ Rogue|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueTrapSense
+4	BONUS:VAR|UncannyDodgeFlankingLevel|CL|TYPE=EachClass.REPLACE	BONUS:VAR|UncannyDodgeLevel|CL/4	ABILITY:Special Ability|AUTOMATIC|Uncanny Dodge ~ Base|!PREABILITY:1,CATEGORY=Archetype,TYPE.RogueUncannyDodge,TYPE.RogueImprovedUncannyDodge
+20	BONUS:VAR|MasterStrikeLVL|CL													ABILITY:Special Ability|AUTOMATIC|Master Strike
+
+
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Ex Class			Source Page		Define				Save checks bonus											Combat bonus					EXCHANGELEVEL
+CLASS:Antipaladin	HD:10		TYPE:Base.PC	ABB:Apl		MAXLEVEL:20	EXCLASS:Ex-Antipaladin	SOURCEPAGE:p.118	DEFINE:AntipaladinLVL|CL	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	EXCHANGELEVEL:Ex-Paladin|1|20|0
+# Class Name	Required AL
+CLASS:Antipaladin	PREALIGN:1,CE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Antipaladin	STARTSKILLPTS:2	CSKILL:Bluff|TYPE.Craft|Disguise|Handle Animal|Intimidate|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive|Spellcraft|Stealth
+# Class Name	Spell Stat		Spell Type		Automatically Known Spell Levels			Craft Level Mult.	Caster level
+CLASS:Antipaladin	SPELLSTAT:CHA	SPELLTYPE:Divine	KNOWNSPELLS:LEVEL=1|LEVEL=2|LEVEL=3|LEVEL=4	ITEMCREATE:CL-3	BONUS:CASTERLEVEL|Antipaladin|CL|PRECLASS:1,Paladin=4
+###Block: Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency
+1																	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)
+1																	AUTO:FEAT|Shield Proficiency
+###Block: Level progression
+1				BONUS:VAR|DetectGoodLVL,SmiteGoodLVL|CL	ABILITY:Special Ability|AUTOMATIC|Aura of Evil|Detect Good|Smite Good
+2				BONUS:VAR|TouchOfCorruptionLVL|CL		ABILITY:Special Ability|AUTOMATIC|Touch of Corruption ~ Antipaladin|Unholy Resilience ~ Antipaladin
+3				BONUS:VAR|CrueltyLVL|CL				ABILITY:Special Ability|AUTOMATIC|Aura of Cowardice ~ Antipaladin|Cruelty ~ Antipaladin|Plague Bringer ~ Antipaladin
+4	CAST:0,0		BONUS:VAR|ChannelEnergyPaladinLVL|CL	ABILITY:Special Ability|AUTOMATIC|Channel Negative Energy ~ Antipaladin
+5	CAST:0,1									ABILITY:Special Ability|AUTOMATIC|Fiendish Boon ~ Antipaladin
+6	CAST:0,1
+7	CAST:0,1,0
+8	CAST:0,1,1									ABILITY:Special Ability|AUTOMATIC|Aura of Despair ~ Antipaladin
+9	CAST:0,2,1
+10	CAST:0,2,1,0
+11	CAST:0,2,1,1								ABILITY:Special Ability|AUTOMATIC|Aura of Vengeance ~ Antipaladin
+12	CAST:0,2,2,1
+13	CAST:0,3,2,1,0
+14	CAST:0,3,2,1,1								ABILITY:Special Ability|AUTOMATIC|Aura of Sin ~ Antipaladin
+15	CAST:0,3,2,2,1
+16	CAST:0,3,3,2,1
+17	CAST:0,4,3,2,1								ABILITY:Special Ability|AUTOMATIC|Aura of Depravity ~ Antipaladin
+18	CAST:0,4,3,2,2
+19	CAST:0,4,3,3,2
+20	CAST:0,4,4,3,3								ABILITY:Special Ability|AUTOMATIC|Unholy Champion ~ Antipaladin
+
+# Ex-Antipaladin
+
+# Class Name		Hit Dice	Type			Abbreviation	Max Level	Ex Class			Source Page		Visible	Define				Save checks bonus											Combat bonus
+CLASS:Ex-Antipaladin	HD:10		TYPE:Base.PC	ABB:Apl		MAXLEVEL:20	EXCLASS:Ex-Antipaladin	SOURCEPAGE:p.118	VISIBLE:NO	DEFINE:AntipaladinLVL|CL	BONUS:CHECKS|BASE.Reflex|CL/3	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name		Skill Pts/Lvl	Class Skill
+CLASS:Ex-Antipaladin	STARTSKILLPTS:2	CSKILL:Bluff|TYPE.Craft|Disguise|Handle Animal|Intimidate|Knowledge (Religion)|TYPE.Profession|Ride|Sense Motive|Spellcraft|Stealth
+###Block: Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency
+1																	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)|Armor Proficiency (Heavy)
+1																	AUTO:FEAT|Shield Proficiency

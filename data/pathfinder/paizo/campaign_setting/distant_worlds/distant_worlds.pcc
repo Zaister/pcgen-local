@@ -1,0 +1,46 @@
+# CVS $Revision: 9628 $ $Author: eddyanthony $ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Distant Worlds
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Campaign Setting
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Campaign Setting
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Distant Worlds
+SOURCESHORT:DW
+SOURCEWEB:http://paizo.com/products/btpy8qib?Pathfinder-Campaign-Setting-Distant-Worlds
+SOURCEDATE:2011-07
+ISOGL:YES
+
+COVER:inner_sea_magic.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy8qib?Pathfinder-Campaign-Setting-Distant-Worlds|Buy this publication from Paizo Publishing!
+DESC:Golarion is the primary world of the Pathfinder campaign setting, but it is not alone. Far beyond its lands and seas, sister worlds revolve around the same sun, their residents connected by magical portals or ships of terrifying magic and technology. Now take your game off-planet and explore these weird new worlds for yourself!
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Bat, Mobat from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Death Worm from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley.
+COPYRIGHT:Flumph from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowell and Douglas Naismith.
+COPYRIGHT:Mongrelman from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Campaign Setting: Distant Worlds Copyright 2012, Paizo Publishing, LLC; Author: James L. Sutter.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Campaign Setting: Distant Worlds" Copyright 2012, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:dw_abilities_race.lst
+KIT:dw_kits_race.lst
+RACE:dw_races.lst
+
+#
+# End
+#

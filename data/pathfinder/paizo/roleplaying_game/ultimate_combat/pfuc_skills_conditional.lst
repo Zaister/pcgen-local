@@ -1,0 +1,15 @@
+# CVS $Revision: 16199 $ $Author: amaitland $ -- Tue May 15 12:02:04 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Ultimate Combat	SOURCESHORT:PFUC	SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies	SOURCEDATE:2011-07
+# Original Entry by: Stefan Radermacher
+
+###Block: Conditional skills (for output only)
+# Skill Name				Key Stat	Untrained?		Classes	Type			Visible		Req. Rule (in options)		Prohibited Var. Value												Source Page
+Sleight of Hand (Conceal a Weapon)	KEYSTAT:DEX	USEUNTRAINED:NO	CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	PRERULE:1,DISPLAYSKILLUSE	PREVARNEQ:var("SKILL.Sleight of Hand (Conceal a Weapon).MISC"),SKILL.Sleight of Hand.MISC	SOURCEPAGE:p.87
+
+###Block: Skill .MODs
+# Skill Name		Bonus to skill											Bonus to skill rank
+Sleight of Hand.MOD	BONUS:SKILL|Sleight of Hand (Conceal a Weapon)|SKILL.Sleight of Hand.MISC	BONUS:SKILLRANK|Sleight of Hand (Conceal a Weapon)|skillinfo("TOTALRANK", "Sleight of Hand")|TYPE=SkillGranted|PREVARNEQ:var("SKILL.Sleight of Hand (Conceal a Weapon).MISC"),SKILL.Sleight of Hand.MISC
+
+#
+# End
+#

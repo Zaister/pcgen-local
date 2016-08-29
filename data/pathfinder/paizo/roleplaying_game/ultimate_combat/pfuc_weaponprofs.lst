@@ -1,0 +1,21 @@
+# CVS $Revision: 13093 $ $Author: maredudd800 $ -- Fri Sep 30 17:35:55 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Ultimate Combat	SOURCESHORT:PFUC	SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies	SOURCEDATE:2011-07
+# Original Entry by: Stefan Radermacher
+
+# EXOTIC
+# -- light
+# Weapon Name	Type
+Wakizashi		TYPE:Exotic.Light.Melee.Piercing.Slashing.MeleePiercing.MeleeSlashing
+# -- 1-handers
+Katana		TYPE:Exotic.OneHanded.Melee.Slashing.MeleeSlashing
+# -- 2-handers
+Kusarigama		TYPE:Exotic.TwoHanded.Melee.Bludgeoning.MeleeBludgeoning.DoubleWeapon
+# -- ranged
+# Weapon Name	Type
+Firearms		TYPE:Exotic.Ranged.Bludgeoning.Piercing.RangedBludgeoning.RangedPiercing
+Musket		TYPE:Exotic.Ranged.Bludgeoning.Piercing.RangedBludgeoning.RangedPiercing.TwoHanded.Firearm
+Pistol		TYPE:Exotic.Ranged.Bludgeoning.Piercing.RangedBludgeoning.RangedPiercing.OneHanded.Firearm
+
+#
+# End
+#

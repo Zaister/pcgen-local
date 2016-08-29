@@ -1,0 +1,26 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:53:30 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: New skills
+# Skill Name				Key Stat	Untrained?		Type						Visible		Bonus to skill
+Artistry (Choreography)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Artistry.Base				BONUS:SKILL|Artistry (Choreography)|3|TYPE=ClassSkill|PRECSKILL:1,Artistry (Choreography)|PRESKILL:1,Artistry (Choreography)=1
+Artistry (Criticism)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Artistry.Base				BONUS:SKILL|Artistry (Criticism)|3|TYPE=ClassSkill|PRECSKILL:1,Artistry (Criticism)|PRESKILL:1,Artistry (Criticism)=1
+Artistry (Literature)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Artistry.Base				BONUS:SKILL|Artistry (Literature)|3|TYPE=ClassSkill|PRECSKILL:1,Artistry (Literature)|PRESKILL:1,Artistry (Literature)=1
+Artistry (Musical Composition)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Artistry.Base				BONUS:SKILL|Artistry (Musical Composition)|3|TYPE=ClassSkill|PRECSKILL:1,Artistry (Musical Composition)|PRESKILL:1,Artistry (Musical Composition)=1
+Artistry (Philosophy)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Artistry.Base				BONUS:SKILL|Artistry (Philosophy)|3|TYPE=ClassSkill|PRECSKILL:1,Artistry (Philosophy)|PRESKILL:1,Artistry (Philosophy)=1
+Artistry (Playwriting)			KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Artistry.Base				BONUS:SKILL|Artistry (Playwriting)|3|TYPE=ClassSkill|PRECSKILL:1,Artistry (Playwriting)|PRESKILL:1,Artistry (Playwriting)=1
+Artistry (Untrained)			KEYSTAT:INT				TYPE:Intelligence.Artistry.Base	VISIBLE:EXPORT
+Lore						KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Lore.Base					BONUS:SKILL|Lore|3|TYPE=ClassSkill|PRECSKILL:1,Lore|PRESKILL:1,Lore=1
+
+###Block: New skills Skill Focus implementation
+# Skill Name				Bonus to skill
+Artistry (Choreography).MOD		BONUS:SKILL|Artistry (Choreography)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Choreography))	BONUS:SKILL|Artistry (Choreography)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Choreography))|PRESKILL:1,Artistry (Choreography)=10
+Artistry (Criticism).MOD		BONUS:SKILL|Artistry (Criticism)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Criticism))	BONUS:SKILL|Artistry (Criticism)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Criticism))|PRESKILL:1,Artistry (Criticism)=10
+Artistry (Literature).MOD		BONUS:SKILL|Artistry (Literature)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Literature))	BONUS:SKILL|Artistry (Literature)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Literature))|PRESKILL:1,Artistry (Literature)=10
+Artistry (Musical Composition).MOD	BONUS:SKILL|Artistry (Musical Composition)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Musical Composition))	BONUS:SKILL|Artistry (Musical Composition)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Musical Composition))|PRESKILL:1,Artistry (Musical Composition)=10
+Artistry (Philosophy).MOD		BONUS:SKILL|Artistry (Philosophy)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Philosophy))	BONUS:SKILL|Artistry (Philosophy)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Philosophy))|PRESKILL:1,Artistry (Philosophy)=10
+Artistry (Playwriting).MOD		BONUS:SKILL|Artistry (Playwriting)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Playwriting))	BONUS:SKILL|Artistry (Playwriting)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Playwriting))|PRESKILL:1,Artistry (Playwriting)=10
+
+#
+# End
+#

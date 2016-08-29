@@ -1,0 +1,14 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Tue May 29 14:46:06 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Jade Regent Campaign	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/store/v5748btpy806v	SOURCEDATE:2008-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Jade Regent item abilities
+Silver-Tongue		KEY:Silver-Tongue ~ Booklet		CATEGORY:Internal			VISIBLE:NO	BONUS:ABILITYPOOL|Booklet of Exquisite Ridicule Silver-Tongue Skill|1	DEFINE:SilverTongueBonus|0	BONUS:VAR|SilverTongueBonus|floor(BookletLVL/4)
+Silver-Tongue (Comedy)	KEY:Silver-Tongue Comedy ~ Booklet	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.WondrousItem.SilverTongue	DESC:You gain a +%1 insight bonus to Perform (Comedy) checks. This skill becomes a class skill for you.|SilverTongueBonus	BONUS:SKILL|Perform (Comedy)|SilverTongueBonus|TYPE=Insight	CSKILL:Perform (Comedy)
+Silver-Tongue (Oratory)	KEY:Silver-Tongue Oratory ~ Booklet	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.WondrousItem.SilverTongue	DESC:You gain a +%1 insight bonus to Perform (Oratory) checks. This skill becomes a class skill for you.|SilverTongueBonus	BONUS:SKILL|Perform (Oratory)|SilverTongueBonus|TYPE=Insight	CSKILL:Perform (Oratory)
+Undermining Rhetoric	KEY:Undermining Rhetoric ~ Booklet	CATEGORY:Internal			VISIBLE:NO	SPELLS:Booklet of Exquisite Ridicule|TIMES=1|CASTERLEVEL=BookletLVL|Qualm|PRESKILL:1,Intimidate=1	SPELLS:Booklet of Exquisite Ridicule|TIMES=1|CASTERLEVEL=BookletLVL|Overwhelming Grief|PRESKILL:1,Sense Motive=5	SPELLS:Booklet of Exquisite Ridicule|TIMES=1|CASTERLEVEL=BookletLVL|Bard's Escape|PRESKILL:1,Escape Artist=9
+Mockery			KEY:Mockery ~ Booklet			CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary.WondrousItem	DEFINE:MockeryDC|0	DEFINE:MockeryDuration|0	DEFINE:MockeryPenalty|-4	BONUS:VAR|MockeryDC|10+floor(BookletLVL/2)+CHA	BONUS:VAR|MockeryDuration|BookletLVL	BONUS:VAR|MockeryPenalty|-2|PREVARGTEQ:BookletLVL,11	DESC:Once per day, as a full-round action, you can ridicule and defame a creature within 30 ft. If you select one target with an Intelligence score of at least 3, the creature takes a %1 penalty on any one mental attribute (Intelligence, Wisdom, or Charisma), as chosen by you. This penalty affects the target’s caster level, if any. The target can resist this effect with a DC %2 Will save. This effect lasts for %3 rounds.|MockeryPenalty|MockeryDC|MockeryDuration
+
+#
+# End
+#

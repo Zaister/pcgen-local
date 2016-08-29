@@ -1,0 +1,47 @@
+# CVS $Revision: 244 $ $Author: stefan $
+CAMPAIGN:Green Ronin - The Book of Fiends
+GAMEMODE:Pathfinder
+TYPE:Green Ronin.Supplement
+RANK:6
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Green Ronin Publishing
+PUBNAMESHORT:GR
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:The Book of Fiends
+SOURCESHORT:BoF
+SOURCEWEB:http://greenroninstore.com/products/the-book-of-fiends-pdf
+SOURCEDATE:2003-01
+ISOGL:YES
+
+COVER:.jpg
+LOGO:&/publisher_logos/Green_Ronin_Publishing.png
+URL:WEBSITE|http://www.greenronin.com/|Visit Green Ronin Publishing!
+URL:Green Ronin Publishing|http://greenroninstore.com/products/the-book-of-fiends-pdf|Buy this publication from Green Ronin Publishing!
+DESC:Devils, demons, and daemons--these are the ultimate servants of evil. Learn all their foul secrets in the Book of Fiends, the definitive sourcebook on these fell creatures. The Book of Fiends provides profoundly evil foes your players will never forget.
+
+COPYRIGHT:Open Game License v 1.0, Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:The Book of Fiends, Copyright 2003, Green Ronin Publishing; Authors Aaron Loeb, Erik Mona, Chris Pramas, and Robert. J. Schwalb
+COPYRIGHT:Legions of Hell, Copyright 2001, Green Ronin Publishing; Author Chris Pramas
+COPYRIGHT:Armies of the Abyss, Copyright 2002, Green Ronin Publishing; Authors Erik Mona and Chris Pramas
+COPYRIGHT:Book of the Righteous, Copyright 2002, Aaron Loeb
+COPYRIGHT:The Avatar's Handbook, Copyright 2003, Green Ronin Publishing; Authors Jesse Decker and Chris Thomasson
+COPYRIGHT:The Unholy Warrior's Handbook, Copyright 2003, Green Ronin Publishing; Author Robert J. Schwalb
+COPYRIGHT:Pathfinder Roleplaying Game Conversion Copyright 2009-2013, Stefan Radermacher
+COPYRIGHT:PCGen dataset conversion for "The Book of Fiends" Copyright 2003-2013, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:book_of_fiends_abilities_races.lst
+KIT:book_of_fiends_kits_races.lst
+RACE:book_of_fiends_races.lst
+
+#
+# End
+#

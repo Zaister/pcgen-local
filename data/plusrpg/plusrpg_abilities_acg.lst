@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:51:39 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Class skills
+# Ability Name						Remove Class Skill	Class Skill
+CATEGORY=Internal|Slayer ~ Class Skills.MOD	CSKILL:.CLEAR		CSKILL:Acrobatics|Athletics|Bluff|TYPE=Craft|Disguise|Ecology|Endurance|Heal|Intimidate|Knowledge (dungeoneering)|Knowledge (geography)|Knowledge (local)|Perception|TYPE=Profession|Ride|Sense Motive|Stealth|Survival
+
+#
+# End
+#

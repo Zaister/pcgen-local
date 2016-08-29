@@ -1,0 +1,49 @@
+Xotani
+CR 20
+CE Colossal magical beast (fire)
+Init +8; Senses blindsight 120 ft., darkvision 60 ft., low-light vision; Listen +21, Spot +21
+
+DEFENSE
+AC 35, touch 6, flat-footed 31 (+4 Dex, +29 natural, –8 size)
+hp 728 (47d10+470); regeneration 40
+Fort +37, Ref +31, Will +20
+DR 15/epic; Immune ability damage, energy drain, fire, disease, paralysis, poison, sleep; Resistance electricity 20, sonic 20; SR 30
+Weakness vulnerable to cold, sunlight blindness 
+
+OFFENSE
+Spd 60 ft., burrow 60 ft., climb 60 ft.
+Melee 2 claws +53 (2d8+14 plus 4d8 fire) and bite +51 (4d8+7 plus 4d8 fire)
+Space 40 ft.; Reach 40 ft.
+Special Attacks breath weapon, improved grab, swallow whole, trample (2d8+21)
+
+STATISTICS
+Str 38, Dex 19, Con 30, Int 3, Wis 17, Cha 14
+Base Atk +47; Grp +77
+Feats Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Diehard, Endurance, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Initiative, Improved Overrun, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Run
+Skills Climb +32, Listen +21, Search +6, Spot +13, Survival +21
+SQ firebleed, frightful presence, heat
+
+SPECIAL ABILITIES
+Blindsight (Ex) Xotani can “see” by emitting high-frequency sounds, inaudible to most other creatures, that allow it to ascertain objects and creatures within 120 feet. A silence spell negates this ability, but its other forms of vision prevent it from being utterly blinded.
+
+Breath Weapon (Su) 70-foot cone, once every 1d4 rounds, damage 16d10 fire, Reflex DC 43 half. The save DC is Constitution-based.
+
+Firebleed (Ex) As a creature of living fire and wrath, Xotani ferociously strikes back against any creature that wounds it. Any attack that does more than 10 points of damage to Xotani causes the wound to erupt in a 30-foot cone of magma. This cone deals 1d6 points of fire damage plus an additional 1d6 points of fire damage for every 10 points of damage dealt by the attack. Thus, an attack dealing 22 points of damage results in a cone dealing 3d6 points of fire damage, while an attack dealing 49 points of damage results in a cone dealing 5d6 points of fire damage. Creatures affected by the cone may make a DC 43 Reflex save to take only half damage. The save DC is Constitution-based. Ranged attacks and any magical attacks that deal damage also cause this special ability to take effect. Xotani cannot firebleed at will, but might do so 10 times per round (an amount equal to its Constitution modifier).
+
+Frightful Presence (Su) Xotani can inspire terror by attacking. Affected creatures must succeed on a DC 35 Will save or become shaken, remaining in that condition as long as they remain within 60 feet of Xotani. This is a mind-affecting fear effect. The save DC is Charisma-based.
+
+Heat (Ex) Xotani generates so much heat that its mere touch deals additional 4d8 points of fire damage. Creatures striking Xotani with natural attacks or unarmed attacks are subject to this damage, but creatures striking with melee weapons do not take damage from its heat. This heat can melt or char weapons; any weapon that strikes Xotani is allowed a DC 43 Fortitude save to avoid destruction. The save DC is Constitution-based.
+
+Improved Grab (Ex) To use this ability, Xotani must hit a Huge or smaller opponent with its bite attack. It can then attempt to start a grapple as a free action without provoking an attack of opportunity. If it wins the grapple check, it establishes a hold and can try to swallow the foe the following round. 
+
+Regeneration (Ex) No form of attack deals lethal damage to Xotani. Xotani regenerates even if it fails a saving throw against a disintegrate spell or a death effect. If Xotani fails its save against a spell or effect that would kill it instantly (such as those mentioned above), the spell or effect instead deals nonlethal damage equal to the creature’s full normal hit points +10 (or 738 hp). Xotani is immune to effects that produce incurable  or bleeding wounds, such as mummy rot, a sword with the wounding special ability, or a clay golem’s cursed wound ability.
+Xotani can be slain only by raising its nonlethal damage total to its full normal hit points +10 (or 738 hit points), at least half of which must be inflicted by cold damage, and using a wish or miracle spell to keep it dead.
+If Xotani loses a limb or body part, the lost portion regrows in 1d6 minutes (the detached piece dies and decays normally). Xotani can reattach the severed member instantly by holding it to the stump.
+
+Sunlight Blindness (Ex) Abrupt exposure to sunlight (such as sunlight, but not a daylight spell) blinds Xotani for 1 round. On subsequent rounds, it is dazzled while operating in direct sunlight.
+
+Swallow Whole (Ex) When Xotani begins its turn with a grappled opponent in its mouth, it can swallow that opponent whole with a successful grapple check. Once inside Xotani, the opponent takes 2d8+7 points of bludgeoning damage plus 20d6 points of fire damage per round from being submerged in the magma pool that is Xotani’s stomach. A swallowed creature can cut its way out by using a light slashing or piercing weapon to deal 50 points of damage to the gizzard (AC 25). Once the creature exits, muscular action closes the hole; another swallowed opponent must cut its own way out. Xotani’s gullet can hold 2 Huge, 8 Large, 32 Medium, 128 Small, or 512 Tiny or smaller creatures. 
+
+Trample (Ex) Reflex DC 47 half. The save DC is Strength-based. 
+
+Skills Xotani has a +8 racial bonus on Listen and Spot checks. It also has a +8 racial bonus on Climb checks and can always choose to take 10 on a Climb check, even if rushed or threatened.

@@ -1,0 +1,8 @@
+# CVS $Revision: 12596 $ $Author: zaister $ -- Mon Aug  9 15:38:27 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+
+###Block: Pathfinder #5
+SOURCELONG:Rise of the Runelords, Chapter 5: Sins of the Saviors	SOURCESHORT:PF5	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy815o	SOURCEDATE:2007-10
+
+###Block: Shemhazian abilities
+Paralyzing Gaze		KEY:Paralyzing Gaze ~ Shemhazian	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	DEFINE:ShemhazianParalyzingGazeDC|10+(HD/2)+CHA	DESC:A shemhazians gaze paralyzes non-evil creatures for 1 round (range 30 feet, Fortitude DC %1 negates)|ShemhazianParalyzingGazeDC							BONUS:VAR|ShemhazianParalyzingGazeDC|2|PREFEAT:1,Ability Focus (Paralyzing Gaze ~ Shemhazian)	SOURCEPAGE:p.86	ASPECT:Ability Benefit|(DC %1)|ShemhazianParalyzingGazeDC
+Poison			KEY:Poison ~ Shemhazian			CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	DEFINE:ShemhazianPoisonDC|10+(HD/2)+CON		DESC:Bite--injury; save Fortitude DC %1; frequency 1/round for 6 rounds; effect 1d6 Stength; cure 2 consecutive saves.|ShemhazianPoisonDC							BONUS:VAR|ShemhazianPoisonDC|2|PREFEAT:1,Ability Focus (Poison ~ Shemhazian)				SOURCEPAGE:p.66	ASPECT:Ability Benefit|(DC %1)|ShemhazianPoisonDC

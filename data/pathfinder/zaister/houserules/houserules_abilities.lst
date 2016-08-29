@@ -1,0 +1,9 @@
+# CVS $Revision: $ $Author: $ -- Tue Jul 22 11:57:30 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+SOURCELONG:House Rules Collection	SOURCESHORT:SR-HR	SOURCEDATE:2099-12
+
+# Ability Name			Category of Ability		Type				Stackable?	Multiple?	Choose			Bonus to skill rank
+Ioun Stone Skill Selection	CATEGORY:Special Ability	TYPE:IounStoneSkill	STACK:NO	MULT:YES	CHOOSE:SKILL|TYPE=Base	BONUS:SKILLRANK|%LIST|TL
+
+#
+# End
+#

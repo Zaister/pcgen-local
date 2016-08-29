@@ -1,0 +1,24 @@
+# CVS $Revision: 14299 $ $Author: elrotheonk $ -- Fri Jan 14 23:49:33 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Psionics Unleashed	SOURCESHORT:PsU	SOURCEWEB:http://dreamscarredpress.com/dragonfly/Store/product/pid=70.html	SOURCEDATE:2010-11
+# Original Entry by: Stefan Radermacher
+
+# Class Name	Hit Dice	Type				Abbreviation	Max Level	Save checks bonus											Combat bonus
+CLASS:Soulknife	HD:10		TYPE:Base.Psionic.PC	ABB:Skn		MAXLEVEL:20	BONUS:CHECKS|BASE.Fortitude|CL/3	BONUS:CHECKS|BASE.Reflex,BASE.Will|CL/2+2	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Soulknife	STARTSKILLPTS:4	CSKILL:Acrobatics|Autohypnosis|Climb|TYPE.Craft|Intimidate|Knowledge (Psionics)|Perception|TYPE.Profession|Stealth|Swim
+###Block:Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|Soulknife Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency
+1																	AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+1																	AUTO:FEAT|Shield Proficiency
+###Block: Level progression
+
+
+
+###Block:Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies	AUTO:FEAT|Simple Weapon Proficiency
+1												AUTO:FEAT|Armor Proficiency (Light)
+1												AUTO:FEAT|Shield Proficiency
+###Block: Mind Blade abilities by effective level; to add a PrC's class level to SK for
+1	BONUS:ABILITYPOOL|Soulknife Bonus Feat|(CL+2)/4	BONUS:VAR|MindBladeLVL|CL	ABILITY:Special Ability|AUTOMATIC|Mind Blade	AUTO:FEAT|Weapon Focus (Mind Blade)
+#1	AUTO:FEAT|Wild Talent
+#9																						AUTO:FEAT|Greater Weapon Focus (Mind Blade)

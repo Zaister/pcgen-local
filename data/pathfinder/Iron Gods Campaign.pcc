@@ -1,0 +1,69 @@
+# CVS $Revision: 639 $ $Author: stefan $ $Date: 2007-05-30 17:32:10 +0200 (Mi, 30 Mai 2007) $
+CAMPAIGN:Iron Gods Campaign
+GAMEMODE:Pathfinder
+TYPE:Campaigns
+RANK:1
+BOOKTYPE:Core Rules
+GENRE:Fantasy
+SETTING:Pathfinder Campaign Setting
+SHOWINMENU:YES
+
+COVER:@/pathfinder/paizo/pathfinder_adventure_path/iron_gods/players_guide/PZO9000-15E.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+
+INFOTEXT:This pcc loads all the source materials needed for the Iron Gods Pathfinder Adventure Path Campaign.
+
+# Pathfinder Roleplaying Game
+PCC:@/pathfinder/paizo/roleplaying_game/core_rulebook/core_rulebook.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/bestiary/bestiary.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_players_guide/advanced_players_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_race_guide/advanced_race_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_class_guide/_advanced_class_guide.pcc
+PCC:$/pathfinder/paizo/roleplaying_game/gamemastery_guide/gamemastery_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_campaign/_ultimate_campaign.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_magic/_ultimate_magic.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_equipment/ultimate_equipment.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_combat/_ultimate_combat.pcc
+PCC:$/pathfinder/paizo/roleplaying_game/pathfinder_unchained/pathfinder_unchained.pcc
+
+# Pathfinder Campaign Setting
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_world_guide/inner_sea_world_guide.pcc
+PCC:@/pathfinder/paizo/campaign_setting/technology_guide/_technology_guide.pcc
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_gods/_inner_sea_gods.pcc
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_magic/inner_sea_magic.pcc
+
+# Pathfinder Player Companion
+PCC:@/pathfinder/paizo/player_companion/arcane_anthology/_arcane_anthology.pcc
+PCC:&/pathfinder/paizo/player_companion/armor_masters_handbook/armor_masters_handbook.pcc
+PCC:@/pathfinder/paizo/player_companion/blood_of_angels/blood_of_angels.pcc
+PCC:@/pathfinder/paizo/player_companion/champions_of_purity/_champions_of_purity.pcc
+PCC:@/pathfinder/paizo/player_companion/demon_hunters_handbook/_demon_hunters_handbook.pcc
+PCC:$/pathfinder/paizo/player_companion/heroes_of_the_wild/heroes_of_the_wild.pcc
+PCC:$/pathfinder/paizo/player_companion/humans_of_golarion/humans_of_golarion.pcc
+PCC:@/pathfinder/paizo/player_companion/knights_of_the_inner_sea/knights_of_the_inner_sea.pcc
+PCC:&/pathfinder/paizo/player_companion/magic_tactics_toolbox/magic_tactics_toolbox.pcc
+PCC:@/pathfinder/paizo/player_companion/melee_tactics_toolbox/melee_tactics_toolbox.pcc
+PCC:@/pathfinder/paizo/player_companion/people_of_the_stars/_people_of_the_stars.pcc
+PCC:$/pathfinder/paizo/player_companion/undead_slayers_handbook/undead_slayers_handbook.pcc
+
+# Pathfinder Adventure Path
+PCC:@/pathfinder/paizo/adventure_path/iron_gods/players_guide/_iron_gods_players_guide.pcc
+
+# Third Party Sourcebooks
+PCC:$/pathfinder/lpj_design/classes_of_neoexodus_machinesmith/classes_of_neoexodus_machinesmith.pcc
+PCC:$/pathfinder/lpj_design/neoexodus_chronicles_cutting_edge/neoexodus_chronicles_cutting_edge.pcc
+
+# Single includes
+ABILITY:@/pathfinder/paizo/player_companion/adventurers_armory/aa_abilities_traits.lst|(INCLUDE:CATEGORY=Special Ability,Trait ~ Rough and Ready)
+
+# Iron Gods Adventure Path miscellaneous data files
+ABILITY:$/pathfinder/zaister/iron_gods/iron_gods_misc_abilities.lst
+EQUIPMENT:$/pathfinder/zaister/iron_gods/iron_gods_misc_equip.lst
+WEAPONPROF:$/pathfinder/zaister/iron_gods/iron_gods_misc_profs_weapon.lst
+
+# PlusRPG rule modifications
+PCC:$/plusrpg/plusrpg.pcc
+
+#
+# End
+#

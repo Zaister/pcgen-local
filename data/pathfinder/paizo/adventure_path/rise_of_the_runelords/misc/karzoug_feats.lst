@@ -1,0 +1,11 @@
+# CVS $Revision: 14615 $ $Author: elrotheonk $ -- Tue Apr  5 12:19:04 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Karzoug Stuff	SOURCESHORT:RotR	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Magic of Thassilon (Pathfinder #5)
+# Feat Name		Type			Required Class			Description												Description of the Benefits
+Inscribe Rune	TYPE:ItemCreation	PRECLASS:1,SPELLCASTER=3	DESC:You can tattoo arcane runes upon your flesh or the flesh of others.	BENEFIT:You can create runes. Inscribing a rune takes one day for each 1,000 gp in its base price. To inscribe a rune, you must spend 1/25 of its base price in XP and use up raw materials costing half of its base price.
+
+#
+# End
+#

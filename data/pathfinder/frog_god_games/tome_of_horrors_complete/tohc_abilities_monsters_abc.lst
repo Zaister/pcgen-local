@@ -1,0 +1,20 @@
+# CVS $Revision: $ $Author: $ -- Fri Sep 30 15:58:47 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Tome of Horrors Complete	SOURCESHORT:ToHC	SOURCEWEB:http://paizo.com/store/byCompany/f/frogGodGames/pathfinderRPG/other/v5748btpy8mqb	SOURCEDATE:2011-09
+# Original Entry by: Stefan Radermacher
+
+###Block: Brass Man Abilities
+# Ability Name	Unique Key					Category of Ability		Type								Define					Description																						Modify VAR								Source Page		Aspects																													Description of the Benefits
+Immunity to Magic	KEY:Immunity to Magic ~ Brass Man	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Immunity							DESC:An iron golem is immune to spells or spell-like abilities that allow spell resistance.																	SOURCEPAGE:p.82	ASPECT:Immunity|Magic																											BENEFIT:A brass man is immune to any spell or spell-like abilities that allow spell resistance. In addition, certain spells and effects function differently against the creature, as noted below. A magical attack that deals electricity damage slows a brass man (as the Slow spell) for 3 rounds, with no saving throw. A magical attack that deals fire damage breaks any slow effect on the brass man and heals 1 point of damage for each 3 points of damage the attack would otherwise deal. If the amount of healing would cause the brass man to exceed its full normal hit points, it gains any excess as temporary hit points. A brass man gets no saving throw against fire effects.
+Spit Molten Brass	KEY:Spit Molten Brass ~ Brass Man	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural.CheckList		DEFINE:BrassManSpitMoltenBrassDC|0	DESC:30-foot line, once every 1d4 rounds (no more than 5 times per day), damage 6d6 fire, Reflex DC %1 half.|BrassManSpitMoltenBrassDC	BONUS:VAR|BrassManSpitMoltenBrassDC|10+(HD/2)+CON	SOURCEPAGE:p.82	ASPECT:Ability Benefit|(30-ft. line, once every 1d4 rounds, damage 6d6 fire, Reflex DC %1 half)|BrassManSpitMoltenBrassDC	ASPECT:CheckCount|5	ASPECT:CheckType|Uses per Day
+
+###Block: Coffer Corpse Abilities
+# Ability Name	Unique Key					Category of Ability		Type								Define				Description																																																																																		Modify VAR																		Source Page
+Death Grip		KEY:Death Grip ~ Coffer Corpse	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary								DESC:Because the coffer corpse grasps the victim's throat, a creature in its death grip cannot speak or cast spells with verbal components.																																																																															SOURCEPAGE:p.117
+Deceiving Death	KEY:Deceiving Death ~ Coffer Corpse	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Defensive						DESC:In any round in which a coffer corpse is struck for 6 or more points of damage (whether the damage bypasses the creature's damage reduction or not), the creature slumps to the ground, seemingly destroyed. If it has fastened its death grip on a victim, it releases its hold when is falls. A DC 20 Sense Motive check sees through the ruse (necromancers gain a +2 competence bonus on this check). On its next turn, the coffer corpse rises again as if reanimated, triggering its fear ability.																				SOURCEPAGE:p.117
+Fear			KEY:Fear ~ Coffer Corpse		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural			DEFINE:CofferCorpseFearDC|0	DESC:A creature viewing a coffer corpse rise after it uses its deceiving death ability must make a DC %1 Will save or become panicked for 2d4 rounds. This is a mind-affecting fear effect.|CofferCorpseFearDC																																																	BONUS:VAR|CofferCorpseFearDC|10+(TL/2)+CHA	BONUS:VAR|CofferCorpseFearDC|2|PREFEAT:1,Ability Focus(Fear)	SOURCEPAGE:p.117
+
+#
+# End
+#
+
+

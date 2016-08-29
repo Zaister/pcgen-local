@@ -1,0 +1,41 @@
+# CVS $Revision: 21675 $ $Author: amaitland $ -- Tue Dec 10 15:22:24 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+SOURCELONG:Bestiary 4	SOURCESHORT:B4	SOURCEWEB:http://paizo.com/products/btpy8yop	SOURCEDATE:2012-01
+# Original Entry By: Stefan Radermacher
+
+STARTPACK:Grendel	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Grendel]	SOURCEPAGE:p.145
+RACE:Grendel	!PRERACE:1,%
+NAME:Grendel
+ALIGN:CE
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=11|CHA=10
+SKILL:Acrobatics	RANK:15
+SKILL:Intimidate	RANK:10
+SKILL:Perception	RANK:10
+SKILL:Stealth	RANK:15
+SKILL:Swim		RANK:10
+FEAT:Bleeding Critical
+FEAT:Combat Reflexes
+FEAT:Critical Focus
+FEAT:Exhausting Critical
+# M
+FEAT:Great Fortitude
+FEAT:Improved Critical (Claw)
+# M
+FEAT:Iron Will
+# M
+FEAT:Power Attack
+FEAT:Skill Focus (Stealth)
+FEAT:Tiring Critical
+
+
+STARTPACK:Myrmecoleon Default	TYPE:DefaultMonster.Monstrous Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Myrmecoleon]	SOURCEPAGE:p.198
+RACE:Myrmecoleon	!PRERACE:1,%
+NAME:Myrmecoleon
+ALIGN:TN
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+SKILL:Climb		RANK:5
+SKILL:Perception	RANK:5
+FEAT:Improved Critical (Mandibles)
+FEAT:Lightning Reflexes
+FEAT:Power Attack
+FEAT:Shatter Defenses
+FEAT:Weapon Focus (Mandibles)

@@ -1,0 +1,40 @@
+# CVS $Revision: $ $Author: $ -- Fri Sep 30 15:58:47 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Tome of Horrors Complete	SOURCESHORT:ToHC	SOURCEWEB:http://paizo.com/store/byCompany/f/frogGodGames/pathfinderRPG/other/v5748btpy8mqb	SOURCEDATE:2011-09
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Gargoyle (Four-Armed) Default	TYPE:DefaultMonster.MonstrousHumanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Gargoyle (Four-Armed)],[!PRERACE:1,%]	SOURCEPAGE:p.3ß4
+RACE:Gargoyle (Four-Armed)	!PRERACE:1,%
+NAME:Four-Armed Gargoyle
+ALIGN:CE
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=11|CHA=11
+SKILL:Fly		RANK:4
+SKILL:Perception	RANK:4
+SKILL:Stealth	RANK:4
+FEAT:Hover
+FEAT:Improved Initiative
+FEAT:Skill Focus (Fly)
+
+
+STARTPACK:Giant (Bronze) Default	TYPE:DefaultMonster.Humanoid	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Giant (Bronze)],[!PRERACE:1,%]	SOURCEPAGE:p.316
+RACE:Giant (Bronze)	!PRERACE:1,%
+NAME:Bronze Giant
+STAT:STR=11|DEX=11|CON=11|INT=10|WIS=10|CHA=10
+SKILL:Climb				RANK:1
+SKILL:Craft (Blacksmithing)	RANK:5
+SKILL:Intimidate			RANK:14
+SKILL:Perception			RANK:12
+FEAT:Alertness
+FEAT:Awesome Blow
+FEAT:Cleave
+FEAT:Improved Bull Rush
+FEAT:Iron Will
+FEAT:Lightning Reflexes
+FEAT:Martial Weapon Proficiency (Longsword)
+FEAT:Power Attack
+GEAR:Longsword		SIZE:PC	LOCATION:Primary Hand
+GEAR:Spear			SIZE:PC	LOCATION:Carried
+GEAR:Rock (Medium)			LOCATION:Not Carried
+
+#
+# End
+#

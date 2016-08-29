@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Thu Aug 11 14:35:51 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Weapon Groups
+# Weapon Name	Type
+Chainsaw.MOD	TYPE:Powered Melee.Weapon Group Powered Melee
+
+#
+# End
+#

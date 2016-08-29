@@ -1,0 +1,32 @@
+# CVS $Revision$ $Author$ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Paizo - Rise of the Runelords, Miscellaneous Data
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Rise of the Runelords
+RANK:4
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Chronicles
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+#PRECAMPAIGN:1,Paizo - Pathfinder Chronicles Campaign Setting
+PRECAMPAIGN:1,Paizo - Rise of the Runelords Player's Guide
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Rise of the Runelords, Miscellaneous Data
+SOURCESHORT:RotR
+SOURCEDATE:2007-08
+ISOGL:YES
+
+DESC:This dataset contains miscellaneous data for the Rise of the Runelords campaign
+
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:Rise of the Runelords Player's Guide. Copyright 2007 Paizo Publishing LLC. Author F. Wesley Schneider.
+COPYRIGHT:PCGen dataset conversion for "Rise of the Runelords, Miscellaneous Data" Copyright 2007-2008, PCGen Data Team including, but not limited to Stefan Radermacher and Eric C. Smith
+
+# Data files
+EQUIPMENT:rrm_equip.lst
+EQUIPMOD:rrm_equipmods_weapons.lst
+SKILL:rrm_skills_conditional.lst@

@@ -1,0 +1,22 @@
+# CVS $Revision: 9485 $ $Author: eddyanthony $ -- Thu Sep  2 13:01:41 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire Player's Guide	SOURCESHORT:LoFPG	SOURCEWEB:http://paizo.com/pathfinder/v5748btpy84bh	SOURCEDATE:2009-02
+
+# One-Handed Melee Weapons
+# Weapon Name		Type
+Battle Poi			TYPE:Exotic.Melee.Standard.Fire
+Madu (Shield Bash)	TYPE:Weapon.Exotic.Melee.Standard.Piercing
+Rope Gauntlets		TYPE:Exotic.Melee.Standard.Bludgeoning
+Scorpion Whip		TYPE:Exotic.Melee.Standard.Slashing
+
+# Two-Handed Melee Weapons
+Meteor Hammer		TYPE:Exotic.Melee.Standard.Bludgeoning
+
+# Ranged Weapons
+Sling Glove			TYPE:Exotic.Ranged.Standard.Bludgeoning
+
+# DEITYWEAP
+Scarf (Bladed)		TYPE:Exotic
+
+#
+# End
+#

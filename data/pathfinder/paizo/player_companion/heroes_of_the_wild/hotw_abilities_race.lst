@@ -1,0 +1,24 @@
+# CVS $Revision: 9628 $ $Author: zaister $ -- Fri Aug  7 14:46:50 2015 -- reformated by prettylst.pl v1.51 (build 25836)
+SOURCELONG:Heroes of the Wild	SOURCESHORT:HOTW	SOURCEWEB:http://paizo.com/products/btpy8ub6?Pathfinder-Player-Companion-Champions-of-Purity	SOURCEDATE:2013-07
+# Original Entry by: Stefan Radermacher
+
+
+###Block: Feyborn Racial Traits
+# Ability Name	Unique Key				Category of Ability		Type										Multiple Requirements																					Description																																																																																																																Stackable?	Multiple?	Choose																															Selections	Class Skill	Cost		Source Page
+Fey Magic		KEY:Gnome ~ Fey Magic		CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeObsessive		PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Gnome ~ Fey Magic],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeObsessive]			DESC:The character has a mystic connection to one terrain type, selected from the ranger's favored terrain list. The character selects three 0-level druid spells and one 1st-level druid spell. If the character has a Charisma score of 11 or higher, when in the selected terrain, she gains these spells as spell-like abilities that can be cast once per day. The caster level for these effects is equal to the user's character level. The DC for the spell-like abilities is equal to 10 + the spell's level + the user's Charisma modifier. These spells are treated as being from a fey source for the purposes of the druid's resist nature's lure class feature and similar abilities.																																									COST:0	SOURCEPAGE:p.5
+#A dwarf can take this trait in place of greed and stonecunning.
+#An elf, half-elf, or halfling can take this trait in place of keen senses.
+#A gnome can take this trait in place of obsessive.
+#A half-orc can take it in place of orc ferocity.
+#A human can take it in place of skilled. A human who replaces skilled with fey magic also gains fey thoughts and low-light vision.
+
+Fey Thoughts	KEY:Gnome ~ Fey Thoughts	CATEGORY:Special Ability	TYPE:RacialTraits.GnomeRacialTrait.GnomeWeaponFamiliarity	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Gnome ~ Fey Thoughts],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.GnomeWeaponFamiliarity]	DESC:The character sees the world more like a native of the First World. Select two of the following skills: Acrobatics, Bluff, Climb, Diplomacy, Disguise, Escape Artist, Fly, Knowledge (nature), Perception, Perform, Sense Motive, Sleight of Hand, Stealth, Swim, or Use Magic Device. The selected skills are always class skills for the character.																																																								STACK:YES	MULT:YES	CHOOSE:NUMCHOICES=2|SKILL|Acrobatics|Bluff|Climb|Diplomacy|Disguise|Escape Artist|Fly|Knowledge (nature)|Perception|TYPE.Perform|Sense Motive|Sleight of Hand|Stealth|Swim|Use Magic Device	SELECT:2	CSKILL:LIST	COST:0	SOURCEPAGE:p.5
+#A dwarf can take this trait in place of hatred.
+#An elf, gnome, or half-orc can take this trait in place of racial weapon familiarity.
+#A half-elf can take this trait in place of multitalented.
+#A halfling can take it in place of fearless.
+#In the case of humans, this trait replaces the skilled trait (and the human also gains fey magic and low-light vision, as detailed in Fey Magic, above).
+
+#
+# End
+#

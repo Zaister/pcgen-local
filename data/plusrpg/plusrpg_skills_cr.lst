@@ -1,0 +1,31 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 11 15:52:23 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: New Skills
+# Skill Name	Key Stat	Untrained?		Skill Penalty?	Type				Bonus Ability Pool										Bonus to skill
+Athletics		KEYSTAT:STR				ACHECK:YES		TYPE:Strength.Base														BONUS:SKILL|Athletics|8|PREMOVE:1,Climb=1,Swim=1|TYPE=Racial	BONUS:SKILL|Athletics|3|TYPE=ClassSkill|PRECSKILL:1,Athletics|PRESKILL:1,Athletics=1
+Ecology		KEYSTAT:INT	USEUNTRAINED:NO				TYPE:Intelligence.Base	BONUS:ABILITYPOOL|Ecology Specialization|skillinfo("TOTALRANK", "Ecology")	BONUS:SKILL|Ecology|3|TYPE=ClassSkill|PRECSKILL:1,Ecology|PRESKILL:1,Ecology=1
+Endurance		KEYSTAT:CON							TYPE:Constitution.Base														BONUS:SKILL|Endurance|3|TYPE=ClassSkill|PRECSKILL:1,Endurance|PRESKILL:1,Endurance=1
+Search		KEYSTAT:INT							TYPE:Intelligence.Base														BONUS:SKILL|Search|3|TYPE=ClassSkill|PRECSKILL:1,Search|PRESKILL:1,Search=1
+
+###Block: New skills Skill Focus implementation
+# Skill Name	Bonus to skill
+Athletics.MOD	BONUS:SKILL|Athletics|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Athletics)	BONUS:SKILL|Athletics|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Athletics)|PRESKILL:1,Athletics=10
+Ecology.MOD		BONUS:SKILL|Ecology|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Ecology)	BONUS:SKILL|Ecology|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Ecology)|PRESKILL:1,Ecology=10
+Endurance.MOD	BONUS:SKILL|Endurance|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Endurance)	BONUS:SKILL|Endurance|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Endurance)|PRESKILL:1,Endurance=10
+Search.MOD		BONUS:SKILL|Search|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Search)	BONUS:SKILL|Search|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Search)|PRESKILL:1,Search=10
+
+###Block: Removed skills
+# Skill Name	Skill Penalty?	Visible	Bonus to skill							Bonus to skill rank
+Climb.MOD		ACHECK:NO		VISIBLE:NO	BONUS:SKILL|Athletics|skillinfo("MISC", "Climb")	BONUS:SKILLRANK|Climb|skillinfo("TOTALRANK", "Athletics")
+Escape Artist.MOD	ACHECK:NO		VISIBLE:NO
+Swim.MOD		ACHECK:NO		VISIBLE:NO	BONUS:SKILL|Athletics|skillinfo("MISC", "Swim")		BONUS:SKILLRANK|Swim|skillinfo("TOTALRANK", "Athletics")
+
+###Block: Situation changes
+# Skill Name	Situational Skill	Bonus to Situation
+Acrobatics.MOD	SITUATION:Escape	BONUS:SITUATION|Acrobatics=Jump|-floor((var("MOVE[Walk]")-30)/10)*4|TYPE=Move	BONUS:SITUATION|Acrobatics=Escape|skillinfo("MISC", "Escape Artist")
+Athletics.MOD	SITUATION:Jump	BONUS:SITUATION|Athletics=Jump|floor((var("MOVE[Walk]")-30)/10)*4|TYPE=Move
+
+#
+# End
+#

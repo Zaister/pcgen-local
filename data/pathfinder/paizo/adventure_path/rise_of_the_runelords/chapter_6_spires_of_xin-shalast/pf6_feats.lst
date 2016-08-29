@@ -1,0 +1,11 @@
+# CVS $Revision: 12905 $ $Author: amaitland $ -- Mon Feb 21 18:41:43 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+###Block: Feats
+# Feat Name		Type			Required Feat		Required Stat	Description
+Altitude Affinity	TYPE:General	PREFEAT:1,Endurance	PRESTAT:1,CON=19	DESC:Through means both mundane and magical, you have hardened your body to the rigors of surviving at altitudes where the thin air is not conducive to normal life.
+
+#
+# End
+#

@@ -1,0 +1,35 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Tue May 29 14:46:06 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Curse of the Crimson Throne Campaign	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/store/v5748btpy806v	SOURCEDATE:2008-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Armor
+# Equipment Name		Type							Cost		Weight	Special Property
+Bahor's Coat		PROFICIENCY:ARMOR|Leather		TYPE:Magic.Armor.Light.Suit.Specific		COST:250	WT:20	ACCHECK:-2	EQMOD:LEATHER|STEEL.PLUS2A.FRT_LGHT	MAXDEX:3	SPELLFAILURE:20																																																																						BONUS:COMBAT|AC|4|TYPE=Armor
+
+
+###Block: Miscellaneous wondrous items
+# Equipment Name		Type							Cost		Weight	Special Property
+Plaguebringer's Mask	TYPE:Magic.Wondrous.Headgear			COST:2000	WT:2		SPROP:+2 resistance bonus on saving throws against nauseating scents, immunity to blood veil, veils wearer's alignment
+
+###Block: Blackjack equipment
+Blackjack's Mask	TYPE:Magic.Wondrous.Eyegear						COST:1800	SPROP:Use Disguise Self to mask you appearance.
+#
+Amulet of Proof Against Detection and Location.COPY=Blackjack's Amulet				SPROP:Amulet of Proof Against Detection and Location
+Bag of Holding (Type I).COPY=Blackjack's Bag of Holding						SPROP:Bag of Holding (Type I)
+Boots of Elvenkind.COPY=Blackjack's Boots									SPROP:Boots of Elvenkind
+Cloak of Elvenkind.COPY=Blackjack's Cloak									SPROP:Cloak of Elvenkind
+Cloak of Elvenkind.COPY=Blackjack's Cloak (Improved)							SPROP:Cloak of Elvenkind and Resistance +2	BONUS:CHECKS|ALL|2|TYPE=Resistance	COST:10500
+Dagger.COPY=Blackjack's Golden Dagger				EQMOD:MWORKW
+Dagger.COPY=Blackjack's Silver Dagger				EQMOD:ALCHM
+Leather.COPY=Blackjack's Armor					EQMOD:PLUS2A|SLK
+Gloves of Dueling.COPY=Blackjack's Gloves									SPROP:Gloves of Dueling
+Belt of Incredible Dexterity +2.COPY=Blackjack's Belt							SPROP:Belt of Incredible Dexterity +2
+Rapier.COPY=Blackjack's Rapier					EQMOD:PLUS2W.KEEN
+
+###Block: ARTIFACTS
+Crown of Fangs			TYPE:Artifact.Major.Headgear	COST:0	WT:4	SPELLS:Magic Item|TIMES=3|CASTERLEVEL=20|Alter Self|Dominate Person,17|Major Image,17|Mirror Image|Mislead,19	BONUS:STAT|CON,CHA|6|TYPE=Enhancement	ABILITY:Special Ability|AUTOMATIC|Regeneration|Foresight ~ Constant	BONUS:VAR|RegenerationRate|20
+
+Ring of Splendid Security	TYPE:Magic.Wondrous.Ring	COST:180000	WT:0	BONUS:COMBAT|AC|5|TYPE=Deflection	BONUS:SAVE|ALL|5|TYPE=Resistance	SR:22
+#
+# End
+#

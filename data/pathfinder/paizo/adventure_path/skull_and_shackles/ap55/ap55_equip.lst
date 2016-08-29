@@ -1,0 +1,21 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Tue May 21 14:10:30 2013 -- reformated by prettylst.pl v1.50 (build 19091)
+SOURCELONG:Skull & Shackles, Part 1: The Wormwood Mutiny	SOURCESHORT:PF55	SOURCEWEB:http://paizo.com/products/btpy8rcc?Pathfinder-Adventure-Path-55-The-Wormwood-Mutiny	SOURCEDATE:2012-07
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 21 May 2013
+
+###Block: Weapons
+# Equipment Name			Required Weapon Proficiency		Type												Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier						Wield Category	Range		Size		Source Page
+Boarding Pike of Repelling	PROFICIENCY:WEAPON|Boarding Pike	TYPE:Weapon.Melee.TwoHanded.Simple.Reach.Standard.Piercing			COST:8	WT:9		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:MAGIC_COST|2000.PLUS1W.BRACE.STEEL	WIELD:TwoHanded			SIZE:M	SOURCEPAGE:p.58
+Tidewater Cutlass			PROFICIENCY:WEAPON|Cutlass		TYPE:Weapon.Melee.OneHanded.Martial.Standard.Slashing.Sword.Pirate	COST:15	WT:4		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d6	EQMOD:MAGIC_COST|1080.PLUS1W.STEEL		WIELD:OneHanded			SIZE:M	SOURCEPAGE:p.59
+Vindictive Harpoon		PROFICIENCY:WEAPON|Harpoon		TYPE:Weapon.Melee.OneHanded.Exotic.Ranged.Standard.Slashing.Sword		COST:5	WT:16		CRITMULT:x3			CRITRANGE:1			DAMAGE:1d8	EQMOD:MAGIC_COST|2000.PLUS1W.RETURN.STEEL	WIELD:TwoHanded	RANGE:10	SIZE:M	SOURCEPAGE:p.59
+
+###Block: Wondrous Items
+# Equipment Name		Type						Cost		Weight	Source Page
+Besmara's Tricorne	TYPE:Goods.Magic.Wondrous.Headgear	COST:2600	WT:1		SOURCEPAGE:p.58	BONUS:SKILL|Profession (Sailor),Swim|2|TYPE=Competence
+Hospitality's Hammock	TYPE:Goods.Magic.Wondrous		COST:5000	WT:3		SOURCEPAGE:p.58
+Shackles of Compliance	TYPE:Goods.Magic.Wondrous		COST:2810	WT:2		SOURCEPAGE:p.58
+Steadfast Grapple		TYPE:Goods.Magic.Wondrous		COST:5000	WT:9		SOURCEPAGE:p.59
+
+#
+# End
+#

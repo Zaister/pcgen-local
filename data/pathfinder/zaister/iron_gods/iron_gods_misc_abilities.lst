@@ -1,0 +1,13 @@
+# Android Slayer Talent
+Bonus Slayer Talent	KEY:Android ~ Favored Class Bonus ~ Talent	CATEGORY:Special Ability	TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSlayer		VISIBLE:DISPLAY	PREABILITY:1,CATEGORY=Special Ability,Slayer		PRECLASS:1,Slayer=1		PRERACE:1,Android%,RACESUBTYPE=Android	DEFINE:AndroidSlayerFavClassBonus|0		DESC:Gain 1/6 of a new slayer talent.																													STACK:YES	MULT:YES	CHOOSE:NOCHOICE													BONUS:VAR|AndroidSlayerFavClassBonus|1
+CATEGORY=Special Ability|Slayer ~ Slayer Talents.MOD																																																																																																				BONUS:ABILITYPOOL|Slayer Talent|AndroidSlayerFavClassBonus/6
+
+#Fey Magic spells
+CATEGORY=Special Ability|Gnome ~ Fey Magic.MOD	SPELLS:Underground|TIMES=1|CASTERLEVEL=TL|Detect Magic|Detect Poison|Mending|Cure Light Wounds|PRESTAT:1,CHA=11
+
+#Fix for Ifrit Fire Affinity
+CATEGORY=Special Ability|Ifrit ~ Fire Affinity.MOD	BONUS:DC|CLASS.Sorcerer|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana	BONUS:CONCENTRATION|CLASS.Sorcerer|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana	BONUS:VAR|BloodlinePowerTimes|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana	BONUS:VAR|ElementalBlastDC|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana
+
+#
+# End
+#

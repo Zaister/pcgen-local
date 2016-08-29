@@ -1,0 +1,30 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Fri Feb 15 17:19:38 2013 -- reformated by prettylst.pl v1.39 (build 18270)
+SOURCELONG:Curse of the Crimson Throne, Chapter 2: Seven Days to the Grave	SOURCESHORT:PF8	SOURCEWEB:http://paizo.com/products/btpy82qy?Pathfinder-8-Curse-of-the-Crimson-Throne-Chapter-2-Seven-Days-to-the-Grave	SOURCEDATE:2008-03
+# Original Entry: Stefan Radermacher
+
+###Block: Nosferatu
+# Template Name	Hit Dice Size			Challenge Rating	Damage Reduction			Template																																				Source Page		Define																					Required Race								Bonus to Ability Pool				Combat bonus					Bonus to skill									Stat bonus										Modify VAR									Ability																																																						Automatically Gained Feat								Apply Kit		Subrace	Main Race Type
+Nosferatu		HITDIE:8|CLASS.TYPE=Monster	CR:2			DR:5/Wood	DR:5/Piercing	TEMPLATE:CHOOSE:Nosferatu ~ Tiny|Nosferatu ~ Small|Nosferatu ~ Medium|Nosferatu ~ Large|Nosferatu ~ Huge|Nosferatu ~ Gargantuan|Nosferatu ~ Colossal	TEMPLATE:CHOOSE:Nosferatu ~ Humanoid|Nosferatu ~ Monstrous Humanoid	SOURCEPAGE:p.88	DEFINE:NoTypeTraits|1	DEFINE:ColdResistanceBonus|10	DEFINE:ElectricityResistanceBonus|10	DEFINE:SonicResistanceBonus|10	PRERACE:1,RACETYPE=Humanoid,RACETYPE=Monstrous Humanoid	BONUS:ABILITYPOOL|Nosferatu Skill Focus|2	BONUS:COMBAT|AC|8|TYPE=NaturalArmor.STACK	BONUS:SKILL|Bluff,Perception,Sense Motive,Stealth|8|TYPE=Racial	BONUS:STAT|STR,INT|2	BONUS:STAT|DEX,CHA|4	BONUS:STAT|WIS|6	BONUS:VAR|FastHealingRate|5	BONUS:VAR|ChannelResistance|4	ABILITY:Special Ability|AUTOMATIC|Blood Drain ~ Nosferatu|Channel Resistance|Dominate ~ Nosferatu|Fast Healing|Resistance to Cold|Resistance to Electricity|Resistance to Sonic|Scent|Spider Climb ~ Nosferatu|Swarm Form ~ Nosferatu|Telekinesis ~ Nosferatu|Telepathy ~ Nosferatu|Undead Traits|Vision ~ Low-Light|Nosferatu Weaknesses	AUTO:FEAT|Alertness|Improved Initiative|Lightning Reflexes|Toughness	KIT:1|CE|LE|NE	SUBRACE:YES	RACETYPE:Undead
+
+###Block: Nosferatu Attacks
+# Template Name		Visible	Required Size	Natural Attacks
+Nosferatu ~ Tiny		VISIBLE:NO	PRESIZEEQ:T		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Slashing,*2,1d2
+Nosferatu ~ Small		VISIBLE:NO	PRESIZEEQ:S		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Slashing,*2,1d3
+Nosferatu ~ Medium	VISIBLE:NO	PRESIZEEQ:M		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Slashing,*2,1d4
+Nosferatu ~ Large		VISIBLE:NO	PRESIZEEQ:L		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Slashing,*2,1d6
+Nosferatu ~ Huge		VISIBLE:NO	PRESIZEEQ:H		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Slashing,*2,1d8
+Nosferatu ~ Gargantuan	VISIBLE:NO	PRESIZEEQ:G		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Slashing,*2,2d6
+Nosferatu ~ Colossal	VISIBLE:NO	PRESIZEEQ:C		NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Bludgeoning.Slashing,*2,2d8
+
+###Block: Nosferatu subtype removal
+# Template Name	Race Subtype
+Nosferatu.MOD	RACESUBTYPE:.REMOVE.Dwarf|.REMOVE.Elf|.REMOVE.Giant|.REMOVE.Gnome|.REMOVE.Gnoll|.REMOVE.Goblinoid|.REMOVE.Halfling|.REMOVE.Human|.REMOVE.Oni|.REMOVE.Orc
+
+###Block: Nosferatu Augmented Type
+# Template Name				Visible	Required Race					Main Race Type	Race Subtype
+Nosferatu ~ Humanoid			VISIBLE:NO	PRERACE:1,RACETYPE=Humanoid			RACETYPE:Undead	RACESUBTYPE:Augmented Humanoid
+Nosferatu ~ Monstrous Humanoid	VISIBLE:NO	PRERACE:1,RACETYPE=Monstrous Humanoid	RACETYPE:Undead	RACESUBTYPE:Augmented Monstrous Humanoid
+
+#
+# End
+#

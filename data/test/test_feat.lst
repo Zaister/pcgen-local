@@ -1,0 +1,5 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 18 16:59:21 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Test	SOURCESHORT:Test	SOURCEDATE:2099-12
+
+###Block: Test feat
+AAAAA		CATEGORY:FEAT		TYPE:General		DESC:You can cast _detect magic_ and _detect evil_ at will as spell-like abilities.

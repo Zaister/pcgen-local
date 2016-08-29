@@ -1,0 +1,32 @@
+# CVS $Revision: 12957 $ $Author: jbaril $ -- Wed Aug  6 18:42:14 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+SOURCELONG:Advanced Class Guide Playtest	SOURCESHORT:ACG	SOURCEWEB:http://paizo.com/products/btpy92zi	SOURCEDATE:2013-12
+# Original Entry by: Stefan Radermacher
+
+# Class Name		Hit Dice	Type						Class Type		Abbreviation	Max Level	Source Page		Ability																			Define				Save checks bonus												Combat bonus					Monster Role
+CLASS:Swashbuckler	HD:10		TYPE:Base.PC.Fighter.Gunslinger	CLASSTYPE:PC	ABB:Sws		MAXLEVEL:20	SOURCEPAGE:p.44	ABILITY:Internal|AUTOMATIC|Class Skills ~ Swashbuckler|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerClassSkills	DEFINE:SwashbucklerLVL|CL	BONUS:CHECKS|BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE	ROLE:Combat
+# Class Name		Multiple Requirements
+CLASS:Swashbuckler	PREMULT:1,[PRECLASS:1,Swashbuckler],[!PRECLASS:1,TYPE=Fighter,TYPE=Gunslinger]
+# Class Name		Skill Pts/Lvl
+CLASS:Swashbuckler	STARTSKILLPTS:4
+###Block:Proficiencies
+1	ABILITY:Swashbuckler Class Feature|AUTOMATIC|Weapon and Armor Proficiency ~ Swashbuckler|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerArmorProficiencies|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerWeaponProficiencies
+###Block: Level Progression
+1	ABILITY:Swashbuckler Class Feature|AUTOMATIC|Deeds ~ Swashbuckler|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerDeeds
+1	ABILITY:Swashbuckler Class Feature|AUTOMATIC|Panache ~ Swashbuckler|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerPanache
+1	ABILITY:Swashbuckler Class Feature|AUTOMATIC|Finesse ~ Swashbuckler|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerFinesse
+2	ABILITY:Swashbuckler Class Feature|AUTOMATIC|Charmed Life ~ Swashbuckler|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerCharmedLife
+3	ABILITY:Swashbuckler Class Feature|AUTOMATIC|Nimble ~ Swashbuckler|!PREABILITY:1,CATEGORY=Archetype,TYPE.SwashbucklerNimble
+
+# Class Name	Type
+CLASS:Fighter.MOD	TYPE:Fighter
+# Class Name	Multiple Requirements
+CLASS:Fighter.MOD	PREMULT:1,[PRECLASS:1,Fighter],[!PRECLASS:1,TYPE=Fighter]
+
+# Class Name		Type
+CLASS:Gunslinger.MOD	TYPE:Gunslinger
+# Class Name		Multiple Requirements
+CLASS:Gunslinger.MOD	PREMULT:1,[PRECLASS:1,Gunslinger],[!PRECLASS:1,TYPE=Gunslinger]
+
+#
+# End
+#

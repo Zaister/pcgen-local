@@ -1,0 +1,11 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Tue May 29 14:46:06 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+#SOURCELONG:Jade Regent Campaign	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/store/v5748btpy806v	SOURCEDATE:2008-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Booklet of Exquisite Ridicule Silver-Tongue skill choice
+# Ability Category					Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object				Plural description for UI		Display Location
+ABILITYCATEGORY:Booklet of Exquisite Ridicule Silver-Tongue Skill		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SilverTongue		PLURAL:Booklet of Exquisite Ridicule Silver-Tongue Skills		DISPLAYLOCATION:Magic Items
+
+#
+# End
+#

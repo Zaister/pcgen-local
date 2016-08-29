@@ -1,0 +1,318 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Iron Gods Campaign
+VERSION:6.07.00-dev
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:troubleshooting.htm
+POOLPOINTS:20
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Tochmael
+TABNAME:
+PLAYERNAME:Michael
+HEIGHT:72
+WEIGHT:160
+AGE:19
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:gold
+HAIRCOLOR:blue
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:14
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:14
+ALIGN:LG
+RACE:Aasimar
+
+# Character Class(es)
+CLASS:Oracle|LEVEL:4|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,3
+CLASS:Paladin|LEVEL:2|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Oracle=1|HITPOINTS:8|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Oracle=2|HITPOINTS:5|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Oracle=3|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Oracle=4|HITPOINTS:5|SKILLSGAINED:6|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:23335
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Aasimar ~ Angel-Blooded]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
+TEMPLATESAPPLIED:[NAME:Oracle Tongues Choice ~ Celestial]
+TEMPLATESAPPLIED:[NAME:Oracle Tongues Choice ~ Ignan]
+
+# Character Region
+REGION:Numeria
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Artistry (Untrained)|OUTPUTORDER:4|
+SKILL:Athletics|OUTPUTORDER:5|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Endurance|OUTPUTORDER:21|
+SKILL:Escape Artist|OUTPUTORDER:22|
+SKILL:Fly|OUTPUTORDER:23|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
+SKILL:Handle Animal|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:27|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:28|
+SKILL:Heal|OUTPUTORDER:29|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Engineering)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (History)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Oracle|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Local)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Oracle|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:39|
+SKILL:Perception|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Oracle|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Untrained)|OUTPUTORDER:42|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Search|OUTPUTORDER:46|
+SKILL:Sense Motive|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Oracle|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:48|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:49|
+SKILL:Spellcraft|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Oracle|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:53|
+SKILL:Survival|OUTPUTORDER:54|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:55|
+SKILL:Swim|OUTPUTORDER:56|
+SKILL:Untrained Charisma|OUTPUTORDER:57|
+SKILL:Untrained Dexterity|OUTPUTORDER:58|
+SKILL:Untrained Intelligence|OUTPUTORDER:59|
+SKILL:Untrained Strength|OUTPUTORDER:60|
+SKILL:Untrained Wisdom|OUTPUTORDER:61|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:40|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
+
+# Character Languages
+LANGUAGE:Androffan|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Ignan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Aasimar Subrace|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Aasimar ~ Angel-Blooded|TYPE:AasimarSubrace|DESC:Angel Blooded Aasimars Receive a +2 bonus to Strength and Charisma and a +2 bonus to Heal and Knowledge (planes) checks. They can cast Alter Self as a spell like ability.
+USERPOOL:Aasimar Subrace|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alignment Channel|APPLIEDTO:Evil|TYPE:General.AttackOption.MendevianPriest|DESC:You can channel your divine energy to harm or heal creatures with your chosen alignment aura.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Stamina|TYPE:Combat|DESC:You stop at nothing to drive your attack home.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline|DESC:You have enhanced physical stamina.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Life Mystery Revelation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Life Mystery ~ Channel|TYPE:OracleClassFeatures.SpecialAttack.Supernatural.LifeRevelation.OracleRevelation.PerDayOracleRevelation.Channel Energy|DESC:You can unleash a wave of positive energy. You can choose to either heal living creatures of %1d%2 points of damage or deal the same amount of positive energy damage to undead creatures. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. Alternatively, you can cause all undead within 30 feet of you to flee for 1 minute, as if panicked, unless they succeed on a DC %3 Will save. Intelligent undead receive a new saving throw each round to end the effect. You can use this ability %4 times per day.&pipe;OracleChannelDice&pipe;OracleChannelDieSize&pipe;OracleChannelDC&pipe;OracleChannelTimes
+ABILITY:Life Mystery Revelation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Life Mystery ~ Life Link|TYPE:OracleClassFeatures.SpecialQuality.Supernatural.LifeRevelation.OracleRevelation.RevelationTargetOneOnly|DESC:As a standard action, you may create a bond between yourself and another creature. Each round at the start of your turn, if the bonded creature is wounded for 5 or more hit points below its maximum hit points, it heals 5 hit points and you take 5 hit points of damage. You may have %1 bond(s) active at a time. This bond continues until the bonded creature dies, you die, the distance between you and the other creature exceeds medium range, or you end it as an immediate action (if you have multiple bonds active, you may end as many as you want as part of the same immediate action).&pipe;OracleLifeLinkBonds
+USERPOOL:Life Mystery Revelation|POOLPOINTS:0.0
+ABILITY:Mental Prowess I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Charisma ~ Mental Prowess Basic|TYPE:CharismaProgression.MentalProwessBasic
+USERPOOL:Mental Prowess I|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rules ~ Use Hero Points|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Oracle Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Oracle Archetype ~ Dual-Cursed Oracle|TYPE:Archetype.OracleArchetype.OracleMysterySkills.OracleMysterySpell2.OracleMysterySpell4.OracleMysterySpell6|DESC:Though doubly-inflicted with supernatural or physical hindrances, a dual-cursed oracle can manipulate fortune and gains greater insight into her mystery.
+USERPOOL:Oracle Archetype|POOLPOINTS:0.0
+ABILITY:Oracle Curse|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle ~ Tongues|TYPE:OracleClassFeatures.SpecialQuality.Communicate.OracleCurse|DESC:In times of stress or unease, you speak in tongues. Whenever you are in combat, you can only speak and understand one selected language. This does not interfere with spellcasting, but it does apply to spells that are language dependent.&pipe;PREVARLT&colon;OracleCurseLVL,5|DESC:In times of stress or unease, you speak in tongues. Whenever you are in combat, you can only speak and understand two selected languages. This does not interfere with spellcasting, but it does apply to spells that are language dependent.&pipe;PREVARGTEQ&colon;OracleCurseLVL,5&pipe;PREVARLT&colon;OracleCurseLVL,10|DESC:In times of stress or unease, you speak in tongues. Whenever you are in combat, you can only speak two selected languages. This does not interfere with spellcasting, but it does apply to spells that are language dependent. You can understand any spoken language, as if under the effects of tongues, even during combat.&pipe;PREVARGTEQ&colon;OracleCurseLVL,10&pipe;PREVARLT&colon;OracleCurseLVL,15|DESC:In times of stress or unease, you speak in tongues. Whenever you are in combat, you can only speak two selected languages. This does not interfere with spellcasting, but it does apply to spells that are language dependent. You can speak and understand any spoken language, as if under the effects of tongues, but your speech is still restricted during combat.&pipe;PREVARGTEQ&colon;OracleCurseLVL,15
+USERPOOL:Oracle Curse|POOLPOINTS:0.0
+ABILITY:Oracle Mystery|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle ~ Life Mystery|TYPE:OracleClassFeatures.SpecialQuality.OracleMystery|DESC:You draw upon the divine mystery of Life to grant your spells and powers.
+USERPOOL:Oracle Mystery|POOLPOINTS:0.0
+ABILITY:Oracle Second Curse|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Dual-Cursed Oracle ~ Haunted|TYPE:OracleClassFeatures.SpecialQuality.OracleSecondCurse|DESC:Malevolent spirits follow you wherever you go, causing minor mishaps and strange occurrences (such as unexpected breezes, small objects moving on their own, and faint noises).
+USERPOOL:Oracle Second Curse|POOLPOINTS:0.0
+ABILITY:Oracle Spell Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle ~ Cure Wounds|TYPE:OracleClassFeatures.OracleSpellChoice
+USERPOOL:Oracle Spell Choice|POOLPOINTS:0.0
+ABILITY:Oracle Tongues Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Tongues ~ Celestial|TYPE:SpecialQuality.OracleTonguesChoice|DESC:You gain Celestial as a bonus language.
+ABILITY:Oracle Tongues Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Tongues ~ Ignan|TYPE:SpecialQuality.OracleTonguesChoice|DESC:You gain Ignan as a bonus language.
+USERPOOL:Oracle Tongues Choice|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Numeria|TYPE:Region|DESC:Savage Land of Super-Science
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Oracle|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Numerian Archaeologist|TYPE:Trait.BasicTrait.CampaignTrait|DESC:Numeria is a land ripe for archaeological exploration, since so many of the strange technological dungeons have been either avoided by the superstitious barbarian tribes or have been locked down by the Technic League, leaving many of them untouched and ripe for exploration. You've studied the strange language associated with these eerie technological ruins, and are eager to start exploring them-you suspect that Torch's namesake is in fact part of a larger buried ruin, and you hope to enter these ruins and learn their original purpose by exploring the caves below town. You gain Androffan as an additional language. In addition, you possess a knack for technological items; when you use a timeworn technological item, roll twice when determining any glitches the item might cause and choose which result to use as your actual result. Talk to your GM for more information about resolving glitches.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill]
+WEAPONPROF:[WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)]
+WEAPONPROF:[WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit]
+WEAPONPROF:[WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Laser Torch|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)]
+WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)]
+WEAPONPROF:[WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar]
+WEAPONPROF:[WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling]
+WEAPONPROF:[WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Backpack|OUTPUTORDER:5|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battleaxe +1|OUTPUTORDER:1|COST:2310.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Battleaxe|DATA:NAME=Battleaxe +1$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Bedroll|OUTPUTORDER:6|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Blanket|OUTPUTORDER:7|COST:0.5|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:17|COST:1|WT:0.02|QUANTITY:37.0|NOTE:
+EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:18|COST:10|WT:0.02|QUANTITY:3.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:19|COST:0.1|WT:0.02|QUANTITY:9.0|NOTE:
+EQUIPNAME:Crowbar|OUTPUTORDER:8|COST:2|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Dagger|OUTPUTORDER:26|COST:2.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Full Plate|OUTPUTORDER:3|COST:1500.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate$EQMOD=STEEL]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Hammer|OUTPUTORDER:9|COST:0.5|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Javelin|OUTPUTORDER:25|COST:1.0|WT:2.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Javelin|DATA:NAME=Javelin$EQMOD=STEEL.WOOD]
+EQUIPNAME:Masterwork Longsword|OUTPUTORDER:24|COST:315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Masterwork Longsword$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Medlance (Timeworn)|OUTPUTORDER:22|COST:250.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Medlance|DATA:NAME=Medlance (Timeworn)$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;.TIMEWORN]
+EQUIPNAME:Miner's Pick|OUTPUTORDER:10|COST:3|WT:10.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Morningstar|OUTPUTORDER:27|COST:8.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Morningstar|DATA:NAME=Morningstar$EQMOD=STEEL]
+EQUIPNAME:Nanite Hypogun (Brown/Timeworn)|OUTPUTORDER:23|COST:500.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Nanite Hypogun (Brown)|DATA:NAME=Nanite Hypogun (Brown/Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:2|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:20|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:16|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rope (Hemp/50 ft)|OUTPUTORDER:11|COST:1|WT:10.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Sound Burst)|OUTPUTORDER:13|COST:150|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shield (Heavy/Wooden)|OUTPUTORDER:4|COST:7.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Wooden)|DATA:NAME=Shield (Heavy/Wooden)$EQMOD=WOOD]
+EQUIPNAME:Shovel or Spade|OUTPUTORDER:12|COST:2|WT:8.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Veemod (Black)|OUTPUTORDER:14|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Veemod Goggles (Timeworn)|OUTPUTORDER:15|COST:500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Veemod Goggles|DATA:NAME=Veemod Goggles (Timeworn)$EQMOD=TIMEWORN]
+EQUIPNAME:Weapon Cord|OUTPUTORDER:21|COST:0.1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.01|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.01|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.02|VALUE:Blanket|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.03|VALUE:Crowbar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.04|VALUE:Hammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.05|VALUE:Miner's Pick|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.06|VALUE:Rope (Hemp/50 ft)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.07|VALUE:Shovel or Spade|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.09|VALUE:Scroll (Sound Burst)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.10|VALUE:Veemod (Black)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.01.11|VALUE:Veemod Goggles (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.01|VALUE:Coin (Gold Piece)|QUANTITY:37.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.02|VALUE:Coin (Platinum Piece)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.03|VALUE:Coin (Silver Piece)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.02.04|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.07|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.14|VALUE:Full Plate|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Weapon Cord|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.17|VALUE:Shield (Heavy/Wooden)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.18|VALUE:Medlance (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.19|VALUE:Nanite Hypogun (Brown/Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.20|VALUE:Battleaxe +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.21|VALUE:Masterwork Longsword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:Javelin|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.23|VALUE:Dagger|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.24|VALUE:Morningstar|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;2
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Iomedae|DEITYDOMAINS:[DOMAIN:Glory|DOMAIN:Good|DOMAIN:Law|DOMAIN:Sun|DOMAIN:War|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Day Subdomain|DOMAIN:Heroism Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Light Subdomain|DOMAIN:Tactics Subdomain]|ALIGNALLOW:|DESC:Goddess of valor, rulership, justice, honor|DEITYFAVWEAP:[WEAPON:Longsword]|DEITYALIGN:LG
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+SPELLNAME:Bless|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Bull's Strength|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Cure Moderate Wounds|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Divine Favor|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Ghost Sound|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Guidance|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Ill Omen|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Light|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Mending|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Oracle's Burden|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Protection from Evil|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Stabilize|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLLIST:Oracle|CLASS.Cleric|CLASS.Oracle
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

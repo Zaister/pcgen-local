@@ -1,0 +1,16 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Oct 28 14:17:16 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+SOURCELONG:Curse of the Crimson Throne, Chapter 4 - A History of Ashes	SOURCESHORT:AP10	SOURCEWEB:http://paizo.com/products/btpy82u9?Pathfinder-10-Curse-of-the-Crimson-Throne-Chapter-4-A-History-of-Ashes	SOURCEDATE:2008-05
+# Original Entry: Stefan Radermacher
+
+SOURCELONG:Bestiary	SOURCESHORT:B1	SOURCEWEB:http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy8auu	SOURCEDATE:2009-10
+
+# Class Name			Output Name			Hit Dice	Type			Class Type		Max Level		Source Page		Levels per Feat	Ability																		Save checks bonus											Combat bonus					Template
+CLASS:Aberration (Mindless)	OUTPUTNAME:Aberration	HD:8		TYPE:Monster	CLASSTYPE:Monster	MAXLEVEL:NOLIMIT	SOURCEPAGE:p.306	LEVELSPERFEAT:0	ABILITY:Special Ability|AUTOMATIC|Aberration Traits|PREVAREQ:NoTypeTraits,0	ABILITY:FEAT|AUTOMATIC|CMB Output	BONUS:CHECKS|BASE.Will|CL/2+2	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/3	BONUS:COMBAT|BAB|CL*3/4|TYPE=Base.REPLACE	TEMPLATE:Mindless
+# Class Name			Reg. Race Type
+CLASS:Aberration (Mindless)	PRERACETYPE:Aberration
+# Class Name			Skill Pts/Lvl	Add INT to Skill Points?
+CLASS:Aberration (Mindless)	STARTSKILLPTS:0	MODTOSKILLS:NO
+
+#
+# End
+#

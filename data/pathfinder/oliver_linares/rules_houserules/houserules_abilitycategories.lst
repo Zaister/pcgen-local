@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Sun Apr 24 14:58:13 2016 -- reformated by PCGen PrettyLST v6.06.00
+#SOURCELONG:House Rules Collection	SOURCESHORT:OLHR	SOURCEDATE:2099-12
+
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Swashbuckler Personage	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SwashbucklerPersonage	PLURAL:Swashbuckler Personages	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Weapon Focus Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:WeaponFocusSelection	PLURAL:Weapon Focus Selection		DISPLAYLOCATION:Class Features
+
+#
+# End
+#

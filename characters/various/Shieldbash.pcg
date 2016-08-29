@@ -1,0 +1,224 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Paizo - Pathfinder Roleplaying Game Core Rulebook
+VERSION:5.16.2 RC1
+ROLLMETHOD:2|EXPRESSION:Epic Fantasy
+PURCHASEPOINTS:Y|TYPE:Epic Fantasy
+POOLPOINTS:15
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+IGNORECOST:Y
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:New1
+TABNAME:
+PLAYERNAME:
+HEIGHT:61
+WEIGHT:135
+AGE:21
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:17
+STAT:CON|SCORE:14
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:8
+ALIGN:TN
+RACE:Human
+
+# Character Class(es)
+CLASS:Fighter|SUBCLASS:None|LEVEL:11|SKILLPOOL:33
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:6|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=3|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=5|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=6|HITPOINTS:6|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=7|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=8|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=9|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=10|HITPOINTS:6|SKILLSGAINED:3|SKILLSREMAINING:3
+CLASSABILITIESLEVEL:Fighter=11|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:3
+
+# Character Experience
+EXPERIENCE:105000
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Armor Training workaround]
+
+# Character Region
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Appraise|OUTPUTORDER:2|
+SKILL:Bluff|OUTPUTORDER:3|
+SKILL:Climb|OUTPUTORDER:4|
+SKILL:Craft (Untrained)|OUTPUTORDER:5|
+SKILL:Diplomacy|OUTPUTORDER:6|
+SKILL:Disguise|OUTPUTORDER:7|
+SKILL:Escape Artist|OUTPUTORDER:8|
+SKILL:Fly|OUTPUTORDER:9|
+SKILL:Heal|OUTPUTORDER:10|
+SKILL:Intimidate|OUTPUTORDER:11|
+SKILL:Perception|OUTPUTORDER:12|
+SKILL:Perform (Untrained)|OUTPUTORDER:13|
+SKILL:Ride|OUTPUTORDER:14|
+SKILL:Sense Motive|OUTPUTORDER:15|
+SKILL:Stealth|OUTPUTORDER:16|
+SKILL:Survival|OUTPUTORDER:17|
+SKILL:Swim|OUTPUTORDER:18|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:-7.0
+
+# Character Abilities
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longsword|TYPE:Combat.WeaponFocus.DestinedBloodline|DESC:You are especially good at using your chosen weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Bull Rush|TYPE:Combat.AttackOption.AbyssalBloodline|DESC:You are skilled at pushing your foes around.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shield Focus|TYPE:Combat|DESC:You are skilled at deflecting blows with your shield.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Two-Weapon Fighting|TYPE:Combat|DESC:You are skilled at fighting with two weapons.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Longsword|TYPE:Combat|DESC:Attacks made with your chosen weapon are quite deadly.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Two-Weapon Fighting|TYPE:Combat|DESC:You are incredibly skilled at fighting with two weapons at the same time.
+USERPOOL:FEAT|POOLPOINTS:0.0
+USERPOOL:Internal|POOLPOINTS:0.0
+USERPOOL:Special Ability|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fighter|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bonus Hit Point|APPLIEDTO:,,,,,,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+USERPOOL:Obsessive Bonus|POOLPOINTS:0.0
+USERPOOL:Adaptability Bonus Feat|POOLPOINTS:0.0
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Shield Bash|TYPE:Combat.AttackOption|DESC:You can protect yourself with your shield, even if you use it to attack.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Specialization|APPLIEDTO:Longsword|TYPE:Combat|DESC:You deal extra damage when using your chosen weapon.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Shield Slam|TYPE:Combat|DESC:In the right position, your shield can be used to send opponents flying.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Bull Rush|TYPE:Combat|DESC:Your bull rush attacks throw enemies off balance.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Weapon Focus|APPLIEDTO:Longsword|TYPE:Combat|DESC:You are a master at your chosen weapon.
+USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Monk Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
+USERPOOL:Weapon Training|POOLPOINTS:0.0
+USERPOOL:Aberrant Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Abyssal Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Arcane Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Celestial Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Destined Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Draconic Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Elemental Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Fey Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Infernal Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Undead Bloodline Feat|POOLPOINTS:0.0
+USERPOOL:Ranger Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Wizard Bonus Feat|POOLPOINTS:0.0
+USERPOOL:Rage Power|POOLPOINTS:0.0
+USERPOOL:Versatile Performance|POOLPOINTS:0.0
+USERPOOL:Channel Energy|POOLPOINTS:0.0
+ABILITY:Weapon Training I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Weapon Training 1 Blades Heavy|TYPE:WeaponTraining.WeaponTraining1
+USERPOOL:Weapon Training I|POOLPOINTS:0.0
+ABILITY:Weapon Training II|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Weapon Training 2 Close|TYPE:WeaponTraining.WeaponTraining2
+USERPOOL:Weapon Training II|POOLPOINTS:0.0
+USERPOOL:Weapon Training III|POOLPOINTS:0.0
+USERPOOL:Weapon Training IV|POOLPOINTS:0.0
+USERPOOL:Mercy|POOLPOINTS:0.0
+USERPOOL:Divine Bond|POOLPOINTS:0.0
+USERPOOL:Favored Enemy|POOLPOINTS:0.0
+USERPOOL:Favored Enemy Bonus|POOLPOINTS:0.0
+USERPOOL:Favored Terrain|POOLPOINTS:0.0
+USERPOOL:Favored Terrain Bonus|POOLPOINTS:0.0
+USERPOOL:Combat Style|POOLPOINTS:0.0
+USERPOOL:Hunter's Bond|POOLPOINTS:0.0
+USERPOOL:Rogue Talent|POOLPOINTS:0.0
+USERPOOL:Sorcerer Bloodline|POOLPOINTS:0.0
+USERPOOL:Arcane Bond|POOLPOINTS:0.0
+USERPOOL:Arcane Opposition School|POOLPOINTS:0.0
+USERPOOL:Expert Class Skills|POOLPOINTS:0.0
+USERPOOL:Nature Bond|POOLPOINTS:0.0
+USERPOOL:Druid Domain|POOLPOINTS:0.0
+USERPOOL:Weapon Mastery|POOLPOINTS:0.0
+USERPOOL:Necromancer Channeling|POOLPOINTS:0.0
+USERPOOL:Knowledge Class Skill|POOLPOINTS:0.0
+USERPOOL:Arcane Bloodline School Power|POOLPOINTS:0.0
+USERPOOL:Animal Trick|POOLPOINTS:0.0
+USERPOOL:Companion Level Increase Choice|POOLPOINTS:0.0
+USERPOOL:Companion Stat Increase|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd]
+WEAPONPROF:[WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Javelin|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Morningstar|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rock|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Shieldbash (Heavy)|WEAPON:Shieldbash (Light)|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor]
+WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Trident|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Longsword|OUTPUTORDER:2|COST:15.0|WT:4.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Longsword|DATA:EQMOD=STEEL]
+EQUIPNAME:Shield (Heavy/Steel)|OUTPUTORDER:3|COST:20.0|WT:15.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:EQMOD=STEEL]
+EQUIPNAME:Full Plate|OUTPUTORDER:1|COST:1500.0|WT:50.0|QUANTITY:1.0|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:EQMOD=STEEL]
+EQUIPNAME:Shieldbash (Heavy)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.1|VALUE:Longsword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.2|VALUE:Shield (Heavy/Steel)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.3|VALUE:Full Plate|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.4|VALUE:Shieldbash (Heavy)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Character Sheet Notes|ID:1|PARENTID:-1|VALUE:
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0

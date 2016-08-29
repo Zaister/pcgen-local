@@ -1,0 +1,66 @@
+# CVS $Revision$ $Author$ -- Wed Nov 20 08:25:04 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+CAMPAIGN:Occult Adventures (Zaister)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder RPG
+STATUS:ALPHA
+RANK:1
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder
+#PRECAMPAIGN:4,INCLUDESBOOKTYPE=Core Rules,INCLUDES=Advanced Player's Guide,INCLUDES=Ultimate Magic,INCLUDES=Ultimate Combat
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Inc.
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Occult Adventures
+SOURCESHORT:OA
+SOURCEWEB:http://paizo.com/products/btpy97vo
+SOURCEDATE:2015-08
+ISOGL:YES
+
+COVER:occult_adventures.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy97vo|Download this publication from Paizo Publishing!
+
+DESC:Get ready to shake up your game! Within these pages, the designers of the Pathfinder Roleplaying Game unleash their wildest ideas, and nothing is safe. From totally revised fundamentals like core classes and monster design to brand-new systems for expanding the way you play, this book offers fresh ideas while still blending with the existing system. With Occult Adventures, you become the game designer! Occult Adventures is an indispensable companion to the Pathfinder Roleplaying Game: Core Rulebook. This imaginative tabletop game builds upon more than 15 years of system development and an Open Playtest featuring more than 50,000 gamers to create a cutting-edge RPG experience that brings the all-time best-selling set of fantasy rules into a new era.
+
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Roleplaying Game Core Rulebook Copyright 2009, Paizo Inc.; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:Demon, Shadow from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.
+COPYRIGHT:Poltergeist from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lewis Pulsipher.
+COPYRIGHT:Pathfinder Roleplaying Game Occult Adventures Copyright 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder RPG Occult Adventures" Copyright 2015, PCGen Data team (Including, but not limited to Stefan Radermacher).
+
+#Do Not Remove Comment
+#EXTRAFILE:OGL.txt
+
+ABILITY:oa_abilities_class.lst
+#ABILITY:oa_abilities_race.lst
+#ABILITY:oa_abilities_other.lst
+ABILITYCATEGORY:oa_abilitycategories.lst
+CLASS:oa_classes.lst
+#EQUIPMENT:oa_equip.lst
+EQUIPMENT:oa_equip_arms_armor.lst
+#EQUIPMOD:oa_equipmods.lst
+#ABILITY:oa_feats.lst
+#KIT:oa_kits.lst
+WEAPONPROF:oa_profs_weapon.lst
+#SKILL:oa_skills.lst
+#SPELL:oa_spells.lst
+#TEMPLATE:oa_templates.lst
+#COMPANIONMOD:oa_companionmods.lst
+
+# ENTRY DATE: 2015-04
+# LST MONKEY: Stefan Radermacher
+# LICENSE MONKEY:
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.05.01
+# Updated to work with version: -
+# MINVER:6.5
+# MINDEVVER:6.05.1
+# COMMENTS: Extra contributors - JP Sugarbroad

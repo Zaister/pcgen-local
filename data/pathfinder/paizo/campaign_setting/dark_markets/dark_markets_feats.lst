@@ -1,0 +1,8 @@
+# CVS $Revision: 11508 $ $Author: zaister $ -- Thu Mar 18 15:39:14 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Dark Markets	SOURCESHORT:DM	SOURCEWEB:http://paizo.com/pathfinder/pathfinderChronicles/35E/v5748btpy87ut	SOURCEDATE:2010-03
+# Original Entry by: Stefan Radermacher
+
+###Block: General Feats
+# Feat Name		Type				Required Race		Description									Bonus to skill			Source Page		Aspects
+Jackal Blood	TYPE:General.SaveBonus					DESC:A jackalwere crouches somewhere in your family tree.	BONUS:SKILL|Perception|2	SOURCEPAGE:p.13	ASPECT:SaveBonus|+4 vs. sleep effects
+Lucky Halfling	TYPE:General		PRERACE:1,Halfling	DESC:You bring luck to those with whom you travel.							SOURCEPAGE:p.13

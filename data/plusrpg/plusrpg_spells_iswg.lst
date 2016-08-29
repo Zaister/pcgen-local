@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 16 14:45:42 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Changed spells
+# Spell Name		Required Deity
+Gorum's Armor.MOD		PREDEITY:1,Gorum
+Infernal Healing.MOD	PREDEITY:1,Asmodeus
+Unbreakable Heart.MOD	PREDEITY:1,Shelyn
+
+#
+# End
+#

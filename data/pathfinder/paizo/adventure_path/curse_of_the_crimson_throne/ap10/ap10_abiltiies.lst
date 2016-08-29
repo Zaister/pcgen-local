@@ -1,0 +1,13 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Jan  6 16:36:40 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:Curse of the Crimson Throne, Chapter 4 - A History of Ashes	SOURCESHORT:AP10	SOURCEWEB:http://paizo.com/products/btpy82u9?Pathfinder-10-Curse-of-the-Crimson-Throne-Chapter-4-A-History-of-Ashes	SOURCEDATE:2008-05
+# Original Entry: Stefan Radermacher
+
+###Block: Red Reaver Racial Abilities
+# Ability Name	Unique Key				Category of Ability		Type						Define			Description																																																																																																																													Ability									Modify VAR					Source Page
+Distracted		KEY:Distracted ~ Red Reaver	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary					DESC:Red reavers are easily distracted by beautiful sights and sounds. Any successful Perform check of DC 30 or higher has the additional effect of placating the creature, causing it to stop whatever it's doing and stand still to enjoy the performance. The red reavers remains stationary and calm until the performance stops or it takes damage. A performer can only take advantage of a red reavers's distraction ability once per hour. At the GM's discretion, a red reaver might also be affected by scenes of particular beauty, although they are usually only distracted by a static view or work of art for 5 minutes. It generally isn't distracted by beautiful creatures, but it could be distracted by particularly eye-catching apparel worn by a creature.																	SOURCEPAGE:p.88
+Flight		KEY:Flight ~ Red Reaver		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural					DESC: A red reaver's ability to fly is partially supernatural. In areas where supernatural abilities do not function, a red reaver can only fly for short distances, and must land at the end of each turn or it falls.																																																																																											ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability	BONUS:VAR|Maneuverability|1		SOURCEPAGE:p.88
+Roar			KEY:Roar ~ Red Reaver		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	DEFINE:RoarSaveDC|0	DESC:A red reaver can loose a devastating roar every 1d4 rounds. All creatures except red reavers within 120 feet must succeed on a DC %1 Will save or become shaken. Those within 30 feet who fail their saves become panicked. Creatures who successfully save cannot be affected by the same red reaver’s roar for 24 hours. This is a mind-affecting fear effect.|RoarSaveDC																																																																											BONUS:VAR|RoarSaveDC|10+(HD/2)+CHA	SOURCEPAGE:p.88
+
+#
+# End
+#

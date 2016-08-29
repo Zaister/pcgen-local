@@ -1,0 +1,3 @@
+Replacement Feat	KEY:Versatile Performance ~ Replacement Feat	CATEGORY:Special Ability	TYPE:VersatilePerformance	DESC:You may choose to take one of a number of feats in place of the benefit normally granted by the versatile performance class feature at 6th, 10th, 14th, or 18th level (losing only the benefit granted at that level, not all levels) so long as you meet its prerequisites.	CHOOSE:NOCHOICE	MULT:YES	STACK:YES	BONUS:ABILITYPOOL|Versatile Performance Replacement Feat|1
+
+#PREVARGTEQ:VersatilePerformanceLVL,6	

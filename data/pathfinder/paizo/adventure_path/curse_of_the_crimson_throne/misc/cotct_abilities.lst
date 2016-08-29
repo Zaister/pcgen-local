@@ -1,0 +1,16 @@
+# CVS $Revision: 8900 $ $Author: eddyanthony $ -- Fri Sep  7 12:40:45 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Curse of the Crimson Throne Campaign	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/store/v5748btpy806v	SOURCEDATE:2008-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Internal
+CATEGORY=Internal|Default.MOD	BONUS:ABILITYPOOL|Campaign Traits|1|PRECHARACTERTYPE:1,PC
+
+###Block: Campaign traits
+No Campaign Trait	CATEGORY:Special Ability	TYPE:Trait.CampaignTrait	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,No Campaign Trait],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.CampaignTrait]	VISIBLE:DISPLAY
+
+###Block: Other modified traits
+CATEGORY=Special Ability|Hellknight Ancestry.MOD	PRE:.CLEAR	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Hellknight Ancestry],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.SocialTrait]
+
+#
+# End
+#

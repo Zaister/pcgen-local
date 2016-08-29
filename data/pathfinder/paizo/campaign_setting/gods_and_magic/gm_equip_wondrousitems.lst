@@ -1,0 +1,10 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Wed Nov  9 16:59:38 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Gods & Magic	SOURCESHORT:GM	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/campaignSetting/35E/v5748btpy85eh	SOURCEDATE:2008-10
+# Original Entry by: Stefan Radermacher
+
+# Equipment Name	Type					Cost		Weight	Source Page		Innate Spells											Bonus to skill
+Hag's Shabble	TYPE:Magic.Wondrous.Robe	COST:3400	WT:1		SOURCEPAGE:p.x	SPELLS:Magic Item|TIMES=1|CASTERLEVEL=3|Detect Thoughts|PREDEITY:1,Gyronna	BONUS:SKILL|Diplomacy,Intimidate|2|
+
+#
+# End
+#

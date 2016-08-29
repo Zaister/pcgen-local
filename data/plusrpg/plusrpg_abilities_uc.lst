@@ -1,0 +1,14 @@
+# CVS $Revision: $ $Author: $ -- Mon Jul 25 11:58:27 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Class skills
+# Ability Name						Remove Class Skill	Class Skill
+CATEGORY=Internal|Gunslinger ~ Class Skill.MOD	CSKILL:.CLEAR		CSKILL:Acrobatics|Athletics|Bluff|TYPE=Craft|Endurance|Handle Animal|Heal|Intimidate|Knowledge (Engineering)|Knowledge (Local)|Perception|TYPE=Profession|Ride|Sleight of Hand|Survival
+
+###Block Weapon Focus weapon groups
+# Ability Name	Unique Key		Category of Ability		Type							Visible		Description							Weapon prof. bonus						Benefits
+Firearms		KEY:Firearms	CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using firearms.	BONUS:WEAPONPROF=TYPE.Firearm|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using firearms.
+
+#
+# End
+#

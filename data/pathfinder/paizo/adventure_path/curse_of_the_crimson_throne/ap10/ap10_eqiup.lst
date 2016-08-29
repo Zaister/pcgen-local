@@ -1,0 +1,9 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Jan  6 16:37:34 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:Curse of the Crimson Throne, Chapter 4 - A History of Ashes	SOURCESHORT:AP10	SOURCEWEB:http://paizo.com/products/btpy82u9?Pathfinder-10-Curse-of-the-Crimson-Throne-Chapter-4-A-History-of-Ashes	SOURCEDATE:2008-05
+# Original Entry: Stefan Radermacher
+
+# Equipment Name			Type							Cost		Weight	Source Page		Special Property
+Shoanti War Paint (Red)		TYPE:Magic.Wondrous.Consumable		COST:900	WT:0		SOURCEPAGE:p.14	SPROP:Fire resistance 10 for 24 hours
+Shoanti War Paint (Silver)	TYPE:Magic.Wondrous.Consumable		COST:900	WT:0		SOURCEPAGE:p.14	SPROP:+3 deflection bonus to AC for 24 hours
+
+Elixir of Shadewalking		TYPE:Magic.Wondrous.Elixir.Consumable	COST:3500	WT:0.02	SOURCEPAGE:p.19	SPROP:Shadwowalk for up to 11 hours, 11 additional creatures

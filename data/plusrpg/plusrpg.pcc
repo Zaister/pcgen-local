@@ -1,0 +1,69 @@
+# CVS $Revision$ $Author$ -- Sun Oct 11 21:42:23 2009 -- reformated by prettylst.pl v1.39 (build 10232)
+CAMPAIGN:PlusRPG
+GAMEMODE:Pathfinder
+TYPE:Zaister.Supplement
+STATUS:ALPHA
+RANK:1
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Stefan Radermacher
+PUBNAMESHORT:Stefan Radermacher
+SOURCELONG:PlusRPG
+SOURCESHORT:Plus
+SOURCEDATE:2099-12
+ISOGL:NO
+
+# Core Rulebook
+ABILITY:plusrpg_abilities_cr.lst
+ABILITY:plusrpg_abilities_companion_cr.lst
+ABILITY:plusrpg_feats_cr.lst
+ABILITYCATEGORY:plusrpg_abilitycategories_cr.lst
+CLASS:plusrpg_classes_cr.lst
+SKILL:plusrpg_skills_cr.lst
+SPELL:plusrpg_spells_cr.lst
+
+# Advanced Player's Guide
+ABILITY:plusrpg_abilities_apg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Player's Guide
+ABILITY:plusrpg_feats_apg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Player's Guide
+CLASS:plusrpg_classes_apg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Player's Guide
+SPELL:plusrpg_spells_apg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Player's Guide
+
+# Advanced Class Guide
+ABILITY:plusrpg_abilities_acg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Class Guide
+
+# Ultimate Combat
+ABILITY:plusrpg_abilities_uc.lst|PRECAMPAIGN:1,INCLUDES=Ultimate Combat
+SPELL:plusrpg_spells_uc.lst|PRECAMPAIGN:1,INCLUDES=Ultimate Combat
+
+# Ultimate Magic
+SPELL:plusrpg_spells_um.lst|PRECAMPAIGN:1,INCLUDES=Ultimate Magic
+
+# Occult Adventures
+ABILITY:plusrpg_abilities_oa.lst|PRECAMPAIGN:1,INCLUDES=Occult Adventures
+
+# Technology Guide
+ABILITY:plusrpg_abilities_tg.lst|PRECAMPAIGN:1,INCLUDES=Technology Guide
+EQUIPMENT:plusrpg_equip_tg.lst|PRECAMPAIGN:1,INCLUDES=Technology Guide
+SKILL:plusrpg_skills_tg.lst|PRECAMPAIGN:1,INCLUDES=Technology Guide
+WEAPONPROF:plusrpg_profs_weapon_tg.lst|PRECAMPAIGN:1,INCLUDES=Technology Guide
+
+# Inner Sea Gods
+SPELL:plusrpg_spells_isg.lst|PRECAMPAIGN:1,INCLUDES=Inner Sea Gods
+
+# Inner Sea World Guide
+SPELL:plusrpg_spells_iswg.lst|PRECAMPAIGN:1,INCLUDES=Inner Sea World Guide
+
+# Iron Gods Adventure Path
+ABILITY:plusrpg_abilities_igpg.lst|PRECAMPAIGN:1,INCLUDES=Iron Gods Player's Guide
+
+# Pathfinder Unchained
+ABILITY:plusrpg_abilities_pu.lst
+ABILITYCATEGORY:plusrpg_abilitycategories_pu.lst
+EQUIPMENT:plusrpg_equip_magic_items_pu.lst
+SKILL:plusrpg_skills_pu.lst
+
+#
+# End
+#

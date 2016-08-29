@@ -1,0 +1,34 @@
+# CVS $Revision: 13092 $ $Author: maredudd800 $ -- Fri Sep 30 16:22:37 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Ultimate Combat	SOURCESHORT:PFUC	SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies	SOURCEDATE:2011-07
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2011/09/30
+
+# Class Name	Hit Dice	Type			Abbreviation	Max Level	Source Page		Define			Save checks bonus											Combat bonus
+CLASS:Gunslinger	HD:10		TYPE:Base.PC	ABB:Gun		MAXLEVEL:20	SOURCEPAGE:p.2	DEFINE:FighterLvl|CL	BONUS:CHECKS|BASE.Fortitude,BASE.Reflex|CL/2+2	BONUS:CHECKS|BASE.Will|CL/3	BONUS:COMBAT|BAB|CL|TYPE=Base.REPLACE
+# Class Name	Skill Pts/Lvl	Class Skill
+CLASS:Gunslinger	STARTSKILLPTS:2	CSKILL:Acrobatics|Bluff|Climb|TYPE.Craft|Handle Animal|Heal|Intimidate|Knowledge (Engineering)|Knowledge (Local)|Perception|TYPE.Profession|Ride|Sleight of Hand|Survival|Swim
+###Block:Proficiencies
+1	ABILITY:Special Ability|AUTOMATIC|All Automatic Proficiencies|All Martial Weapon Proficiencies|Gunslinger Weapon Proficiencies	AUTO:FEAT|Simple Weapon Proficiency|Martial Weapon Proficiency Output
+1																							AUTO:FEAT|Armor Proficiency (Light)|Armor Proficiency (Medium)
+###Block: Advanced Weapon Feat qualifications
+1	ABILITY:Special Ability|AUTOMATIC|Fighter Level Advanced Feat Tracker
+1	ABILITY:Special Ability|AUTOMATIC|Weapon Specialization Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Disruptive Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Greater Shield Focus Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Greater Weapon Focus Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Spellbreaker Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Greater Weapon Specialization Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Penetrating Strike Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Critical Mastery Qualify
+1	ABILITY:Special Ability|AUTOMATIC|Greater Penetrating Strike Qualify
+###Block: Level progression
+1									BONUS:VAR|GunslingerGritLVL|CL		ABILITY:Special Ability|AUTOMATIC|Deeds ~ Gunslinger|Grit ~ Gunslinger|Gunsmith ~ Gunslinger
+2									BONUS:VAR|BraveryLVL|CL				ABILITY:Special Ability|AUTOMATIC|Bravery
+4	BONUS:ABILITYPOOL|Gunslinger Bonus Feat|CL/4
+5									BONUS:VAR|GunslingerGunTrainingLVL|CL	ABILITY:Special Ability|AUTOMATIC|Gun Training ~ Gunslinger
+20																ABILITY:Special Ability|AUTOMATIC|True Grit ~ Gunslinger
+
+#
+# End
+#
+

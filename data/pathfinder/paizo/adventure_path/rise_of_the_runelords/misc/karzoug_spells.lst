@@ -1,0 +1,12 @@
+# CVS $Revision: 14615 $ $Author: elrotheonk $ -- Tue Apr  5 12:19:04 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Karzoug Stuff	SOURCESHORT:RotR	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Magic of Thassilon (Pathfinder #5)
+# Spell Name	Classes of caster			School			Spell Descriptors	Type		Components		Casting Time			Range			Target Area or Effect					Duration			Save Info			Spell Resistance	Description
+Blood Money		CLASSES:Sorcerer,Wizard=2	SCHOOL:Transmutation				TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:0 ft.		TARGETAREA:1 material component			DURATION:Instantaneous								DESC:Draw your own blood to create material components.
+Sign of Wrath	CLASSES:Sorcerer,Wizard=6	SCHOOL:Evocation		DESCRIPTOR:Force	TYPE:Arcane	COMPS:V, S, F	CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:25-ft.-radius burst centered on you	DURATION:Instantaneous	SAVEINFO:Reflex half	SPELLRES:Yes	DESC:Symbol of wrath repulses and damages creatures around you.
+
+#
+# End
+#

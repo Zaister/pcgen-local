@@ -1,0 +1,43 @@
+# CVS $Revision$ $Author$ -- Tue Mar 16 14:49:51 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+CAMPAIGN:Paizo - Legacy of Fire, Chapter 3: The Jackal's Price (Conversion)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Legacy of Fire
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com/
+SOURCELONG:Legacy of Fire, Chapter 3: The Jackal's Price
+SOURCESHORT:PF21
+#SOURCEWEB:http://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy86xw
+SOURCEDATE:2009-04
+ISOGL:YES
+
+#COVER:house_of_the_beast.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy86xw|Buy this publication from Paizo Publishing!
+#DESC:Hear the cry of war! In the exotic nation of Katapesh, a land of fortune and wonders, heroes are those with the courage to command their destinies. Such wisdom leads a daring band to the abandoned village of Kelmarane with the hopes of reestablishing the once prosperous community. But buzzards still feast upon the secluded settlement’s corpse: a savage tribe of gnolls and their bestial allies hold the town in the name of a merciless master known only as the Carrion King. Can the PCs retake the village from its feral conquerors, or is Kelmarane but the first bastion of civilization to fall before the hordes of the mysterious warlord?
+
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder 20: House of the Beast. Copyright 2009, Paizo Publishing, LLC; Author: Tim Hitchcock.
+COPYRIGHT:Book of Fiends. Copyright 2003, Green Ronin Publishing; Authors Aaron: Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb.
+COPYRIGHT:Testament: Roleplaying in the Biblical Era. Copyright 2003, Green Ronin Publishing; Author: Scott Bennie.
+COPYRIGHT:Tome of Horrors Revised. Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+COPYRIGHT:Tome of Horrors II. Copyright 2004, Necromancer Games, Inc.; Author: Scott Greene; Additional Authors: Erica Balsley, Kevin Baase, Casey Christofferson, Jim Collura, Meghan Greene, Lance Hawvermale, Travis Hawvermale, Bill Kenower, Patrick Lawinger, Nathan Paul, Clark Peterson, Bill Webb, and Monte Cook.
+COPYRIGHT:Pathfinder RPG Conversion Copyright 2009-2010, Stefan Radermacher
+COPYRIGHT:PCGen dataset conversion for "Legacy of Fire, Chapter 3: The Jackal's Price" Copyright 2008-2010, PCGen Data Team (including, but not limited to, Stefan Radermacher.)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:pf21_abilities_racial.lst
+KIT:pf21_kits_races.lst
+RACE:pf21_races.lst

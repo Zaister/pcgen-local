@@ -1,0 +1,37 @@
+# CVS $Revision: 8900 $ $Author: eddyanthony $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Serpent's Skull, Chapter 1: Souls for Smuggler's Shiv	SOURCESHORT:PF37	SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Eurypterid (Ochre) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eurypterid (Ochre)]	SOURCEPAGE:p.78
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+RACE:Eurypterid (Ochre)	!PRERACE:1,%
+NAME:Ochre Eurypterid
+ALIGN:TN
+
+STARTPACK:Eurypterid (Common) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eurypterid (Common)]	SOURCEPAGE:p.78
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+RACE:Eurypterid (Common)	!PRERACE:1,%
+NAME:Common Eurypterid
+ALIGN:TN
+
+STARTPACK:Eurypterid (Bluetip) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eurypterid (Bluetip)]	SOURCEPAGE:p.78
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+RACE:Eurypterid (Bluetip)	!PRERACE:1,%
+NAME:Bluetip Eurypterid
+ALIGN:TN
+
+STARTPACK:Eurypterid (Spiny) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eurypterid (Spiny)]	SOURCEPAGE:p.78
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+RACE:Eurypterid (Spiny)	!PRERACE:1,%
+NAME:Spiny Eurypterid
+ALIGN:TN
+
+STARTPACK:Eurypterid (Spitting) Default	TYPE:DefaultMonster.Dragon	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Eurypterid (Spitting)]	SOURCEPAGE:p.79
+STAT:STR=10|DEX=11|CON=10|INT=10|WIS=11|CHA=10
+RACE:Eurypterid (Spitting)	!PRERACE:1,%
+NAME:Spitting Eurypterid
+ALIGN:TN
+
+#
+# End
+#

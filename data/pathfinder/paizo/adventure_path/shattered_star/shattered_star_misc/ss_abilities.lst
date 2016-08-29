@@ -1,0 +1,13 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Nov 24 14:20:48 2014 -- reformated by prettylst.pl v1.51 (build 25135)
+SOURCELONG:Shattered Star Campaign	SOURCESHORT:SS
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 24 November 2014
+
+###Block: Human Racial Trait Abilities
+# Ability Name		Unique Key					Category of Ability		Type																Multiple Requirements																							Description																				Bonus Ability Pool			Cost
+Reincarnated Human	KEY:Human ~ Reincarnated		CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.HumanRacialTrait.HumanBonusFeat.HumanSkilled.Reincarnated	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Human ~ Adoptive Parentage],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.HumanBonusFeat,TYPE.HumanSkilled]	DESC:You have not alway been a human. You can retain learned racial traits, but not those your original race is born with.	BONUS:ABILITYPOOL|Original Race|1	COST:0
+
+###Block: Reincarnation Original Race (a few)
+# This is by no means an exhaustive list.  Abilities granted are subject to DM approval so feel free to add your own.
+# Ability Name		Category of Ability		Type							Required Ability									Description						Auto Language			Auto Weapon Prof
+Original Race (Gnome)	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.OriginalRace	PREABILITY:1,CATEGORY=Special Ability,TYPE.Reincarnated	DESC:You were orignally born as a gnome.	AUTO:LANG|Gnome|Sylvan		CHANGEPROF:TYPE.Gnome=Martial

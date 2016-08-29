@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Thu Aug 11 14:35:51 2016 -- reformated by PCGen PrettyLST v6.06.00
+#SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI		Display Location
+ABILITYCATEGORY:Ecology Specialization	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:EcologySpecialization	PLURAL:Ecology Specializations	DISPLAYLOCATION:Skills
+ABILITYCATEGORY:Weapon Focus Selection	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:WeaponFocusSelection	PLURAL:Weapon Focus Selection		DISPLAYLOCATION:Feats
+
+#
+# End
+#
+
+ABILITYCATEGORY:Ability Penalty		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:AbilityPenalty		PLURAL:Ability Penalties		DISPLAYLOCATION:Racial Abilities

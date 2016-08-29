@@ -1,0 +1,18 @@
+# CVS $Revision: 14405 $ $Author: zaister $ -- Fri Sep 30 12:56:11 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Tome of Horrors Complete	SOURCESHORT:ToHC	SOURCEWEB:http://paizo.com/store/byCompany/f/frogGodGames/pathfinderRPG/other/v5748btpy8mqb	SOURCEDATE:2011-09
+# Original Entry by: Eric Smith (Maredudd), Stefan Radermacher
+
+###Block: Conditional Skills for output only
+# Skill Name				Key Stat	Untrained?		Classes	Type			Visible		Req. Rule (in options)		Prohibited Var. Value
+Stealth (In dim light and darkness)	KEYSTAT:DEX	USEUNTRAINED:YES	CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	PRERULE:1,DISPLAYSKILLUSE	PREVARNEQ:var("SKILL.Stealth (In dim light and darkness).MISC"),SKILL.Stealth.MISC
+Stealth (When slithering)		KEYSTAT:DEX	USEUNTRAINED:YES	CLASSES:ALL	TYPE:SkillUse	VISIBLE:EXPORT	PRERULE:1,DISPLAYSKILLUSE	PREVARNEQ:var("SKILL.Stealth (When slithering).MISC"),SKILL.Stealth.MISC
+
+
+###Block: Skill .MODs
+# Skill Name	Bonus to skill										Bonus to skill rank
+Stealth.MOD		BONUS:SKILL|Stealth (In dim light and darkness)|SKILL.Stealth.MISC	BONUS:SKILLRANK|Stealth (In dim light and darkness)|skillinfo("TOTALRANK","Stealth")|TYPE=SkillGranted|PREVARNEQ:var("SKILL.Stealth (In dim light and darkness).MISC"),SKILL.Stealth.MISC
+Stealth.MOD		BONUS:SKILL|Stealth (When slithering)|SKILL.Stealth.MISC			BONUS:SKILLRANK|Stealth (When slithering)|skillinfo("TOTALRANK","Stealth")|TYPE=SkillGranted|PREVARNEQ:var("SKILL.Stealth (When slithering).MISC"),SKILL.Stealth.MISC
+
+#
+# End
+#

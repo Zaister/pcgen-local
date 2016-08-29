@@ -1,0 +1,72 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 11 15:52:23 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Removed wondrous items
+# Equipment Name						Visible
+Amulet of Natural Armor +1.MOD			VISIBLE:NO
+Amulet of Natural Armor +2.MOD			VISIBLE:NO
+Amulet of Natural Armor +3.MOD			VISIBLE:NO
+Amulet of Natural Armor +4.MOD			VISIBLE:NO
+Amulet of Natural Armor +5.MOD			VISIBLE:NO
+Belt of Giant Strength +2.MOD				VISIBLE:NO
+Belt of Giant Strength +4.MOD				VISIBLE:NO
+Belt of Giant Strength +6.MOD				VISIBLE:NO
+Belt of Incredible Dexterity +2.MOD			VISIBLE:NO
+Belt of Incredible Dexterity +4.MOD			VISIBLE:NO
+Belt of Incredible Dexterity +6.MOD			VISIBLE:NO
+Belt of Mighty Constitution +2.MOD			VISIBLE:NO
+Belt of Mighty Constitution +4.MOD			VISIBLE:NO
+Belt of Mighty Constitution +6.MOD			VISIBLE:NO
+Belt of Physical Might (STR/DEX) +2.MOD		VISIBLE:NO
+Belt of Physical Might (STR/DEX) +4.MOD		VISIBLE:NO
+Belt of Physical Might (STR/DEX) +6.MOD		VISIBLE:NO
+Belt of Physical Might (STR/CON) +2.MOD		VISIBLE:NO
+Belt of Physical Might (STR/CON) +4.MOD		VISIBLE:NO
+Belt of Physical Might (STR/CON) +6.MOD		VISIBLE:NO
+Belt of Physical Might (DEX/CON) +2.MOD		VISIBLE:NO
+Belt of Physical Might (DEX/CON) +4.MOD		VISIBLE:NO
+Belt of Physical Might (DEX/CON) +6.MOD		VISIBLE:NO
+Belt of Physical Perfection +2.MOD			VISIBLE:NO
+Belt of Physical Perfection +4.MOD			VISIBLE:NO
+Belt of Physical Perfection +6.MOD			VISIBLE:NO
+Cloak of Resistance +1.MOD				VISIBLE:NO
+Cloak of Resistance +2.MOD				VISIBLE:NO
+Cloak of Resistance +3.MOD				VISIBLE:NO
+Cloak of Resistance +4.MOD				VISIBLE:NO
+Cloak of Resistance +5.MOD				VISIBLE:NO
+Headband of Alluring Charisma +2.MOD		VISIBLE:NO
+Headband of Alluring Charisma +4.MOD		VISIBLE:NO
+Headband of Alluring Charisma +6.MOD		VISIBLE:NO
+Headband of Inspired Wisdom +2.MOD			VISIBLE:NO
+Headband of Inspired Wisdom +4.MOD			VISIBLE:NO
+Headband of Inspired Wisdom +6.MOD			VISIBLE:NO
+Headband of Mental Prowess (INT/WIS) +2.MOD	VISIBLE:NO
+Headband of Mental Prowess (INT/WIS) +4.MOD	VISIBLE:NO
+Headband of Mental Prowess (INT/WIS) +6.MOD	VISIBLE:NO
+Headband of Mental Prowess (INT/CHA) +2.MOD	VISIBLE:NO
+Headband of Mental Prowess (INT/CHA) +4.MOD	VISIBLE:NO
+Headband of Mental Prowess (INT/CHA) +6.MOD	VISIBLE:NO
+Headband of Mental Prowess (WIS/CHA) +2.MOD	VISIBLE:NO
+Headband of Mental Prowess (WIS/CHA) +4.MOD	VISIBLE:NO
+Headband of Mental Prowess (WIS/CHA) +6.MOD	VISIBLE:NO
+Headband of Mental Superiority +2.MOD		VISIBLE:NO
+Headband of Mental Superiority +4.MOD		VISIBLE:NO
+Headband of Mental Superiority +6.MOD		VISIBLE:NO
+Headband of Vast Intelligence +2.MOD		VISIBLE:NO
+Headband of Vast Intelligence +4.MOD		VISIBLE:NO
+Headband of Vast Intelligence +6.MOD		VISIBLE:NO
+Ioun Stone (Deep red Sphere).MOD			VISIBLE:NO
+Ioun Stone (Incandescent blue Sphere).MOD		VISIBLE:NO
+Ioun Stone (Pale blue Rhomboid).MOD			VISIBLE:NO
+Ioun Stone (Pink Rhomboid).MOD			VISIBLE:NO
+Ioun Stone (Pink and green Sphere).MOD		VISIBLE:NO
+Ioun Stone (Scarlet and blue Sphere).MOD		VISIBLE:NO
+Ring of Protection +1.MOD				VISIBLE:NO
+Ring of Protection +2.MOD				VISIBLE:NO
+Ring of Protection +3.MOD				VISIBLE:NO
+Ring of Protection +4.MOD				VISIBLE:NO
+Ring of Protection +5.MOD				VISIBLE:NO
+
+#
+# End
+#

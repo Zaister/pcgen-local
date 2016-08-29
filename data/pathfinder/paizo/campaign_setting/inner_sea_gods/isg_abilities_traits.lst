@@ -1,0 +1,11 @@
+# CVS $Revision: 13093 $ $Author: maredudd800 $ -- Mon Nov 17 17:35:48 2014 -- reformated by prettylst.pl v1.51 (build 25135)
+SOURCELONG:Inner Sea Gods	SOURCESHORT:ISM	SOURCEWEB:http://paizo.com/products/btpy8mfs?Pathfinder-Campaign-Setting-Inner-Sea-Magic	SOURCEDATE:2011-07
+# Original Entry by: Stefan Radermacher
+
+###Block: Religion Traits
+# Ability Name				Unique Key					Category of Ability		Type					Multiple Requirements																					Description																																				Bonus to skill					Class Skill			Source Page
+Underlying Principles (Nethys)	KEY:Trait ~ Underlying Principles	CATEGORY:Special Ability	TYPE:Trait.ReligionTrait	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Underlying Principles],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.ReligionTrait]	DESC:You've spent a large amount of time around magical items, and understand the similarities between many of them. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is a class skill for you.	BONUS:SKILL|Use Magic Device|1|TYPE=Trait	CSKILL:Use Magic Device	SOURCEPAGE:p.223
+
+#
+# End
+#

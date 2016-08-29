@@ -1,0 +1,23 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Thu Sep 26 14:15:17 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Reign of Winter, Part 1: The Snows of Summer	SOURCESHORT:AP67	SOURCEWEB:http://paizo.com/products/btpy8w7d/discuss?Pathfinder-Adventure-Path-67-The-Snows-of-Summer	SOURCEDATE:2013-02
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 18 June 2013
+
+###Block: Weapons
+# Equipment Name		Required Weapon Proficiency	Type												Cost		Weight	Critical Hit Multiplier	Critical Hit Range	Damage	Modifier																		Wield Category	Range		Size		Source Page		Special Property
+Spear of Manhunting	PROFICIENCY:WEAPON|Boar Spear	TYPE:Weapon.Melee.TwoHanded.Simple.Piercing.Spear				COST:5	WT:8		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d8	EQMOD:MAGIC_COST|1620.PLUS1W.STEEL		WIELD:TwoHanded	SIZE:M	SOURCEPAGE:p.61	SPROP:Once per day, on a successful hit the wielder can cast Hold Person as an immediate action on the target hit by the attack (Will DC 13 negates).
+Emberchill			PROFICIENCY:WEAPON|Sickle	TYPE:Weapon.Melee.Martial.Finesseable.Standard.Piercing.Sword		COST:6	WT:2		CRITMULT:x2			CRITRANGE:1			DAMAGE:1d6	EQMOD:MAGIC_COST|4500.PLUS1W.FROST.STEEL	WIELD:Light		SIZE:M	SOURCEPAGE:p.474	SPROP:+1 frost sickle; stores one spell with the cold descriptor that can be used to counterspell a lower-level spell with the fire descriptor
+Rimeblade			PROFICIENCY:WEAPON|Scimitar	TYPE:Weapon.Resizable.Melee.OneHanded.Martial.Standard.Slashing.Sword	COST:15	WT:4		CRITMULT:x2			CRITRANGE:3			DAMAGE:1d6	EQMOD:MAGIC_COST|8640.PLUS1W.FROST		WIELD:OneHanded	SIZE:M	SOURCEPAGE:p.69	SPROP:1/day, on command, transform into rimefire blade for 1 minute that deals 1d8+3 cold damage as touch attack (no STR bonus) and entangles target for 1 round. 1/day as swift action, deal additional 4d6 cold damage with next attack. Target is staggered for 1 round, or 1 minute on a critical hit
+
+###Block: Wondrous Items
+# Equipment Name				Type						Cost		Weight	Source Page
+Habit of the Winter Explorer		TYPE:Magic.Wondrous.Bodywear		COST:13380	WT:7		SOURCEPAGE:p.62	SPROP:; Provides constant Endure Elements in cold weather; grants +2 to saves vs,. magic cold effects and spells with the cold descriptor and +4 competence to Stealth in cold weather; with hood up, wearer becomes  immunt to snow blindness and can see through fog, sleet, or snow with a range of 60 ft.; 1/day in cold weather, Vanish for 3 rounds.
+
+
+
+###
+Artrosa Ring	TYPE:Artifact.Minor.Ring	COST:0	SOURCEPAGE:p.60	SPROP:When worn, the ring continually allows a living wearer to heal 1 point of damage per round and an equal amount of nonlethal damage. In addition, he is immune to bleed damage while wearing a ring of regeneration. If the wearer loses a limb, an organ, or any other body part while wearing this ring, the ring regenerates it as the spell. In either case, only damage taken while wearing the ring is regenerated.	BONUS:COMBAT|AC|2|TYPE=Deflection	SPELLS:Artrosa Ring|TIMES=1|CASTERLEVEL=20|Threefold Aspect	
+
+#
+# End
+#

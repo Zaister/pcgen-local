@@ -1,0 +1,7 @@
+# CVS $Revision: 12905 $ $Author: amaitland $ -- Mon Oct 25 15:13:26 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 4: Fortress of the Stone Giants	SOURCESHORT:PF4	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80hm	SOURCEDATE:2007-09
+#Original Entry: Eric C Smith
+
+# Equipment Name	Output Name				Type					Cost		Weight	Source Page		Bonus to skill rank								Stat bonus					Special Property
+Robe (Runes)	OUTPUTNAME:Robe of [NAME]	TYPE:Magic.Wondrous.Robe	COST:44000	WT:1		SOURCEPAGE:p.50	BONUS:SKILLRANK|Knowledge (Arcana),Knowledge (Engineering)|99	BONUS:STAT|INT|4|TYPE=Enhancement	SPROP:Recall up to 4 levles of spells (free action), gain +2 enhancement bonus to save DCs and attacks for 1 round
+Fogcutting Lenses						TYPE:Magic.Wondrous.Goggles	COST:8000	WT:.02	SOURCEPAGE:p.50																		SPROP:See through fog of any kind, otherwise -4 to Perception checks and 20% miss chance when attacking

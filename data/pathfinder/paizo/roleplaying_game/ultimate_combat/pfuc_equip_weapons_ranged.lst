@@ -1,0 +1,12 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Wed Aug 31 10:57:39 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Ultimate Combat	SOURCESHORT:PFUC	SOURCEWEB:http://paizo.com/pathfinderRPG/v5748btpy8ies	SOURCEDATE:2011-07
+# Pathfinder RPG Entry by: Stefan Radermacher
+
+####Block: Exotic Ranged
+# Equipment Name	Required Weapon Proficiency	Type																Contains			Cost		Weight	Slot Needed	Critical Hit Multiplier	Critical Hit Range	Fumble Range	Damage	Modifier	Wield Category	Range		Source Page
+Pistol		PROFICIENCY:WEAPON|Firearms	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Bludgeoning.Container.Projectile.Crossbow.Firearm	CONTAINS:1|Bullet=1	COST:1000	WT:4				CRITMULT:x4			CRITRANGE:1			FUMBLERANGE:1	DAMAGE:1d8	EQMOD:STEEL				RANGE:20	SOURCEPAGE:p.6
+Musket		PROFICIENCY:WEAPON|Firearms	TYPE:Weapon.Exotic.Ranged.Standard.Piercing.Bludgeoning.Container.Projectile.Crossbow.Firearm	CONTAINS:1|Bullet=1	COST:1500	WT:9		SLOTS:2	CRITMULT:x4			CRITRANGE:1			FUMBLERANGE:1-2	DAMAGE:1d12	EQMOD:STEEL	WIELD:TwoHanded	RANGE:40	SOURCEPAGE:p.6
+
+#
+# End
+#

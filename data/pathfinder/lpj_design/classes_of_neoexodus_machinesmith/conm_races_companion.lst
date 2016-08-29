@@ -1,0 +1,3 @@
+# CVS $Revision: $ $Author: $ -- Wed Aug 12 17:05:44 2015 -- reformated by PCGen PrettyLST v6.04.01
+# Race Name	Size		Move			Face/Space	Reach		Modify VAR			Ability								Nb Legs	Monster Class Name and Starting Level	Main Race Type		Source Page		Apply Kit
+Mechanus	SIZE:M	MOVE:Walk,20	FACE:5	REACH:5	BONUS:VAR|Mindless|1	ABILITY:Internal|AUTOMATIC|Racial Traits ~ Mechanus	LEGS:0	MONSTERCLASS:Mechanus:1				RACETYPE:Construct	SOURCEPAGE:p.5	KIT:1|Mechanus

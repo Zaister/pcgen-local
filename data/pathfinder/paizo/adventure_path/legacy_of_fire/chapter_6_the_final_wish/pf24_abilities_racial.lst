@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 16 10:51:15 2012 -- reformated by prettylst.pl v1.39 (build 15052)
+SOURCELONG:Legacy of Fire, Chapter 6 - The Final Wish	SOURCESHORT:PF24	SOURCEWEB:paizo.com/products/btpy89a2?Pathfinder-Adventure-Path-24-The-Final-Wish	SOURCEDATE:2009-06
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2011/10/01
+
+###Block: Xotani abilities
+# Ability Name	Unique Key			Category of Ability		Type						Define				Description																																																																																																																																																			Modify VAR						Source Page
+Firebleed		KEY:Firebleed ~ Xotani	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DEFINE:XotaniFirebleedDC|0	DESC:As a creature of living fire and wrath, Xotani ferociously strikes back against any creature that wounds it. Any attack that does more than 10 points of damage to Xotani causes the wound to erupt in a 30-foot cone of magma. This cone deals 1d6 points of fire damage plus an additional 1d6 points of fire damage for every 10 points of damage dealt by the attack. Thus, an attack dealing 22 points of damage results in a cone dealing 3d6 points of fire damage, while an attack dealing 49 points of damage results in a cone dealing 5d6 points of fire damage. Creatures affected by the cone may make a DC %1 Reflex save to take only half damage. Ranged attacks and any magical attacks that deal damage also cause this special ability to take effect. Xotani cannot firebleed at will, but might do so 10 times per round (an amount equal to its Constitution modifier).|XotaniFirebleedDC	BONUS:VAR|XotaniFirebleedDC|10+HD/2+CON	SOURCEPAGE:p.88
+
+#
+# End
+#

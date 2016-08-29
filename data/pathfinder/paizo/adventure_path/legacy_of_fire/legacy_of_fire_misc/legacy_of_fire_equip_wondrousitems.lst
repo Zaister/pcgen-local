@@ -1,0 +1,6 @@
+# CVS $Revision: 862 $ $Author: stefan $ -- Thu Sep 15 14:31:09 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Miscellaneous Data	SOURCESHORT:LoF	SOURCEDATE:2009-02
+
+###Block:Wondrous Items
+# Equipment Name			Type				Cost		Weight	Special Property
+Salamander of Endless Water	TYPE:Magic.Wondrous	COST:1000	WT:1		SPROP:creates up to 5 gallons of water to fill one container, 1/day at midnight.

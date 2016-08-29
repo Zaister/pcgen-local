@@ -1,0 +1,11 @@
+# CVS $Revision: 12858 $ $Author: zaister $ -- Fri Sep  3 12:04:50 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 1: Burnt Offerings	SOURCESHORT:PF1	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy7zkq	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+####Block: Wondrous Items
+# Equipment Name		Type					Cost		Weight	Source Page		Innate Spells								Save checks bonus
+Sihedron Medallion	TYPE:Magic.Wondrous.Amulet	COST:3500	WT:0		SOURCEPAGE:p.55	SPELLS:Sihedron Medallion|TIMES=1|CASTERLEVEL=5|False Life	BONUS:CHECKS|Fortitude,Reflex,Will|1|TYPE=Resistance
+
+#
+# End
+#

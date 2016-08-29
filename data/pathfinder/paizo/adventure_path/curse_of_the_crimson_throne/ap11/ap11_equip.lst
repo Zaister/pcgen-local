@@ -1,0 +1,6 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Feb  3 16:31:38 2014 -- reformated by prettylst.pl v1.50 (build 22352)
+SOURCELONG:Curse of the Crimson Throne, Chapter 5 - Skeletons of Scarwall	SOURCESHORT:AP11	SOURCEWEB:http://paizo.com/products/btpy83yw?Pathfinder-11-Curse-of-the-Crimson-Throne-Chapter-5-Skeletons-of-Scarwall	SOURCEDATE:2008-06
+# Original Entry: Stefan Radermacher
+
+# Equipment Name	Required Armor Proficiency	Type								Cost		Weight	AC Penalty Check	Modifier					Maximum DEX Bonus	Source Page		% of Spell Failure	Innate Spells						Combat bonus			Special Property
+Celestial Plate Armor	PROFICIENCY:ARMOR|Full Plate	TYPE:Enhancement.Armor.Medium.Suit.Specific	COST:1500	WT:25		ACCHECK:-3		EQMOD:MAGIC_COST|18100.PLUS3A.STEEL	MAXDEX:6		SOURCEPAGE:p.29	SPELLFAILURE:20		SPELLS:Magic Item|TIMES=1|CASTERLEVEL=5|Fly,14	BONUS:COMBAT|AC|9|TYPE=Armor	SPROP:use Fly 1/day

@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Sun Oct 11 21:37:53 2009 -- reformated by prettylst.pl v1.39 (build 10232)
+SOURCELONG:Rules: Action Points	SOURCESHORT:OL.AP	SOURCEDATE:2099-12
+
+### Block: Action Points
+# Template Name		Visible		Template							Define															Modify VAR							Choose									Temporary effect description
+Action Points		VISIBLE:DISPLAY	TEMPLATE:Action Points Base|Hero Points Base																	BONUS:VAR|Action|6
+Action Points Base	VISIBLE:NO										DEFINE:Action|0	DEFINE:ActionUsed|0	DEFINE:ActionDiceSize|6	DEFINE:ActionDiceCount|0	BONUS:VAR|ActionDiceCount|(TL+6)/7
+Action Points Bonus	VISIBLE:NO																										BONUS:VAR|Action|%CHOICE|PREAPPLY:ANYPC		CHOOSE:NUMBER|MIN=1|MAX=20|TITLE=Bonus Action Points		TEMPDESC:Track bonus Action Points.
+Action Points Used	VISIBLE:NO																										BONUS:VAR|ActionUsed|%CHOICE|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=Action|TITLE=Used Action Points	TEMPDESC:Track used Action Points.
+Hero Points Base		VISIBLE:NO										DEFINE:HeroPoints|0	DEFINE:HeroPointsUsed|0
+Hero Points			VISIBLE:NO																										BONUS:VAR|HeroPoints|%CHOICE|PREAPPLY:ANYPC	CHOOSE:NUMBER|MIN=1|MAX=20|TITLE=Hero Points			TEMPDESC:Track Hero Points.

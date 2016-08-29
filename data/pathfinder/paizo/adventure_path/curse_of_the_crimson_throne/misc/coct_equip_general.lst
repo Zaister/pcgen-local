@@ -1,0 +1,22 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Tue May 29 14:46:06 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Curse of the Crimson Throne Campaign	SOURCESHORT:CotCT	SOURCEWEB:http://paizo.com/store/v5748btpy806v	SOURCEDATE:2008-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Korvosa special items
+# Equipment Name		Type		Special Property
+Badge of Duty		TYPE:Goods	SPROP:Identifies the wearer as a non-uniformed agent of the Korvosan Guard
+Pseudodragon's Mark	TYPE:Goods	SPROP:When worn openly, this medal grants a +2 circumstance bonus to Diplomacy when dealing with citizens of Korvosa
+Star of Korvosa		TYPE:Goods	SPROP:This medal identifies its wearer as a Hero of Korvosa as recognized by Queen Ileosa. When worn openly, it grants a +2 circumstance bonus to Bluff and Diplomacy checks when dealing with citizens of Korvosa.
+
+###Block: Korvosan money
+# Equipment Name					Type		Cost		Weight
+Coin (Pinch/Korvosa/Copper Piece)		TYPE:Coin	COST:.01	WT:.02
+Coin (Silver Shield/Korvosa/Silver Piece)	TYPE:Coin	COST:.1	WT:.02
+Coin (Gold Sail/Korvosa/Gold Piece)		TYPE:Coin	COST:1	WT:.02
+Coin (Crown/Korvosa/Platinum Piece)		TYPE:Coin	COST:10	WT:.02
+Ingot (Gold/Korvosa/100 gp)			TYPE:Coin	COST:100	WT:2
+
+
+#
+# End
+#

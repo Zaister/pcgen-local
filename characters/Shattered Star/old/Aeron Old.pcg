@@ -1,0 +1,322 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Shattered Star Campaign
+VERSION:6.05.02-dev
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:15
+POOLPOINTSAVAIL:15
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Aeron
+TABNAME:
+PLAYERNAME:Martin
+HEIGHT:71
+WEIGHT:241
+AGE:17
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:15
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:15
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:7
+ALIGN:CG
+RACE:Half-Orc
+
+# Character Class(es)
+CLASS:Barbarian|LEVEL:5|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=2|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=3|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=4|HITPOINTS:7|PRESTAT:CON=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Barbarian=5|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:15759
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity (Chelaxian)]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Varisia)]
+TEMPLATESAPPLIED:[NAME:Bonus Background Trait]
+TEMPLATESAPPLIED:[NAME:Bite 1 (Medium)]
+
+# Character Region
+REGION:Varisia
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Fool someone)|OUTPUTORDER:5|
+SKILL:Bluff (Pass messages)|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Escape Artist|OUTPUTORDER:21|
+SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:22|
+SKILL:Fly|OUTPUTORDER:23|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|
+SKILL:Intimidate|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
+SKILL:Knowledge (Local)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Barbarian|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Nature)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:35|
+SKILL:Linguistics|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial
+SKILL:Perception|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Barbarian|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:39|
+SKILL:Profession (Untrained)|OUTPUTORDER:40|
+SKILL:Ride|OUTPUTORDER:41|
+SKILL:Samurai Mount|OUTPUTORDER:42|
+SKILL:Sense Motive|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:44|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:45|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:46|
+SKILL:Stealth|OUTPUTORDER:49|
+SKILL:Survival|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Follow tracks)|OUTPUTORDER:51|
+SKILL:Swim|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:53|
+SKILL:Untrained Dexterity|OUTPUTORDER:54|
+SKILL:Untrained Intelligence|OUTPUTORDER:55|
+SKILL:Untrained Strength|OUTPUTORDER:56|
+SKILL:Untrained Wisdom|OUTPUTORDER:57|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:36|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:48|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:58|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Orc
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Barbarian Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Barbarian Archetype ~ Invulnerable Rager|TYPE:Archetype.BarbarianArchetype.BarbarianCFUncannyDodge.BarbarianCFImprovedUncannyDodge.BarbarianCFDamageReduction.BarbarianCFTrapSense.BarbarianUncannyDodge.BarbarianImprovedUncannyDodge.BarbarianDamageReduction.BarbarianTrapSense|DESC:Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease. These barbarians invite their enemies to attack them, and use pain to fuel their rage.
+USERPOOL:Barbarian Archetype|POOLPOINTS:0.0
+ABILITY:Campaign Trait Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Serpent Runner ~ Armor Medium|TYPE:TraitCampaignChoice|DESC:When wearing Medium armor, you treat its armor check penalty as if it were -1 lower.
+USERPOOL:Campaign Trait Choice|POOLPOINTS:0.0
+ABILITY:Drawbacks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Drawback ~ Vain|TYPE:Drawback|DESC:You are sensitive about the way others perceive you. Whenever you fail an opposed Charisma-based check, you take a -2 penalty on all Charisma-based checks for the next 24 hours.
+USERPOOL:Drawbacks|POOLPOINTS:0.0
+ABILITY:Extreme Endurance Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Invulnerable Rager ~ Extreme Endurance Hot|TYPE:IRagerEndurance|DESC:%1&pipe;InvulnerableRagerResistance
+USERPOOL:Extreme Endurance Selection|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:Combat.SerpentineBloodline|DESC:You can make additional attacks of opportunity.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Raging Vitality|TYPE:General|DESC:While raging, you are full of vigor and health.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Superstitious Rage|APPLIEDTO:,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBarbarian|DESC:Add +1/3 to the bonus from the superstitious rage power.
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Half-Orc Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Half-Orc ~ City-Raised|TYPE:RacialTraits.SpecialQuality.HalfOrcRacialTrait.HalfOrcWeaponFamiliarity|DESC:Half-orcs with this trait know little of their orc ancestry and were raised among humans and other half-orcs in a large city. City-raised half-orcs are proficient with whips and longswords, and receive a +2 racial bonus on Knowledge (local) checks.
+ABILITY:Half-Orc Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Half-Orc ~ Shamans Apprentice|TYPE:RacialTraits.SpecialQuality.HalfOrcRacialTrait.HalfOrcIntimidating|DESC:Only the most stalwart survive the years of harsh treatment that an apprenticeship to an orc shaman entails. Half-orcs with this trait gain Endurance as a bonus feat.
+ABILITY:Half-Orc Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Half-Orc ~ Toothy|TYPE:RacialTraits.SpecialQuality.HalfOrcRacialTrait.HalfOrcFerocity|DESC:Some half-orcs' vestigial tusks are massive and sharp, granting a bite attack. This is a primary natural attack that deals 1d4 points of piercing damage. This racial trait replaces the orc ferocity racial trait.
+USERPOOL:Half-Orc Racial Trait|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Chelaxian|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rules ~ Use Hero Points|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Reckless Abandon|TYPE:ClassFeatures.BarbarianClassFeatures.RagePower.SpecialAttack.Extraordinary|DESC:While raging, the barbarian can take a -1 penalty to AC to gain a +1 bonus on attack rolls. The AC penalty increases by -1 and the attack roll bonus increases by +1 at 4th level and every four levels thereafter.
+ABILITY:Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Superstition|TYPE:BarbarianClassFeatures.ClassFeatures.RagePower.SpecialQuality.Extraordinary|DESC:You gain a +%1 morale bonus on saving throws made to resist spells, supernatural abilities, and spell-like abilities. While raging, you cannot be a willing target of any spell and must make saving throws to resist all spells, even those cast by allies.&pipe;SuperstitionSaveBonus
+USERPOOL:Rage Power|POOLPOINTS:0.0
+ABILITY:Raging Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Standard Rage|TYPE:RageSelection
+USERPOOL:Raging Selection|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Varisia|TYPE:Region|DESC:Wild Frontier Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Influence|APPLIEDTO:Sense Motive|TYPE:Trait.BasicTrait.SocialTrait|DESC:Your position in society grants you special insight into others, and special consideration or outright awe from others.Choose one of the following skills&colon; Diplomacy, Intimidate, or Sense Motive. You gain a +1 trait bonus on that skill, and it is always a class skill for you.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Serpent Runner|TYPE:Trait.CampaignTrait|DESC:You've participated in the mock gladiatorial battles and athletic feats at the Serpent's Run, Magnimar's grand hippodrome, but the safe nature of those games leaves you bored. Seeking greater thrills and tests of your abilities, you've pledged your arms and skill to the local Pathfinder lodge. Choose one of the following benefits to represent the techniques you learned from your time at the Serpent's Run&colon;|DESC:When wearing Light armor, you treat its armor check penalty as if it were -1 lower.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Trait ~ Serpent Runner ~ Armor Light|DESC:When wearing Medium armor, you treat its armor check penalty as if it were -1 lower.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Trait ~ Serpent Runner ~ Armor Medium|DESC:When wearing Heavy armor, you treat its armor check penalty as if it were -1 lower.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Trait ~ Serpent Runner ~ Armor Heavy|DESC:When fighting with two weapons, the penalty imposed on your primary weapon is reduced by 1.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Trait ~ Serpent Runner ~ Two Weapon|DESC:You gain a +2 trait bonus on Intimidate checks to demoralize opponents.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Trait ~ Serpent Runner ~ Intimidate
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Undead Slayer|TYPE:Trait.ReligionTrait|DESC:Instructed at a young age in the tenets of the faith of Pharasma, you view the undead as abominations that must be destroyed, so their souls can journey beyond to be judged. You gain a +1 trait bonus on weapon damage against undead.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Bite|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Great Terbutje|WEAPON:Greataxe|WEAPON:Greatclub]
+WEAPONPROF:[WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin]
+WEAPONPROF:[WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer]
+WEAPONPROF:[WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook]
+WEAPONPROF:[WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon]
+WEAPONPROF:[WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat]
+WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife]
+WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter]
+WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Whip|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Arrow|OUTPUTORDER:11|COST:0.05|WT:0.15|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Backpack|OUTPUTORDER:19|COST:2|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack]
+EQUIPNAME:Bedroll|OUTPUTORDER:20|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bedroll|DATA:NAME=Bedroll]
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Bullet (Sling)|OUTPUTORDER:8|COST:0.01|WT:0.5|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bullet (Sling)|DATA:NAME=Bullet (Sling)$EQMOD=STEEL]
+EQUIPNAME:Climber's Kit|OUTPUTORDER:9|COST:80|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:17|COST:1|WT:0.02|QUANTITY:42.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:18|COST:0.1|WT:0.02|QUANTITY:8.0|NOTE:
+EQUIPNAME:Fishhook|OUTPUTORDER:21|COST:0.1|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Fishhook|DATA:NAME=Fishhook]
+EQUIPNAME:Flint and Steel|OUTPUTORDER:22|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flint and Steel|DATA:NAME=Flint and Steel]
+EQUIPNAME:Grappling Hook|OUTPUTORDER:23|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Stone (Pale blue Rhomboid)|OUTPUTORDER:12|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Kikko Armor|OUTPUTORDER:5|COST:30.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kikko Armor|DATA:NAME=Kikko Armor$EQMOD=STEEL]
+EQUIPNAME:Masterwork Composite Shortbow (Strength Rating +1)|OUTPUTORDER:35|COST:450.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shortbow (Composite)|DATA:NAME=Masterwork Composite Shortbow (Strength Rating +1)$EQMOD=WOOD.MWORKW.BOWSTR&pipe;+1]
+EQUIPNAME:Masterwork Dagger (Alchemical Silver)|OUTPUTORDER:36|COST:322.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Masterwork Dagger (Alchemical Silver)$EQMOD=ALCHM.MWORKW$SPROP=(Masterwork Dagger (Alchemical Silver))]
+EQUIPNAME:Masterwork Lucerne Hammer (Cold Iron)|OUTPUTORDER:2|COST:330.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lucerne Hammer|DATA:NAME=Masterwork Lucerne Hammer (Cold Iron)$EQMOD=BRACE.MWORKW.C_IRON]
+EQUIPNAME:Mug or Tankard (Clay)|OUTPUTORDER:24|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mug or Tankard (Clay)|DATA:NAME=Mug or Tankard (Clay)]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:6|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:16|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:15|COST:1|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch (Belt)]
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:25|COST:0.5|WT:1.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day)]
+EQUIPNAME:Ring of Feather Falling|OUTPUTORDER:3|COST:2200|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:26|COST:10|WT:5.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Sack|OUTPUTORDER:27|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scarab (Golembane)|OUTPUTORDER:1|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Second-Story Harness|OUTPUTORDER:10|COST:55|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sewing Needle|OUTPUTORDER:28|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sewing Needle|DATA:NAME=Sewing Needle]
+EQUIPNAME:Shard of Greed|OUTPUTORDER:14|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Signal Whistle|OUTPUTORDER:29|COST:0.8|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signal Whistle|DATA:NAME=Signal Whistle]
+EQUIPNAME:Sling|OUTPUTORDER:37|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sling|DATA:NAME=Sling$EQMOD=LEATHER]
+EQUIPNAME:String (50 ft.)|OUTPUTORDER:30|COST:0.01|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:String (50 ft.)|DATA:NAME=String (50 ft.)]
+EQUIPNAME:Tanglefoot Bag|OUTPUTORDER:31|COST:50|WT:4.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Varisian Whiskey (Bottle)|OUTPUTORDER:32|COST:5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oldlaw Whiskey (Bottle)|DATA:NAME=Varisian Whiskey (Bottle)$COSTMOD=-15]
+EQUIPNAME:Waterskin (Filled with Magical Water)|OUTPUTORDER:33|COST:1|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin (Filled)|DATA:NAME=Waterskin (Filled with Magical Water)]
+EQUIPNAME:Wayfinder|OUTPUTORDER:13|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Whetstone|OUTPUTORDER:34|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whetstone|DATA:NAME=Whetstone]
+EQUIPNAME:Wrist Sheath (Spring Loaded)|OUTPUTORDER:7|COST:5|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.04|VALUE:Wrist Sheath (Spring Loaded)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Bullet (Sling)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.06|VALUE:Kikko Armor|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.09|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.10|VALUE:Climber's Kit|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.11|VALUE:Masterwork Lucerne Hammer (Cold Iron)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.13|VALUE:Ring of Feather Falling|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.14|VALUE:Second-Story Harness|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.19|VALUE:Arrow|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.21|VALUE:Masterwork Composite Shortbow (Strength Rating +1)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.22|VALUE:Masterwork Dagger (Alchemical Silver)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.23|VALUE:Sling|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.25|VALUE:Ioun Stone (Pale blue Rhomboid)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.26|VALUE:Scarab (Golembane)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.27|VALUE:Wayfinder|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.28|VALUE:Shard of Greed|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Secondary|ID:0.1.29|VALUE:Bite (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.3|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.3.01|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.3.02|VALUE:Coin (Gold Piece)|QUANTITY:42.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.3.03|VALUE:Coin (Silver Piece)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.30|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.01|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.02|VALUE:Fishhook|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.03|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.04|VALUE:Grappling Hook|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.05|VALUE:Mug or Tankard (Clay)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.06|VALUE:Rations (Trail/Per Day)|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.07|VALUE:Rope (Silk/50 ft)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.08|VALUE:Sack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.09|VALUE:Sewing Needle|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.10|VALUE:Signal Whistle|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.11|VALUE:String (50 ft.)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.12|VALUE:Tanglefoot Bag|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.13|VALUE:Varisian Whiskey (Bottle)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.14|VALUE:Waterskin (Filled with Magical Water)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.30.15|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;3
+TEMPBONUS:FEAT=Rage|TBTARGET:PC|TBBONUS:VAR&pipe;RAGING&pipe;1
+TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Masterwork Lucerne Hammer (Cold Iron)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;3*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+TEMPBONUS:FEAT=Power Attack (Off-Hand)|TBTARGET:Bite (Natural/Primary)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Pharasma|DEITYDOMAINS:[DOMAIN:Death (Pharasma)|DOMAIN:Healing|DOMAIN:Knowledge|DOMAIN:Repose|DOMAIN:Water|DOMAIN:Ancestors Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Thought Subdomain]|ALIGNALLOW:|DESC:Goddess of fate, death, prophecy, birth|DEITYFAVWEAP:[WEAPON:Dagger]|DEITYALIGN:TN
+
+# Character Spells Information
+SPELLBOOK:Magic Item|TYPE:4
+SPELLBOOK:Shard of Greed|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

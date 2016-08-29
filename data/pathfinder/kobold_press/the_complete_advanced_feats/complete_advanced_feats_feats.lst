@@ -1,0 +1,16 @@
+# CVS $Revision: 14299 $ $Author: elrotheonk $ -- Mon Jul  2 17:53:40 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:The Complete Advanced Feats	SOURCESHORT:OD-CAF	SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&products_id=126	SOURCEDATE:2011-06
+# Original Entry by: Stefan Radermacher
+
+###Block: General Feats
+# Feat Name			Type			Required Ability								Required Feat		Required Skill				Description											Multiple?	Choose				Bonus to Ability Pool				Source Page		Description of the Benefits
+Somatic Weapon		TYPE:General											PREFEAT:1,Weapon Focus	PRESKILL:1,Spellcraft=1			DESC:You can satisfy a somatic component using a chosen weapon.		MULT:YES	CHOOSE:FEAT=Weapon Focus								SOURCEPAGE:p.33	BENEFIT:When casting a spell with a somatic component, you can satisfy the component as if the hand holding your choses weapon were free. You cannot use this feat while grappled  unless the weapon you are holding is light.
+Strange Revelation	TYPE:General	PREABILITY:1,CATEGORY=Special Ability,Oracle's Mystery					PRESKILL:1,Knowledge (Religion)=5	DESC:You can learn a revelation from a mystery other than your own								BONUS:ABILITYPOOL|Strange Revelation|1	SOURCEPAGE:p.35	BENEFIT:The next time you select a revelation or take the Extra Revelation feat (including if chosen at the same level you take Strange Revelation), you may select a revelation from another mystery instead of your own.
+
+#
+# End
+#
+
+
+
+

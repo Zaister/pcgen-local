@@ -1,0 +1,10 @@
+# CVS $Revision: 21080 $ $Author: amaitland $ -- Thu Sep 26 09:54:07 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Divine Favor: The Cleric	SOURCESHORT:DFC	SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&cPath=6&products_id=146	SOURCEDATE:2011-10
+# Original Entry by: Stefan Radermacher
+
+# Template Name		Hit Dice Size		Visible
+Theosophist Hit Dice	HITDIE:6|CLASS=Cleric	VISIBLE:NO
+
+#
+# End
+#

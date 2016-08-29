@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Wed Sep 17 13:37:15 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+#SOURCELONG:Reign of Winter, Part 4 - The Frozen Stars	SOURCESHORT:AP68	SOURCEWEB:http://paizo.com/products/btpy8yv3?Pathfinder-Adventure-Path-70-The-Frozen-Stars	SOURCEDATE:2013-05
+
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object			Plural description for UI	Display Location
+ABILITYCATEGORY:Triaxian Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:TriaxianRacialTrait	PLURAL:Triaxian Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Triaxian Subrace		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:TriaxianSubrace		PLURAL:Triaxian Subraces	DISPLAYLOCATION:Racial Abilities
+
+#
+# End
+#

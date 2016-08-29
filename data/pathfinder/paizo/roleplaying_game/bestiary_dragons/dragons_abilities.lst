@@ -1,0 +1,29 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+###Block: Dragon age categories
+# Ability Name	Unique Key				Category of Ability		Type				Template
+Wyrmling		KEY:Dragon ~ Wyrmling		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Wyrmling)
+Very Young		KEY:Dragon ~ Very Young		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Very Young)
+Young			KEY:Dragon ~ Young		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Young)
+Juvenile		KEY:Dragon ~ Juvenile		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Juvenile)
+Young Adult		KEY:Dragon ~ Young Adult	CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Young Adult)
+Adult			KEY:Dragon ~ Adult		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Adult)
+Mature Adult	KEY:Dragon ~ Mature Adult	CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Mature Adult)
+Old			KEY:Dragon ~ Old			CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Old)
+Very Old		KEY:Dragon ~ Very Old		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Very Old)
+Ancient		KEY:Dragon ~ Ancient		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Ancient)
+Wyrm			KEY:Dragon ~ Wyrm			CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Wyrm)
+Great Wyrm		KEY:Dragon ~ Great Wyrm		CATEGORY:Special Ability	TYPE:DragonAgeCategory	TEMPLATE:Dragon Age Category (Great Wyrm)
+
+###Block: White Dragon Abilities
+# Ability Name	Unique Key					Category of Ability		Type							Define							Description																																					Source Page		Aspects											Description of the Benefits
+Blizzard		KEY:Blizzard ~ White Dragon		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural										DESC:An ancient white dragon can use its breath weapon to create a blizzard in the area around it as a standard action.																			SOURCEPAGE:p.100													BENEFIT:An ancient white dragon can use its breath weapon to create a blizzard in the area around it as a standard action. This creates heavy snow conditions in a 50-foot radius for 1 minute, centered on the dragon. This snow slows movement (4 squares of movement per square entered) and limits vision as fog does.
+Cold Aura		KEY:Cold Aura ~ White Dragon		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Aura	DEFINE:ColdAuraRange|5	DEFINE:ColdAuraDamage|1	DESC:An adult white dragon radiates an aura of cold.																														SOURCEPAGE:p.100	ASPECT:Ability Benefit|(%1 ft., %2d6)|ColdAuraRange|ColdAuraDamage	BENEFIT:An adult white dragon radiates an aura of cold. All creatures within %1 feet of the dragon take %2d6 points of cold damage at the beginning of the dragon's turn.|ColdAuraRange|ColdAuraDamage
+Freezing Fog	KEY:Freezing Fog ~ White Dragon	CATEGORY:Special Ability	TYPE:SpecialAttack.SpellLike											DESC:An old white dragon can use this ability three times per day. It is similar to an acid fog spell but deals cold damage instead of acid damage.														SOURCEPAGE:p.100													BENEFIT:An old white dragon can use this ability three times per day. It is similar to an acid fog spell but deals cold damage instead of acid damage. It also causes a rime of slippery ice to form on any surface the fog touches, creating the effect of a grease spell. The dragon is immune to the grease effect because of its icewalking ability. This ability is the equivalent of a 6th-level spell.
+Ice Shape		KEY:Ice Shape ~ White Dragon		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural										DESC:A young white dragon can shape ice and snow at will. This ability functions as stone shape, but only targeting ice and snow, not stone. A white dragon's caster level for this effect is %1.|TL						SOURCEPAGE:p.100
+Ice Tomb		KEY:Ice Tomb ~ White Dragon		CATEGORY:Special Ability	TYPE:SpecialAttack.SpellLike											DESC:A great wyrm can, as a standard action, cause a creature to sink into ice.																									SOURCEPAGE:p.100													BENEFIT:A great wyrm can, as a standard action, cause a creature to sink into ice. This works as imprisonment, but only while the target is touching an icy surface. A white dragon can use this ability once per day (CL %1). Targets entombed by this ability can be freed by casting freedom or by physically freeing the creature from the ice (Hardness 0, 360 hit points).|TL
+Icewalking		KEY:Icewalking ~ White Dragon		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary										DESC:This ability works like the spider climb spell, but the surfaces the dragon climbs must be icy. The dragon can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice.	SOURCEPAGE:p.100
+Snow Vision		KEY:Snow Vision ~ White Dragon	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Sense									DESC:A very young white dragon learns to see perfectly well in snowy conditions. A white dragon does not suffer any penalties to Perception checks while in snow.												SOURCEPAGE:p.100
+
+#
+# End
+#

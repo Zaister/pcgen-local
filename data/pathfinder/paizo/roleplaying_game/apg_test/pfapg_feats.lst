@@ -1,0 +1,8 @@
+# CVS $Revision: 4 $ $Author: amaitland $ -- Thu Sep 16 18:41:24 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Advanced Player's Guide	SOURCESHORT:PFAPG	SOURCEWEB:http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy8fo1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+# Feat Name					Type					Required Ability						Required Stat	Description								Source Page		Description of the Benefits
+Martial Weapon Proficiency.MOD	TYPE:MartialWeaponProficiency
+Raging Vitality				TYPE:General			PREABILITY:1,CATEGORY=Special Ability,Rage	PRESTAT:1,CON=15	DESC:While raging, you are full of vigor and health.	SOURCEPAGE:p.168	BENEFIT:Whenever you are raging, the morale bonus to your Constitution increases by +2. Your rage does not end if you become unconscious. While unconscious you must still expend rounds of rage per day each round.
+Elemental Focus				TYPE:General	CHOOSE:STRING|Acid|Cold|Electricity|Fire	MULT:YES	STACK:NO	BONUS:DC|DESCRIPTOR.%List|4	DESC:Your spells of a certain element are more difficult to resist.	BENEFIT:Add +1 to the Difficulty Class for all saving throws against spells that deal damage of the energy type you select.	SOURCEPAGE:p.158

@@ -1,0 +1,43 @@
+# CVS $Revision$ $Author$ -- Tue Mar 16 14:49:51 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+CAMPAIGN:Paizo - Legacy of Fire, Chapter 1: Howl of the Carrion King (Conversion)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Legacy of Fire
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PRECAMPAIGN:1,Paizo - Legacy of Fire Player's Guide (Conversion)
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Legacy of Fire, Chapter 1: Howl of the Carrion King
+SOURCESHORT:PF19
+SOURCEWEB:http://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy8735
+SOURCEDATE:2009-02
+ISOGL:YES
+
+COVER:howl_of_the_carrion_king.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy8735|Buy this publication from Paizo Publishing!
+DESC:For ages, the House of the Beast has loomed, black, ominous, and abandoned, a fortress of depravity raised by followers of the god of destruction. Now, a new evil has taken root within the dark citadel and the beastmen of the Carrion King threaten to cast the land into a new era of savagery. Only a strike against the murderous warlord himself can topple the ravenous gnoll war machine, but such a bold assault means a raid on the House of the Beast itself. Do the PCs dare enter the crumbling halls of this accursed fortress? And what treasures lie within the ruins' depths that even the merciless Carrion King fears to claim?
+
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder 19: Howl of the Carrion King. Copyright 2009, Paizo Publishing, LLC; Author: Erik Mona.
+COPYRIGHT:Book of Fiends. Copyright 2003, Green Ronin Publishing; Authors Aaron Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb.
+COPYRIGHT:Nyambe: African Adventures. Copyright 2002, Trident, Inc, d/b/a Atlas Games; Author: Christopher W. Dolunt.
+COPYRIGHT:Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+COPYRIGHT:Pathfinder RPG Conversion Copyright 2009-2010, Stefan Radermacher
+COPYRIGHT:PCGen dataset conversion for "Legacy of Fire, Chapter 1: Howl of the Carrion King" Copyright 2008-2010, PCGen Data Team (including, but not limited to, Stefan Radermacher.)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+#ABILITY:pf19_abilities_racial.lst
+#KIT:pf19_kits_races.lst
+#RACE:pf19_races.lst

@@ -1,0 +1,11 @@
+# CVS $Revision: 16616 $ $Author: distant-scholar $ -- Mon Jul  2 17:53:40 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+#SOURCELONG:The Complete Advanced Feats	SOURCESHORT:OD-CAF	SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&products_id=126	SOURCEDATE:2011-06
+# Original Entry by: Stefan Radermacher
+
+###Block: Oracular Ability Categories
+# Ability Category			Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object					Plural description for UI	Display Location
+ABILITYCATEGORY:Strange Revelation	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:OracleRevelation.GeneralRevelation	PLURAL:Strange Revelations	DISPLAYLOCATION:Class Abilities
+
+#
+# End
+#

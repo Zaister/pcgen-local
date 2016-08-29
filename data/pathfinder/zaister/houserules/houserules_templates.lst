@@ -1,0 +1,10 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Tue May 29 14:46:06 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Skull and Shackles Campaign	SOURCESHORT:SS	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/skullAndShackles	SOURCEDATE:2013-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Templates
+Bonus Background Trait	VISIBLE:DISPLAY	BONUS:ABILITYPOOL|Traits|1
+
+#
+# End
+#

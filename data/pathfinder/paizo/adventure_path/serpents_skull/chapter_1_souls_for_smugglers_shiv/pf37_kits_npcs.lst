@@ -1,0 +1,25 @@
+# CVS $Revision: 8900 $ $Author: eddyanthony $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Serpent's Skull, Chapter 1: Souls for Smuggler's Shiv	SOURCESHORT:PF37	SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:NPC (Aerys Mavato)	TYPE:NPC	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Half-Elf]	SOURCEPAGE:p.59	NAMEISPI:YES
+RACE:Half-Elf	!PRERACE:1,%
+GENDER:Female
+NAME:Aerys Mavato
+ALIGN:TN
+CLASS:Fighter	LEVEL:2
+STAT:STR=14|DEX=15|CON=12|INT=10|WIS=8|CHA=13
+SKILL:Craft (Poetry)		RANK:1
+SKILL:Linguistics			RANK:1
+SKILL:Perception			RANK:1
+SKILL:Profession (Sailor)	RANK:1
+SKILL:Swim				RANK:1
+FEAT:Improved Unarmed Strike
+ABILITY:CATEGORY=Ability Bonus|+2 Intelligence
+ABILITY:CATEGORY=Adaptability Bonus Feat|Skill Focus (Craft (Poetry))
+ABILITY:CATEGORY=Fighter Bonus Feat|Weapon Focus (Unarmed Strike)
+ABILITY:CATEGORY=Fighter Bonus Feat|Power Attack
+GEAR:Studded Leather				LOCATION:Armor		EQMOD:MWORKA
+GEAR:Longbow (Composite)			LOCATION:Both Hands
+GEAR:Arrow				QTY:20	LOCATION:Equipped
+GEAR:Coin (Gold Piece)		QTY:45	LOCATION:Equipped

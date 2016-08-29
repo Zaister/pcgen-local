@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Thu Feb 18 15:23:34 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Undead Slayer's Handbook	SOURCESHORT:USH	SOURCEWEB:http://paizo.com/products/	SOURCEDATE:2014-04
+# Original Entry by:Stefan Radermacher
+
+###Block: Spells
+# Spell Name		Type				Classes of caster							School			Sub-School			Descriptor		Components									Casting Time			Range			Target Area or Effect					Duration								Save Info					Spell Resistance	Source Page		Description
+Carrion Compass		TYPE:Arcane.Divine	CLASSES:Cleric,Ranger,Witch=1|Sorcerer,Wizard=2		SCHOOL:Divination									COMPS:V, S									CASTTIME:1 standard action	RANGE:Close		TARGETAREA:One undead creature			DURATION:(CASTERLEVEL*10) minutes				SAVEINFO:Will negates			SPELLRES:No		SOURCEPAGE:p.26	DESC:Extract organ from undead creature that leads you to its controller
+Empower Holy Water	TYPE:Arcane.Divine	CLASSES:Paladin=1|Alchemist,Bard=2				SCHOOL:Transmutation					DESCRIPTOR:Good	COMPS:V, S									CASTTIME:1 standard action	RANGE:Touch		TARGETAREA:One or more vials of holy water	DURATION:(CASTERLEVEL) minutes				SAVEINFO:None (object)			SPELLRES:No		SOURCEPAGE:p.26	DESC:Empower vials of holy water to deal more damage to undead
+Force Anchor		TYPE:Arcane.Divine	CLASSES:Inquisitor,Magus,Summoner=2|Sorcerer,Wizard=3	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Force	COMPS:V, S, M (a twisted nail)					CASTTIME:1 standard action	RANGE:Medium	TARGETAREA:One anchor of force			DURATION:(CASTERLEVEL) rounds					SAVEINFO:None				SPELLRES:Yes	SOURCEPAGE:p.26	DESC:Anchor of force deals (min(5,CASTERLEVEL/2))d4 damage and hinders movement.
+Life Shield			TYPE:Divine			CLASSES:Paladin=2|Cleric,Druid=3				SCHOOL:Conjuration	SUBSCHOOL:Healing					COMPS:S, DF									CASTTIME:1 standard action	RANGE:Personal	TARGETAREA:You						DURATION:(CASTERLEVEL) muntes or until discharged										SOURCEPAGE:p.27	DESC:You are surrounded by a positive energy fied deals that damagesd attacking undead creatures.
+Necromantic Burden	TYPE:Arcane.Divine	CLASSES:Cleric=2|Sorcerer,Wizard,Witch=3			SCHOOL:Necromancy									COMPS:V, S, M/DF (a handful of knucklebones)			CASTTIME:1 round			RANGE:Close		TARGETAREA:One undead creature			DURATION:(CASTERLEVEL) hours					SAVEINFO:Will negates			SPELLRES:Yes	SOURCEPAGE:p.27	DESC:You interfere with the control of an undead creature, or free it from control.
+Undeath Inversion		TYPE:Arcane.Divine	CLASSES:Cleric,Sorcerer,Wizard,Witch=4			SCHOOL:Necromancy									COMPS:V, S, F/DF (a gold piece with one scratched face)	CASTTIME:1 standard action	RANGE:Close		TARGETAREA:One undead creature			DURATION:(CASTERLEVEL) rounds [D]; see text		SAVEINFO:Will negates; see text	SPELLRES:Yes	SOURCEPAGE:p.27	DESC:Target takes damage from negative energy and is healed by positive energy. Target's channeling is inverted as well.
+
+#
+# End
+#

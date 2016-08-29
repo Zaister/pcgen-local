@@ -1,0 +1,12 @@
+# CVS $Revision: 14380 $ $Author: amaitland $ -- Tue May 29 14:46:06 2012 -- reformated by prettylst.pl v1.39 (build 16265)
+SOURCELONG:Skull and Shackles Campaign	SOURCESHORT:SS	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/skullAndShackles	SOURCEDATE:2013-08
+# Original Entry by: Stefan Radermacher
+
+Shoe Buckle (Silver)	TYPE:Goods.General		COST:5	WT:0.5
+
+Mariner's Eye Patch	TYPE:Magic.Wondrous.Eyegear	COST:12000	WT:0	SPELLS:Mariner's Eye Patch|TIMES=1|CASTERLEVEL=5|Comprehend Languages|Scorching Ray|See Invisibility
+Mutineer's Bane Earring	TYPE:Magic.Wondrous		COST:4000	WT:0	SPROP:+5 to Sense Motive vs. mutineers. +3 to squadron morale if worn by a commodore, or +1 to fleet morale if worn by an admiral.
+
+#
+# End
+#

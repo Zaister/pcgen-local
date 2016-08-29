@@ -1,0 +1,58 @@
+# CVS $Revision: 9628 $ $Author: zaister $ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Heroes of the Wild (Zaister)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Player Companion
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+#PRECAMPAIGN:1,Advanced Player's Guide
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com/
+SOURCELONG:Heroes of the Wild
+SOURCESHORT:HOTW
+SOURCEWEB:http://paizo.com/products/btpy9cro?Pathfinder-Player-Companion-Heroes-of-the-Wild
+SOURCEDATE:2014-04
+ISOGL:YES
+
+COVER:heroes_of_the_wild.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy9cro?Pathfinder-Player-Companion-Heroes-of-the-Wild|Buy this publication from Paizo Publishing!
+DESC:From the frigid northlands of the Crown of the World to the steaming jungles of the Mwangi Expanse, the wilds of Golarion are as legendary as they are formidableâto say nothing of the adventurers who hail from these untamed regions! Embrace the laws of the wildlands, earn the respect of hardened wilderness natives, and command the powers of nature with Pathfinder Player Companion: Heroes of the Wild! Featuring dozens of all-new rules for wild charactersâincluding feats, magic items, spells, and much moreâHeroes of the Wild contains everything you need to make your characters as fierce and formidable as the wild itself!
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Vegepygmy from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Player Companion: Heroes of the Wild Copyright 2015, Paizo Inc.; Authors: Tyler Beck, Pedro Coelho, Justin Juan, Mikko Kallio, Jason Keeley, Nick Salestrom, and William Thrasher.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Player Companion: Heroes of the Wild" Copyright 2015, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+#ABILITY:hotw_abilities_traits.lst
+ABILITY:hotw_abilities_race.lst
+SPELL:hw_spells.lst
+
+# ENTRY DATE:
+# LST MONKEY:
+# LICENSE MONKEY:
+# RELEASE REVIEW #
+# BETA:
+# RELEASE:
+# Built for PCGen Version: 6.05.01
+# Updated to work with version: -
+# MINVER:6.5
+# MINDEVVER:6.05.1
+# COMMENTS:
+
+
+#
+# End
+#

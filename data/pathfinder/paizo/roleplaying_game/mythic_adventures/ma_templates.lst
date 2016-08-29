@@ -1,0 +1,8 @@
+# CVS $Revision: 21675 $ $Author: amaitland $ -- Tue Dec 10 15:27:35 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+SOURCELONG:Mythic Adventures	SOURCESHORT:MA	SOURCEWEB:http://paizo.com/products/btpy8yop	SOURCEDATE:2013-04
+# Original Entry By: Stefan Radermacher
+
+# Template Name	Visible	Ability
+Mythic		VISIBLE:NO	DEFINE:MR|0		BONUS:VAR|AC|floor(MR/2)|TYPE=NaturalArmor.STACK	HD:5-10:DR:5/Epic	HD:11+:DR:10/Epic	BONUS:HP|CURRENTMAX|MR*RACIALHDSIZE	RACESUBTYPE:Mythic
+#BONUS:ABILITYPOOL|Mythic
+

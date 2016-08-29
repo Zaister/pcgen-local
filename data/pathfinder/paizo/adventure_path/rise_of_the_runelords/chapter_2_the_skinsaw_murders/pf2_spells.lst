@@ -1,0 +1,16 @@
+# CVS $Revision: 7270 $ $Author: eddyanthony $ -- Tue Oct 19 14:49:26 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 2: The Skinsaw Murders	SOURCESHORT:PF2	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8029	SOURCEDATE:2007-10
+# Original Entry by: Stefan Radermacher
+
+###Block: New Spells for Desna
+# Spell Name	Classes of caster			School			Sub-School			Type		Components		Casting Time			Range			Item		Target Area or Effect		Duration					Save Info					Spell Resistance		Required Deity	Description															Source Page
+Dream Feast		CLASSES:Cleric,Druid,Ranger=1	SCHOOL:Conjuration	SUBSCHOOL:Creation	TYPE:Divine	COMPS:V, S, DF	CASTTIME:1 standard action	RANGE:Touch		ITEM:Potion	TARGETAREA:Creature touched	DURATION:Instantaneous			SAVEINFO:Will negates (harmless)	SPELLRES:Yes (harmless)	PREDEITY:1,Desna	DESC:Target gets sated during sleep.										SOURCEPAGE:p.72
+Traveling Dream	CLASSES:Cleric,Druid=4		SCHOOL:Divination		SUBSCHOOL:Scrying		TYPE:Divine	COMPS:V, DF		CASTTIME:10 minutes		RANGE:Unlimited			TARGETAREA:Magical sensor	DURATION:(CASTERLEVEL) hours [D]	SAVEINFO:None				SPELLRES:No			PREDEITY:1,Desna	DESC:You create an invisible magical sensor that sends you visual information while you sleep.	SOURCEPAGE:p.243
+
+###Block: Modified Spells for Desna
+# Spell Name	Unique Key		Classes of caster			School		Sub-School			Spell Descriptors			Type		Components	Casting Time	Range			Target Area or Effect				Duration		Save Info		Spell Resistance	Required Deity	Description														Source, Long Desc.						Source, Short Desc.	Source Page
+Dream			KEY:Dream ~ Desna	CLASSES:Cleric=5|Ranger=4	SCHOOL:Illusion	SUBSCHOOL:Phantasm	DESCRIPTOR:Mind-Affecting	TYPE:Divine	COMPS:V, S	CASTTIME:1 minute	RANGE:Unlimited	TARGETAREA:One living creature touched	DURATION:See text	SAVEINFO:None	SPELLRES:Yes	PREDEITY:1,Desna	DESC:You, or a messenger you touch, send a message to others in the form of a dream.	SOURCELONG:Pathfinder Roleplaying Game Core Rulebook	SOURCESHORT:PFCR		SOURCEPAGE:p.274
+
+#
+# End
+#

@@ -1,0 +1,13 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 16:20:56 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Modified spells
+# Spell Name			Clear School	School		Clear Casting Time	Casting Time
+
+# Spell Name		Clear Casting Time	Casting Time
+Guardian Drone.MOD	CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+Servant Drone.MOD		CASTTIME:.CLEAR		CASTTIME:1 advanced action (complex; 2 acts)
+
+#
+# End
+#

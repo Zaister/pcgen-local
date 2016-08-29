@@ -1,0 +1,11 @@
+# CVS $Revision: 12905 $ $Author: amaitland $ -- Tue Oct 19 18:53:57 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 5: Sins of the Saviors	SOURCESHORT:PF5	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy815o	SOURCEDATE:2007-10
+# Original Entry by: Stefan Radermacher
+
+###Block: Adventure special ability
+# Ability Name	Category of Ability		Type						Innate Spells								Description																																																																																				Combat bonus																				Source Page
+Mark of Wrath	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural	SPELLS:Mark of Wrath|TIMES=1|CASTERLEVEL=15|Fire Shield	DESC:You wear a mark of rulership on your flesh - a faintly glowing tattoo-like rune on your forehead. The mark of wrath provides you with a +1 insight bonus to AC and on attack and damage rolls. Once per day as a swift action, you can call upon the mark to protect you with a Fire Shield (CL 15th). If you are slain in combat, the mark of wrath transfers to the brow of your defeater. It can be removed with a successful Break Enchantment against CL 20th. Once removed in this manner, it vanishes forever.	BONUS:COMBAT|AC|1|TYPE=Insight	BONUS:COMBAT|TOHIT|1|TYPE=Insight	BONUS:COMBAT|DAMAGE.Melee,DAMAGE.Ranged|1|TYPE=Insight	SOURCEPAGE:p.54
+
+#
+# End
+#

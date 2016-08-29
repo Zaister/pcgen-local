@@ -1,0 +1,52 @@
+# CVS $Revision$ $Author$ -- Wed Sep 17 13:03:50 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+CAMPAIGN:Reign of Winter, Part 5 - Rasputin Must Die!
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Reign of Winter
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder|Golarion
+PRECAMPAIGN:1,BOOKTYPE=Core Rules,BOOKTYPE=Complete Core
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Reign of Winter, Part 5 - Rasputin Must Die!
+SOURCESHORT:AP71
+SOURCEWEB:http://paizo.com/products/btpy8yv5?Pathfinder-Adventure-Path-71-Rasputin-Must-Die
+SOURCEDATE:2013-06
+ISOGL:YES
+
+COVER:ap71.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy8yv5?Pathfinder-Adventure-Path-71-Rasputin-Must-Die|Buy this publication from Paizo Publishing!
+DESC:The search for the Queen of Witches finally ends when the Dancing Hut travels to Baba Yaga's homeland of Russia on the planet Earth. The year is 1918, and the First World War rages throughout Europe. The heroes find themselves in the wilds of Siberia, where they must face Russian soldiers armed with twentieth-century technology to infiltrate an ancient monastery and rescue Baba Yaga from her estranged son, Grigori Rasputin. Can the heroes kill the “Mad Monk”--who has already cheated death once before--and free Baba Yaga, or will they fall before the horrors of modern war?
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Corpse Orgy from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Crucifixion Spirit from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Daemon, Derghodaemon from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Daemon, Guardian from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall.
+COPYRIGHT:Daemon, Hydrodaemon from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Demon, Shadow from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.
+COPYRIGHT:Lantern Goat from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene and Lance Hawvermale.
+COPYRIGHT:Mihstu from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Tombstone Fairy from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.
+COPYRIGHT:Treant, Lightning from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Casey Christofferson.
+COPYRIGHT:Yeti from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Zombie, Juju from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Adventure Path #71: Rasputin Must Die! Copyright 2013, Paizo Publishing, LLC; Author: Brandon Hodge.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Adventure Path: Reign of Winter, Part 5 - Rasputin Must Die!" Copyright 2013-2016, PCGen Data Team (including, but not limited to Stefan Radermacher).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+EQUIPMENT:ap71_equip_arms_armor.lst
+
+#
+# End
+#

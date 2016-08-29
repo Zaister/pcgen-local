@@ -1,0 +1,29 @@
+# CVS $Revision: $ $Author: $ -- Wed Aug 12 16:32:43 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
+
+###Block: Base Mechanus
+# Class of the Master	Type			Hit Dice	Ability									Define			Stat bonus			Modify VAR
+FOLLOWER:MechanusLVL=1	TYPE:Mechanus													DEFINE:MasterLevel|0					BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|2|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=2	TYPE:Mechanus	HD:1		ABILITY:Special Ability|AUTOMATIC|Mechanus ~ Share Trick					BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=3	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=4	TYPE:Mechanus																					BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=5	TYPE:Mechanus	HD:1		ABILITY:Special Ability|AUTOMATIC|Mechanus ~ Upgrade 1					BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=6	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=7	TYPE:Mechanus	HD:1																BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=8	TYPE:Mechanus																					BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=9	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=10	TYPE:Mechanus	HD:1		ABILITY:Special Ability|AUTOMATIC|Mechanus ~ Upgrade 2					BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=11	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=12	TYPE:Mechanus																	BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=13	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=14	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=15	TYPE:Mechanus	HD:1		ABILITY:Special Ability|AUTOMATIC|Mechanus ~ Upgrade 3					BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=16	TYPE:Mechanus																					BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=17	TYPE:Mechanus	HD:1																BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=18	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1
+FOLLOWER:MechanusLVL=19	TYPE:Mechanus	HD:1																				BONUS:VAR|MasterLevel|1	BONUS:VAR|AC_Natural_Armor|1|TYPE=Base.STACK
+FOLLOWER:MechanusLVL=20	TYPE:Mechanus			ABILITY:Special Ability|AUTOMATIC|Mechanus ~ Master Upgrade					BONUS:STAT|STR,DEX|1	BONUS:VAR|MasterLevel|1
+
+#
+# End
+#

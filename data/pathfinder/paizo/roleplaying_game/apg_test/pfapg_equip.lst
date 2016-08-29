@@ -1,0 +1,7 @@
+# CVS $Revision: 4 $ $Author: amaitland $ -- Thu Sep 30 12:40:10 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Advanced Player's Guide	SOURCESHORT:PFAPG	SOURCEWEB:http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy8fo1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Adventuring Gear
+# Equipment Name		Output Name				Type							Contains				Cost		Weight	Source Page
+Backpack (Masterwork)	OUTPUTNAME:Backpack, [NAME]	TYPE:Goods.Container.General.Resizable	CONTAINS:UNLIM|Any=UNLIM	COST:50	WT:5		SOURCEPAGE:p.X	BONUS:VAR|LOADSCORE|1

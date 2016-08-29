@@ -1,0 +1,11 @@
+# CVS $Revision: 20567 $ $Author: zaister $ -- Thu Jan  8 10:33:35 2015 -- reformated by prettylst.pl v1.51 (build 25135)
+#SOURCELONG:Wayfinder #2	SOURCESHORT:WF2	SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&products_id=126	SOURCEDATE:2011-06
+# Original Entry by: Stefan Radermacher
+
+###Block: Class Bonus Feat Categories
+# Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object	Type of Object		Specific choices list						Plural description for UI		Display Location
+ABILITYCATEGORY:Psionic Bloodline Feat	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:FEAT		TYPE:PsionicBloodline	ABILITYLIST:Skill Focus(Knowledge (Dungeoneering))	PLURAL:Psionic Bloodline Feats	DISPLAYLOCATION:Feats
+
+#
+# End
+#

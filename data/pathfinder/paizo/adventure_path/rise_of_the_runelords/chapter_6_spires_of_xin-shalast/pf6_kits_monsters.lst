@@ -1,0 +1,30 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Feb 21 10:36:10 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+STARTPACK:Horror Tree	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Horror Tree]
+RACE:Horror Tree	!PRERACE:1,%
+NAME:The Horror Tree
+ALIGN:NE
+STAT:STR=11|DEX=10|CON=10|INT=10|WIS=10|CHA=11
+SKILL:Intimidate			RANK:24
+SKILL:Knowledge (Nature)	RANK:24
+SKILL:Perception			RANK:24
+SKILL:Sense Motive		RANK:24
+SKILL:Survival			RANK:24
+FEAT:Awesome Blow
+FEAT:Cleave
+FEAT:Improved Bull Rush
+FEAT:Improved Critical (Slam)
+FEAT:Improved Natural Attack (Slam)
+FEAT:Power Attack
+FEAT:Weapon Focus (Slam)
+FEAT:Toughness
+FEAT:Improved Initiative
+FEAT:Improved Grapple
+FEAT:Greater Grapple
+FEAT:Great Fortitude
+
+#
+# End
+#

@@ -1,0 +1,44 @@
+# CVS $Revision: 8900 $ $Author: eddyanthony $ -- Tue May 21 14:10:30 2013 -- reformated by prettylst.pl v1.50 (build 19091)
+SOURCELONG:Skull & Shackles, Part 1: The Wormwood Mutiny	SOURCESHORT:PF55	SOURCEWEB:http://paizo.com/products/btpy8rcc?Pathfinder-Adventure-Path-55-The-Wormwood-Mutiny	SOURCEDATE:2012-07
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 21 May 2013
+
+STARTPACK:NPC (Ambrose Kroop)	TYPE:NPC	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[!PRERACE:1,%],[PRERACE:1,Human]	SOURCEPAGE:p.52	NAMEISPI:YES
+RACE:Human	!PRERACE:1,%
+GENDER:Male
+AGE:45
+NAME:Ambrose Kroop
+ALIGN:TN
+CLASS:Rogue	LEVEL:3
+STAT:STR=14|DEX=15|CON=10|INT=13|WIS=8|CHA=12
+SKILL:Appraise			RANK:1
+SKILL:Bluff				RANK:3
+SKILL:Climb				RANK:1
+SKILL:Diplomacy			RANK:3
+SKILL:Disable Device		RANK:1
+SKILL:Knowledge (Local)		RANK:3
+SKILL:Perception			RANK:1
+SKILL:Perform (Oratory)		RANK:3
+SKILL:Profession (Sailor)	RANK:3
+SKILL:Sense Motive		RANK:3
+SKILL:Sleight of Hand		RANK:3
+SKILL:Stealth			RANK:1
+SKILL:Swim				RANK:1
+FEAT:Catch Off-Guard
+FEAT:Great Fortitude
+FEAT:Skill Focus (Profession (Cook))
+ABILITY:CATEGORY=Ability Bonus|+2 Constitution
+ABILITY:CATEGORY=Favored Class|Rogue
+ABILITY:CATEGORY=Favored Class Bonus|Bonus Hit Point
+ABILITY:CATEGORY=Favored Class Bonus|Bonus Hit Point
+ABILITY:CATEGORY=Favored Class Bonus|Bonus Hit Point
+ABILITY:CATEGORY=Rogue Talent|Resiliency
+LANGBONUS:Polyglot
+GEAR:Padded				LOCATION:Armor
+GEAR:Club				LOCATION:Primary Hand
+GEAR:Dagger			QTY:4	LOCATION:Equipped
+GEAR:Steadfast Grapple		LOCATION:Equipped
+
+#
+# End
+#

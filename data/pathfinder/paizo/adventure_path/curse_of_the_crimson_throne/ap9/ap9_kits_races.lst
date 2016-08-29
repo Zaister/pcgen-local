@@ -1,0 +1,12 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Tue Jul 16 13:21:56 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Curse of the Crimson Throne, Chapter 3: Escape for Old Korvosa	SOURCESHORT:AP9	SOURCEWEB:http://paizo.com/products/btpy82t5?Pathfinder-9-Curse-of-the-Crimson-Throne-Chapter-3-Escape-from-Old-Korvosa	SOURCEDATE:2008-04
+# Original Entry: Stefan Radermacher
+
+STARTPACK:Rajput Ambari	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Rajput Ambari],[!PRERACE:1,%]	SOURCEPAGE:p.84
+RACE:Rajput Ambari	!PRERACE:1,%
+NAME:Rajput Ambari
+STAT:STR=10|DEX=11|CON=11|INT=11|WIS=10|CHA=10
+
+#
+# End
+#

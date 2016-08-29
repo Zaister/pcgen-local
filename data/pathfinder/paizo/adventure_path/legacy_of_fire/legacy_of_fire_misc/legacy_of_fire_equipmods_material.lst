@@ -1,0 +1,11 @@
+# CVS $Revision: 14531 $ $Author: elrotheonk $ -- Thu Sep 15 14:34:56 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Legacy of Fire, Miscellaneous Data	SOURCESHORT:LoF	SOURCEDATE:2009-02
+# Original Entry by: Stefan Radermacher
+
+###Block: Adamantine
+# Modifier Name		Unique Key		Type					Cost		Visible		Type granted		Required Type						Weapon prop. bonus				Special Property												Apply to both heads
+Anti-magic Crystal	KEY:AMC_WEAP	TYPE:BaseMaterial.Weapon	COST:4000	VISIBLE:QUALIFY	ITYPE:AntiMagicCrystal	PRETYPE:1,Weapon	PRETYPE:1,Piercing,Slashing	BONUS:WEAPON|DAMAGE|2|TYPE=Enhancement	SPROP:overcomes damage reduction vs. magic of creatures with immunity to magic.	ASSIGNTOALL:NO
+
+#
+# End
+#

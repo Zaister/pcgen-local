@@ -1,0 +1,17 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Feb 21 18:41:43 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+# For Denizen of Leng, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+# For Rune Giant, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+# For Wendigo, see Pathfinder Roleplaying Game Bestiary 2 dataset.
+
+###Block: Bestiary
+# Race Name	Starting Feats	Size		Move				Face/Space	Reach		Vision				Automatic Languages			Combat bonus					Bonus to skill												Stat bonus															Modify VAR				Weapon prof. bonus								Automatically Gained Armor Prof.			Automatically Gained Feat	Automatically Gained Shield Prof.	Automatically Gained Weapon Prof.	Ability																																	Nb Legs	Nb Hands	Natural Attacks																													Spell Res.	Damage Reduction	Monster Class Name and Starting Level	Main Race Type			Challenge Rating	Source Page		Apply Kit
+Crag Spider				SIZE:H	MOVE:Walk,40,Climb,30	FACE:15	REACH:10	VISION:Tremorsense (60')							BONUS:COMBAT|AC|7|TYPE=NaturalArmor		BONUS:SKILL|Acrobatics (Jump)|4|TYPE=Racial	BONUS:SKILL|Climb|8|TYPE=Racial	BONUS:STAT|STR|10	BONUS:STAT|DEX|8	BONUS:STAT|CON|4	BONUS:STAT|CHA|-8										BONUS:WEAPONPROF=Bite|DAMAGE|max(0,(STR/2))  LEGS:8											AUTO:FEAT|Altitude Affinity													ABILITY:Special Ability|AUTOMATIC|Immunity to Mind-Affecting Effects|Web|Poison ~ Crag Spider|Tether ~ Crag Spider																			NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing.Poison,*1,2d6																				MONSTERCLASS:Vermin:16				RACETYPE:Vermin			CR:8			SOURCEPAGE:p.77	KIT:1|TN
+Harridan	STARTFEATS:1	SIZE:H	MOVE:Walk,60		FACE:15	REACH:10	VISION:Low-light			LANGAUTO:Common,Giant,Thassilonian	BONUS:COMBAT|AC|14|TYPE=NaturalArmor	BONUS:SKILL|Climb|4|TYPE=Racial	BONUS:SKILL|Bluff,Stealth|8|TYPE=Racial		BONUS:STAT|STR|16	BONUS:STAT|DEX|4	BONUS:STAT|CON|8	BONUS:STAT|INT|2	BONUS:STAT|WIS,CHA|6						BONUS:WEAPONPROF=Touch (1d8 Wisdom drain)|DAMAGE|-ceil(STR/2)	AUTO:ARMORPROF|ARMORTYPE=Light|ARMORTYPE=Medium						AUTO:SHIELDPROF|SHIELDTYPE=Shield	AUTO:WEAPONPROF|Greatsword		ABILITY:Special Ability|AUTOMATIC|Pounce|Rake|Undersized Weapons ~ Harridan|Wisdom Drain ~ Harridan																		LEGS:4	HANDS:2	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d6	NATURALATTACKS:Touch (1d8 Wisdom drain),Weapon.Natural.Melee.Finesseable,*1,0						SR:23		DR:10/Magic		MONSTERCLASS:Harridan:17			RACETYPE:Monstrous Humanoid	CR:12			SOURCEPAGE:p.86
+Kuchrima	STARTFEATS:1	SIZE:M	MOVE:Walk,20,Fly,60	FACE:5	REACH:5						LANGAUTO:Giant,Thassilonian		BONUS:COMBAT|AC|8|TYPE=NaturalArmor																BONUS:STAT|STR,CON|4	BONUS:STAT|DEX|12	BONUS:STAT|INT|-4	BONUS:STAT|WIS|-2				BONUS:VAR|Maneuverability|4																															AUTO:WEAPONPROF|Longbow			ABILITY:Special Ability|AUTOMATIC|Flight Maneuverability|Grab|Immunity to Disease|Scent|Catastrophic Shot ~ Kuchrima|Disease ~ Kuchrima|Immunity to Magic Missile ~ Kuchrima|Oversized Weapon ~ Kuchrima					NATURALATTACKS:Bite,Weapon.Natural.Melee.Finesseable.Bludgeoning.Piercing.Slashing.Disease,*1,1d6	NATURALATTACKS:Talons,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4						MONSTERCLASS:Magical Beast:11			RACETYPE:Magical Beast		CR:8						KIT:1|CE
+
+#
+# End
+#

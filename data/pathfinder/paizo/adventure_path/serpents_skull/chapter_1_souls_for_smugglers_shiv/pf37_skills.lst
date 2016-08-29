@@ -1,0 +1,14 @@
+# CVS $Revision: 14405 $ $Author: zaister $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Serpent's Skull, Chapter 1: Souls for Smuggler's Shiv	SOURCESHORT:PF37	SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+# Skill Name	Key Stat	Untrained?		Type				Source Page		Bonus to skill																															Temporary effect description
+Craft (Poetry)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Craft	SOURCEPAGE:p.91	BONUS:SKILL|Craft (Poetry)|3|TYPE=ClassSkill|PRECSKILL:1,Craft (Poetry)|PRESKILL:1,Craft (Poetry)=1	BONUS:SKILL|Craft (Poetry)|-2|TYPE=Circumstance|!PREITEM:1,TYPE=CraftToolsPoetry|PREAPPLY:PC	TEMPDESC:Craft skill checks are made with a -2 circumstance penalty if improvised tools are used
+
+###Block: Skill Focus implementation
+# Skill Name		Bonus to skill
+Craft (Poetry).MOD	BONUS:SKILL|Craft (Poetry)|3|TYPE=SkillFocus|PREFEAT:1,Skill Focus(Craft (Poetry))	BONUS:SKILL|Craft (Poetry)|6|TYPE=SkillFocus|PREFEAT:1,Skill Focus(Craft (Poetry))|PRESKILL:1,Craft (Poetry)=10
+
+#
+# End
+#

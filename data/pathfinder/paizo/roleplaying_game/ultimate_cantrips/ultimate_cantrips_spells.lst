@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Thu Apr 11 10:28:59 2013 -- reformated by prettylst.pl v1.50 (build 19790)
+SOURCELONG:Ultimate Cantrips	SOURCESHORT:UCT	SOURCEWEB:hhttp://paizo.com/paizo/blog/v5748dyo5lc7e	SOURCEDATE:2011-05
+# Original Entry by: Stefan Radermacher
+
+###Block: Main Spell List
+# Spell Name	Classes of caster			School			Sub-School			Spell Descriptors		Type		Components		Casting Time			Range		Target Area or Effect							Duration					Save Info					Spell Resistance		Description																			Source Page
+Breeze		CLASSES:Sorcerer,Wizard=0	SCHOOL:Evocation						DESCRIPTOR:Air		TYPE:Arcane	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature or object					DURATION:1 hour [D]			SAVEINFO:Will negates (harmless)	SPELLRES:Yes		DESC:You create a light wind that blows against the target, from a direction of your choice.
+Drench		CLASSES:Sorcerer,Wizard=0	SCHOOL:Conjuration	SUBSCHOOL:Creation	DESCRIPTOR:Water		TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Close	TARGETAREA:One creature or object of size Large or smaller	DURATION:1 round				SAVEINFO:Reflex negates (object)	SPELLRES:Yes (object)	DESC:A sudden downpour soaks the target creature or object.
+Jolt			CLASSES:Sorcerer,Wizard=0	SCHOOL:Transmutation					DESCRIPTOR:Electricity	TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Close	TARGETAREA:Sperk of Electricity					DURATION:Instantaneous			SAVEINFO:None				SPELLRES:Yes		DESC:You cause a spark of electricity to strike the target with a successful ranged touch attack. The spell deals 1d3 points of electricity damage.
+Penumbra		CLASSES:Sorcerer,Wizard=0	SCHOOL:Evocation						DESCRIPTOR:Darkness	TYPE:Arcane	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature or object touched				DURATION:(CASTERLEVEL*10) minutes	SAVEINFO:Will negates (harmless)	SPELLRES:Yes		DESC:Keep the creature or object touched slightly in shadow.
+Root			CLASSES:Sorcerer,Wizard=0	SCHOOL:Transmutation					DESCRIPTOR:Earth		TYPE:Arcane	COMPS:V, S, M	CASTTIME:1 standard action	RANGE:Touch	TARGETAREA:Creature touched						DURATION:1 minute [D]			SAVEINFO:Will negates (harmless)	SPELLRES:Yes		DESC:Strengthen the subject's connection to the ground below, bolstering its defense against combat maneuvers.
+Scoop			CLASSES:Sorcerer,Wizard=0	SCHOOL:Evocation						DESCRIPTOR:Force		TYPE:Arcane	COMPS:V, S		CASTTIME:1 standard action	RANGE:Close	TARGETAREA:6 inch diameter container of force			DURATION:Concentration			SAVEINFO:None				SPELLRES:Yes		DESC:You will a small vessel of force into existence.
+
+#
+# End
+#

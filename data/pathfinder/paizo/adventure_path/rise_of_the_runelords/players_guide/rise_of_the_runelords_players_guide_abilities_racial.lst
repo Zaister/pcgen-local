@@ -1,0 +1,15 @@
+# CVS $Revision: 9766 $ $Author: tir-gwaith $ -- Mon Jul 19 14:33:38 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords Player's Guide	SOURCESHORT:RotRPG	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8bd9	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Goblin abilities
+# Ability Name	Unique Key			Category of Ability		Type						Description										Bonus to skill					Source Page
+Skilled		KEY:Skilled ~ Goblin	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Goblins gain a +4 racial bonus on Ride and Stealth checks.	BONUS:SKILL|Ride,Stealth|4|TYPE=Racial	SOURCEPAGE:p.18
+
+###Block: Snake Abilities
+# Ability Name	Unique Key				Category of Ability		Type						Define					Description																			Modify VAR								Source Page		Aspects
+Poison		KEY:Poison ~ Venomous Snake	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	DEFINE:PoisonSaveDC|10+(HD/2)+CON	DESC:Bite-injury; save Fort DC %1; frequency 1/round for 6 rounds; effect 1d2 Con damage; cure 1 save.|PoisonSaveDC	BONUS:VAR|PoisonDC|2|PREFEAT:1,Ability Focus (Poison)	SOURCEPAGE:p.255	ASPECT:Ability Benefit|(Fort DC %1; 1/round for 6 rounds;1d2 Con;1 save)|PoisonSaveDC
+
+#
+# End
+#

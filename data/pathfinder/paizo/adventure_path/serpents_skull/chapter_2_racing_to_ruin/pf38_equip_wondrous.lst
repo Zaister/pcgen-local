@@ -1,0 +1,7 @@
+# CVS $Revision: 15570 $ $Author: zaister $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Serpent's Skull, Chapter 2: Racing to Ruin	SOURCESHORT:PF38	SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1	SOURCEDATE:2010-09
+# Original Entry by: Stefan Radermacher
+
+# Equipment Name		Type						Cost		Weight	Source Page		Combat bonus				Bonus to skill					Special Property
+War Mask of Terror	TYPE:Magic.Wondrous.Headgear		COST:9000	WT:3		SOURCEPAGE:p.40	BONUS:COMBAT|AC|1|TYPE=Deflection	BONUS:SKILL|Intimidate|2|TYPE=Competence	SPROP:Cast Scare 1/day
+Zenj Spirit Fetish	TYPE:Magic.Wondrous.Consumable	COST:4500			SOURCEPAGE:p.29														SPROP:Cast Dispel Evil once

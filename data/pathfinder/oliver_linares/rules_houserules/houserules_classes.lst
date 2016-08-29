@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Sun Apr 24 14:58:13 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Oliver's House Rules	SOURCESHORT:OLHR	SOURCEDATE:2099-12
+
+# Class Name
+CLASS:Swashbuckler.MOD
+1	ABILITY:Swashbuckler Class Feature|AUTOMATIC|Legendary Swashbuckler ~ Personage
+
+#
+# End
+#

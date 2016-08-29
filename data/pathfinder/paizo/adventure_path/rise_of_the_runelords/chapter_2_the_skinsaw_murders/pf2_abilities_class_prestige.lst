@@ -1,0 +1,17 @@
+# CVS $Revision: 7270 $ $Author: eddyanthony $ -- Tue Oct 19 14:15:18 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 2: The Skinsaw Murders	SOURCESHORT:PF2	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8029	SOURCEDATE:2007-10
+# Original Entry by: Stefan Radermacher
+
+###Block: Spherewalker special abilities
+# Ability Name	Unique Key					Category of Ability		Type						Visible	Innate Spells										Source Page
+Landmark		KEY:Landmark ~ Spherewalker		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural															SOURCEPAGE:p.74
+Longstrider		KEY:Longstrider ~ Spherewalker	CATEGORY:Special Ability	TYPE:Internal				VISIBLE:NO	SPELLS:Class|TIMES=1|CASTERLEVEL=var("CL=Spherewalker")|Longstrider	SOURCEPAGE:p.74
+Efficient Sleep	KEY:Efficient Sleep ~ Spherewalker	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural															SOURCEPAGE:p.74
+Star Slinger	KEY:Star Slinger ~ Spherewalker	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary															SOURCEPAGE:p.74
+Dream Link		KEY:Dream Link ~ Spherewalker		CATEGORY:Special Ability	TYPE:SpecialQuality.SpellLike																SOURCEPAGE:p.74
+Divine Luck		KEY:Divine Luck ~ Spherewalker	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural															SOURCEPAGE:p.74
+Swarm Form		KEY:Swarm Form ~ Spherewalker		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural															SOURCEPAGE:p.74
+
+#
+# End
+#

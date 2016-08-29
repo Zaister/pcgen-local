@@ -1,0 +1,16 @@
+# CVS $Revision: 12596 $ $Author: zaister $ -- Mon Sep  6 15:45:12 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Advanced Player's Guide	SOURCESHORT:PFAPG	SOURCEWEB:http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy8fo1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+# Mod original
+# Domain Name	Prohibited Domain			Ability																													Define														Modify VAR																							Source Page		List of Domain Spells by Level
+Healing.MOD		!PREDOMAIN:1,Restoration
+
+
+# Domain Name	Prohibited Domain			Ability																													Define														Modify VAR																							Source Page		List of Domain Spells by Level
+Restoration		!PREDOMAIN:1,Healing		ABILITY:Special Ability|AUTOMATIC|Restorative Touch ~ Restoration Domain	ABILITY:Special Ability|AUTOMATIC|Healer's Blessing ~ Healing Domain|PREVARGTEQ:DomainHealingLVL,6	DEFINE:DomainHealingLVL|0	DEFINE:DomainHealingDC|0	DEFINE:DomainHealingTimes|0	BONUS:VAR|DomainHealingLVL|DomainLVL	BONUS:VAR|DomainHealingDC|10+(DomainHealingLVL/2)+CHA	BONUS:VAR|DomainHealingTimes|DomainPowerTimes	SOURCEPAGE:p.95	SPELLLEVEL:DOMAIN|Restoration=1|Cure Light Wounds|Restoration=2|Remove Disease|Restoration=3|Cure Serious Wounds|Restoration=4|Neutralize Poison|Restoration=5|Break Enchantment|Restoration=6|Heal|Restoration=7|Regenerate|Restoration=8|Cure Critical Wounds (Mass)|Restoration=9|Heal (Mass)
+
+
+#
+# End
+#

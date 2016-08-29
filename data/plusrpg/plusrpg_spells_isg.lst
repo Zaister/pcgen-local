@@ -1,0 +1,67 @@
+# CVS $Revision: $ $Author: $ -- Tue Mar 22 23:19:38 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Changed spells
+# Spell Name					Required Deity
+Abadar's Truthtelling.MOD			PREDEITY:1,Abadar
+Abstemiousness.MOD				PREDEITY:1,Irori
+Aspect of the Nightingale.MOD			PREDEITY:1,Shelyn
+Beacon of Luck.MOD				PREDEITY:1,Desna
+Blessing of the Watch.MOD			PREDEITY:1,Abadar
+Brittle Portal.MOD				PREDEITY:1,Rovagug
+Burst of Glory.MOD				PREDEITY:1,Iomedae
+Channel the Gift.MOD				PREDEITY:1,Nethys
+Channel Vigor.MOD					PREDEITY:1,Irori
+Deadeye's Arrow.MOD				PREDEITY:1,Erastil
+Defending Bone.MOD				PREDEITY:1,Pharasma
+Dream Feast.MOD					PREDEITY:1,Desna
+Early Judgment.MOD				PREDEITY:1,Pharasma
+Enhance Water.MOD					PREDEITY:1,Cayden Cailean
+Face of the Devourer.MOD			PREDEITY:1,Rovagug
+Fairness.MOD					PREDEITY:1,Abadar
+Fallback Strategy.MOD				PREDEITY:1,Torag
+False Alibi.MOD					PREDEITY:1,Norgorber
+Firebelly.MOD					PREDEITY:1,Torag
+Fractions of Heal and Harm.MOD		PREDEITY:1,Nethys
+Freedom's Toast.MOD				PREDEITY:1,Cayden Cailean
+Ghoul Hunger.MOD					PREDEITY:1,Urgathoa
+Gozreh's Trident.MOD				PREDEITY:1,Gozreh
+Hairline Fractures.MOD				PREDEITY:1,Torag
+Hammer of Mending.MOD				PREDEITY:1,Torag
+Haze of Dreams.MOD				PREDEITY:1,Desna
+Hunter's Blessing.MOD				PREDEITY:1,Erastil
+Ice Armor.MOD					PREDEITY:1,Gozreh
+Inheritor's Smite.MOD				PREDEITY:1,Iomedae
+Light Prison.MOD					PREDEITY:1,Iomedae
+Lighten Object.MOD				PREDEITY:1,Gorum
+Lighten Object (Mass).MOD			PREDEITY:1,Gorum
+Lose the Trail.MOD				PREDEITY:1,Norgorber
+Maddening Oubliette.MOD				PREDEITY:1,Zon-Kuthon
+Monstrous Extremities.MOD			PREDEITY:1,Lamashtu
+Night of Blades.MOD				PREDEITY:1,Norgorber
+Pick Your Poison.MOD				PREDEITY:1,Cayden CaiLean
+Plague Bearer.MOD					PREDEITY:1,Urgathoa
+Poisoned Egg.MOD					PREDEITY:1,Norgorber
+Read Weather.MOD					PREDEITY:1,Gozreh
+Replenish Ki.MOD					PREDEITY:1,Irori
+Rovagug's Fury.MOD				PREDEITY:1,Rovagug
+Sadomasochism.MOD					PREDEITY:1,Zon-Kuthon
+Secret Speech.MOD					PREDEITY:1,Calistria
+Seducer's Eyes.MOD				PREDEITY:1,Calistria
+Shared Sacrifice.MOD				PREDEITY:1,Asmodeus
+Shield of the Dawnflower (Greater).MOD	PREDEITY:1,Sarenrae
+Sky Swim.MOD					PREDEITY:1,Gozreh
+Smite Abomination.MOD				PREDEITY:1,Pharasma
+Spawn Calling.MOD					PREDEITY:1,Rovagug
+Spell Gauge.MOD					PREDEITY:1,Nethys
+Spell Scourge.MOD					PREDEITY:1,Nethys
+Tap Inner Beauty.MOD				PREDEITY:1,Shelyn
+Touch of Bloodletting.MOD			PREDEITY:1,Zon-Kuthon
+Tracking Mark.MOD					PREDEITY:1,Erastil
+Unwelcome Halo.MOD				PREDEITY:1,Sarenrae
+Vengeful Stinger.MOD				PREDEITY:1,Calistria
+Weapons Against Evil.MOD			PREDEITY:1,Iomedae
+
+#
+# End
+#

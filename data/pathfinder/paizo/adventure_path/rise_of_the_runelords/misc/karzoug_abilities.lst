@@ -1,0 +1,12 @@
+# CVS $Revision: 14615 $ $Author: elrotheonk $ -- Tue Apr  5 14:30:51 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Karzoug Stuff	SOURCESHORT:RotR	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Karzoug's High Arcana
+# Ability Name		Category of Ability		Type							Visible	Required Class		Req. Spell Type		Define			Innate Spells							Bonus to spell cast/day				Modify VAR
+Spell-Like Ability	CATEGORY:Special Ability	TYPE:HighArcana.SpellLike.SpecialQuality	VISIBLE:YES	PRECLASS:1,Archmage=1	PRESPELLTYPE:1,Arcane=5	DEFINE:ArchmageSLA|0	SPELLS:High Arcana|TIMES=2|CASTERLEVEL=20|Teleport	BONUS:SPELLCAST|TYPE=Arcane;LEVEL=9|-1	BONUS:VAR|ArchmageSLA|1
+
+###Block: Talons of Leng support
+# Template Name	Visible	Weapon prof. bonus												Type					Natural Attacks
+# Ability Name	Category of Ability		Type			Weapon prof. bonus												Natural Attacks
+Talons of Leng	CATEGORY:Special Ability	TYPE:Internal	BONUS:WEAPONPROF=Claw|DAMAGE,TOHIT|3|TYPE=Enhancement	BONUS:WEAPONPROF=Claw|CRITMULTADD|1	NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*2,1d4

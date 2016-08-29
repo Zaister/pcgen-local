@@ -1,0 +1,10 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Thu Jan 21 15:13:07 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:Reign of Winter, Part 5 - Rasputin Must Die!	SOURCESHORT:AP71	SOURCEWEB:http://paizo.com/products/btpy8yv5?Pathfinder-Adventure-Path-71-Rasputin-Must-Die	SOURCEDATE:2013-06
+# ORIGINAL ENTRY: Stefan Radermacher
+
+# Equipment Name		Output Name					Required Weapon Proficiency	Type																		Contains				Cost		Weight	Crit Mult	Crit Range	Damage	Modifier	Range		Special Property
+Revolver (Nagant M1895)	OUTPUTNAME:Revolver, Nagant M1895	PROFICIENCY:WEAPON|Revolver	TYPE:Weapon.Resizable.Exotic.Ranged.Standard.Piercing.Bludgeoning.Container.Projectile.Firearm.Revolver	CONTAINS:1|FirearmCartridge=7	COST:400	WT:4		CRITMULT:x4	CRITRANGE:1	DAMAGE:1d8	EQMOD:STEEL	RANGE:80	SPROP:Misfire 1
+
+#
+# End
+#

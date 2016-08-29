@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 6: The Final Wish	SOURCESHORT:PF24	SOURCEWEB:paizo.com/products/btpy89a2?Pathfinder-Adventure-Path-24-The-Final-Wish	SOURCEDATE:2009-06
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 2011/10/01
+
+# Ability Name	Category of Ability		Type						Description																																							Ability															Combat bonus				Modify VAR								Damage Reduction	Source Page		Natural Attacks
+Diamond Skin	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary	DESC:Your diamond skin grants you a +4 natural armor bonus, DR 10/adamantine, fire and cold resistance 30, and vulnerability to sonic damage (you take 150%% normal damage from sonic attacks). You also gain a slam attack with your fist.	ABILITY:Special Ability|AUTOMATIC|Resistance to Cold|Resistance to Fire|Vulnerability to Sonic	BONUS:COMBAT|AC|4|TYPE=NaturalArmor	BONUS:VAR|ColdResistanceBonus,FireResistanceBonus|30	DR:10/Adamantine	SOURCEPAGE:p.44	NATURALATTACKS:Slam,Weapon.Natural.Melee.Finesseable.Bludgeoning,*1,1d6
+
+#
+# End
+#

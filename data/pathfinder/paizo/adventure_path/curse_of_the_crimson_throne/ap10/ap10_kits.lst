@@ -1,0 +1,26 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Oct 28 14:02:19 2013 -- reformated by prettylst.pl v1.50 (build 21703)
+SOURCELONG:Curse of the Crimson Throne, Chapter 4 - A History of Ashes	SOURCESHORT:AP10	SOURCEWEB:http://paizo.com/products/btpy82u9?Pathfinder-10-Curse-of-the-Crimson-Throne-Chapter-4-A-History-of-Ashes	SOURCEDATE:2008-05
+# Original Entry: Stefan Radermacher
+
+STARTPACK:Havero Tentacle	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Havero Tentacle],[!PRERACE:1,%]	SOURCEPAGE:p.37
+RACE:Havero Tentacle	!PRERACE:1,%
+NAME:Havero Tentacle
+STAT:STR=10|DEX=11|CON=10|INT=11|WIS=10|CHA=11
+
+STARTPACK:Red Reaver	TYPE:DefaultMonster.Undead	VISIBLE:QUALIFY	EQUIPBUY:0	PREMULT:1,[PRERACE:1,Red Reaver],[!PRERACE:1,%]	SOURCEPAGE:p.88
+RACE:Red Reaver	!PRERACE:1,%
+NAME:Red Reaver
+STAT:STR=10|DEX=10|CON=11|INT=11|WIS=10|CHA=11
+SKILL:Fly		RANK:4
+SKILL:Perception	RANK:8
+SKILL:Survival	RANK:4
+FEAT:Awesome Blow
+FEAT:Cleave
+FEAT:Combat Reflexes
+FEAT:Improved Bull Rush
+FEAT:Power Attack
+FEAT:Toughness
+
+#
+# End
+#

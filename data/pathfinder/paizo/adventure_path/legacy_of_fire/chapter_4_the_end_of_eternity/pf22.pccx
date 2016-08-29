@@ -1,0 +1,41 @@
+# CVS $Revision$ $Author$ -- Tue Mar 16 14:49:51 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+CAMPAIGN:Paizo - Legacy of Fire, Chapter 4: The End of Eternity (Conversion)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Legacy of Fire
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Legacy of Fire, Chapter 4: The End of Eternity
+SOURCESHORT:PF22
+SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy87ux
+SOURCEDATE:2009-04
+ISOGL:YES
+
+COVER:pf22.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/legacyOfFire/v5748btpy87ux|Buy this publication from Paizo Publishing!
+DESC:Hidden amid the tattered parchment and mundane ink of a mysterious map hides the fabulous paradise of Kakishon. A realm of mystical wonders, mythical beasts, and legendary treasures, this long-lost creation of one of history's greatest wizards once again inspires the bold to seek its wonders. Yet time, ancient magic, and bitter rivalries work to corrupt the incredible realm, turning it into both paradise and prison. Can they tame the powers of Kakishon's magical islands and best the masters of the wondrous land? Or will they forever be prisoners of paradise?
+
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors Jonathan Tweet, Monte Cook, Skip	Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Adventure Path volume #22: The End of Eternity. Copyright 2009, Paizo Publishing, LLC; Author: Jason Nelson.
+COPYRIGHT:Advanced Bestiary. Copyright 2004, Green Ronin Publishing, LLC; Author: Matthew Sernett.
+COPYRIGHT:Tome of Horrors, Revised. Copyright 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+COPYRIGHT:Pathfinder RPG Conversion Copyright 2009-2011, PCGen Data Team (including, but not limited to, Stefan Radermacher.)
+COPYRIGHT:PCGen dataset conversion for "Legacy of Fire, Chapter 4: The End of Eternity" Copyright 2009-2011, PCGen Data Team (including, but not limited to, Stefan Radermacher.)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:pf22_abilities_racial.lst
+KIT:pf22_kits_races.lst
+RACE:pf22_races.lst

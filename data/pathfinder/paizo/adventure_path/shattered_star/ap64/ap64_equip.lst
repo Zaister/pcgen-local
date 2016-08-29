@@ -1,0 +1,12 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Mon Nov 23 17:41:37 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:Shattered Star, Part 2 - Curse of the Lady's Light	SOURCESHORT:AP63	SOURCEWEB:http://paizo.com/products/btpy8v2r?Pathfinder-Adventure-Path-63-The-Asylum-Stone	SOURCEDATE:2012-09
+# ORIGINAL ENTRY: Stefan Radermacher
+# ORIGINAL ENTRY DATE: 01 JUNE 2015
+
+####Block: Melee Weapons
+# Equipment Name	Required Weapon Proficiency	Type																		Cost		Weight	Crit Mult	Crit Range	Damage	Modifier								Wield Category	Size		Source Page		Special Property
+Lashing Aklys	PROFICIENCY:WEAPON|Aklys	TYPE:Weapon.Resizable.GladiatorWeapon.Melee.Exotic.Bludgeoning.Ranged.Thrown.Performance.Trip.Specific	COST:5	WT:2		CRITMULT:x2	CRITRANGE:1	DAMAGE:1d8	EQMOD:PERFORMANCE.STEEL.TRIP.PLUS1W.MAGIC_COST|2000		WIELD:Light		RANGE:20	SOURCEPAGE:p.61	SPROP:+2 on trip checks, can make trip attaks against foes up to two sizes larger
+
+#
+# End
+#

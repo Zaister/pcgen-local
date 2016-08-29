@@ -1,0 +1,37 @@
+# CVS $Revision: 23075 $ $Author: amaitland $ -- Sat Jul 31 11:48:53 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+CAMPAIGN:101 Bard Feats
+GAMEMODE:Pathfinder
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder
+TYPE:Rite Publishing.Supplement
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Rite Publishing
+PUBNAMESHORT:Rite
+PUBNAMEWEB:http://www.ritepublishing.com/
+SOURCELONG:101 Bard Feats
+SOURCESHORT:101BF
+SOURCEWEB:http://www.ritepublishing.com/
+SOURCEDATE:2010-03
+ISOGL:YES
+COPYRIGHT:Open Game License v 1.0a Copyright ©2000-2005, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright ©2000-2005, Wizards of the Coast, Inc.; authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, and Bruce R. Cordell, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder RPG Core Rulebook. Copyright ©2009, Paizo Inc.; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+
+#Do Not Remove Comment
+#EXTRAFILE:OGL.txt
+
+
+LOGO:@/publisher_logos/Rite_Publishing.jpg
+#COVER:101bardfeats_cover.jpg
+URL:WEBSITE|http://www.ritepublishing.com/|Visit Rite Publishing.Supplement!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+#URL:RPGNow!|http://www.rpgnow.com/product_info.php?products_id=81393&affiliate_id=200170|Get this publication from RPGNow!
+#URL:Your Games Now!|http://www.yourgamesnow.com/index.php?main_page=product_info&manufacturers_id=83&products_id=2895&zenid=70130ae95dd8b5c8d1eda7dd479a1894|Get this publication from Your Games Now!
+
+
+ABILITY:101bardfeats_abilities.lst
+ABILITYCATEGORY:101bardfeats_ability_categories.lst
+FEAT:101bardfeats_feats.lst

@@ -1,0 +1,11 @@
+# CVS $Revision: 12957 $ $Author: nuance $ -- Mon Aug  4 18:36:57 2014 -- reformated by prettylst.pl v1.51 (build 23662)
+SOURCELONG:Advanced Class Guide	SOURCESHORT:ACG	SOURCEWEB:http://paizo.com/products/btpy92zi	SOURCEDATE:2014-08
+# Original Entry by: Stefan Radermacher
+
+###Block: Barbarian Rage Powers
+# Ability Name		Unique Key							Category of Ability		Type														Required Ability										Multiple Requirements																	Var. Min. Value				Var. Must Be Lower		Define										Description																																																																														Stackable?	Multiple?	Choose		Add to base move									Bonus to Situation									Bonus to skill								Modify VAR																Vision						Source Page		Aspects
+Abyssal Blood		KEY:Rage Power ~ Abyssal Blood		CATEGORY:Special Ability	TYPE:BarbarianClassFeatures.ClassFeatures.RagePower.SpecialQuality.Supernatural	DESC:Once per day when the barbarian enters a rage, she can choose to grow one size category larger than her base size (as enlarge person, even if the barbarian isn’t humanoid).	SOURCEPAGE:p.80	PREVARGTEQ:RagePowersPrereqLVL,6	PREABILITY:1,CATEGORY=Special Ability,Rage Power ~ Abyssal Blood Lesser	ASPECT:ChildAbility|Rage
+Abyssal Blood, Lesser	KEY:Rage Power ~ Abyssal Blood Lesser	CATEGORY:Special Ability	TYPE:BarbarianClassFeatures.ClassFeatures.RagePower.SpecialAttack.Supernatural	DESC:While raging, the barbarian gains two claw attacks. These attacks are considered primary attacks and are made at the barbarian’s full base attack bonus. They deal 1d6 points of slashing damage for Medium creatures (1d4 if Small) plus her Strength modifier.	BONUS:WEAPONPROF=Claw|DAMAGESIZE|1|PREVAREQ:Raging,1	BONUS:WEAPONPROF=Claw|DAMAGESIZE|-1|PRESIZELT:M	SOURCEPAGE:p.73	NATURALATTACKS:Claw,Weapon.Natural.Weapon Group Natural.Melee.Finesseable.Slashing,*2,1d6	SOURCEPAGE:p.80	ASPECT:ChildAbility|Rage
+#
+# End
+#

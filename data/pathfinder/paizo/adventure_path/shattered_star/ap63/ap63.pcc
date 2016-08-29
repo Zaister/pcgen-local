@@ -1,0 +1,55 @@
+# CVS $Revision$ $Author$ -- Wed Jul 23 12:11:28 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+CAMPAIGN:Shattered Star, Part 3 - The Asylum Stone
+KEY:Adventure Path #63
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Shattered Star
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Adventure
+SETTING:Pathfinder|Golarion
+PRECAMPAIGN:1,BOOKTYPE=Core Rules,BOOKTYPE=Complete Core
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Shattered Star, Part 2 - Curse of the Lady's Light
+SOURCESHORT:AP63
+SOURCEWEB:http://paizo.com/products/btpy8v2r?Pathfinder-Adventure-Path-63-The-Asylum-Stone
+SOURCEDATE:2012-09
+ISOGL:YES
+
+COVER:ap63.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/products/btpy8v2r?Pathfinder-Adventure-Path-63-The-Asylum-Stone|Buy this publication from Paizo Publishing!
+DESC:The search for the Shattered Star leads the PCs to Kaer Maga, the legendary cliff-top city of criminals, refugees, and anyone else seeking to vanish into its cluttered streets. Enlisted to rescue a troll prophet from a mad artificer's hanging mansion, the PCs soon find themselves delving into the notorious Undercity. Here they must battle their way through a lost runelord laboratory before finally entering the mysterious cavern realm of the Dark Forest, where an ancient evil has guarded a lost shard for millennia. Can the PCs recover the shard from its unholy guardians and continue their quest, or will they simply be the latest souls lost to the City of Strangers?
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Inc., which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Ascomoid from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Hydrodaemon from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Lurker Above from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Phycomid from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Rot Grub from the Tome of Horrors Complete Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+COPYRIGHT:Pathfinder Adventure Path #63: The Asylum Stone Copyright 2012, Paizo Publishing, LLC; Author: James L. Sutter.
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Adventure Path: Shattered Star, Part 3 - The Asylum Stone" Copyright 2012-2015, PCGen Data Team (including, but not limited to Stefan Radermacher).
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+#ABILITY:ap62_abilities.lst
+#ABILITYCATEGORY:ap62_abilitycategories.lst
+EQUIPMENT:ap63_equip.lst
+#EQUIPMOD:ap62_equipmods.lst
+#KIT:ap62_kits_races.lst
+#RACE:ap62_races.lst
+#SPELL:ap62_spells.lst
+#SKILL:ap62_skills_conditional.lst
+#TEMPLATE:ap62_templates.lst
+#WEAPONPROF:ap62_profs_weapon.lst
+
+#
+# End
+#

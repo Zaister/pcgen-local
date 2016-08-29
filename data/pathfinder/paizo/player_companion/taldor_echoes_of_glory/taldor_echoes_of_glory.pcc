@@ -1,0 +1,42 @@
+CAMPAIGN:Taldor, Echoes of Glory (Conversion/Zaister)
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Player Companion
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Campaign Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+#PRECAMPAIGN:1,Paizo - Pathfinder Roleplaying Game Advanced Player's Guide
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Taldor, Echoes of Glory
+SOURCESHORT:TEoG
+SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/companion/v5748btpy8853
+SOURCEDATE:2009-00
+ISOGL:YES
+
+COVER:taldor_echoes_of_glory.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/companion/pathfinderRPG/v5748btpy8hih|Buy this publication from Paizo Publishing!
+DESC:Knights, fair maidens, heroic adventures, and righteous quests - these are the legends of old Taldor. But the once powerful empire has fallen from its former glory. Now rival nobles battle each other with bitter knights and proxy armies for personal power rather than honor. A smoldering truce with Qadira again threatens to ignite into war, and Taldor's daughter states look down upon her with contempt. Yet there is still greatness in Taldor, a stone foundation under the flaking gold adornments. Sons and daughters of forgotten royal bloodlines hear change on the wind—but is it the whisper of greatness to come, or the death rattle of an empire long past its prime?
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: Jonathan Tweet,	Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Companion: Taldor, Echoes of Glory. Copyright 2009, Paizo Publishing, LLC; Author:	Joshua J. Frost.
+COPYRIGHT:Pathfinder Roleplaying Game Conversion Copyright 2009-2011, PCGen Data Team (including, but not limited to Stefan Radermacher)
+COPYRIGHT:PCGen dataset conversion for "Pathfinder Companion: Taldor, Echoes of Glory" Copyright 2009-2011, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:taldor_echoes_of_glory_abilities_traits.lst
+
+#
+# End
+#

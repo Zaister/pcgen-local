@@ -1,0 +1,12 @@
+# CVS $Revision: 14299 $ $Author: elrotheonk $ -- Fri Jan 14 23:49:33 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+#SOURCELONG:Psionics Unleashed	SOURCESHORT:PsU	SOURCEWEB:http://dreamscarredpress.com/dragonfly/Store/product/pid=70.html	SOURCEDATE:2010-11
+# Original Entry by: Stefan Radermacher
+
+###Block: Racial Traits Categories
+# Ability Category				Visible		Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Blue Racial Trait		VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:BlueRacialTrait	PLURAL:Blue Racial Traits	DISPLAYLOCATION:Racial Abilities
+ABILITYCATEGORY:Dromite Racial Trait	VISIBLE:QUALIFY	EDITABLE:YES		EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:DromiteRacialTrait	PLURAL:Dromite Racial Traits	DISPLAYLOCATION:Racial Abilities
+
+#
+# End
+#

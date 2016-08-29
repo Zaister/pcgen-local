@@ -1,0 +1,37 @@
+# CVS $Revision$ $Author$ -- Sun Oct 11 21:42:23 2009 -- reformated by prettylst.pl v1.39 (build 10232)
+CAMPAIGN:PlusRPG Revised Action Economy
+GAMEMODE:Pathfinder
+TYPE:Zaister.Supplement
+STATUS:ALPHA
+RANK:1
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder
+PRECAMPAIGN:1,PlusRPG
+PRECAMPAIGN:1,INCLUDESBOOKTYPE=Core Rules
+PUBNAMELONG:Stefan Radermacher
+PUBNAMESHORT:Stefan Radermacher
+SOURCELONG:PlusRPG
+SOURCESHORT:Plus
+SOURCEDATE:2099-12
+ISOGL:NO
+
+# Core Rulebook
+ABILITY:plusrpg_rae_feats_cr.lst
+SPELL:plusrpg_rae_spells_cr.lst
+
+# Advanced Class Guide
+ABILITY:plusrpg_rae_abilities_acg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Class Guide
+
+# Ultimate Combat
+ABILITY:plusrpg_rae_abilities_uc.lst|PRECAMPAIGN:1,INCLUDES=Ultimate Combat
+
+# Pathfinder Unchained
+ABILITY:plusrpg_abilities_pu.lst
+
+# Third party products
+SPELL:plusrpg_rae_spells_lpj.lst|PRECAMPAIGN:1,INCLUDES=NeoExodus Chronicles: Cutting Edge Machinesmith
+
+#
+# End
+#

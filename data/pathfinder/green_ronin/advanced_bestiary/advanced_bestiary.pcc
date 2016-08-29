@@ -1,0 +1,42 @@
+# CVS $Revision: 244 $ $Author: stefan $
+CAMPAIGN:Green Ronin - Advanced Bestiary
+GAMEMODE:Pathfinder
+TYPE:Green Ronin.Supplement
+RANK:6
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Green Ronin Publishing
+PUBNAMESHORT:GR
+PUBNAMEWEB:http://www.greenronin.com
+SOURCELONG:Advanced Bestiary
+SOURCESHORT:AB
+SOURCEWEB:http://www.greenronin.com/store/product/grr1601e.html
+SOURCEDATE:2004-01
+ISOGL:YES
+
+COVER:advanced_bestiary.jpg
+LOGO:&/publisher_logos/Green_Ronin_Publishing.png
+URL:WEBSITE|http://www.greenronin.com/|Visit Green Ronin Publishing!
+URL:Green Ronin Publishing|http://www.greenronin.com/store/product/grr1601e.html|Buy this publication from Green Ronin Publishing!
+DESC:Awaiting you between the covers of the Advanced Bestiary are over 100 new templates that put the power back into your hands! With concepts ranging from the apocalyptic four horsemen to the bizarre id ooze and stone idol, this book offers unprecedented flexibility for campaigns of any style. These templates can be combined with monsters from any other source to create an endless variety of new creatures, making every monster book you already own even more valuable. In addition, to enhance this book's usefulness, each template includes a sample creature, showing ways to overlay templates on a variety of creatures, while giving monster stats ready to play right out of the book.
+
+COPYRIGHT:Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, based on original material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Advanced Bestiary, Copyright 2004, Green Ronin Publishing, LLC; Author Matthew Sernett.
+COPYRIGHT:Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:Pathfinder Roleplaying Game Conversion Copyright 2009-2010, Stefan Radermacher
+COPYRIGHT:PCGen dataset conversion for "Advanced Bestiary" Copyright 2004-2010, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITY:advanced_bestiary_abilities.lst
+TEMPLATE:advanced_bestiary_templates.lst
+
+#
+# End
+#

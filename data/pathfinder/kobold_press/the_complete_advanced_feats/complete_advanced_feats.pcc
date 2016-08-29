@@ -1,0 +1,44 @@
+# CVS $Revision$ $Author$ -- Mon May 11 11:53:18 2009 -- reformated by prettylst.pl v1.39 (build 9548)
+CAMPAIGN:Open Design - The Complete Advanced Feats
+GAMEMODE:Pathfinder
+TYPE:Open Design.Supplement
+RANK:6
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Generic
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+PUBNAMELONG:Open Design
+PUBNAMESHORT:Open Design
+PUBNAMEWEB:http://http://www.koboldquarterly.com
+SOURCELONG:The Complete Advanced Feats
+SOURCESHORT:OD-CAF
+SOURCEWEB:http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&products_id=126
+SOURCEDATE:2011-06
+ISOGL:YES
+
+COVER:the_complete_advanced_feats.jpg
+#LOGO:&/publisher_logos/Open_Design.gif
+URL:WEBSITE|http://www.koboldquarterly.com|Visit Open Design!
+URL:Open Design|http://www.koboldquarterly.com/kqstore/index.php?main_page=product_info&products_id=126|Buy this publication from Open Design!
+DESC:The perfect companion to the Advanced Player's Guide, this collection provides 180 feats, 18 character builds, and a deep well of advice on playing the 6 new Pathfinder RPG classes: alchemist, cavalier, inquisitor, oracle, summoner, and witch.
+
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:Advanced Player's Guide. Copyright 2011 Paizo Publishing, LLC; Author: Jason Bulmahn.
+COPYRIGHT:System Reference Document. Copyright 2000, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+COPYRIGHT:Advanced Player's Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn
+COPYRIGHT:Netbook of Feats, Authors: Sigfried Trent, Alan Z. Eisinger, Albert Nakano, Bradley H. Bemis Jr., Carl CramÃ©r, Chris Meravi, Daniel Langdon, David Sanders, Eric D. Harry, Jason D. Kemp, Jerry M. Chaney II, John O. Lamping, Jonathan D. Woolley, Michael J. Kletch, Paul W. King, Rafael Arrais, Rebecca Glenn, Scott Metzger, SÃ©bastien Adhikari, Terje Kristian Backman
+COPYRIGHT:The Complete Advanced Feats, The Secrets Alchemist, The Cavalier's Creed, The Inquisitor's Edge, Visions of the Oracle, The Summoner's Circle, The Witches Brew. Author: Sigfried Trent Copyright 2010-2011, Open Design LLC, www.koboldquarterly.com. All rights reserved.
+COPYRIGHT:PCGen dataset conversion for "The Complete Advanced Feats" Copyright 2011, PCGen Data team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data files
+ABILITYCATEGORY:complete_advanced_feats_abilitycategories.lst
+FEAT:complete_advanced_feats_feats.lst
+
+#
+# End
+#

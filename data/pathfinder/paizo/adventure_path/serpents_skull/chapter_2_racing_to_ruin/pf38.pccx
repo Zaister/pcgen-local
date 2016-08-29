@@ -1,0 +1,47 @@
+# CVS $Revision: 12348 $ $Author: eddyanthony $ -- Sat Dec  8 13:05:34 2007 -- reformated by prettylst.pl v1.38 (build 4387)
+CAMPAIGN:Paizo - Serpent's Skull, Chapter 2: Racing to Ruin
+GAMEMODE:Pathfinder
+TYPE:Paizo Publishing.Pathfinder Adventure Path.Serpent's Skull
+RANK:3
+STATUS:ALPHA
+GENRE:Fantasy
+BOOKTYPE:Supplement
+SETTING:Pathfinder Camaping Setting
+PRECAMPAIGN:1,BOOKTYPE=Core Rules
+#PRECAMPAIGN:1,Paizo - Pathfinder Roleplaying Game Bestiary
+PUBNAMELONG:Paizo Publishing
+PUBNAMESHORT:Paizo
+PUBNAMEWEB:http://paizo.com
+SOURCELONG:Serpent's Skull, Chapter 2: Racing to Ruin
+SOURCESHORT:PF38
+SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1
+SOURCEDATE:2010-09
+ISOGL:YES
+
+#COVER:pf37.jpg
+LOGO:@/publisher_logos/Paizo_Publishing.png
+URL:WEBSITE|http://www.paizo.com/|Visit Paizo Publishing!
+URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
+URL:Paizo Publishing|http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1|Get this publication from Paizo Publishing!
+DESC:A deadly storm shipwrecks the passengers and crew of the Jenivere upon infamous Smuggler's Shiv, an island off the coast of the jungle realm of Sargava. If they're to have any hope of escaping the notorious pirates' graveyard, the survivors will need to band together to outwit the isle's strange beasts and legendary menaces. But can the PCs unite the swift-to-squabble castaways, especially when several seem to have mysterious goals of their own? And does Smuggler's Shiv hide secrets even deadlier than its desperate denizens?
+
+INFOTEXT:This dataset uses trademarks and/or copyrights owned by Paizo Publishing, LLC, which are used under Paizo's Community Use Policy. We are expressly prohibited from charging you to use or access this content. This dataset is not published, endorsed, or specifically approved by Paizo Publishing. For more information about Paizo's Community Use Policy, please visit paizo.com/communityuse. For more information about Paizo Publishing and Paizo products, please visit paizo.com.
+COPYRIGHT:Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.
+COPYRIGHT:System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.
+COPYRIGHT:Pathfinder Adventure Path #37: Racing to Ruin. Copyright 2010, Paizo Publishing, LLC; Author: James Jacobs.
+COPYRIGHT:Cave Fisher from the Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Lawrence Schick.
+COPYRIGHT:Russet Mold from the Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Vegepygmy from the Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Gary Gygax.
+COPYRIGHT:Yellow Musk Creeper from the Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.
+COPYRIGHT:Yellow Musk Zombie from the Tome of Horrors. Copyright 2002, Necromancer Games, Inc.; Author Scott Greene, based on original material by Albie Fiore.
+COPYRIGHT:PCGen dataset conversion for "Serpent's Skull, Chapter 2: Racing to Ruin" Copyright 2010, PCGen Data Team (including, but not limited to Stefan Radermacher)
+
+# Do not remove the EXTRAFILE comment.
+#EXTRAFILE:OGL.txt
+
+# Data Files
+EQUIPMENT:pf38_equip_wondrous.lst
+
+#
+# End
+#

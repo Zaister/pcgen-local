@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Mon Jul 25 13:39:29 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block Weapon Focus weapon groups
+# Ability Name	Unique Key		Category of Ability		Type							Visible		Description										Weapon prof. bonus										Benefits
+Powered Melee	KEY:Powered Melee	CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAttack	VISIBLE:DISPLAY	DESC:You are especially good at using powered melee weapons.	BONUS:WEAPONPROF=TYPE.Weapon Group Powered Melee|TOHIT|1|TYPE=Competence	BENEFIT:You gain a +1 bonus on all attack rolls you make using powered melee weapons.
+
+#
+# End
+#

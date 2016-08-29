@@ -1,0 +1,11 @@
+# CVS $Revision: 8900 $ $Author: eddyanthony $ -- Mon Oct 10 13:31:32 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+#SOURCELONG:Souls for Smuggler's Shiv	SOURCESHORT:PF37	SOURCEWEB:http://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8fw1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+###Block: NPC Boons
+# Ability Category	Visible	Editable or Static?	Change Pool?	Fractional values?	Category of Object		Type of Object	Plural description for UI	Display Location
+ABILITYCATEGORY:Boon	VISIBLE:YES	EDITABLE:YES		EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:Boon		PLURAL:Boons			DISPLAYLOCATION:Boons
+
+#
+# End
+#

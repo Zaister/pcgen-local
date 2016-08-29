@@ -1,0 +1,28 @@
+# CVS $Revision: $ $Author: $ -- Fri Jul 12 10:35:10 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Legacy of Fire, Chapter 2: House of the Beast	SOURCESHORT:PF20	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy86xw	SOURCEDATE:2009-03
+# Original Entry by: Stefan Radermacher
+
+###Block: Edimmu abilities
+# Ability Name		Unique Key					Category of Ability		Type							Define							Description																																																																													Source Page
+Dismissal Weakness	KEY:Dismissal Weakness ~ Edimmu	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Weakness									DESC:If dismissal is cast upon an edimmu, it is immediately destroyed without its life implosion ability taking effect.																																																											SOURCEPAGE:p.82
+Frigid Touch		KEY:Frigid Touch ~ Edimmu		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural										DESC:An edimmu’s frigid touch deals 1d6 points of cold damage.																																																																				SOURCEPAGE:p.82
+Life Implosion		KEY:Life Implosion ~ Edimmu		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural		DEFINE:EdimmuLifeImplosionDC|10+(TL/2)+CHA	DESC:Once an edimmu reaches 0 hit points it collapses upon itself, imploding with a final shriek that rips the life force from nearby creatures. Any living being within 20 feet of the edimmu at the time of its destruction must succeed a DC %1 Fortitude save or take 1d4 points of Constitution damage.|EdimmuLifeImplosionDC																									SOURCEPAGE:p.82
+Moan				KEY:Moan ~ Edimmu				CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural		DEFINE:EdimmuMoanDC|10+(TL/2)+CHA			DESC:An edimmu's sorrowful moans force every living creature within 30 feet to make a DC %1 Will save to avoid becoming shaken. This is a sonic mind-affecting fear effect. Whether or not the save is successful, an affected creature is immune to the same ediummu’s moan for 24 hours.|EdimmuMoanDC																													SOURCEPAGE:p.82
+Rejuvenation		KEY:Rejuvenation ~ Edimmu		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural										DESC:Upon an edimmu's destruction, the magics that bind it to the mortal world linger on. Thus, 1d4+1 days after an edimmu's destruction, the creature reforms with full hit points. The only way to destroy an edimmu is with an Atonement spell. The Atonement absolves the creature of its sins and sorrows, allowing it to finally return to its native plane.																			SOURCEPAGE:p.82
+Storm Mastery		KEY:Storm Mastery ~ Edimmu		CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural										DESC:Once per day, an edimmu can spend a full-round action to control the winds within 50 feet of it. It may change the speed and strength of the wind within this area, raising wind force to as strong as severe. It may control such winds for up to 1 minute, but can perform no other action while doing so. At the end of this minute, or when the edimmu takes another action, the force of the winds reduces by one level of strength per round until returning to normal.	SOURCEPAGE:p.82
+
+###Block: Gnoll (Unchosen) abilities
+# Ability Name	Unique Key				Category of Ability		Type								Description																																																																		Combat bonus											Source Page
+Deathwatch		KEY:Deathwatch ~ Unchosen	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Sense		DESC:The tampering with the unchosen's brain has granted the creature the ability to "scent life." As long as targets are in range of the unchosen's scent ability, it instantly knows whether each creature in the area is dead, fragile (alive and wounded with 3 or fewer hit points left), fighting off death (alive with 4 or more hit points), undead, or neither alive nor dead (such as a construct).														SOURCEPAGE:p.88
+Ferocity		KEY:Ferocity ~ Unchosen		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Defensive	DESC:An unchosen remains conscious and continues fighting even if its hit point total is below 0. The unchosen is still staggered and loses 1 hit point each round, but it gains a +2 bonus on attack rolls and all weapon damage rolls. The unchosen still dies when its hit point total reaches -%1.|CONSCORE																														SOURCEPAGE:p.88
+Foresighted		KEY:Foresighted ~ Unchosen	CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural.Defensive	DESC:An unchosen's trepanation has partially unlocked an almost psychic ability to sense peril. It gains a +2 insight bonus on Initiative checks and to its armor class.																																							BONUS:COMBAT|AC|2|TYPE=Insight	BONUS:COMBAT|Initiative|2|TYPE=Insight	SOURCEPAGE:p.88
+
+###Block: Sand Kraken abilities
+# Ability Name		Unique Key						Category of Ability		Type						Visible	Description																																Source Page		Aspects
+Camouflage			KEY:Camouflage ~ Sand Kraken			CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			DESC:A sand kraken can bury itself with great skill in sand or loose soil. Doing so takes the sand kraken a minute, but grants it a +16 racial bonus on Stealth checks.						SOURCEPAGE:p.47
+Tentacle Reach		KEY:Tentacle Reach ~ Sand Kraken		CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	VISIBLE:NO																																					ASPECT:Ability Benefit|30 ft.
+Tentacle Regeneration	KEY:Tentacle Regeneration ~ Sand Kraken	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary			DESC:A foe can attack a sand kraken's tentacles individually; each has 15 hit points. The loss of a tentacle does not harm the sand kraken's hit point total, and lost tentacles regrow in 1d4 days.	SOURCEPAGE:p.47
+
+#
+# End
+#

@@ -1,0 +1,11 @@
+# CVS $Revision: $ $Author: $ -- Fri Sep 30 16:11:27 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Tome of Horrors Complete	SOURCESHORT:ToHC	SOURCEWEB:http://paizo.com/store/byCompany/f/frogGodGames/pathfinderRPG/other/v5748btpy8mqb	SOURCEDATE:2011-09
+# Original Entry by: Stefan Radermacher
+
+###Block: Giant (Bronze) Abilities
+# Ability Name	Unique Key					Category of Ability		Type						Define					Description																																																																													Modify VAR								Source Page
+Sardonic Laugh	KEY:Sardonic Laugh ~ Bronze Giant	CATEGORY:Special Ability	TYPE:SpecialAttack.Supernatural	DEFINE:BronzeGiantSardonicLaughDC|0	DESC:Once per round as a standard action, a bronze giant can unleash a bellowing laugh that strikes fear into the hearts of any creature within 100 feet that hears it. Affected creatures that succeed on a DC %1 Will save are unaffected and immune to the sardonic laugh of that bronze giant for 24 hours. On a failed save, that creature is shaken for as long as it remains within 100 feet of the bronze giant and for 2d4 rounds thereafter.|BronzeGiantSardonicLaughDC	BONUS:VAR|BronzeGiantSardonicLaughDC|10+(HD/2)+CHA	SOURCEPAGE:p.316
+
+#
+# End
+#

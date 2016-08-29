@@ -1,0 +1,84 @@
+# CVS $Revision: 11254 $ $Author: eddyanthony $ -- Tue Apr 20 14:26:47 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Adventurer's Armory	SOURCESHORT:AA	SOURCEWEB:http://paizo.com/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy88wi	SOURCEDATE:2010-04
+# Original Entry by: Stefan Radermacher
+
+####Block: Simple Weapons
+#-----unarmed--------
+# Weapon Name		Type
+Brass Knuckles		TYPE:Simple.Melee.Unarmed.Bludgeoning.MeleeBludgeoning
+#------light---------
+Cestus			TYPE:Simple.Melee.Light.Bludgeoning.MeleeBludgeoning
+Hanbo				TYPE:Simple.Melee.Light.Bludgeoning.MeleeBludgeoning
+Wooden Stake		TYPE:Simple.Melee.Light.Piercing.MeleePiercing
+#-----one handed -------
+Mere Club			TYPE:Simple.Melee.OneHanded.Bludgeoning.MeleeBludgeoning.Piercing.MeleePiercing
+#-----two handed -------
+Bayonet			TYPE:Simple.Melee.TwoHanded.Piercing.MeleePiercing
+#-----ranged------------
+Stingchuck			TYPE:Simple.Thrown.Bludgeoning.RangedBludgeoning
+
+####Block: Martial Weapons
+#------light---------
+Blade Boot			TYPE:Martial.Melee.Light.Piercing.MeleePiercing
+Dogslicer			TYPE:Martial.Melee.Light.Slashing.MeleeSlashing
+War Razor			TYPE:Martial.Melee.Light.Slashing.MeleeSlashing
+#-----one handed -------
+Combat Scabbard		TYPE:Martial.Melee.OneHanded.Slashing.MeleeSlashing
+Klar				TYPE:Martial.Melee.OneHanded.Slashing.MeleeSlashing
+Scizore			TYPE:Martial.Melee.OneHanded.Piercing.MeleePiercing
+Terbutje			TYPE:Martial.Melee.OneHanded.Slashing.MeleeSlashing
+#-----two handed -------
+Bardiche			TYPE:Martial.Melee.TwoHanded.Slashing.MeleeSlashing
+Bec de Corbin		TYPE:Martial.Melee.TwoHanded.Bludgeoning.MeleeBludgeoning.Piercing.MeleePiercing
+Bill				TYPE:Martial.Melee.TwoHanded.Slashing.MeleeSlashing
+Earth Breaker		TYPE:Martial.Melee.TwoHanded.Bludgeoning.MeleeBludgeoning
+Glaive-Guisarme		TYPE:Martial.Melee.TwoHanded.Slashing.MeleeSlashing
+Lucerne Hammer		TYPE:Martial.Melee.TwoHanded.Bludgeoning.MeleeBludgeoning.Piercing.MeleePiercing
+Ogre Hook			TYPE:Martial.Melee.TwoHanded.Piercing.MeleePiercing
+Syringe Spear		TYPE:Martial.Melee.TwoHanded.Piercing.MeleePiercing
+#-----ranged------------
+Chakram			TYPE:Martial.Thrown.Slashing.RangedSlashing
+Hunga Munga			TYPE:Martial.Thrown.Piercing.RangedPiercing
+Pilum				TYPE:Martial.Thrown.Piercing.RangedPiercing
+
+####Block: Exotic Weapons
+#------light---------
+Aklys				TYPE:Exotic.Melee.Light.Bludgeoning.MeleeBludgeoning
+Maulaxe (Dwarven)		TYPE:Exotic.Melee.Light.Bludgeoning.MeleeBludgeoning.Slashing.MeleeSlashing
+Rope Gauntlet		TYPE:Exotic.Melee.Light.Bludgeoning.MeleeBludgeoning.Slashing.MeleeSlashing
+Sawtooth Sabre		TYPE:Exotic.Melee.Light.Slashing.MeleeSlashing
+Sica				TYPE:Exotic.Melee.Light.Slashing.MeleeSlashing
+Swordbreaker Dagger	TYPE:Exotic.Melee.Light.Slashing.MeleeSlashing
+#-----one handed -------
+Battle Poi			TYPE:Exotic.Melee.OneHanded.Fire
+Dueling Sword (Aldori)	TYPE:Exotic.Melee.OneHanded.Slashing.MeleeSlashing
+Falcata			TYPE:Exotic.Melee.OneHanded.Slashing.MeleeSlashing
+Khopesh			TYPE:Exotic.Melee.OneHanded.Slashing.MeleeSlashing
+Madu				TYPE:Exotic.Melee.OneHanded.Piercing.MeleePiercing
+Rhoka				TYPE:Exotic.Melee.OneHanded.Slashing.MeleeSlashing
+Shotel			TYPE:Exotic.Melee.OneHanded.Piercing.MeleePiercing
+Temple Sword		TYPE:Exotic.Melee.OneHanded.Slashing.MeleeSlashing
+Urumi				TYPE:Exotic.Melee.OneHanded.Slashing.MeleeSlashing
+#-----two handed -------
+Chain Spear			TYPE:Exotic.Melee.TwoHanded.Slashing.MeleeSlashing.DoubleWeapon
+Flambard			TYPE:Exotic.Melee.TwoHanded.Slashing.MeleeSlashing
+Garrote			TYPE:Exotic.Melee.TwoHanded.Slashing.MeleeSlashing
+Mancatcher			TYPE:Exotic.Melee.TwoHanded.Piercing.MeleePiercing
+Meteor Hammer		TYPE:Exotic.Melee.TwoHanded.Bludgeoning.MeleeBludgeoning
+Scarf (Bladed)		TYPE:Exotic.Melee.TwoHanded.Slashing.MeleeSlashing
+#-----ranged------------
+Boomerang			TYPE:Exotic.Thrown.Bludgeoning.RangedBludgeoning
+Crossbow (Double)		TYPE:Exotic.Ranged.Piercing.RangedPiercing
+Lasso				TYPE:Exotic.Ranged.Lasso
+Crossbow (Launching)	TYPE:Exotic.Ranged.SplashWeapon
+Bola (Shoanti)		TYPE:Exotic.Thrown.Bludgeoning.RangedBludgeoning
+Sling Glove			TYPE:Exotic.Ranged.Bludgeoning.RangedBludgeoning
+
+
+# Remove some weapon proficiencies that were renamed from the Pathfinder Chronicles Campaign Setting
+Flying Talon.FORGET
+Maulaxe.FORGET
+
+#
+# End
+#

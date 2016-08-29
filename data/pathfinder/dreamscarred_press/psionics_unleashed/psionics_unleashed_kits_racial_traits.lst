@@ -1,0 +1,27 @@
+# CVS $Revision: 13034 $ $Author: amaitland $ -- Fri Jan 14 19:55:41 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Psionics Unleashed	SOURCESHORT:PsU	SOURCEWEB:http://dreamscarredpress.com/dragonfly/Store/product/pid=70.html	SOURCEDATE:2010-11
+# Original Entry by: Stefan Radermacher
+
+###Block: These Set the Default Racial Traits
+#Block: Blue Racial
+STARTPACK:Blue Racial Trait Default	VISIBLE:NO	APPLY:INSTANT
+ABILITY:CATEGORY=Blue Racial Trait|Natually Psionic ~ Blue
+ABILITY:CATEGORY=Blue Racial Trait|Psionic Aptitude ~ Blue
+ABILITY:CATEGORY=Blue Racial Trait|Pariah ~ Blue
+ABILITY:CATEGORY=Blue Racial Trait|Repletion ~ Blue
+ABILITY:CATEGORY=Blue Racial Trait|Keen Senses ~ Blue
+ABILITY:CATEGORY=Blue Racial Trait|Stealthy ~ Blue
+ABILITY:CATEGORY=Blue Racial Trait|Weapon Familiarity ~ Blue
+
+#Block: Dromite Racial
+STARTPACK:Dromite Racial Trait Default	VISIBLE:NO	APPLY:INSTANT
+ABILITY:CATEGORY=Dromite Racial Trait|Chitin ~ Dromite
+ABILITY:CATEGORY=Dromite Racial Trait|Natually Psionic ~ Dromite
+ABILITY:CATEGORY=Dromite Racial Trait|Dromite Psionics ~ Dromite
+ABILITY:CATEGORY=Dromite Racial Trait|Compound Eyes ~ Dromite
+ABILITY:CATEGORY=Dromite Racial Trait|Psionic Aptitude ~ Dromite
+ABILITY:CATEGORY=Dromite Racial Trait|Scent ~ Dromite
+
+#
+# End
+#

@@ -1,0 +1,11 @@
+# CVS $Revision: 17892 $ $Author: amaitland $ -- Thu Sep 26 14:15:17 2013 -- reformated by prettylst.pl v1.50 (build 20400)
+SOURCELONG:Reign of Winter, Part 1: The Snows of Summer	SOURCESHORT:AP67	SOURCEWEB:http://paizo.com/products/btpy8w7d/discuss?Pathfinder-Adventure-Path-67-The-Snows-of-Summer	SOURCEDATE:2013-02
+
+###Block: Wondrous Items
+# Equipment Name							Type					Cost		Weight	Source Page
+Artrosa Ring		KEY:Artrosa Ring Degenerated	TYPE:Artifact.Minor.Ring	COST:0	BONUS:COMBAT|AC|2|TYPE=Deflection	SPELLS:Artrosa Ring|TIMES=1|CASTERLEVEL=20|Threefold Aspect	
+Cloak of the Yeti +1						TYPE:Magic.Wondrous.Cloak	COST:4000	WT:5		SOURCEPAGE:p.60	BONUS:COMBAT|AC|1|TYPE=NaturalArmor	BONUS:SKILL|Intimidate|2|TYPE=Competence	SPROP:provides constant Endure Elements in cold weather	BONUS:SAVE|ALL|1|TYPE=Resistance
+
+#
+# End
+#

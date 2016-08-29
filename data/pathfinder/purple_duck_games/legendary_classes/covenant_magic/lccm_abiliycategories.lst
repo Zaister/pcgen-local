@@ -1,0 +1,20 @@
+# CVS $Revision: 21663 $ $Author: amaitland $ -- Thu Jul 24 12:37:42 2014 -- reformated by prettylst.pl v1.51 (build 24365)
+#SOURCELONG:Legendary Classes: Covenant Magic	SOURCESHORT:LCCM	SOURCEWEB:http://www.rpgnow.com/product/113081/Legendary-Classes-Covenant-Magic	SOURCEDATE:2013-04
+# Original Entry by: Stefan Radermacher
+
+###Block: Class Feature
+# Ability Category				Visible		Editable?		Change Pool?	Category of Object		Type of Object			Plural description for UI	Display Location
+ABILITYCATEGORY:Medium Class Feature	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		CATEGORY:Special Ability	TYPE:MediumClassFeatures	PLURAL:Medium Class Features	DISPLAYLOCATION:Class Features
+
+###Block: Archetype Buckets
+# Ability Category			Visible		Editable?		Change Pool?	Fractional values?	Category of Object	Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Medium Archetype	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO		FRACTIONALPOOL:NO		CATEGORY:Archetype	TYPE:MediumArchetype	PLURAL:Medium Archetypes	DISPLAYLOCATION:Archetype
+
+###Block: Class Feature Categories
+# Ability Category			Visible		Editable?		Change Pool?	Fractional values?	Category of Object		Type of Object		Plural description for UI	Display Location
+ABILITYCATEGORY:Medium Influence	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:MediumInfluence	PLURAL:Medium Influences	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Spirit Boon		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	FRACTIONALPOOL:NO		CATEGORY:Special Ability	TYPE:SpiritBoon		PLURAL:Spirit Boons		DISPLAYLOCATION:Class Features
+
+#
+# End
+#

@@ -1,0 +1,323 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Iron Gods Campaign
+VERSION:6.07.01-dev
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Eyos
+TABNAME:
+PLAYERNAME:Dirk
+HEIGHT:78
+WEIGHT:0
+AGE:15
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:light blue
+HAIRCOLOR:bald
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:17
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:14
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:10
+ALIGN:CN
+RACE:Android
+
+# Character Class(es)
+CLASS:Slayer|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Slayer=1|HITPOINTS:10|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=2|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=3|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=5|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=6|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=7|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=8|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=9|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=10|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:105975
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
+
+# Character Region
+REGION:Numeria
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Artistry (Untrained)|OUTPUTORDER:4|
+SKILL:Athletics|OUTPUTORDER:5|CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Craft (Mechanical)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Slayer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:13|
+SKILL:Diplomacy|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:18|
+SKILL:Disguise|OUTPUTORDER:20|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
+SKILL:Ecology|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Endurance|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Slayer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist|OUTPUTORDER:24|
+SKILL:Fly|OUTPUTORDER:25|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:29|
+SKILL:Heal|OUTPUTORDER:30|
+SKILL:Intimidate|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:33|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:34|
+SKILL:Knowledge (Engineering)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Slayer|RANKS:5.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Geography)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Slayer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Local)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:38|
+SKILL:Linguistics|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Slayer|RANKS:2.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial|ASSOCIATEDDATA:Androffan
+SKILL:Perception|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:42|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Search|OUTPUTORDER:46|
+SKILL:Sense Motive|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:48|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:49|
+SKILL:Stealth|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Slayer|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Follow tracks)|OUTPUTORDER:54|
+SKILL:Swim|OUTPUTORDER:55|
+SKILL:Untrained Charisma|OUTPUTORDER:56|
+SKILL:Untrained Dexterity|OUTPUTORDER:57|
+SKILL:Untrained Intelligence|OUTPUTORDER:58|
+SKILL:Untrained Strength|OUTPUTORDER:59|
+SKILL:Untrained Wisdom|OUTPUTORDER:60|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:40|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+
+# Character Languages
+LANGUAGE:Androffan|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Orc
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Combat Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style ~ Archery|TYPE:RangerClassFeatures.RangerCombatStyle.ClassFeatures
+USERPOOL:Combat Style|POOLPOINTS:0.0
+ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quick Draw|TYPE:Combat.ShadowBloodline.ArcaneBloodragerBloodline|DESC:You can draw weapons faster than most.
+USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Aberrations|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify aberrations.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Constructs|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify constructs.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Constructs Robots|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +4 competence bonus on Ecology checks made to identify constructs with the robot subtype.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Magical Beasts|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify magical beasts.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Monstrous Humanoids|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify monstrous humanoids.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Oozes|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify oozes.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Outsiders|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify outsiders.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Outsiders Evil|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +4 competence bonus on Ecology checks made to identify outsiders with the evil subtype.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Plants|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify plant creatures.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Undead|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify undead.
+USERPOOL:Ecology Specialization|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Cleave|TYPE:Combat.AbyssalBloodline.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline|DESC:You can strike two adjacent foes with a single swing.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.KoboldBloodline.CelestialBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.UndeadBloodragerBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Chainsaw|TYPE:Combat.BorealBloodline|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Furious Focus|TYPE:Combat|DESC:Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Chainsaw|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Android ~ Favored Class Bonus ~ Talent|APPLIEDTO:,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSlayer|DESC:Gain 1/6 of a new slayer talent.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Mental Prowess I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Wisdom ~ Mental Prowess Basic|TYPE:WisdomProgression.MentalProwessBasic
+USERPOOL:Mental Prowess I|POOLPOINTS:0.0
+ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rules ~ Use Hero Points|TYPE:OptionalRules
+USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
+ABILITY:Physical Prowess I|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Strength ~ Physical Prowess Basic|TYPE:StrengthProgression.PhysicalProwessBasic
+USERPOOL:Physical Prowess I|POOLPOINTS:0.0
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Improved Precise Shot|TYPE:RangerBonusFeat|DESC:Your ranged attacks ignore anything but total concealment and cover.
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Point-Blank Shot|TYPE:RangerBonusFeat|DESC:You are especially accurate when making ranged attacks against close target.
+USERPOOL:Ranger Combat Style Feat|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Numeria|TYPE:Region|DESC:Savage Land of Super-Science
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Combat Style I|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.SpecialQuality.Extraordinary|DESC:The slayer selects a ranger combat style and gains a combat feat from the first feat list of that style. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Combat Style II|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.SpecialQuality.Extraordinary|DESC:The slayer gains another combat style bonus feat and can add the 6th level bonus feats to the list.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Combat Trick|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.SpecialQuality.Extraordinary|DESC:You gain a bonus combat feat.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Opportunist|TYPE:SlayerTalent.SlayerAdvancedTalent.SpecialAttack.Extraordinary|DESC:You can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character.|DESC: Once per round, you can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as an attack of opportunity for that round. Even if you have the Combat Reflexes feat, you can't use the Opportunist ability more than once per round.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Slow Reactions|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.SpecialQuality.Extraordinary|DESC:Opponents damaged by your sneak attack can't make attacks of opportunity for 1 round.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Weapon Training|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.Extraordinary.SpecialQuality|DESC:You gain Weapon Focus as a bonus feat.
+USERPOOL:Slayer Talent|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Robot Slayer|TYPE:Trait.BasicTrait.CampaignTrait|DESC:The strange automatons that plague the wilds of Numeria are a blight upon the world, and the idea that there could be countless more of these creatures lying in wait in the unknown ruins scattered throughout the region chills your blood. Khonnir's recovery of a deactivated robot from the caves below Torch worries you-not only could that thing wake up and run amok in town, but there may well be more lurking below! You want to explore the caves under Torch to determine if there is indeed a lurking robot threat below town. You gain a +1 trait bonus on attack rolls against robots and a +1 dodge bonus to AC against attacks made by robots.
+USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:Weapon Training|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:CATEGORY=Special Ability&pipe;Powered Melee|TYPE:Combat.WeaponFocus.DestinedBloodline.OracleWeaponMastery.CelestialBloodragerBloodline.DestinedBloodragerBloodline.ElementalBloodragerBloodline|DESC:You are especially good at using weapon of your chosen type.
+USERPOOL:Weapon Training|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Ankus|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chainsaw|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Estoc|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gandasa|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush]
+WEAPONPROF:[WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Kumade|WEAPON:Lance|WEAPON:Laser Torch|WEAPON:Longbow]
+WEAPONPROF:[WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Machete|WEAPON:Manople|WEAPON:Mattock|WEAPON:Mere Club]
+WEAPONPROF:[WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Planson|WEAPON:Poisoned Sand Tube]
+WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe]
+WEAPONPROF:[WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)]
+WEAPONPROF:[WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane]
+WEAPONPROF:[WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+WEAPONPROF:[WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Arrow|OUTPUTORDER:23|COST:0.05|WT:0.15|QUANTITY:19.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Backpack|OUTPUTORDER:6|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Battery|OUTPUTORDER:22|COST:100|WT:0.1|QUANTITY:2.0|NOTE:
+EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:5|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Breastplate +3|OUTPUTORDER:4|COST:9350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=Breastplate +3$EQMOD=STEEL.PLUS3A]
+EQUIPNAME:Chainsaw +2|OUTPUTORDER:2|COST:11000.0|WT:10.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainsaw|DATA:NAME=Chainsaw +2$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;.PLUS2W]
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:17|COST:0.01|WT:0.02|QUANTITY:8.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:18|COST:1|WT:0.02|QUANTITY:93.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:19|COST:0.1|WT:0.02|QUANTITY:9.0|NOTE:
+EQUIPNAME:Composite Longbow +1 (Strength Rating +2)|OUTPUTORDER:28|COST:2600.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Composite Longbow +1 (Strength Rating +2)$EQMOD=WOOD.PLUS1W.BOWSTR&pipe;+2]
+EQUIPNAME:Concussion grenade|OUTPUTORDER:13|COST:750|WT:1.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Dagger (Cold Iron)|OUTPUTORDER:31|COST:4.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger (Cold Iron)$EQMOD=C_IRON]
+EQUIPNAME:Flint and Steel|OUTPUTORDER:16|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Gas Grenade|OUTPUTORDER:12|COST:750|WT:1.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Grappling Hook|OUTPUTORDER:7|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hearth Mantle|OUTPUTORDER:1|COST:3600|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hemochem (Grade III)|OUTPUTORDER:14|COST:750|WT:0.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Human Bane Arrow +1|OUTPUTORDER:24|COST:166.05|WT:0.15|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Human Bane Arrow +1$EQMOD=STEEL.WOOD.PLUS1M.BANE&pipe;Humanoids (Human)]
+EQUIPNAME:Ioun Stone (Dusty rose Prism)|OUTPUTORDER:26|COST:5000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Lucerne Hammer|OUTPUTORDER:30|COST:15.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lucerne Hammer|DATA:NAME=Lucerne Hammer$EQMOD=BRACE.STEEL]
+EQUIPNAME:Masterwork Horsechopper|OUTPUTORDER:27|COST:310.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Horsechopper|DATA:NAME=Masterwork Horsechopper$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Masterwork Longsword|OUTPUTORDER:29|COST:315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Masterwork Longsword$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Medlance|OUTPUTORDER:14|COST:50.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Medlance|DATA:NAME=Medlance$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;1&rbracket;]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:3|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
+EQUIPNAME:Potion of Gaseous Form|OUTPUTORDER:21|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:15|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:8|COST:10|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Silverdisk|OUTPUTORDER:20|COST:10|WT:0.1|QUANTITY:6.0|NOTE:
+EQUIPNAME:Skillslot|OUTPUTORDER:25|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Soft grenade|OUTPUTORDER:11|COST:750|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Waterskin (Filled)|OUTPUTORDER:9|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Whetstone|OUTPUTORDER:10|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.04|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.01|VALUE:Grappling Hook|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.02|VALUE:Rope (Silk/50 ft)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.03|VALUE:Waterskin (Filled)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.04|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.06|VALUE:Soft grenade|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.10|VALUE:Gas Grenade|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.12|VALUE:Concussion grenade|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.15|VALUE:Medlance|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack|ID:0.1.04.16|VALUE:Hemochem (Grade III)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.01|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.02|VALUE:Coin (Copper Piece)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.03|VALUE:Coin (Gold Piece)|QUANTITY:93.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.05|VALUE:Coin (Silver Piece)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.07|VALUE:Silverdisk|QUANTITY:6.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.08|VALUE:Potion of Gaseous Form|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.09|VALUE:Battery|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.06|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Arrow|QUANTITY:19.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.22|VALUE:Human Bane Arrow +1|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.24|VALUE:Masterwork Horsechopper|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.25|VALUE:Composite Longbow +1 (Strength Rating +2)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.26|VALUE:Masterwork Longsword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.27|VALUE:Lucerne Hammer|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.28|VALUE:Dagger (Cold Iron)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.32|VALUE:Skillslot|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.33|VALUE:Chainsaw +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.34|VALUE:Breastplate +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.35|VALUE:Ioun Stone (Dusty rose Prism)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Feet|ID:0.1.36|VALUE:Boots of Striding And Springing|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.37|VALUE:Hearth Mantle|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;2
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

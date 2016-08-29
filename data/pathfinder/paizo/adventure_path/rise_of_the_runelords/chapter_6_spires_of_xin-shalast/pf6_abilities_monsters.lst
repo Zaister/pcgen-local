@@ -1,0 +1,11 @@
+# CVS $Revision: 11806 $ $Author: eddyanthony $ -- Mon Feb 21 10:36:10 2011 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 6: Spires of Xin-Shalast	SOURCESHORT:PF6	SOURCEWEB:http://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c	SOURCEDATE:2008-01
+# Original Entry by: Stefan Radermacher
+
+###Block: Horror Tree abilities
+# Ability Name	Unique Key				Category of Ability		Type						Description																																																											Source Page
+Fungus		KEY:Fungus ~ Horror Tree	CATEGORY:Special Ability	TYPE:SpecialAttack.Extraordinary	DESC:The Horror Tree's branches are encrusted with a virulent fungus that grows rapidly when in contact with blood, sending filaments ripping through the bodies of any living creatures damaged by its slams and dealing 1d6 points of Dexterity damage in the process. A creature that takes damage to or in excess of its Dexterity score by this effect is slain.	SOURCEPAGE:p.13
+
+#
+# End
+#

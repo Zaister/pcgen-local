@@ -1,0 +1,30 @@
+# CVS $Revision: 12596 $ $Author: zaister $ -- Thu Sep  2 11:10:30 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Advanced Player's Guide	SOURCESHORT:PFAPG	SOURCEWEB:http://paizo.com/store/downloads/pathfinder/pathfinderRPG/v5748btpy8fo1	SOURCEDATE:2010-08
+# Original Entry by: Stefan Radermacher
+
+# Deity Name		Domains												Desciption of Deity/Title					Holy Item	Deity Weapon				Alignment	Pantheon					Source Page
+#Abadar.MOD			DOMAINS:Earth,Law,Nobility,Protection,Travel|PREALIGN:LG,LN,NG,TN
+#Asmodeus.MOD		DOMAINS:Evil,Fire,Law,Magic,Trickery|PREALIGN:LN,LE,NE
+#Calistria.MOD		DOMAINS:Chaos,Charm,Knowledge,Luck,Trickery|PREALIGN:CG,TN,CN,CE
+#Cayden Cailean.MOD	DOMAINS:Chaos,Charm,Good,Strength,Travel|PREALIGN:NG,CG,CN
+#Desna.MOD			DOMAINS:Chaos,Good,Liberation,Luck,Travel|PREALIGN:NG,CG,CN
+#Erastil.MOD			DOMAINS:Animal,Community,Good,Law,Plant|PREALIGN:LG,LN,NG
+#Gorum.MOD			DOMAINS:Chaos,Destruction,Glory,Strength,War|PREALIGN:CG,TN,CN,CE
+#Gozreh.MOD			DOMAINS:Air,Animal,Plant,Water,Weather|PREALIGN:LN,NG,TN,NE,CN
+#Iomedae.MOD			DOMAINS:Glory,Good,Law,Sun,War|PREALIGN:LG,LN,NG
+#Irori.MOD			DOMAINS:Healing,Knowledge,Law,Rune,Strength|PREALIGN:LG,LN,TN,NG
+#Lamashtu.MOD		DOMAINS:Chaos,Evil,Madness,Strength,Trickery|PREALIGN:NE,CN,CE
+#Nethys.MOD			DOMAINS:Destruction,Knowledge,Magic,Protection,Rune|PREALIGN:LN,NG,TN,NE,CN
+#Norgorber.MOD		DOMAINS:Charm,Death,Evil,Knowledge,Trickery|PREALIGN:TN,LE,NE,CE
+#Pharasma.MOD		DOMAINS:Death,Healing,Knowledge,Repose,Water|PREALIGN:LN,NG,TN,NE,CN
+#Rovagug.MOD			DOMAINS:Chaos,Destruction,Evil,War,Weather|PREALIGN:NE,CN,CE
+# Deity Name	Domains
+Sarenrae.MOD	DOMAINS:Restoration|PREALIGN:LG,NG,CG,TN
+#Shelyn.MOD			DOMAINS:Air,Charm,Good,Luck,Protection|PREALIGN:LG,NG,CG,TN
+#Torag.MOD			DOMAINS:Artifice,Earth,Good,Law,Protection|PREALIGN:LG,LN,NG
+#Urgathoa.MOD		DOMAINS:Death,Evil,Magic,Strength,War|PREALIGN:TN,LE,NE,CE
+#Zon-Kuthon.MOD		DOMAINS:Darkness,Death,Destruction,Evil,Law|PREALIGN:LN,LE,NE
+
+#
+# End
+#

@@ -1,0 +1,11 @@
+# CVS $Revision: 10678 $ $Author: eddyanthony $ -- Tue Oct 19 13:38:37 2010 -- reformated by prettylst.pl v1.39 (build 11455)
+SOURCELONG:Rise of the Runelords, Chapter 1: Burnt Offerings	SOURCESHORT:PF1	SOURCEWEB:http://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy7zkq	SOURCEDATE:2007-08
+# Original Entry by: Stefan Radermacher
+
+# Template Name					Size		Source Page		Combat bonus								Stat bonus		Modify VAR																				Ability																												Subrace		Natural Attacks
+Lamashtu's Gift							SOURCEPAGE:p.52																																																																			NATURALATTACKS:Claw,Weapon.Natural.Melee.Finesseable.Piercing.Slashing,*1,1d6
+Waters of Lamashtu (Koruvus's Mutation)	SIZE:M	SOURCEPAGE:p.28	BONUS:COMBAT|AC|4|TYPE=NaturalArmor	BONUS:COMBAT|TOHIT|-4	BONUS:STAT|STR|4	BONUS:VAR|BreathWeaponDice|2	BONUS:VAR|BreathWeaponDamageDie|4	BONUS:VAR|BreathWeaponLine|20	BONUS:VAR|FastHealingRate|1	ABILITY:Special Ability|AUTOMATIC|Breath Weapon ~ Line of Acid|Fast Healing|Immunity to Acid|Immunity to Mind-Affecting Effects|Immunity to Paralysis|Immunity to Poison	SUBRACE:Mutated
+
+#
+# End
+#
