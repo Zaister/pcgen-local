@@ -8,9 +8,9 @@ fi
 
 pushd pcgen >/dev/null
 OLDBRANCH=$(git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
-if [[ ${BRANCH} = ${OLDBRANCH} ]]
+if [[ ! ${BRANCH} = ${OLDBRANCH} ]]
 then
-	git checkout ${1}
+	git checkout ${BRANCH}
 fi
 if [[ $? != 0 ]]
 then
@@ -20,7 +20,7 @@ fi
 
 sh pcgen.sh
 
-if [[ ${BRANCH} = ${OLDBRANCH} ]]
+if [[ ! ${BRANCH} = ${OLDBRANCH} ]]
 then
 	git checkout ${OLDBRANCH}
 fi
