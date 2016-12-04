@@ -24,7 +24,7 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:Zivandalee Rasivrein
+CHARACTERNAME:Zivalandi Rasivrein
 TABNAME:
 PLAYERNAME:NPC
 HEIGHT:74
@@ -114,31 +114,31 @@ SKILL:Intimidate|OUTPUTORDER:26|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
-SKILL:Knowledge (Dungeoneering)|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
-SKILL:Perception|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Untrained)|OUTPUTORDER:33|
-SKILL:Profession (Untrained)|OUTPUTORDER:34|
-SKILL:Ride|OUTPUTORDER:35|
-SKILL:Samurai Mount|OUTPUTORDER:36|
-SKILL:Sense Motive|OUTPUTORDER:37|
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:38|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:39|
-SKILL:Stealth|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival (Follow tracks)|OUTPUTORDER:44|
-SKILL:Swim|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Untrained Charisma|OUTPUTORDER:46|
-SKILL:Untrained Dexterity|OUTPUTORDER:47|
-SKILL:Untrained Intelligence|OUTPUTORDER:48|
-SKILL:Untrained Strength|OUTPUTORDER:49|
-SKILL:Untrained Wisdom|OUTPUTORDER:50|
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:31|
+SKILL:Perception|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:34|
+SKILL:Profession (Untrained)|OUTPUTORDER:35|
+SKILL:Ride|OUTPUTORDER:36|
+SKILL:Samurai Mount|OUTPUTORDER:37|
+SKILL:Sense Motive|OUTPUTORDER:38|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:39|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:40|
+SKILL:Stealth|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival (Follow tracks)|OUTPUTORDER:45|
+SKILL:Swim|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Ranger|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:47|
+SKILL:Untrained Dexterity|OUTPUTORDER:48|
+SKILL:Untrained Intelligence|OUTPUTORDER:49|
+SKILL:Untrained Strength|OUTPUTORDER:50|
+SKILL:Untrained Wisdom|OUTPUTORDER:51|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:31|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:40|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:41|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:51|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:32|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:41|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:42|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:52|
 
 # Character Languages
 LANGUAGE:Aklo|LANGUAGE:Elven|LANGUAGE:Undercommon
@@ -147,6 +147,8 @@ LANGUAGE:Aklo|LANGUAGE:Elven|LANGUAGE:Undercommon
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Aklo|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Combat Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style ~ Crossbow|TYPE:RangerCombatStyle
 USERPOOL:Combat Style|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
@@ -196,8 +198,8 @@ WEAPONPROF:[WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Ton
 WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0.00
-EQUIPNAME:Bolt, Crossbow|OUTPUTORDER:4|COST:0.1|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:KEY=Bolt (Crossbow)$EQMOD=STEEL.WOOD]
+MONEY:0
+EQUIPNAME:Bolt, Crossbow|OUTPUTORDER:4|COST:0.1|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bolt (Crossbow)|DATA:NAME=Bolt, Crossbow$KEY=Bolt (Crossbow)$EQMOD=STEEL.WOOD]
 EQUIPNAME:Buckler +1|OUTPUTORDER:3|COST:1155.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Buckler +1$EQMOD=STEEL.PLUS1S]
 EQUIPNAME:Chain Shirt +1|OUTPUTORDER:2|COST:1250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt +1$EQMOD=STEEL.PLUS1A]
 EQUIPNAME:Crossbow, Hand +2 (Shock)|OUTPUTORDER:1|COST:18400.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Crossbow (Hand)|DATA:NAME=Crossbow, Hand +2 (Shock)$KEY=Crossbow +2 (Hand/Shock)$EQMOD=WOOD.PLUS2W.SHOCK]
