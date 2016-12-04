@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Bestiary|CAMPAIGN:Technology Guide
+CAMPAIGN:Core Rulebook|CAMPAIGN:Bestiary|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Combat|CAMPAIGN:Technology Guide
 VERSION:6.07.01-dev
 ROLLMETHOD:2|EXPRESSION:Standard Fantasy
 PURCHASEPOINTS:Y|TYPE:Standard Fantasy
@@ -27,8 +27,8 @@ AUTORESIZEGEAR:Y
 CHARACTERNAME:Gunslinger
 TABNAME:
 PLAYERNAME:
-HEIGHT:62
-WEIGHT:140
+HEIGHT:65
+WEIGHT:155
 AGE:0
 GENDER:Male
 HANDED:Right
@@ -50,7 +50,7 @@ PORTRAIT:
 
 # Character Attributes
 STAT:STR|SCORE:12
-STAT:DEX|SCORE:16
+STAT:DEX|SCORE:15
 STAT:CON|SCORE:13
 STAT:INT|SCORE:10
 STAT:WIS|SCORE:14
@@ -58,14 +58,11 @@ STAT:CHA|SCORE:8
 RACE:Human
 
 # Character Class(es)
-CLASS:Gunslinger|LEVEL:4|SKILLPOOL:20|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Gunslinger|LEVEL:1|SKILLPOOL:5|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Gunslinger=1|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:5
-CLASSABILITIESLEVEL:Gunslinger=2|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:5
-CLASSABILITIESLEVEL:Gunslinger=3|HITPOINTS:5|SKILLSGAINED:5|SKILLSREMAINING:5
-CLASSABILITIESLEVEL:Gunslinger=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:5|SKILLSREMAINING:5
 
 # Character Experience
-EXPERIENCE:9000
+EXPERIENCE:0
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -77,56 +74,6 @@ TEMPLATESAPPLIED:[NAME:REACH_5]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|
-SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
-SKILL:Appraise|OUTPUTORDER:3|
-SKILL:Bluff|OUTPUTORDER:4|
-SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
-SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
-SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
-SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
-SKILL:Climb|OUTPUTORDER:9|
-SKILL:Craft (Untrained)|OUTPUTORDER:10|
-SKILL:Diplomacy|OUTPUTORDER:11|
-SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
-SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
-SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
-SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
-SKILL:Disguise|OUTPUTORDER:17|
-SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
-SKILL:Escape Artist|OUTPUTORDER:19|
-SKILL:Fly|OUTPUTORDER:20|
-SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
-SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
-SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
-SKILL:Heal|OUTPUTORDER:25|
-SKILL:Intimidate|OUTPUTORDER:26|
-SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
-SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
-SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
-SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
-SKILL:Perception|OUTPUTORDER:32|
-SKILL:Perform (Untrained)|OUTPUTORDER:33|
-SKILL:Profession (Untrained)|OUTPUTORDER:34|
-SKILL:Ride|OUTPUTORDER:35|
-SKILL:Samurai Mount|OUTPUTORDER:36|
-SKILL:Sense Motive|OUTPUTORDER:37|
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:38|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:39|
-SKILL:Stealth|OUTPUTORDER:42|
-SKILL:Survival|OUTPUTORDER:43|
-SKILL:Swim|OUTPUTORDER:44|
-SKILL:Untrained Charisma|OUTPUTORDER:45|
-SKILL:Untrained Dexterity|OUTPUTORDER:46|
-SKILL:Untrained Intelligence|OUTPUTORDER:47|
-SKILL:Untrained Strength|OUTPUTORDER:48|
-SKILL:Untrained Wisdom|OUTPUTORDER:49|
-SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
-SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:31|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:40|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:41|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:50|
 
 # Character Languages
 LANGUAGE:Common
@@ -137,10 +84,10 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Gunslinger Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Gunslinger Archetype ~ Techslinger|TYPE:Archetype.GunslingerArchetype.GunslingerDeedDeadeye.GunslingerDeedQuickClear.GunslingerDeedExpertLoading.GunslingerGunTraining|DESC:Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments. They learn to master the quirks of timeworn technology and methods ofkeeping weapons charged in a primitive world. Techslingers still start play with the black powder blunderbuss, pistol, or rifle granted by the gunsmith class ability, but they gain specialized powers for use after they gain weapons of advanced technology. A techslinger has the following class features.
-USERPOOL:Gunslinger Archetype|POOLPOINTS:0.0
-ABILITY:Gunslinger Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Gunslinger Feat|APPLIEDTO:|TYPE:Gunslinger Bonus Feat Selection
-USERPOOL:Gunslinger Bonus Feat Selection|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Gunslinger|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Amentum|WEAPON:Arc Pistol|WEAPON:Arc Rifle|WEAPON:Atlatl|WEAPON:Autograpnel|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
@@ -160,8 +107,12 @@ WEAPONPROF:[WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoz
 WEAPONPROF:[WEAPON:Warhammer|WEAPON:Wushu Dart|WEAPON:Zero Pistol|WEAPON:Zero Rifle]
 
 # Character Equipment
-MONEY:0
+MONEY:0.00
+EQUIPNAME:Flashlight|OUTPUTORDER:2|COST:30|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Zero Rifle|OUTPUTORDER:1|COST:20000|WT:6.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.01|VALUE:Zero Rifle|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Flashlight|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses

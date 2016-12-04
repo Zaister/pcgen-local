@@ -1,11 +1,11 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook
+CAMPAIGN:Pathfinder RPG for Players|CAMPAIGN:Curse of the Crimson Throne Adventure Path
 VERSION:6.07.01-dev
 ROLLMETHOD:2|EXPRESSION:Standard Fantasy
 PURCHASEPOINTS:Y|TYPE:Standard Fantasy
-CHARACTERTYPE:NPC
+CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:15
 POOLPOINTSAVAIL:15
@@ -27,8 +27,8 @@ AUTORESIZEGEAR:Y
 CHARACTERNAME:Testbert
 TABNAME:
 PLAYERNAME:
-HEIGHT:70
-WEIGHT:180
+HEIGHT:73
+WEIGHT:195
 AGE:19
 GENDER:Male
 HANDED:Right
@@ -49,27 +49,21 @@ CATCHPHRASE:
 PORTRAIT:
 
 # Character Attributes
-STAT:STR|SCORE:16
+STAT:STR|SCORE:15
 STAT:DEX|SCORE:13
-STAT:CON|SCORE:12
-STAT:INT|SCORE:8
-STAT:WIS|SCORE:10
-STAT:CHA|SCORE:14
-ALIGN:LG
+STAT:CON|SCORE:14
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:12
+STAT:CHA|SCORE:8
+ALIGN:LE
 RACE:Human
 
 # Character Class(es)
-CLASS:Paladin|LEVEL:7|SKILLPOOL:14
-CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:2|SKILLSREMAINING:2
-CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:2
-CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:2
-CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:6|PRESTAT:STR=1|SKILLSGAINED:2|SKILLSREMAINING:2
-CLASSABILITIESLEVEL:Paladin=5|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:2
-CLASSABILITIESLEVEL:Paladin=6|HITPOINTS:6|SKILLSGAINED:2|SKILLSREMAINING:2
-CLASSABILITIESLEVEL:Paladin=7|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:2
+CLASS:Fighter|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:35000
+EXPERIENCE:0
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -89,9 +83,9 @@ SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
-SKILL:Climb|OUTPUTORDER:9|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:10|
-SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
@@ -104,7 +98,7 @@ SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
 SKILL:Heal|OUTPUTORDER:25|
-SKILL:Intimidate|OUTPUTORDER:26|
+SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
@@ -139,19 +133,22 @@ LANGUAGE:Common
 FEATPOOL:0.0
 
 # Character Abilities
-ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Campaign Trait ~ Hungry for Revenge|TYPE:Trait.CampaignTrait|DESC:You were hardly a model citizen as a child or young adult. Your reasons for turning to a life of crime may be varied, but what matters is that you eventually fell in with a certain well-connected and notorious crime lord named Gaedren Lamm. His reputation as a snake and a treacherous scoundrel was known to you, but for reasons of your own, you chose not to turn him down when he offered you a chance to work for him. You may have assumed you were an exception, or that you'd be able to handle him, or perhaps even planned to betray him. As it worked out, though, Gaedren got the upper hand and took you down you first. You may have served time in jail, may have been beaten by his thugs and left for dead, or could simply have had your profits stolen out from under you. Whatever the cause, Gaedren wronged you, and you are eager for the chance to get revenge.&amp;nl;|DESC:You've never forgiven Gaedren for his betrayal, and have vowed to make him pay for what he did. Whether that's seeing him rot in jail or a shallow grave, you hope to taste vengeance someday. Whenever you deal damage with a melee weapon on a creature that is flat-footed, you gain a +1 trait bonus on the damage roll.
+USERPOOL:Traits|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
-WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Double Chicken Saber|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple]
-WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Iron Brush|WEAPON:Javelin]
-WEAPONPROF:[WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)]
-WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Poisoned Sand Tube]
-WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe]
-WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
-WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa]
-WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword]
+WEAPONPROF:[WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Double Chicken Saber|WEAPON:Falchion]
+WEAPONPROF:[WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit]
+WEAPONPROF:[WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock]
+WEAPONPROF:[WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff]
+WEAPONPROF:[WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Shang Gou]
+WEAPONPROF:[WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
+WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje]
+WEAPONPROF:[WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
 MONEY:0
@@ -163,12 +160,9 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Erastil|DEITYDOMAINS:[DOMAIN:Animal|DOMAIN:Community|DOMAIN:Good|DOMAIN:Law|DOMAIN:Plant]|ALIGNALLOW:|DESC:God of farming, hunting, trade, family|DEITYFAVWEAP:[WEAPON:Longbow]|DEITYALIGN:LG
 
 # Character Spells Information
-SPELLBOOK:Class|TYPE:4
-SPELLBOOK:Prepared Spells|TYPE:2
-SPELLNAME:Bless Weapon|TIMES:1|CLASS:Paladin|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin]
+SPELLBOOK:Magic Item|TYPE:4
 
 # Character Description/Bio/History
 CHARACTERBIO:

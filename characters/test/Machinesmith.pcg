@@ -1,11 +1,11 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook
+CAMPAIGN:Core Rulebook|CAMPAIGN:Classes of NeoExodus: Machinesmith|CAMPAIGN:NeoExodus Chronicles: Weapons of Machinesmith Destruction
 VERSION:6.07.01-dev
-ROLLMETHOD:2|EXPRESSION:High Fantasy
-PURCHASEPOINTS:Y|TYPE:High Fantasy
-CHARACTERTYPE:PC
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
+CHARACTERTYPE:NPC
 PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:15
 POOLPOINTSAVAIL:15
@@ -24,12 +24,12 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:ĄąĆćŁłÓóŃńŹźŻż
+CHARACTERNAME:Machinesmith
 TABNAME:
 PLAYERNAME:
-HEIGHT:70
-WEIGHT:180
-AGE:17
+HEIGHT:66
+WEIGHT:160
+AGE:0
 GENDER:Male
 HANDED:Right
 SKINCOLOR:
@@ -46,24 +46,26 @@ SPEECHPATTERN:
 PHOBIAS:
 INTERESTS:
 CATCHPHRASE:
-PORTRAIT:/Users/stefan/PCGen/local/characters/test/Sorcerer_by_NadrojWobrek.jpg
-PORTRAITTHUMBNAILRECT:377,89,169,169
+PORTRAIT:
 
 # Character Attributes
-STAT:STR|SCORE:15
+STAT:STR|SCORE:10
 STAT:DEX|SCORE:13
-STAT:CON|SCORE:14
-STAT:INT|SCORE:10
-STAT:WIS|SCORE:12
+STAT:CON|SCORE:12
+STAT:INT|SCORE:16
+STAT:WIS|SCORE:14
 STAT:CHA|SCORE:8
 RACE:Human
 
 # Character Class(es)
-CLASS:Fighter|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
-CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASS:Machinesmith|LEVEL:4|SKILLPOOL:37
+CLASSABILITIESLEVEL:Machinesmith=1|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Machinesmith=2|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Machinesmith=3|HITPOINTS:4|SKILLSGAINED:9|SKILLSREMAINING:9
+CLASSABILITIESLEVEL:Machinesmith=4|HITPOINTS:5|PRESTAT:INT=1|SKILLSGAINED:9|SKILLSREMAINING:9
 
 # Character Experience
-EXPERIENCE:0
+EXPERIENCE:9000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -83,7 +85,7 @@ SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
 SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
-SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Climb|OUTPUTORDER:9|
 SKILL:Craft (Untrained)|OUTPUTORDER:10|
 SKILL:Diplomacy|OUTPUTORDER:11|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
@@ -98,7 +100,7 @@ SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
 SKILL:Heal|OUTPUTORDER:25|
-SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:26|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
@@ -106,7 +108,7 @@ SKILL:Knowledge (Untrained)|OUTPUTORDER:30|
 SKILL:Perception|OUTPUTORDER:32|
 SKILL:Perform (Untrained)|OUTPUTORDER:33|
 SKILL:Profession (Untrained)|OUTPUTORDER:34|
-SKILL:Ride|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Ride|OUTPUTORDER:35|
 SKILL:Samurai Mount|OUTPUTORDER:36|
 SKILL:Sense Motive|OUTPUTORDER:37|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:38|
@@ -133,25 +135,27 @@ LANGUAGE:Common
 FEATPOOL:0.0
 
 # Character Abilities
-ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Intelligence|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Machinesmith|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Machinesmith Greatwork|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Greatworks ~ Mechanus|TYPE:MachinesmithClassFeatures.SpecialQuality.Supernatural.MachinesmithGreatwork|DESC:Many machinesmiths create automatons capable of performing a host of duties. Whether or not the servitor is created from intricate clockwork, or steam driven pistons, they share the same capabilities. Unless granted a Master Upgrade, all mechani are unintelligent constructs that follow the machinesmith's instructions unfailingly.
+USERPOOL:Machinesmith Greatwork|POOLPOINTS:0.0
+ABILITY:Machinesmith Trick|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Machinesmith Trick ~ Eye for Danger|TYPE:MachinesmithClassFeatures.SpecialQuality.Extraordinary.MachinesmithTrick.Technique|DESC:Being accustomed to the sudden and often explosive hazards of operating mechanical devices hones the machinesmith to keep an eye out for the sudden and often lethal hazards of adventuring. The machine smith gains a +2 luck bonus on Reflex saves and initiative rolls.
+USERPOOL:Machinesmith Trick|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Battleaxe|WEAPON:Blowgun|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
-WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Double Chicken Saber|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Glaive|WEAPON:Grapple]
-WEAPONPROF:[WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Iron Brush|WEAPON:Javelin]
-WEAPONPROF:[WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)]
-WEAPONPROF:[WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Poisoned Sand Tube]
-WEAPONPROF:[WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe]
-WEAPONPROF:[WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
-WEAPONPROF:[WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa]
-WEAPONPROF:[WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Blowgun|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Crossbow (Repeating Heavy)|WEAPON:Crossbow (Repeating Light)|WEAPON:Dagger|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet]
+WEAPONPROF:[WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Unarmed Strike]
 
 # Character Equipment
 MONEY:0
-EQUIPNAME:Longsword|OUTPUTORDER:1|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword$EQMOD=STEEL]
+EQUIPNAME:Blueprint Book|OUTPUTORDER:0|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Blueprint Book|DATA:NAME=Blueprint Book]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Longsword|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.1|VALUE:Blueprint Book|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -161,6 +165,7 @@ CALCEQUIPSET:0.1
 # Character Deity/Domain
 
 # Character Spells Information
+SPELLBOOK:Blueprint Book|TYPE:3
 
 # Character Description/Bio/History
 CHARACTERBIO:
@@ -171,13 +176,14 @@ CHARACTERMAGIC:
 CHARACTERDMNOTES:
 
 # Kits
+KIT:Machinesmith Blueprint Book
 
 # Character Master/Follower
 
 # Character Notes Tab
 
 # Age Set Selections
-AGESET:1:0:0:0:0:0:0:0:0:0
+AGESET:0:0:0:0:0:0:0:0:0:0
 
 # Campaign History
 
