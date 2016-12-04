@@ -68,30 +68,80 @@ EXPERIENCETABLE:Medium
 
 # Character Templates
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:Celestial Creature]
 TEMPLATESAPPLIED:[NAME:FACE_2]
 TEMPLATESAPPLIED:[NAME:REACH_0]
-TEMPLATESAPPLIED:[NAME:Celestial Creature]
 TEMPLATESAPPLIED:[NAME:Bite 1 (Tiny)]
 
 # Character Region
 REGION:None
 
 # Character Skills
-SKILL:Appraise|
-SKILL:Ecology|
-SKILL:Endurance|
-SKILL:Heal|
-SKILL:Knowledge (Arcana)|
-SKILL:Knowledge (Local)|
-SKILL:Knowledge (Nature)|
-SKILL:Lore|
-SKILL:Perception|
-SKILL:Profession (Herbalist)|
-SKILL:Search|
-SKILL:Spellcraft|
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Artistry (Untrained)|OUTPUTORDER:4|
+SKILL:Athletics|OUTPUTORDER:5|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Ecology|OUTPUTORDER:21|
+SKILL:Endurance|OUTPUTORDER:22|
+SKILL:Escape Artist|OUTPUTORDER:23|
+SKILL:Fly|OUTPUTORDER:24|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:25|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:27|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:28|
+SKILL:Heal|OUTPUTORDER:29|
+SKILL:Intimidate|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:34|
+SKILL:Knowledge (Local)|OUTPUTORDER:35|
+SKILL:Knowledge (Nature)|OUTPUTORDER:36|
+SKILL:Knowledge (Planes)|OUTPUTORDER:37|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:38|
+SKILL:Linguistics||ASSOCIATEDDATA:Draconic
+SKILL:Perception|OUTPUTORDER:40|
+SKILL:Perform (Untrained)|OUTPUTORDER:41|
+SKILL:Profession (Herbalist)|OUTPUTORDER:42|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Search|OUTPUTORDER:46|
+SKILL:Sense Motive|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:48|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:49|
+SKILL:Spellcraft|OUTPUTORDER:52|
+SKILL:Stealth|OUTPUTORDER:53|
+SKILL:Survival|OUTPUTORDER:54|
+SKILL:Swim|OUTPUTORDER:55|
+SKILL:Untrained Charisma|OUTPUTORDER:56|
+SKILL:Untrained Dexterity|OUTPUTORDER:57|
+SKILL:Untrained Intelligence|OUTPUTORDER:58|
+SKILL:Untrained Strength|OUTPUTORDER:59|
+SKILL:Untrained Wisdom|OUTPUTORDER:60|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:39|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
 
 # Character Languages
-
+LANGUAGE:Draconic
 
 # Character Feats
 FEATPOOL:0.0

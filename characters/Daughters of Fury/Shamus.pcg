@@ -50,7 +50,7 @@ PORTRAIT:
 
 # Character Attributes
 STAT:STR|SCORE:14
-STAT:DEX|SCORE:13
+STAT:DEX|SCORE:14
 STAT:CON|SCORE:14
 STAT:INT|SCORE:10
 STAT:WIS|SCORE:12
@@ -59,13 +59,14 @@ ALIGN:CN
 RACE:Human
 
 # Character Class(es)
-CLASS:Inquisitor|LEVEL:3|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:0,3
+CLASS:Inquisitor|LEVEL:4|SKILLPOOL:0|SPELLBASE:WIS|CANCASTPERDAY:0,3,1
 CLASSABILITIESLEVEL:Inquisitor=1|HITPOINTS:8|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Inquisitor=2|HITPOINTS:5|SKILLSGAINED:9|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Inquisitor=3|HITPOINTS:4|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Inquisitor=4|HITPOINTS:5|PRESTAT:DEX=1|SKILLSGAINED:9|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:5000
+EXPERIENCE:9050
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -89,7 +90,7 @@ SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
 SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
 SKILL:Climb|OUTPUTORDER:11|
-SKILL:Craft (Tattoos)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Tattoos)|OUTPUTORDER:12|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:Y]
 SKILL:Craft (Untrained)|OUTPUTORDER:13|
 SKILL:Diplomacy|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:15|
@@ -98,15 +99,15 @@ SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:17|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:18|
 SKILL:Disguise|OUTPUTORDER:20|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
-SKILL:Ecology|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Ecology|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Endurance|OUTPUTORDER:23|
 SKILL:Escape Artist|OUTPUTORDER:24|
 SKILL:Fly|OUTPUTORDER:25|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:29|
-SKILL:Heal|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:Y]
-SKILL:Intimidate|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Heal|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:32|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:33|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:34|
@@ -116,17 +117,17 @@ SKILL:Knowledge (Local)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:1.0|C
 SKILL:Knowledge (Planes)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Religion)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:40|
-SKILL:Perception|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:43|
 SKILL:Profession (Untrained)|OUTPUTORDER:44|
 SKILL:Ride|OUTPUTORDER:45|
 SKILL:Samurai Mount|OUTPUTORDER:46|
-SKILL:Search|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:N]
-SKILL:Sense Motive|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Search|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Sense Motive|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:49|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:50|
 SKILL:Stealth|OUTPUTORDER:53|
-SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Inquisitor|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Swim|OUTPUTORDER:55|
 SKILL:Untrained Charisma|OUTPUTORDER:56|
 SKILL:Untrained Dexterity|OUTPUTORDER:57|
@@ -150,6 +151,7 @@ FEATPOOL:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
 ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Fey|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify fey.
+ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Magical Beasts|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify magical beasts.
 ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Monstrous Humanoids|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify monstrous humanoids.
 ABILITY:Ecology Specialization|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ecology ~ Outsiders|TYPE:EcologySpecialization.SpecialQuality|DESC:You gain a +2 competence bonus on Ecology checks made to identify outsiders.
 USERPOOL:Ecology Specialization|POOLPOINTS:0.0
@@ -161,17 +163,24 @@ USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Inquisitor|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Inquisitor Spell|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassInquisitor|DESC:Add one spell known from the inquisitor spell list. This spell must be at least one level below the highest spell level the inquisitor can cast.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Bonus Feat|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with +1 feat.
 USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
 ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
 ABILITY:Inquisitor Domain Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Inquisitor Domain ~ Liberation|TYPE:InquisitorDomain
 USERPOOL:Inquisitor Domain Choice|POOLPOINTS:0.0
+ABILITY:Inquisitor Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Inquisitor Spell Level 1|APPLIEDTO:|TYPE:BonusSpellKnownInquisitor
+USERPOOL:Inquisitor Favored Bonus Spell|POOLPOINTS:0.0
 ABILITY:Inquisitor Judgment Effect|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Inquisitor ~ Sacred Judgment|TYPE:InquisitorClassFeatures.SpecialQuality.Supernatural.InquisitorJudgment|DESC:An inquisitor can pronounce judgment upon her foes as a swift action. Starting when the judgment is made, the inquisitor receives a bonus or special ability based on the type of judgment made. An inquisitor can use this ability %1 times per day. Once activated, this ability lasts until the combat ends, at which point all of the bonuses immediately end. The inquisitor must participate in the combat to gain these bonuses. If she is frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the combat, the ability does not end, but the bonuses do not resume until she can participate in the combat again. When the inquisitor uses this ability, she must select one type of judgment to make. As a swift action, she can change this judgment to another type.&pipe;InquisitorJudgmentTimes
 USERPOOL:Inquisitor Judgment Effect|POOLPOINTS:0.0
 ABILITY:Inquisitor Teamwork Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bonus Teamwork Feat|APPLIEDTO:|TYPE:Inquisitor Teamwork Feat
 USERPOOL:Inquisitor Teamwork Feat|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
 ABILITY:Teamwork Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Swap Places|TYPE:Combat.Teamwork|DESC:You are skilled at changing places with your ally during a chaotic melee.
 USERPOOL:Teamwork Feat|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Focused Mind|TYPE:Trait.BasicTrait.MagicTrait|DESC:Your childhood was either dominated by lessons of some sort (be they musical or academic) or by a horrible home life that encouraged your ability to block out distractions to focus on the immediate task at hand. You gain a +2 trait bonus on concentration checks.
@@ -186,27 +195,29 @@ WEAPONPROF:[WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WE
 WEAPONPROF:[WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:Backpack|OUTPUTORDER:6|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:7|COST:1|WT:0.02|QUANTITY:104.0|NOTE:
-EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:8|COST:10|WT:0.02|QUANTITY:100.0|NOTE:
+MONEY:300.00
+EQUIPNAME:Backpack|OUTPUTORDER:7|COST:2|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:8|COST:1|WT:0.02|QUANTITY:104.0|NOTE:
+EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:5|COST:10|WT:0.02|QUANTITY:70.0|NOTE:
 EQUIPNAME:Masterwork Breastplate|OUTPUTORDER:2|COST:350.0|WT:30.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=Masterwork Breastplate$EQMOD=STEEL.MWORKA]
+EQUIPNAME:Masterwork Sword, Bastard|OUTPUTORDER:1|COST:335.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Bastard)|DATA:NAME=Masterwork Sword, Bastard$KEY=Masterwork Sword (Bastard)$EQMOD=STEEL.MWORKW]
 EQUIPNAME:Pouch (Belt)|OUTPUTORDER:4|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
 EQUIPNAME:Shield, Light Wooden|OUTPUTORDER:3|COST:3.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Light/Wooden)|DATA:NAME=Shield, Light Wooden$KEY=Shield (Light/Wooden)$EQMOD=WOOD]
-EQUIPNAME:Spell Component Pouch|OUTPUTORDER:5|COST:5|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Sword, Bastard|OUTPUTORDER:1|COST:35.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Bastard)|DATA:NAME=Sword, Bastard$KEY=Sword (Bastard)$EQMOD=STEEL]
+EQUIPNAME:Spell Component Pouch|OUTPUTORDER:6|COST:5|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.01|VALUE:Sword, Bastard|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shield|ID:0.1.02|VALUE:Shield, Light Wooden|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.03|VALUE:Masterwork Breastplate|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.04|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.04.01|VALUE:Coin (Platinum Piece)|QUANTITY:9.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.05|VALUE:Spell Component Pouch|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.06|VALUE:Backpack|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack|ID:0.1.06.01|VALUE:Coin (Gold Piece)|QUANTITY:104.0|USETEMPMODS:Y
-EQUIPSET:Backpack|ID:0.1.06.02|VALUE:Coin (Platinum Piece)|QUANTITY:100.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.07|VALUE:Masterwork Sword, Bastard|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
+TEMPBONUS:FEAT=Armor Attunement ~ Armor|TBTARGET:Masterwork Breastplate|TBBONUS:COMBAT&pipe;AC&pipe;SINGLEARMORATTUNEMENTBONUS&pipe;TYPE=ENHANCEMENT
+TEMPBONUS:FEAT=Weapon Attunement ~ Single|TBTARGET:Masterwork Sword, Bastard|TBBONUS:WEAPON&pipe;TOHIT,DAMAGE&pipe;SINGLEWEAPONATTUNEMENTBONUS&pipe;TYPE=ENHANCEMENT
 
 # EquipSet Temp Bonuses
 
@@ -215,11 +226,14 @@ DEITY:Feronia|DEITYDOMAINS:[DOMAIN:Destruction|DOMAIN:Fire|DOMAIN:Liberation|DOM
 
 # Character Spells Information
 SPELLBOOK:Inquisitor|TYPE:4
+SPELLNAME:Align Weapon|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
+SPELLNAME:Bloodhound|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Create Water|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Detect Poison|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Divine Favor|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
+SPELLNAME:Expeditious Retreat|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Guidance|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Light|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
 SPELLNAME:Shield of Faith|TIMES:1|CLASS:Inquisitor|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Inquisitor]
