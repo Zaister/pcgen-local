@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Advanced Class Origins|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Hell's Rebels Players Guide|CAMPAIGN:Oliver - House Rules
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Advanced Class Origins|CAMPAIGN:PF - Hell's Rebels Player's Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Adventurer's Armory|CAMPAIGN:Oliver - House Rules
 VERSION:6.07.01-dev
 ROLLMETHOD:2|EXPRESSION:Standard Fantasy
 PURCHASEPOINTS:Y|TYPE:Standard Fantasy
@@ -59,14 +59,16 @@ ALIGN:CG
 RACE:Human
 
 # Character Class(es)
-CLASS:Swashbuckler|LEVEL:4|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Swashbuckler|LEVEL:6|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Swashbuckler=1|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Swashbuckler=2|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Swashbuckler=3|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Swashbuckler=4|HITPOINTS:6|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=5|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=6|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:9000
+EXPERIENCE:23000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -81,7 +83,7 @@ TEMPLATESAPPLIED:[NAME:Human Ethnicity (Chelaxian)]
 REGION:Cheliax
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Bluff|OUTPUTORDER:4|
@@ -96,6 +98,7 @@ SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disable Device|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Disguise|OUTPUTORDER:17|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
 SKILL:Escape Artist|OUTPUTORDER:19|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -104,18 +107,18 @@ SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
 SKILL:Heal|OUTPUTORDER:25|
-SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
 SKILL:Knowledge (Local)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:31|
-SKILL:Perception|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Perception|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:34|
 SKILL:Profession (Untrained)|OUTPUTORDER:35|
 SKILL:Ride|OUTPUTORDER:36|
 SKILL:Samurai Mount|OUTPUTORDER:37|
-SKILL:Sense Motive|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:39|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:40|
 SKILL:Stealth|OUTPUTORDER:43|
@@ -142,16 +145,15 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Ex-Asmodean Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ex-Asmodean ~ Weapon and Damage Rolls|TYPE:ExAsmodeanSelection|DESC:You gain a +1 trait bonus on attack rolls and weapon damage rolls against agents of House Thrune and worshipers of Asmodeus, including most (but not all) devils.
-USERPOOL:Ex-Asmodean Selection|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Expertise|TYPE:Combat.AttackOption.ModifyAC.InfernalBloodline.DreamspunBloodline.DruidShamanSerpent|DESC:You can increase your defense at the expense of your accuracy.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Panache|APPLIEDTO:|TYPE:Panache|DESC:You have more panache than the ordinary swashbuckler.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fencing Grace|TYPE:Combat|DESC:Your dashing style and fluid rapier forms allow you to use agility rather than brute force to fell your foes.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Gang Up|TYPE:Combat|DESC:You are adept at using greater numbers against foes.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:CATEGORY=Special Ability&pipe;Blades/Light|TYPE:Combat.WeaponFocus.DestinedBloodline.OracleWeaponMastery.CelestialBloodragerBloodline.DestinedBloodragerBloodline.ElementalBloodragerBloodline|DESC:You are especially good at using weapon of your chosen type.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swashbuckler|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Human ~ Favored Class Bonus ~ Panache|APPLIEDTO:,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSwashbuckler|DESC:Increase the total number of points in the swashbuckler's panache pool by 1/4.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Human ~ Favored Class Bonus ~ Panache|APPLIEDTO:,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassSwashbuckler|DESC:Increase the total number of points in the swashbuckler's panache pool by 1/4.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Bonus Feat|APPLIEDTO:|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with +1 feat.
 ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Skill Rank|APPLIEDTO:Bluff|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with +1 skill rank (won't exceed max ranks).
@@ -168,7 +170,7 @@ ABILITY:Swashbuckler Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Add 
 USERPOOL:Swashbuckler Bonus Feat Selection|POOLPOINTS:0.0
 ABILITY:Swashbuckler Personage|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Personage ~ Madcap|TYPE:Swashbuckler Class Feature.SwashbucklerPersonage.SpecialQuality.Extraordinary|DESC:Although all swashbucklers are somewhat reckless, a madcap epitomizes the reckless flair that characterizes panache users. Fearless before danger by spell or by blade, a madcap is staunch in her resolve and tireless in her pursuits.
 USERPOOL:Swashbuckler Personage|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Ex-Asmodean|TYPE:Trait.CampaignTrait|DESC:You, or perhaps your family, were once worshipers of Asmodeus, but something happened that made you lose your faith. Perhaps your family was asked to give up something dear as a sacrifice, such as the life of a newly born brother or sister. Maybe the church used your family as a scapegoat to cover up a crime someone higher in the church committed. Or perhaps you simply met someone who opened your eyes and showed you the truth—that Asmodeus does not care for his followers, and that the deity of your new religion does. In any event, you left the church, and as a result, your family was punished; they were either put in prison, exiled from Kintargo, or perhaps even executed. Ever since, you’ve vowed to some day get revenge against the church.|DESC:You gain a +1 trait bonus on attack rolls and weapon damage rolls against agents of House Thrune and worshipers of Asmodeus, including most (but not all) devils.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Ex-Asmodean ~ Weapon and Damage Rolls|DESC:You gain a +1 trait bonus on the save DCs of your spells against agents of House Thrune and worshipers of Asmodeus, including most (but not all) devils.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Ex-Asmodean ~ Spell DCs
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Ex-Asmodean|APPLIEDTO:CATEGORY=Internal&pipe;Ex-Asmodean ~ Combat Bonus|TYPE:Trait.BasicTrait.CampaignTrait|DESC:You, or perhaps your family, were once worshipers of Asmodeus, but something happened that made you lose your faith. Perhaps your family was asked to give up something dear as a sacrifice, such as the life of a newly born brother or sister. Maybe the church used your family as a scapegoat to cover up a crime someone higher in the church committed. Or perhaps you simply met someone who opened your eyes and showed you the truth-that Asmodeus does not care for his followers, and that the deity of your new religion does. In any event, you left the church, and as a result, your family was punished; they were either put in prison, exiled from Kintargo, or perhaps even executed. Ever since, you've vowed to some day get revenge against the church. Choose one&colon; you gain a +1 trait bonus on attack rolls and weapon damage rolls or you gain a +1 trait bonus on the save DCs of your spells against agents of House Thrune and worshipers of Asmodeus, including most (but not all) devils.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Fortified Drinker|TYPE:Trait.ReligionTrait|DESC:Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
 USERPOOL:Traits|POOLPOINTS:1.0
@@ -189,51 +191,82 @@ WEAPONPROF:[WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Te
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0.1000000000000000055511151231257827021181583404541015625
-EQUIPNAME:Ale (Mug)|OUTPUTORDER:11|COST:0.04|WT:1.0|QUANTITY:8.0|NOTE:
-EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:9|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bandolier|OUTPUTORDER:15|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Caydenbrew (Mug)|OUTPUTORDER:12|COST:0.05|WT:0.5|QUANTITY:6.0|NOTE:
-EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:6|COST:0.01|WT:0.02|QUANTITY:4.0|NOTE:
-EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:8|COST:1|WT:0.02|QUANTITY:28.0|NOTE:
-EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:7|COST:0.1|WT:0.02|QUANTITY:4.0|NOTE:
-EQUIPNAME:Dagger|OUTPUTORDER:16|COST:2.0|WT:1.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
-EQUIPNAME:Dwarven Stout (Mug)|OUTPUTORDER:13|COST:0.04|WT:0.5|QUANTITY:8.0|NOTE:
-EQUIPNAME:Masterwork Buckler|OUTPUTORDER:4|COST:155.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Masterwork Buckler$EQMOD=STEEL.MWORKA]
-EQUIPNAME:Mug or Tankard (Clay)|OUTPUTORDER:14|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Outfit (Entertainer's)|OUTPUTORDER:2|COST:0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Entertainer's)|DATA:NAME=Outfit (Entertainer's)$KEY=Outfit (Entertainer_s)$COSTMOD=-3]
-EQUIPNAME:Pouch (Belt)|OUTPUTORDER:5|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Rapier|OUTPUTORDER:1|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier$EQMOD=STEEL]
-EQUIPNAME:Studded Leather|OUTPUTORDER:3|COST:25.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:NAME=Studded Leather$EQMOD=LEATHER]
-EQUIPNAME:Waterskin|OUTPUTORDER:10|COST:1|WT:0.0|QUANTITY:4.0|NOTE:
-EQUIPNAME:Wrist Sheath (Spring Loaded)|OUTPUTORDER:17|COST:5|WT:1.0|QUANTITY:1.0|NOTE:
+MONEY:0.10
+EQUIPNAME:Ale (Mug)|OUTPUTORDER:20|COST:0.04|WT:1.0|QUANTITY:8.0|NOTE:
+EQUIPNAME:Bandolier|OUTPUTORDER:13|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Caydenbrew (Mug)|OUTPUTORDER:18|COST:0.05|WT:0.5|QUANTITY:8.0|NOTE:
+EQUIPNAME:Cloak of Resistance +1|OUTPUTORDER:5|COST:1000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +1|DATA:NAME=Cloak of Resistance +1$EQMOD=CLOTH]
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:27|COST:0.01|WT:0.02|QUANTITY:3.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:25|COST:1|WT:0.02|QUANTITY:58.0|NOTE:
+EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:26|COST:10|WT:0.02|QUANTITY:245.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:24|COST:0.1|WT:0.02|QUANTITY:13.0|NOTE:
+EQUIPNAME:Dagger|OUTPUTORDER:14|COST:2.0|WT:1.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
+EQUIPNAME:Daredevil Boots|OUTPUTORDER:7|COST:1400|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Dwarven Stout (Mug)|OUTPUTORDER:19|COST:0.04|WT:0.5|QUANTITY:8.0|NOTE:
+EQUIPNAME:Figurine of Wondrous Power (Silver Raven)|OUTPUTORDER:22|COST:3800|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Handy Haversack|OUTPUTORDER:16|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Masterwork Buckler|OUTPUTORDER:8|COST:155.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Masterwork Buckler$EQMOD=STEEL.MWORKA]
+EQUIPNAME:Masterwork Rapier|OUTPUTORDER:31|COST:320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Masterwork Rapier$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Mithral Chain Shirt|OUTPUTORDER:4|COST:1100.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Mithral Chain Shirt$EQMOD=MITHRAL_ARMR_LT]
+EQUIPNAME:Mithral Rapier|OUTPUTORDER:30|COST:1020.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Mithral Rapier$EQMOD=MITHRAL_ITEM]
+EQUIPNAME:Mithral Rapier +1|OUTPUTORDER:2|COST:3020.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Mithral Rapier +1$EQMOD=MITHRAL_ITEM.PLUS1W]
+EQUIPNAME:Mug or Tankard (Clay)|OUTPUTORDER:21|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Outfit (Entertainer's)|OUTPUTORDER:3|COST:0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Entertainer's)|DATA:NAME=Outfit (Entertainer's)$KEY=Outfit (Entertainer_s)$COSTMOD=-3]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:10|COST:50|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:11|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Lesser Restoration|OUTPUTORDER:12|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:9|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rapier|OUTPUTORDER:29|COST:20.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier$EQMOD=STEEL]
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:1|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sack|OUTPUTORDER:23|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Studded Leather|OUTPUTORDER:32|COST:25.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:NAME=Studded Leather$EQMOD=LEATHER]
+EQUIPNAME:Studded Leather +1|OUTPUTORDER:28|COST:1175.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Studded Leather|DATA:NAME=Studded Leather +1$EQMOD=LEATHER.PLUS1A]
+EQUIPNAME:Vest of Escape|OUTPUTORDER:6|COST:5200|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Waterskin|OUTPUTORDER:17|COST:1|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Wrist Sheath (Spring Loaded)|OUTPUTORDER:15|COST:5|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.09|VALUE:Outfit (Entertainer's)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.11|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.14|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.14.01|VALUE:Coin (Copper Piece)|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.14.02|VALUE:Coin (Silver Piece)|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.14.03|VALUE:Coin (Gold Piece)|QUANTITY:28.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.14.04|VALUE:Potion of Cure Light Wounds|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.14.05|VALUE:Potion of Cure Moderate Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.14.06|VALUE:Potion of Lesser Restoration|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shield|ID:0.1.17|VALUE:Masterwork Buckler|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Armor|ID:0.1.20|VALUE:Studded Leather|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.21|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack (Masterwork)|ID:0.1.21.02|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Waterskin|ID:0.1.21.02.01|VALUE:Ale (Mug)|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Backpack (Masterwork)|ID:0.1.21.03|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack (Masterwork)|ID:0.1.21.04|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Waterskin|ID:0.1.21.04.01|VALUE:Dwarven Stout (Mug)|QUANTITY:8.0|USETEMPMODS:Y
-EQUIPSET:Backpack (Masterwork)|ID:0.1.21.10|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Waterskin|ID:0.1.21.10.01|VALUE:Ale (Mug)|QUANTITY:4.0|USETEMPMODS:Y
-EQUIPSET:Backpack (Masterwork)|ID:0.1.21.11|VALUE:Mug or Tankard (Clay)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.23|VALUE:Bandolier|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Bandolier|ID:0.1.23.01|VALUE:Dagger|QUANTITY:5.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.24|VALUE:Wrist Sheath (Spring Loaded)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.25|VALUE:Handy Haversack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.01|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waterskin|ID:0.1.25.01.01|VALUE:Caydenbrew (Mug)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.02|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waterskin|ID:0.1.25.02.01|VALUE:Dwarven Stout (Mug)|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.03|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waterskin|ID:0.1.25.03.01|VALUE:Ale (Mug)|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.04|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Waterskin|ID:0.1.25.04.01|VALUE:Ale (Mug)|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.05|VALUE:Mug or Tankard (Clay)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.06|VALUE:Figurine of Wondrous Power (Silver Raven)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.07|VALUE:Sack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.25.07.01|VALUE:Coin (Silver Piece)|QUANTITY:13.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.25.07.02|VALUE:Coin (Gold Piece)|QUANTITY:58.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.25.07.03|VALUE:Coin (Platinum Piece)|QUANTITY:245.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.25.07.04|VALUE:Coin (Copper Piece)|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.08|VALUE:Studded Leather +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.09|VALUE:Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.10|VALUE:Mithral Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.25.11|VALUE:Masterwork Rapier|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.26|VALUE:Mithral Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Feet|ID:0.1.28|VALUE:Daredevil Boots|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.29|VALUE:Cloak of Resistance +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.30|VALUE:Studded Leather|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Chest|ID:0.1.31|VALUE:Vest of Escape|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.32|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.33|VALUE:Mithral Rapier +1|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
 TEMPBONUS:FEAT=Swashbuckler ~ Swashbuckler Initiative|TBTARGET:PC|TBBONUS:COMBAT&pipe;INITIATIVE&pipe;2
-TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;1
-TEMPBONUS:FEAT=Swashbuckler Precise Strike ~ 1H|TBTARGET:Rapier|TBBONUS:WEAPON&pipe;DAMAGE&pipe;SWASHBUCKLERPRECISESTRIKEBONUS
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;3
+TEMPBONUS:FEAT=Swashbuckler Precise Strike ~ 1H|TBTARGET:Mithral Rapier +1|TBBONUS:WEAPON&pipe;DAMAGE&pipe;SWASHBUCKLERPRECISESTRIKEBONUS
 
 # EquipSet Temp Bonuses
 
