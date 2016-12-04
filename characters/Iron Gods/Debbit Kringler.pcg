@@ -6,7 +6,7 @@ VERSION:6.07.01-dev
 ROLLMETHOD:2|EXPRESSION:Standard Fantasy
 PURCHASEPOINTS:Y|TYPE:Standard Fantasy
 CHARACTERTYPE:PC
-PREVIEWSHEET:statblock_pathfinder.htm.ftl
+PREVIEWSHEET:Standard.htm.ftl
 POOLPOINTS:0
 POOLPOINTSAVAIL:20
 GAMEMODE:Pathfinder_RPG
@@ -54,25 +54,27 @@ STAT:DEX|SCORE:12
 STAT:CON|SCORE:14
 STAT:INT|SCORE:13
 STAT:WIS|SCORE:10
-STAT:CHA|SCORE:18
+STAT:CHA|SCORE:19
 ALIGN:CG
 RACE:Gnome
 
 # Character Class(es)
-CLASS:Sorcerer|LEVEL:10|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,5,3
-CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:3|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=4|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=5|HITPOINTS:3|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=6|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=7|HITPOINTS:3|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=8|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=9|HITPOINTS:3|SKILLSGAINED:5|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Sorcerer=10|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASS:Sorcerer|LEVEL:12|SKILLPOOL:3|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,6,5,3
+CLASSABILITIESLEVEL:Sorcerer=1|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=2|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=3|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=4|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=5|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=6|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=7|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=8|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=9|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=10|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=11|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Sorcerer=12|HITPOINTS:4|PRESTAT:CHA=1|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:105975
+EXPERIENCE:238755
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -80,6 +82,8 @@ TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:FACE_5]
 TEMPLATESAPPLIED:[NAME:REACH_5]
 TEMPLATESAPPLIED:[NAME:Regional Affinity (Numeria)]
+TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Intelligence)|CHOSENTEMPLATE:[NAME:Inherent Intelligence Bonus +1]]
+TEMPLATESAPPLIED:[NAME:Inherent Intelligence Bonus +1]
 
 # Character Region
 REGION:Numeria
@@ -108,7 +112,7 @@ SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
 SKILL:Ecology|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Endurance|OUTPUTORDER:23|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Escape Artist|OUTPUTORDER:24|
-SKILL:Fly|OUTPUTORDER:25|
+SKILL:Fly|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
 SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:29|
@@ -117,16 +121,16 @@ SKILL:Intimidate|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLA
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:32|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:33|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:34|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Engineering)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Geography)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (History)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Local)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Planes)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:5.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:42|
 SKILL:Linguistics|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:2.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial|ASSOCIATEDDATA:Androffan
-SKILL:Perception|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:7.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:12.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:46|
 SKILL:Profession (Untrained)|OUTPUTORDER:47|
 SKILL:Ride|OUTPUTORDER:48|
@@ -135,7 +139,7 @@ SKILL:Search|OUTPUTORDER:50|
 SKILL:Sense Motive|OUTPUTORDER:51|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:52|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:53|
-SKILL:Spellcraft|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:55|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:12.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:57|
 SKILL:Survival|OUTPUTORDER:58|
 SKILL:Survival (Follow tracks)|OUTPUTORDER:59|
@@ -151,7 +155,7 @@ SKILL:Untrained ~ Linguistics|OUTPUTORDER:43|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:54|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:56|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:67|
-SKILL:Use Magic Device|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Sorcerer|RANKS:12.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Androffan|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Gnome|LANGUAGE:Hallit|LANGUAGE:Sylvan
@@ -168,13 +172,14 @@ ABILITY:Elemental Bloodline Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYP
 USERPOOL:Elemental Bloodline Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dazing Spell|TYPE:Metamagic|DESC:You can daze creatures with the power of your spells.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Intensified Spell|TYPE:Metamagic|DESC:Your spells can go beyond several normal limitations.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quicken Spell|TYPE:Metamagic.DraconicBloodline.FeyBloodline.StarsoulBloodline|DESC:You can cast spells in the fraction of the normal time.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Evocation|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Specialization (Evocation)|APPLIEDTO:Burning Arc|TYPE:General.SpellSpecialization|DESC:Select one spell. You cast that spell with greater than normal power.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Varisian Tattoo|TYPE:General|DESC:You bear intricate tattoos of the ancient traditions of Varisian magic that inspire and empower your natural magic ability. Gain a cantrip as a spell-like ability.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,,,|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Gnome Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Gnome Racial Subtype|POOLPOINTS:0.0
@@ -195,7 +200,7 @@ ABILITY:Skymetal Smith Selection|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skymet
 USERPOOL:Skymetal Smith Selection|POOLPOINTS:0.0
 ABILITY:Sorcerer Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Sorcerer Archetype ~ Blood Havoc|TYPE:Archetype.SorcererArchetype.SorcererBloodlinePowerLvl1|DESC:You gain the blood havoc bloodline mutation.
 USERPOOL:Sorcerer Archetype|POOLPOINTS:0.0
-ABILITY:Sorcerer Bloodline|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Bloodline ~ Primal|APPLIEDTO:Fire|TYPE:SpecialQuality.ClassSpecialization.SorcererBloodline|DESC:Your powers are attuned to the concentrated core of the elemental plane.
+ABILITY:Sorcerer Bloodline|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sorcerer Bloodline ~ Elemental|APPLIEDTO:Fire|TYPE:SorcererClassFeatures.SpecialQuality.ClassSpecialization.SorcererBloodline|DESC:The power of the elements resides in you, and at times you can hardly control its fury. This influence comes from an elemental outsider in your family history or a time when you or your relatives were exposed to a powerful elemental force.
 USERPOOL:Sorcerer Bloodline|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Lineage|APPLIEDTO:Burning Arc|TYPE:Trait.BasicTrait.MagicTrait|DESC:One of your parents was a gifted spellcaster who not only used metamagic often, but developed many magical items and perhaps even a new spell or two--and you have inherited a fragment of this greatness. When you apply metamagic feats to %1, treat its actual level as 1 lower for determining the spell's final adjusted level.&pipe;%LIST
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Skymetal Smith|TYPE:Trait.BasicTrait.CampaignTrait|DESC:The fires atop Torch Hill have long been a boon to smiths and metalworkers, and your family is no exception. Whether you grew up in Torch or simply made several trips here with your parents to use the fire, this was to be your first time to use the torch for your own project. You managed to use the fires to craft a small weapon or piece of armor from skymetal, but not long thereafter the fires went out. The violet flames are as much a part of your upbringing as anything else, and their loss distresses you; you hope to find a way to rekindle the torch below the hill. You've long hoped to work with skymetal, and begin the game with a small metal bauble made of the skymetal of your choice-you made this item yourself. The item is nothing more than a valuable art object worth 100 gp. You can sell it to gain an additional 100 gp when creating your character, but if you keep it, your pride in its crafting grants you a +2 trait bonus on Will saving throws made against emotion and fear effects. You lose this bonus if you willingly sell or give up the item, but if it is destroyed or lost through no fault of your own, you retain a +1 trait bonus on such Will saves.|DESC:&lbracket;Kept Item&rbracket;&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Skymetal Smith ~ Kept Item|DESC:&lbracket;Lost Item&rbracket;&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Skymetal Smith ~ Lost Item|DESC:&lbracket;Sold Item&rbracket;&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Skymetal Smith ~ Sold Item
@@ -210,38 +215,48 @@ WEAPONPROF:[WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock|
 WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Weighted Spear]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:Backpack (Small)|OUTPUTORDER:4|COST:2|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack (Small)$KEY=AUTOSIZESBackpack$SIZE=S]
-EQUIPNAME:Blanket (Small)|OUTPUTORDER:5|COST:0.5|WT:0.75|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Blanket|DATA:NAME=Blanket (Small)$KEY=AUTOSIZESBlanket$SIZE=S]
-EQUIPNAME:Cardioamp|OUTPUTORDER:9|COST:4550|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:14|COST:1|WT:0.02|QUANTITY:241.0|NOTE:
+MONEY:0.00
+EQUIPNAME:Backpack (Small)|OUTPUTORDER:5|COST:2|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Backpack|DATA:NAME=Backpack (Small)$KEY=AUTOSIZESBackpack$SIZE=S]
+EQUIPNAME:Blanket (Small)|OUTPUTORDER:6|COST:0.5|WT:0.75|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Blanket|DATA:NAME=Blanket (Small)$KEY=AUTOSIZESBlanket$SIZE=S]
+EQUIPNAME:Cardioamp|OUTPUTORDER:17|COST:4550|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:20|COST:1|WT:0.02|QUANTITY:156.0|NOTE:
 EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:11|COST:10|WT:0.02|QUANTITY:600.0|NOTE:
-EQUIPNAME:Dagger (Small)|OUTPUTORDER:1|COST:2.0|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger (Small)$KEY=AUTOSIZESDagger$SIZE=S$EQMOD=STEEL]
+EQUIPNAME:Dagger (Small)|OUTPUTORDER:2|COST:2.0|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger (Small)$KEY=AUTOSIZESDagger$SIZE=S$EQMOD=STEEL]
+EQUIPNAME:Diamond (1000 gp)|OUTPUTORDER:26|COST:1000|WT:0.0|QUANTITY:9.0|NOTE:
+EQUIPNAME:Diamond (500 gp)|OUTPUTORDER:24|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Diamond Dust (100 gp)|OUTPUTORDER:25|COST:100|WT:0.0|QUANTITY:80.0|NOTE:
 EQUIPNAME:Filter Mask (Timeworn)|OUTPUTORDER:10|COST:1800.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Filter Mask|DATA:NAME=Filter Mask (Timeworn)$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;9&rbracket;.TIMEWORN]
-EQUIPNAME:Flashlight|OUTPUTORDER:22|COST:30.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flashlight|DATA:NAME=Flashlight$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;]
-EQUIPNAME:Flint and Steel|OUTPUTORDER:6|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Holy Symbol (Iron/Desna)|OUTPUTORDER:12|COST:5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Iron)|DATA:NAME=Holy Symbol (Iron/Desna)$SPROP=(Holy Symbol (Iron))]
-EQUIPNAME:Medlance|OUTPUTORDER:8|COST:500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Medlance|DATA:NAME=Medlance$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;]
-EQUIPNAME:Metamagic Rod of Elemental Spell (Electricity)|OUTPUTORDER:19|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Elemental Spell (Electricity)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
-EQUIPNAME:Metamagic Rod of Extend Spell (Lesser)|OUTPUTORDER:20|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Extend Spell (Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
-EQUIPNAME:Metamagic Rod of Toppling Spell|OUTPUTORDER:18|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Toppling Spell$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
-EQUIPNAME:Muleback Cords|OUTPUTORDER:3|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Outfit (Artisan's/Small)|OUTPUTORDER:2|COST:0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Artisan's)|DATA:NAME=Outfit (Artisan's/Small)$SIZE=S$COSTMOD=-1]
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:16|COST:300|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Potion of Gaseous Form|OUTPUTORDER:17|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Pouch (Belt) (Small)|OUTPUTORDER:13|COST:1|WT:0.125|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch (Belt) (Small)$KEY=AUTOSIZESPouch (Belt)$SIZE=S]
+EQUIPNAME:Flashlight|OUTPUTORDER:30|COST:30.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flashlight|DATA:NAME=Flashlight$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;]
+EQUIPNAME:Flint and Steel|OUTPUTORDER:7|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Goggles of Minute Seeing|OUTPUTORDER:1|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Holy Symbol (Iron/Desna)|OUTPUTORDER:18|COST:5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Iron)|DATA:NAME=Holy Symbol (Iron/Desna)$SPROP=(Holy Symbol (Iron))]
+EQUIPNAME:Medlance|OUTPUTORDER:9|COST:500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Medlance|DATA:NAME=Medlance$EQMOD=CHARGED_ITEM_10&pipe;CHARGES&lbracket;10&rbracket;]
+EQUIPNAME:Metamagic Rod of Elemental Spell (Electricity)|OUTPUTORDER:28|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Elemental Spell (Electricity)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Metamagic Rod of Extend Spell (Lesser)|OUTPUTORDER:29|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Extend Spell (Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Metamagic Rod of Toppling Spell|OUTPUTORDER:27|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Toppling Spell$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Muleback Cords|OUTPUTORDER:4|COST:1000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Outfit (Artisan's/Small)|OUTPUTORDER:3|COST:0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Artisan's)|DATA:NAME=Outfit (Artisan's/Small)$SIZE=S$COSTMOD=-1]
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:22|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion of Gaseous Form|OUTPUTORDER:23|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pouch (Belt) (Small)|OUTPUTORDER:19|COST:1|WT:0.125|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch (Belt) (Small)$KEY=AUTOSIZESPouch (Belt)$SIZE=S]
 EQUIPNAME:Scroll (Destroy Robot)|OUTPUTORDER:10|COST:1650.0|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Destroy Robot)$EQMOD=SCROLL_ARCANE.SCROLL_MAJOR.A_1USEMA&pipe;SPELLNAME&lbracket;Destroy Robot&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;6&rbracket; CASTERLEVEL&lbracket;11&rbracket; $SPROP=(Scroll (Destroy Robot/Wizard/11th/Arcane/Major))]
-EQUIPNAME:Silverdisk|OUTPUTORDER:15|COST:10|WT:0.1|QUANTITY:8.0|NOTE:
-EQUIPNAME:Universal Serum|OUTPUTORDER:7|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:21|COST:750.0|WT:0.0625|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;50&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
-EQUIPNAME:Wand of Cure Moderate Wounds|OUTPUTORDER:17|COST:990.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Moderate Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;11&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 2d8+level &lbracket;max 10&rbracket; points of damage.]
+EQUIPNAME:Scroll (Obsidian Flow)|OUTPUTORDER:15|COST:700.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Obsidian Flow)$EQMOD=SCROLL_ARCANE.SCROLL_MEDIUM.A_1USEME&pipe;SPELLNAME&lbracket;Obsidian Flow&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;4&rbracket; CASTERLEVEL&lbracket;7&rbracket;]
+EQUIPNAME:Scroll (Restoration)|OUTPUTORDER:12|COST:800|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Restoration/1000gp)|OUTPUTORDER:13|COST:1700.0|WT:0.01|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll (Restoration)|DATA:NAME=Scroll (Restoration/1000gp)$COSTMOD=900.0]
+EQUIPNAME:Scroll (Wall of Fire)|OUTPUTORDER:16|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Water Breathing/Arcane)|OUTPUTORDER:14|COST:375|WT:0.01|QUANTITY:1.0|NOTE:
+EQUIPNAME:Silverdisk|OUTPUTORDER:21|COST:10|WT:0.1|QUANTITY:8.0|NOTE:
+EQUIPNAME:Universal Serum|OUTPUTORDER:8|COST:400|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:17|COST:495.0|WT:0.0625|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;33&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
+EQUIPNAME:Wand of Cure Moderate Wounds|OUTPUTORDER:17|COST:180.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Moderate Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;2&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 2d8+level &lbracket;max 10&rbracket; points of damage.]
+EQUIPNAME:Wand of Fly|OUTPUTORDER:29|COST:2475.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Fly$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Fly&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;11&rbracket;]
 EQUIPNAME:Wand of Grease|OUTPUTORDER:15|COST:150.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Grease$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Grease&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;10&rbracket;$SPROP=A grease spell covers a solid surface with a layer of slippery grease.]
 EQUIPNAME:Wand of Gust of Wind|OUTPUTORDER:18|COST:1350.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Gust of Wind$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Gust of Wind&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;15&rbracket;]
 EQUIPNAME:Wand of Lightning Bolt|OUTPUTORDER:0|COST:3600.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Lightning Bolt$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Lightning Bolt&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;16&rbracket;]
-EQUIPNAME:Wand of Mage Armor|OUTPUTORDER:15|COST:345.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Mage Armor$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Mage Armor&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;23&rbracket;$SPROP=An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.]
-EQUIPNAME:Wand of Ray of Enfeeblement|OUTPUTORDER:13|COST:570.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Ray of Enfeeblement$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Ray of Enfeeblement&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;38&rbracket;$SPROP=A coruscating ray springs from your hand, the subject takes a penalty to Strength equal to 1d6+1/two level, max +5.]
+EQUIPNAME:Wand of Mage Armor|OUTPUTORDER:15|COST:270.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Mage Armor$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Mage Armor&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;18&rbracket;$SPROP=An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.]
+EQUIPNAME:Wand of Ray of Enfeeblement|OUTPUTORDER:13|COST:555.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Ray of Enfeeblement$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Ray of Enfeeblement&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;37&rbracket;$SPROP=A coruscating ray springs from your hand, the subject takes a penalty to Strength equal to 1d6+1/two level, max +5.]
 EQUIPNAME:Wand of Ray of Exhaustion|OUTPUTORDER:14|COST:2925.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Ray of Exhaustion$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Ray of Exhaustion&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;13&rbracket;]
-EQUIPNAME:Wand of Scorching Ray|OUTPUTORDER:15|COST:1080.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Scorching Ray$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Scorching Ray&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;12&rbracket;$SPROP=You blast your enemies with up to 1-3 searing beams of fire dealing 4d6 points of fire damage.]
+EQUIPNAME:Wand of Scorching Ray|OUTPUTORDER:15|COST:990.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Scorching Ray$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Scorching Ray&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;11&rbracket;$SPROP=You blast your enemies with up to 1-3 searing beams of fire dealing 4d6 points of fire damage.]
 EQUIPNAME:Wand of Wind Wall|OUTPUTORDER:18|COST:6975.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Wind Wall$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Wind Wall&rbracket;SPELLLEVEL&lbracket;3&rbracket;CASTERLEVEL&lbracket;5&rbracket;CHARGES&lbracket;31&rbracket;]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.02|VALUE:Backpack (Small)|QUANTITY:1.0|USETEMPMODS:Y
@@ -249,17 +264,26 @@ EQUIPSET:Backpack (Small)|ID:0.1.02.01|VALUE:Blanket (Small)|QUANTITY:1.0|USETEM
 EQUIPSET:Backpack (Small)|ID:0.1.02.04|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Small)|ID:0.1.02.06|VALUE:Universal Serum|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Small)|ID:0.1.02.08|VALUE:Medlance|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Backpack (Small)|ID:0.1.02.09|VALUE:Cardioamp|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Small)|ID:0.1.02.10|VALUE:Filter Mask (Timeworn)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Small)|ID:0.1.02.11|VALUE:Scroll (Destroy Robot)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Backpack (Small)|ID:0.1.02.12|VALUE:Coin (Platinum Piece)|QUANTITY:600.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Small)|ID:0.1.02.13|VALUE:Scroll (Restoration)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Small)|ID:0.1.02.14|VALUE:Scroll (Restoration/1000gp)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Small)|ID:0.1.02.15|VALUE:Scroll (Water Breathing/Arcane)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Small)|ID:0.1.02.16|VALUE:Scroll (Obsidian Flow)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Small)|ID:0.1.02.17|VALUE:Scroll (Wall of Fire)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Small)|ID:0.1.02.18|VALUE:Wand of Cure Light Wounds|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Backpack (Small)|ID:0.1.02.19|VALUE:Cardioamp|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.04|VALUE:Holy Symbol (Iron/Desna)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.06|VALUE:Outfit (Artisan's/Small)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.07|VALUE:Pouch (Belt) (Small)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.01|VALUE:Coin (Gold Piece)|QUANTITY:241.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.01|VALUE:Coin (Gold Piece)|QUANTITY:156.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.03|VALUE:Silverdisk|QUANTITY:8.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.04|VALUE:Potion of Cure Moderate Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.04|VALUE:Potion of Cure Moderate Wounds|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.06|VALUE:Potion of Gaseous Form|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.07|VALUE:Diamond (500 gp)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.09|VALUE:Diamond Dust (100 gp)|QUANTITY:80.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt) (Small)|ID:0.1.07.10|VALUE:Diamond (1000 gp)|QUANTITY:9.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.10|VALUE:Wand of Grease|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.12|VALUE:Dagger (Small)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.13|VALUE:Wand of Ray of Enfeeblement|QUANTITY:1.0|USETEMPMODS:Y
@@ -276,10 +300,12 @@ EQUIPSET:Equipped|ID:0.1.26|VALUE:Metamagic Rod of Elemental Spell (Electricity)
 EQUIPSET:Equipped|ID:0.1.27|VALUE:Metamagic Rod of Extend Spell (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.28|VALUE:Wand of Cure Light Wounds|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.29|VALUE:Flashlight|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.30|VALUE:Wand of Fly|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Eyes|ID:0.1.31|VALUE:Goggles of Minute Seeing|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;3
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;1
 
 # EquipSet Temp Bonuses
 
@@ -289,19 +315,25 @@ DEITY:Desna|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Good|DOMAIN:Liberation|DOMAIN:Luck
 # Character Spells Information
 SPELLBOOK:Underground|TYPE:4
 SPELLNAME:Ablative Barrier|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Arcane Sight|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Ball Lightning|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Burning Arc|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Burning Hands|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Chain Lightning|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Charm Person|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Command Undead|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Dancing Lights|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Dimension Door|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Dispel Magic|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Elemental Body I|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Elemental Body II|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Ghost Sound|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Glitterdust|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Grease|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Heroism|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Invisibility|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Light|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Mage Hand|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Magic Missile|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Message|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
@@ -314,6 +346,7 @@ SPELLNAME:Scorching Ray|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:2|SO
 SPELLNAME:Shield|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Shocking Grasp|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Spark|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
+SPELLNAME:Stoneskin (Communal)|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 SPELLNAME:Wall of Force|TIMES:1|CLASS:Sorcerer|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Sorcerer]
 
 # Character Description/Bio/History
