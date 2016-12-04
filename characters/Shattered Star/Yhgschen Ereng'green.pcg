@@ -59,7 +59,7 @@ ALIGN:NG
 RACE:Human
 
 # Character Class(es)
-CLASS:Oracle|LEVEL:13|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,6,6,4
+CLASS:Oracle|LEVEL:15|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,6,6,6,6,6,6,4
 CLASSABILITIESLEVEL:Oracle=1|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Oracle=2|HITPOINTS:5|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Oracle=3|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
@@ -73,9 +73,11 @@ CLASSABILITIESLEVEL:Oracle=10|HITPOINTS:5|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Oracle=11|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Oracle=12|HITPOINTS:5|PRESTAT:CHA=1|SKILLSGAINED:5|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Oracle=13|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Oracle=14|HITPOINTS:5|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Oracle=15|HITPOINTS:4|SKILLSGAINED:5|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:361159
+EXPERIENCE:639059
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -88,12 +90,14 @@ TEMPLATESAPPLIED:[NAME:Oracle Tongues Choice ~ Celestial]
 TEMPLATESAPPLIED:[NAME:Human Ethnicity (Azlanti)]
 TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Constitution)|CHOSENTEMPLATE:[NAME:Inherent Constitution Bonus +1]]
 TEMPLATESAPPLIED:[NAME:Inherent Constitution Bonus +1]
+TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Intelligence)|CHOSENTEMPLATE:[NAME:Inherent Intelligence Bonus +1]]
+TEMPLATESAPPLIED:[NAME:Inherent Intelligence Bonus +1]
 
 # Character Region
 REGION:Varisia
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Oracle|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Oracle|RANKS:4.0|COST:1|CLASSSKILL:N]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Bluff|OUTPUTORDER:4|
@@ -120,13 +124,13 @@ SKILL:Intimidate|OUTPUTORDER:26|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Oracle|RANKS:9.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Oracle|RANKS:11.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Geography)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (History)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Oracle|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Planes)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Oracle|RANKS:3.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Oracle|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Planes)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Oracle|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Oracle|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:35|
-SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Oracle|RANKS:13.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Oracle|RANKS:15.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:38|
 SKILL:Profession (Untrained)|OUTPUTORDER:39|
 SKILL:Ride|OUTPUTORDER:40|
@@ -134,7 +138,7 @@ SKILL:Samurai Mount|OUTPUTORDER:41|
 SKILL:Sense Motive|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Oracle|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
-SKILL:Spellcraft|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Oracle|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Oracle|RANKS:14.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Oracle|RANKS:5.0|COST:1|CLASSSKILL:N]
 SKILL:Survival|OUTPUTORDER:49|
 SKILL:Survival (Follow tracks)|OUTPUTORDER:50|
@@ -163,8 +167,10 @@ ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Tha
 USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Drawbacks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Drawback ~ Power-Hungry|TYPE:Drawback.SpecialQuailty|DESC:You're addicted to power. You take a -2 penalty on Will saving throws against charm and compulsion effects if the creature creating the effect promises wealth or power.
 USERPOOL:Drawbacks|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Revelation|APPLIEDTO:,|TYPE:General|DESC:You have discovered a new aspect of your mystery.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.AbyssalBloodline.ElementalBloodline.BorealBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.RakshasaBloodline.ShaitanBloodline|DESC:You can increase the power of your spells, causing them to deal more damage.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Revelation|APPLIEDTO:|TYPE:General|DESC:You have discovered a new aspect of your mystery.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Greater Spell Penetration|TYPE:General|DESC:Your spells break through spell resistance much more easily than most.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Leadership|TYPE:General.DestinedBloodline.DestinedBloodragerBloodline|DESC:You attract followers to your cause and a companion to join you on your adventure.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Quicken Spell|TYPE:Metamagic.DraconicBloodline.FeyBloodline.StarsoulBloodline|DESC:You can cast spells in the fraction of the normal time.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Focus|APPLIEDTO:Evocation|TYPE:General.ArcaneBloodline.UndeadBloodline.ProteanBloodline|DESC:Any spells you cast of your chosen school of magic are more difficult to resist.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Penetration|TYPE:General.InfernalBloodline.DragonShamanBonus|DESC:Your spells break through spell resistance more easily than most.
@@ -172,7 +178,7 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Varisian Tattoo|TYPE:General|DESC:You
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Oracle Spell|APPLIEDTO:,,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassOracle|DESC:Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Oracle Spell|APPLIEDTO:,,,,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassOracle|DESC:Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Oracle's Curse Level|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassOracle|DESC:Add +1/2 to the oracle's level for the purpose of determining the effects of the oracle's curse ability.
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Use Magic Device,Use Magic Device,Use Magic Device|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
@@ -198,6 +204,7 @@ ABILITY:Oracle Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Orac
 ABILITY:Oracle Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle Spell Level 3|APPLIEDTO:,|TYPE:BonusSpellKnownOracle
 ABILITY:Oracle Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle Spell Level 4|APPLIEDTO:,|TYPE:BonusSpellKnownOracle
 ABILITY:Oracle Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle Spell Level 5|APPLIEDTO:,|TYPE:BonusSpellKnownOracle
+ABILITY:Oracle Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle Spell Level 6|APPLIEDTO:,|TYPE:BonusSpellKnownOracle
 USERPOOL:Oracle Favored Bonus Spell|POOLPOINTS:0.0
 ABILITY:Oracle Mystery|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Oracle ~ Spellscar Mystery|TYPE:OracleClassFeatures.SpecialQuality.OracleMystery|DESC:Oracles of the spellscar mystery have been touched in some way by primal magic, likely due to exposure to the strange effects that run rampant in the Mana Wastes. Alternatively, a spellscar oracle might simply be a person who was affected in her past by a primal magic event.
 USERPOOL:Oracle Mystery|POOLPOINTS:0.0
@@ -219,7 +226,7 @@ ABILITY:Spellscar Mystery Revelation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Sp
 ABILITY:Spellscar Mystery Revelation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Spellscar Mystery ~ Magic Penetration|TYPE:OracleClassFeatures.SpecialQuality.Extraordinary.SpellscarRevelation.OracleRevelation|DESC:You gain a +%1 bonus on any caster level check made to dispel or remove a magic effect (such as when using the Dispel Magic or Remove Curse spell).&pipe;MagicPenetration
 ABILITY:Spellscar Mystery Revelation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Spellscar Mystery ~ Mystic Null|TYPE:OracleClassFeatures.SpecialQuality.Extraordinary.SpellscarRevelation.OracleRevelation.SaveBonus|DESC:You gain a +%1 insight bonus on saves against spells and spell-like abilities.&pipe;MysticNull
 ABILITY:Spellscar Mystery Revelation|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Spellscar Mystery ~ Primal Manipulation|TYPE:OracleClassFeatures.SpecialQuality.Supernatural.SpellscarRevelation.OracleRevelation|DESC:Whenever you cast a spell that deals acid, cold, electricity, or fire damage, you may change it to deal one of the other listed damage types. You may use this ability %1 times per day.&pipe;PrimalManipulationTimes|DESC:You can change a spell to deal sonic damage, though the damage is halved.&pipe;PREVARGTEQ&colon;OracleLVL,15&pipe;PREVARLT&colon;OracleLVL,20|DESC:You can change a spell to deal sonic or force damage, though the damage is halved.&pipe;PREVARGTEQ&colon;OracleLVL,20
-USERPOOL:Spellscar Mystery Revelation|POOLPOINTS:-2.0
+USERPOOL:Spellscar Mystery Revelation|POOLPOINTS:-1.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Monument Scholar|TYPE:Trait.CampaignTrait|DESC:As a child in Magnimar, the city's ancient monuments inspired you with wonder. Your fascination with these relics has only grown in the years since, encouraging you to join the ranks of the Pathfinder Society so you can further quench your thirst for knowledge. Though you know little about the actual lore of the monuments, you've studied these colossal works extensively, developing an in-depth knowledge of some of the city's most famous landmarks. You gain a +1 trait bonus on Knowledge (history) checks made in Varisia due to your familiarity with its historical remnants. This bonus increases to +2 if the check relates to the city of Magnimar. Additionally, you gain a +2 trait bonus on any skill check made to receive a boon from one of Magnimar's magically imbued monuments (see Magnimar, City of Monuments for more details).
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Oathbound|TYPE:Trait.BasicTrait.FaithTrait|DESC:You have made a solemn oath, and you pursue that oath with headstrong determination. Once per day, you may reroll a saving throw against a charm or compulsion effect. You must take the second result even if it is worse.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Underlying Principles|TYPE:Trait.ReligionTrait|DESC:You've spent a large amount of time around magical items, and understand the similarities between many of them. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is a class skill for you.
@@ -235,72 +242,72 @@ WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarm
 
 # Character Equipment
 MONEY:0.00
-EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:32|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:31|COST:20|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Artisan's Tools (Carpentry/Masterwork)|OUTPUTORDER:14|COST:55|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bedroll (Small)|OUTPUTORDER:15|COST:0.1|WT:1.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bedroll|DATA:NAME=Bedroll (Small)$SIZE=S]
-EQUIPNAME:Belt of Physical Might (STR/DEX) +4|OUTPUTORDER:10|COST:40000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:11|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Breastplate +1 (Mithral)|OUTPUTORDER:7|COST:5200.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=Breastplate +1 (Mithral)$EQMOD=MITHRAL_ARMR_MED.PLUS1A]
-EQUIPNAME:Buckler +1 (Mithral)|OUTPUTORDER:12|COST:2005.0|WT:2.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Buckler +1 (Mithral)$EQMOD=MITHRAL_SHLD.PLUS1S]
-EQUIPNAME:Climber's Kit (Small)|OUTPUTORDER:29|COST:80|WT:1.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Climber's Kit|DATA:NAME=Climber's Kit (Small)$KEY=AUTOSIZESClimber's Kit$SIZE=S]
-EQUIPNAME:Cloak of Resistance +4|OUTPUTORDER:9|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:43|COST:0.01|WT:0.02|QUANTITY:8.0|NOTE:
-EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:42|COST:1|WT:0.02|QUANTITY:398.0|NOTE:
-EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:44|COST:0.1|WT:0.02|QUANTITY:6.0|NOTE:
-EQUIPNAME:Dagger +1|OUTPUTORDER:5|COST:2302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1$EQMOD=STEEL.PLUS1W]
-EQUIPNAME:Earring (Emerald)|OUTPUTORDER:45|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gem|DATA:NAME=Earring (Emerald)$SPROP=(Gem)]
-EQUIPNAME:Elemental Gem (Earth)|OUTPUTORDER:52|COST:2250|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Flint and Steel|OUTPUTORDER:16|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flint and Steel|DATA:NAME=Flint and Steel]
+EQUIPNAME:Artisan's Tools (Carpentry/Masterwork)|OUTPUTORDER:13|COST:55|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bedroll (Small)|OUTPUTORDER:14|COST:0.1|WT:1.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bedroll|DATA:NAME=Bedroll (Small)$SIZE=S]
+EQUIPNAME:Belt of Physical Might (STR/DEX) +4|OUTPUTORDER:8|COST:40000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:10|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Breastplate +3 (Mithral)|OUTPUTORDER:9|COST:13200.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=Breastplate +3 (Mithral)$EQMOD=MITHRAL_ARMR_MED.PLUS3A]
+EQUIPNAME:Buckler +1 (Mithral)|OUTPUTORDER:11|COST:2005.0|WT:2.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Buckler +1 (Mithral)$EQMOD=MITHRAL_SHLD.PLUS1S]
+EQUIPNAME:Climber's Kit (Small)|OUTPUTORDER:28|COST:80|WT:1.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Climber's Kit|DATA:NAME=Climber's Kit (Small)$KEY=AUTOSIZESClimber's Kit$SIZE=S]
+EQUIPNAME:Cloak of Resistance +4|OUTPUTORDER:7|COST:16000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +4|DATA:NAME=Cloak of Resistance +4$EQMOD=CLOTH]
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:39|COST:0.01|WT:0.02|QUANTITY:8.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:38|COST:1|WT:0.02|QUANTITY:188.0|NOTE:
+EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:51|COST:10|WT:0.02|QUANTITY:100.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:40|COST:0.1|WT:0.02|QUANTITY:72.0|NOTE:
+EQUIPNAME:Dagger +1|OUTPUTORDER:61|COST:2302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Earring (Emerald)|OUTPUTORDER:41|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gem|DATA:NAME=Earring (Emerald)$SPROP=(Gem)]
+EQUIPNAME:Elemental Gem (Earth)|OUTPUTORDER:48|COST:2250|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Flint and Steel|OUTPUTORDER:15|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flint and Steel|DATA:NAME=Flint and Steel]
 EQUIPNAME:Goggles of Night|OUTPUTORDER:1|COST:12000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Grappling Hook|OUTPUTORDER:17|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Handy Haversack|OUTPUTORDER:13|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Grappling Hook|OUTPUTORDER:16|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Handy Haversack|OUTPUTORDER:12|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Headband of Alluring Charisma +6|OUTPUTORDER:3|COST:36000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Holy Symbol (Silver/Erastil)|OUTPUTORDER:61|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Silver)|DATA:NAME=Holy Symbol (Silver/Erastil)]
-EQUIPNAME:Holy Symbol (Wooden/Sarenrae)|OUTPUTORDER:57|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Wooden)|DATA:NAME=Holy Symbol (Wooden/Sarenrae)]
-EQUIPNAME:Ioun Stone (Dusty rose Prism - Cracked)|OUTPUTORDER:58|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Incandescent blue Sphere)|OUTPUTORDER:62|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Magenta Prism - Cracked)|OUTPUTORDER:59|COST:800|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Pink Rhomboid)|OUTPUTORDER:56|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Mess Kit|OUTPUTORDER:18|COST:0.2|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mess Kit|DATA:NAME=Mess Kit]
-EQUIPNAME:Metamagic Rod of Intensified Spiell (Lesser)|OUTPUTORDER:19|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Intensified Spiell (Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
-EQUIPNAME:Mnemonic Vestments|OUTPUTORDER:8|COST:5000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Outfit (Traveler's/Small)|OUTPUTORDER:30|COST:0|WT:1.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's/Small)$SIZE=S$COSTMOD=-1]
-EQUIPNAME:Potion of Calm Emotions|OUTPUTORDER:48|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion of Calm Emotions$EQMOD=SPL_1USE&pipe;SPELLNAME&lbracket;Calm Emotions&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $SPROP=(Potion (Calm Emotions/Cleric/3rd))]
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:49|COST:50|WT:0.0|QUANTITY:3.0|NOTE:GT
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:50|COST:300|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:53|COST:750|WT:0.0|QUANTITY:3.0|NOTE:GT
-EQUIPNAME:Potion of Invisibility|OUTPUTORDER:51|COST:300|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Pouch (Belt/Small)|OUTPUTORDER:46|COST:1|WT:0.125|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch (Belt/Small)$SIZE=S]
-EQUIPNAME:Rations (Trail/Per Day) (Small)|OUTPUTORDER:20|COST:0.5|WT:0.25|QUANTITY:7.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day) (Small)$KEY=AUTOSIZESRations (Trail/Per Day)$SIZE=S]
-EQUIPNAME:Rations (Trail/Per Day/Small)|OUTPUTORDER:21|COST:0.5|WT:0.25|QUANTITY:11.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day/Small)$SIZE=S]
-EQUIPNAME:Ring of Protection +4|OUTPUTORDER:6|COST:32000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ring of Spell Storing|OUTPUTORDER:4|COST:50000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:22|COST:10|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Sack|OUTPUTORDER:40|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll (Bear's Endurance (Mass)/Divine)|OUTPUTORDER:36|COST:1650|WT:0.01|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Scroll (Dispel Magic (Greater)/Divine)|OUTPUTORDER:33|COST:1650|WT:0.01|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Scroll (Heal)|OUTPUTORDER:35|COST:1650|WT:0.01|QUANTITY:2.0|NOTE:GT
-EQUIPNAME:Scroll (Neutralize Poison)|OUTPUTORDER:34|COST:700|WT:0.01|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Scroll (Raise Dead)|OUTPUTORDER:37|COST:6125|WT:0.01|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Scroll (Speak with Dead)|OUTPUTORDER:38|COST:375|WT:0.01|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Scroll (Stoneskin)|OUTPUTORDER:39|COST:950|WT:0.01|QUANTITY:2.0|NOTE:GT
-EQUIPNAME:Shard of Gluttony|OUTPUTORDER:60|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Smokestick|OUTPUTORDER:23|COST:20|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Soap (per lb)|OUTPUTORDER:24|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Soap (per lb)|DATA:NAME=Soap (per lb)]
-EQUIPNAME:Stone Salve (Ounce)|OUTPUTORDER:54|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Tanglefoot Bag|OUTPUTORDER:25|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:28|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Tigereye|OUTPUTORDER:47|COST:10|WT:0.0|QUANTITY:4.0|NOTE:
-EQUIPNAME:Varisian Whiskey (Bottle)|OUTPUTORDER:26|COST:5|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oldlaw Whiskey (Bottle)|DATA:NAME=Varisian Whiskey (Bottle)$COSTMOD=-15]
-EQUIPNAME:Vermin Repellent|OUTPUTORDER:31|COST:5|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:0|COST:600.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;40&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
+EQUIPNAME:Holy Symbol (Silver/Erastil)|OUTPUTORDER:56|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Silver)|DATA:NAME=Holy Symbol (Silver/Erastil)]
+EQUIPNAME:Holy Symbol (Wooden/Sarenrae)|OUTPUTORDER:53|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Wooden)|DATA:NAME=Holy Symbol (Wooden/Sarenrae)]
+EQUIPNAME:Ioun Stone (Dusty rose Prism - Cracked)|OUTPUTORDER:54|COST:500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Stone (Magenta Prism - Cracked)|OUTPUTORDER:55|COST:800|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Stone (Orange Prism)|OUTPUTORDER:59|COST:30000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Mess Kit|OUTPUTORDER:17|COST:0.2|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mess Kit|DATA:NAME=Mess Kit]
+EQUIPNAME:Metamagic Rod of Intensified Spell|OUTPUTORDER:60|COST:11000.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Intensified Spell$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Metamagic Rod of Intensified Spiell (Lesser)|OUTPUTORDER:18|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Metamagic Rod of Intensified Spiell (Lesser)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
+EQUIPNAME:Mnemonic Vestments|OUTPUTORDER:6|COST:5000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Outfit (Traveler's/Small)|OUTPUTORDER:29|COST:0|WT:1.25|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's/Small)$SIZE=S$COSTMOD=-1]
+EQUIPNAME:Pearl of the Sirines|OUTPUTORDER:57|COST:15300|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Calm Emotions|OUTPUTORDER:44|COST:300.0|WT:0.0|QUANTITY:2.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion of Calm Emotions$EQMOD=SPL_1USE&pipe;SPELLNAME&lbracket;Calm Emotions&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $SPROP=(Potion (Calm Emotions/Cleric/3rd))]
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:45|COST:50|WT:0.0|QUANTITY:3.0|NOTE:GT
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:46|COST:300|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:50|COST:750|WT:0.0|QUANTITY:2.0|NOTE:GT
+EQUIPNAME:Potion of Invisibility|OUTPUTORDER:47|COST:300|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Pouch (Belt/Small)|OUTPUTORDER:42|COST:1|WT:0.125|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch (Belt/Small)$SIZE=S]
+EQUIPNAME:Rations (Trail/Per Day) (Small)|OUTPUTORDER:19|COST:0.5|WT:0.25|QUANTITY:7.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day) (Small)$KEY=AUTOSIZESRations (Trail/Per Day)$SIZE=S]
+EQUIPNAME:Rations (Trail/Per Day/Small)|OUTPUTORDER:20|COST:0.5|WT:0.25|QUANTITY:11.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day/Small)$SIZE=S]
+EQUIPNAME:Ring of Evasion|OUTPUTORDER:5|COST:25000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +4|OUTPUTORDER:4|COST:32000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:21|COST:10|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sack|OUTPUTORDER:37|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Bear's Endurance (Mass)/Divine)|OUTPUTORDER:34|COST:1650|WT:0.01|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Scroll (Dispel Magic (Greater)/Divine)|OUTPUTORDER:32|COST:1650|WT:0.01|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Scroll (Neutralize Poison)|OUTPUTORDER:33|COST:700|WT:0.01|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Scroll (Speak with Dead)|OUTPUTORDER:35|COST:375|WT:0.01|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Scroll (Stoneskin)|OUTPUTORDER:36|COST:950|WT:0.01|QUANTITY:2.0|NOTE:GT
+EQUIPNAME:Smokestick|OUTPUTORDER:22|COST:20|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Soap (per lb)|OUTPUTORDER:23|COST:0.5|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Soap (per lb)|DATA:NAME=Soap (per lb)]
+EQUIPNAME:Stone of Good Luck (Luckstone)|OUTPUTORDER:58|COST:20000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Stone Salve (Ounce)|OUTPUTORDER:49|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Tanglefoot Bag|OUTPUTORDER:24|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:27|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Tigereye|OUTPUTORDER:43|COST:10|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Varisian Whiskey (Bottle)|OUTPUTORDER:25|COST:5|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Oldlaw Whiskey (Bottle)|DATA:NAME=Varisian Whiskey (Bottle)$COSTMOD=-15]
+EQUIPNAME:Vermin Repellent|OUTPUTORDER:30|COST:5|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Wand of Cure Light Wounds|OUTPUTORDER:0|COST:495.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Light Wounds$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Light Wounds&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;33&rbracket;$SPROP=When laying your hand upon a living creature, you channel positive energy that cures 1d8+1/level, max 5 points of damage.]
 EQUIPNAME:Wand of Cure Moderate Wounds (CL 10th)|OUTPUTORDER:0|COST:4500.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Cure Moderate Wounds (CL 10th)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Cure Moderate Wounds&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;10&rbracket;  CHARGES&lbracket;15&rbracket;]
-EQUIPNAME:Wand of Dimension Door|OUTPUTORDER:0|COST:5040.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Dimension Door$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Dimension Door&rbracket;SPELLLEVEL&lbracket;4&rbracket;CASTERLEVEL&lbracket;7&rbracket;CHARGES&lbracket;12&rbracket;]
-EQUIPNAME:Wand of Restoration (Lesser)|OUTPUTORDER:0|COST:1080.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Restoration (Lesser)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Restoration (Lesser)&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;12&rbracket;$SPROP=Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores.]
+EQUIPNAME:Wand of Dimension Door|OUTPUTORDER:0|COST:3360.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Dimension Door$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Dimension Door&rbracket;SPELLLEVEL&lbracket;4&rbracket;CASTERLEVEL&lbracket;7&rbracket;CHARGES&lbracket;8&rbracket;]
+EQUIPNAME:Wand of Restoration (Lesser)|OUTPUTORDER:0|COST:450.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Restoration (Lesser)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Restoration (Lesser)&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;5&rbracket;$SPROP=Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores.]
 EQUIPNAME:Wand of Spiritual Weapon|OUTPUTORDER:7|COST:1170.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Spiritual Weapon$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Spiritual Weapon&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;13&rbracket;$SPROP=A weapon made of force appears and attacks foes at a distance, as you direct it, dealing 1d8+ 1 to 5 force damage per hit.]
-EQUIPNAME:Waterskin|OUTPUTORDER:27|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin|DATA:NAME=Waterskin]
-EQUIPNAME:Wayfinder|OUTPUTORDER:55|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Waterskin|OUTPUTORDER:26|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin|DATA:NAME=Waterskin]
+EQUIPNAME:Wayfinder|OUTPUTORDER:52|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.13|VALUE:Wand of Spiritual Weapon|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.15|VALUE:Handy Haversack|QUANTITY:1.0|USETEMPMODS:Y
@@ -325,13 +332,11 @@ EQUIPSET:Handy Haversack|ID:0.1.15.24|VALUE:Vermin Repellent|QUANTITY:1.0|USETEM
 EQUIPSET:Handy Haversack|ID:0.1.15.25|VALUE:Alchemist's Fire (Flask)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.15.26|VALUE:Scroll (Dispel Magic (Greater)/Divine)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.15.27|VALUE:Scroll (Neutralize Poison)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.15.28|VALUE:Scroll (Heal)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.15.29|VALUE:Scroll (Bear's Endurance (Mass)/Divine)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.15.30|VALUE:Scroll (Raise Dead)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.15.31|VALUE:Scroll (Speak with Dead)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.15.32|VALUE:Scroll (Stoneskin)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.15.33|VALUE:Sack|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Sack|ID:0.1.15.33.02|VALUE:Coin (Gold Piece)|QUANTITY:398.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.15.33.02|VALUE:Coin (Gold Piece)|QUANTITY:188.0|USETEMPMODS:Y
 EQUIPSET:Sack|ID:0.1.15.33.03|VALUE:Coin (Copper Piece)|QUANTITY:8.0|USETEMPMODS:Y
 EQUIPSET:Sack|ID:0.1.15.33.04|VALUE:Coin (Silver Piece)|QUANTITY:6.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.19|VALUE:Earring (Emerald)|QUANTITY:1.0|USETEMPMODS:Y
@@ -342,37 +347,40 @@ EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.04|VALUE:Potion of Cure Light Wounds|QUANTI
 EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.05|VALUE:Potion of Cure Moderate Wounds|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.06|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.10|VALUE:Elemental Gem (Earth)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.11|VALUE:Potion of Cure Serious Wounds|QUANTITY:3.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.12|VALUE:Stone Salve (Ounce)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.13|VALUE:Potion of Cure Serious Wounds|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.14|VALUE:Coin (Platinum Piece)|QUANTITY:100.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt/Small)|ID:0.1.2.15|VALUE:Coin (Silver Piece)|QUANTITY:66.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.23|VALUE:Wayfinder|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Feet|ID:0.1.26|VALUE:Boots of Striding And Springing|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Eyes|ID:0.1.27|VALUE:Goggles of Night|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Armor|ID:0.1.30|VALUE:Breastplate +1 (Mithral)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.33|VALUE:Ioun Stone (Pink Rhomboid)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.34|VALUE:Holy Symbol (Wooden/Sarenrae)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.36|VALUE:Ioun Stone (Dusty rose Prism - Cracked)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.37|VALUE:Ioun Stone (Magenta Prism - Cracked)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.38|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.46|VALUE:Wand of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.48|VALUE:Wand of Restoration (Lesser)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.53|VALUE:Shard of Gluttony|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Ring|ID:0.1.55|VALUE:Ring of Spell Storing|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.56|VALUE:Wand of Cure Moderate Wounds (CL 10th)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.57|VALUE:Holy Symbol (Silver/Erastil)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.58|VALUE:Dagger +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Headband|ID:0.1.59|VALUE:Headband of Alluring Charisma +6|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.61|VALUE:Wand of Dimension Door|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Body|ID:0.1.62|VALUE:Mnemonic Vestments|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.63|VALUE:Ring of Protection +4|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.64|VALUE:Cloak of Resistance +4|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.65|VALUE:Ioun Stone (Incandescent blue Sphere)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shield|ID:0.1.66|VALUE:Buckler +1 (Mithral)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Belt|ID:0.1.67|VALUE:Belt of Physical Might (STR/DEX) +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.68|VALUE:Pearl of the Sirines|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.70|VALUE:Dagger +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.71|VALUE:Ring of Evasion|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.72|VALUE:Stone of Good Luck (Luckstone)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.73|VALUE:Breastplate +3 (Mithral)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.74|VALUE:Ioun Stone (Orange Prism)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.75|VALUE:Metamagic Rod of Intensified Spell|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
 TEMPBONUS:SPELL=Mage Armor|TBTARGET:PC|TBBONUS:COMBAT&pipe;AC&pipe;4&pipe;TYPE=ARMOR
-TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;3
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;2
 
 # EquipSet Temp Bonuses
 
@@ -385,6 +393,7 @@ SPELLNAME:Air Bubble|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:
 SPELLNAME:Air Walk|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Angelic Aspect|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Antimagic Field|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Archon's Trumpet|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Bestow Curse|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Bestow Weapon Proficiency|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Blindness/Deafness|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Oracle]
@@ -403,15 +412,21 @@ SPELLNAME:Cure Light Wounds (Mass)|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLL
 SPELLNAME:Cure Moderate Wounds|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Cure Moderate Wounds (Mass)|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Cure Serious Wounds|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Cure Serious Wounds (Mass)|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Delayed Blast Fireball|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Detect Poison|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Dismissal|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Dispel Evil|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Dispel Magic|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Dispel Magic (Greater)|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Eaglesoul|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Flame Strike|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Flaming Sphere|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Globe of Invulnerability (Lesser)|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Grace|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Guidance|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Heal|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Hold Person|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Holy Smite|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Ill Omen|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
@@ -425,16 +440,18 @@ SPELLNAME:Resist Energy|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOUR
 SPELLNAME:Scorching Ray|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Searing Light|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Serenity|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Oracle]
-SPELLNAME:Shield of Faith|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Silence|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Slay Living|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Spark|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Spear of Purity|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Spell Turning|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Spiritual Ally|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Stabilize|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Surmount Affliction|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Terrible Remorse|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:True Seeing|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Umbral Strike|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Oracle]
+SPELLNAME:Unbreakable Heart|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Wall of Fire|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLNAME:Ward Shield|TIMES:1|CLASS:Oracle|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Oracle]
 SPELLLIST:Oracle|CLASS.Oracle|CLASS.Cleric

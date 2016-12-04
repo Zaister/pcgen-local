@@ -2,9 +2,9 @@ PCGVERSION:2.0
 
 # System Information
 CAMPAIGN:Shattered Star Campaign
-VERSION:6.07.00-dev
-ROLLMETHOD:2|EXPRESSION:High Fantasy
-PURCHASEPOINTS:Y|TYPE:High Fantasy
+VERSION:6.07.01-dev
+ROLLMETHOD:2|EXPRESSION:Standard Fantasy
+PURCHASEPOINTS:Y|TYPE:Standard Fantasy
 CHARACTERTYPE:PC
 PREVIEWSHEET:Standard.htm
 POOLPOINTS:15
@@ -59,7 +59,7 @@ ALIGN:TN
 RACE:Aasimar
 
 # Character Class(es)
-CLASS:Arcanist|LEVEL:12|SKILLPOOL:0
+CLASS:Arcanist|LEVEL:15|SKILLPOOL:0
 CLASSABILITIESLEVEL:Arcanist=1|HITPOINTS:6|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Arcanist=2|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Arcanist=3|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
@@ -72,9 +72,12 @@ CLASSABILITIESLEVEL:Arcanist=9|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Arcanist=10|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Arcanist=11|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Arcanist=12|HITPOINTS:4|PRESTAT:INT=1|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Arcanist=13|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Arcanist=14|HITPOINTS:4|SKILLSGAINED:6|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Arcanist=15|HITPOINTS:3|SKILLSGAINED:6|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:288359
+EXPERIENCE:635000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -120,46 +123,45 @@ SKILL:Intimidate|OUTPUTORDER:28|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:29|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:30|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:31|
-SKILL:Knowledge (Arcana)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Arcanist|RANKS:12.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Arcana)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Arcanist|RANKS:15.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Engineering)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Geography)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (History)|OUTPUTORDER:36|
-SKILL:Knowledge (Local)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Arcanist|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Nature)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Nobility)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Planes)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Arcanist|RANKS:7.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Religion)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Knowledge (Untrained)|OUTPUTORDER:42|
-SKILL:Linguistics|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Arcanist|RANKS:10.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Thassilonian|ASSOCIATEDDATA:Aklo|ASSOCIATEDDATA:Infernal|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Boggard|ASSOCIATEDDATA:Gnome|ASSOCIATEDDATA:Aquan|ASSOCIATEDDATA:Auran|ASSOCIATEDDATA:Elven|ASSOCIATEDDATA:Giant|ASSOCIATEDDATA:Ignan|ASSOCIATEDDATA:Terran
-SKILL:Perception|OUTPUTORDER:45|CLASSBOUGHT:[CLASS:Arcanist|RANKS:2.0|COST:1|CLASSSKILL:N]
-SKILL:Perform (Untrained)|OUTPUTORDER:46|
-SKILL:Profession (Untrained)|OUTPUTORDER:47|
-SKILL:Ride|OUTPUTORDER:48|
-SKILL:Samurai Mount|OUTPUTORDER:49|
-SKILL:Sense Motive|OUTPUTORDER:50|
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:51|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:52|
-SKILL:Spellcraft|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Arcanist|RANKS:12.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:56|
-SKILL:Survival|OUTPUTORDER:57|
-SKILL:Survival (Follow tracks)|OUTPUTORDER:58|
-SKILL:Swim|OUTPUTORDER:59|
-SKILL:Untrained Charisma|OUTPUTORDER:60|
-SKILL:Untrained Dexterity|OUTPUTORDER:61|
-SKILL:Untrained Intelligence|OUTPUTORDER:62|
-SKILL:Untrained Strength|OUTPUTORDER:63|
-SKILL:Untrained Wisdom|OUTPUTORDER:64|
+SKILL:Knowledge (Local)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Arcanist|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nature)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Nobility)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Planes)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Arcanist|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Arcanist|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:41|
+SKILL:Linguistics|OUTPUTORDER:43|CLASSBOUGHT:[CLASS:Arcanist|RANKS:13.0|COST:1|CLASSSKILL:Y]|ASSOCIATEDDATA:Thassilonian|ASSOCIATEDDATA:Aklo|ASSOCIATEDDATA:Infernal|ASSOCIATEDDATA:Abyssal|ASSOCIATEDDATA:Boggard|ASSOCIATEDDATA:Gnome|ASSOCIATEDDATA:Aquan|ASSOCIATEDDATA:Auran|ASSOCIATEDDATA:Elven|ASSOCIATEDDATA:Giant|ASSOCIATEDDATA:Ignan|ASSOCIATEDDATA:Terran|ASSOCIATEDDATA:Varisian|ASSOCIATEDDATA:Necril|ASSOCIATEDDATA:Azlanti
+SKILL:Perception|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Arcanist|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Untrained)|OUTPUTORDER:45|
+SKILL:Profession (Untrained)|OUTPUTORDER:46|
+SKILL:Ride|OUTPUTORDER:47|
+SKILL:Samurai Mount|OUTPUTORDER:48|
+SKILL:Sense Motive|OUTPUTORDER:49|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:50|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:51|
+SKILL:Spellcraft|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Arcanist|RANKS:15.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:55|
+SKILL:Survival|OUTPUTORDER:56|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:57|
+SKILL:Swim|OUTPUTORDER:58|
+SKILL:Untrained Charisma|OUTPUTORDER:59|
+SKILL:Untrained Dexterity|OUTPUTORDER:60|
+SKILL:Untrained Intelligence|OUTPUTORDER:61|
+SKILL:Untrained Strength|OUTPUTORDER:62|
+SKILL:Untrained Wisdom|OUTPUTORDER:63|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:24|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:43|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:53|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:55|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:42|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:52|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:54|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:65|
-SKILL:Use Magic Device|OUTPUTORDER:66|CLASSBOUGHT:[CLASS:Arcanist|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Use Magic Device|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Arcanist|RANKS:13.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
-LANGUAGE:Abyssal|LANGUAGE:Aklo|LANGUAGE:Aquan|LANGUAGE:Auran|LANGUAGE:Boggard|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Giant|LANGUAGE:Gnome|LANGUAGE:Ignan|LANGUAGE:Infernal|LANGUAGE:Terran|LANGUAGE:Thassilonian
+LANGUAGE:Abyssal|LANGUAGE:Aklo|LANGUAGE:Aquan|LANGUAGE:Auran|LANGUAGE:Azlanti|LANGUAGE:Boggard|LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Giant|LANGUAGE:Gnome|LANGUAGE:Ignan|LANGUAGE:Infernal|LANGUAGE:Necril|LANGUAGE:Terran|LANGUAGE:Thassilonian|LANGUAGE:Varisian
 
 # Character Feats
 FEATPOOL:0.0
@@ -176,7 +178,9 @@ USERPOOL:Aasimar Subrace|POOLPOINTS:0.0
 ABILITY:Arcanist Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Arcanist Archetype ~ White Mage|TYPE:Archetype.ArcanistArchetype.ArcanistExploit1.ArcanistExploit9|DESC:A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.
 USERPOOL:Arcanist Archetype|POOLPOINTS:0.0
 ABILITY:Arcanist Exploit|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist Exploit ~ Burning Flame|TYPE:ArcanistExploit.SpecialQuality.Supernatural|DESC:Whenever the arcanist uses the flame arc exploit, she can expend 2 points from her arcane reservoir instead of one. If she does, each target catches on fire if it fails its saving throw. Until the fire is extinguished, the target takes 3d6 points of fire damage at the start of each of its turns. The target can attempt a Reflex saving throw as a full-round action to extinguish the flames. Applying at least 1 gallon of water to the target automatically extinguishes the flames. The arcanist must have the flame arc exploit to select this exploit.
+ABILITY:Arcanist Exploit|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist Exploit ~ Dimensional Slide|TYPE:ArcanistExploit.SpecialQuality.Supernatural|DESC:You can expend one point from your arcane reservoir to create a dimensional crack that you can step through to reach another location.  This ability is used as part of a move action or withdraw action, allowing you to move up to %1 feet to any location you can see. This counts as 5 feet of movement. You can only use this ability once per round.  You do not provoke attacks of opportunity when moving in this way, caused by this ability, but any other movement you attempt as part of your move action provokes as normal.&pipe;ArcanistLVL*10
 ABILITY:Arcanist Exploit|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist Exploit ~ Flame Arc|TYPE:ArcanistExploit.SpecialQuality.Supernatural|DESC:You can unleash an arc of flame by expending one point from your arcane reservoir.  This creates a %1-foot line of flame that deals %2d%3+%4 points of fire damage to each target in the line. Creatures in the area of effect may attempt a Reflex saving throw (DC %5) to halve the damage.&pipe;ArcanistFlameArcRange&pipe;ArcanistFlameArcDice&pipe;ArcanistEnergyExploitDieSize&pipe;ArcanistFlameArcBonus&pipe;ArcanistFlameArcDC
+ABILITY:Arcanist Exploit|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist Exploit ~ Metamixing|TYPE:ArcanistExploit.SpecialQuality.Supernatural|DESC:You can expend one point from your arcane reservoir to add a metamagic feat that you know to a spell as you cast it without affecting the casting time(though using a higher-level spell slot as normal). You can use this ability to add a metamagic feat to a spell that you prepared using a metamagic feat, although you cannot add the same metamagic feat to a given spell more than once.
 ABILITY:Arcanist Exploit|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist Exploit ~ Potent Magic|TYPE:ArcanistExploit.SpecialQuality.Supernatural|DESC:Whenever You expend one use of your arcane reservoir to increase the caster level of a spell, the caster level increases by 2 instead of 1.  Whenever you expend one point from your arcane reservoir to increase the DC of a spell, the DC is increases by 2 instead of 1.
 ABILITY:Arcanist Exploit|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist Exploit ~ Quick Study|TYPE:ArcanistExploit.SpecialQuality.Extraordinary|DESC:You can prepare a spell in place of an existing spell by expending one point from your arcane reservoir. Using this ability is a full-round action that provokes an attack of opportunity. You must be able to reference your spellbook when using this ability. The spell prepared must be of the same level as the spell being replaced.
 ABILITY:Arcanist Exploit|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist Exploit ~ School Understanding|TYPE:ArcanistExploit.SpecialQuality|DESC:You can select one arcane school from any of the schools available to a character with the arcane school wizard class feature, but do not have to select any opposition schools. You gain one ability of that school as though you were a 1st level wizard, using your Charisma modifier in place of your Intelligence modifier for this ability. The ability must be one gained at 1st level and is limited in its use to %1 times per day. As a swift action, you can expend one point from your arcane reservoir to bolster your understanding, allowing you to treat your arcanist level as your wizard level for these abilities for %2 rounds.  During this time you also gain use of the other ability gained at 1st level for your selected school. You do not gain any other abilities when using this exploit in this way, such as those gained at 8th level.  If you already have an arcane school (or gain one later), taking this exploit instead allows your arcanist levels to stack with the levels of the class that granted the arcane school when determining the powers and abilities of your arcane school.&pipe;SchoolUnderstandingTimes&pipe;SchoolUnderstandingDuration
@@ -191,14 +195,14 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Eldritch Aid|TYPE:General|DESC:You ha
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Empower Spell|TYPE:Metamagic.AbyssalBloodline.ElementalBloodline.BorealBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.RakshasaBloodline.ShaitanBloodline|DESC:You can increase the power of your spells, causing them to deal more damage.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Arcanist Exploit|APPLIEDTO:,|TYPE:General|DESC:Your repertoire of arcanist exploits expands.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Reservoir|APPLIEDTO:|TYPE:General|DESC:Your reservoir of arcane energy is greater than others'.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Intensified Spell|TYPE:Metamagic|DESC:Your spells can go beyond several normal limitations.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Spell Penetration|TYPE:General.InfernalBloodline.DragonShamanBonus|DESC:Your spells break through spell resistance more easily than most.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Arcanist|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,,|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Use Magic Device,Use Magic Device,Linguistics,Linguistics|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
-ABILITY:Ioun Stone Skill Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ioun Stone Skill Selection|APPLIEDTO:Knowledge (History)|TYPE:IounStoneSkill
-USERPOOL:Ioun Stone Skill Choice|POOLPOINTS:0.0
 ABILITY:Optional Rules Systems|TYPE:NORMAL|CATEGORY:Internal|KEY:Rules ~ Use Hero Points|TYPE:OptionalRules
 USERPOOL:Optional Rules Systems|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Varisia|TYPE:Region|DESC:Wild Frontier Region
@@ -210,117 +214,108 @@ USERPOOL:Traits|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
-WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club]
-WEAPONPROF:[WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)]
-WEAPONPROF:[WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Javelin|WEAPON:Kumade|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock|WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Weighted Spear]
 
 # Character Equipment
-MONEY:0.00
-EQUIPNAME:Acid (Flask)|OUTPUTORDER:31|COST:10|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Alchemist's Kindness|OUTPUTORDER:32|COST:1|WT:0.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Alchemist's Lab|OUTPUTORDER:61|COST:200|WT:40.0|QUANTITY:1.0|NOTE:
+MONEY:0
+EQUIPNAME:Acid (Flask)|OUTPUTORDER:30|COST:10|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Alchemist's Kindness|OUTPUTORDER:31|COST:1|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Amulet of Natural Armor +1|OUTPUTORDER:1|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Artisan's Tools (Carpentry)|OUTPUTORDER:33|COST:5|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Bedroll|OUTPUTORDER:34|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Antitoxin|OUTPUTORDER:48|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Artisan's Tools (Carpentry)|OUTPUTORDER:32|COST:5|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bedroll|OUTPUTORDER:33|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt of Mighty Constitution +6|OUTPUTORDER:7|COST:36000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Boots of Striding And Springing|OUTPUTORDER:11|COST:5500|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bracers of Armor +2|OUTPUTORDER:3|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Cat Burglar's Boots|OUTPUTORDER:10|COST:2000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Cloak of Resistance +3|OUTPUTORDER:8|COST:9000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:13|COST:0.01|WT:0.02|QUANTITY:6.0|NOTE:
-EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:16|COST:1|WT:0.02|QUANTITY:3.0|NOTE:
-EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:57|COST:10|WT:0.02|QUANTITY:488.0|NOTE:
-EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:12|COST:0.1|WT:0.02|QUANTITY:6.0|NOTE:
+EQUIPNAME:Cloak of Resistance +4|OUTPUTORDER:10|COST:16000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +4|DATA:NAME=Cloak of Resistance +4$EQMOD=CLOTH]
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:13|COST:0.01|WT:0.02|QUANTITY:3.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:16|COST:1|WT:0.02|QUANTITY:1.0|NOTE:
+EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:50|COST:10|WT:0.02|QUANTITY:99.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:25|COST:0.1|WT:0.02|QUANTITY:7.0|NOTE:
 EQUIPNAME:Deathbalm Talisman|OUTPUTORDER:15|COST:5000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Drug (Pesh)|OUTPUTORDER:35|COST:15|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Dust of Dryness|OUTPUTORDER:24|COST:850|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Handy Haversack|OUTPUTORDER:30|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Headband of Alluring Charisma +2|OUTPUTORDER:58|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Drug (Pesh)|OUTPUTORDER:34|COST:15|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Dust of Dryness|OUTPUTORDER:24|COST:850|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Handy Haversack|OUTPUTORDER:29|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Headband of Mental Prowess (WIS/CHA) +4|OUTPUTORDER:2|COST:40000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Hip Flask|OUTPUTORDER:59|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Holy Symbol (Silver/Erastil)|OUTPUTORDER:46|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Silver)|DATA:NAME=Holy Symbol (Silver/Erastil)]
-EQUIPNAME:Holy Symbol (Wooden/Sarenrae)|OUTPUTORDER:47|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Wooden)|DATA:NAME=Holy Symbol (Wooden/Sarenrae)]
-EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:36|COST:25|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Scarlet and blue Sphere)|OUTPUTORDER:29|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Journal|OUTPUTORDER:37|COST:10|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Marvelous Pigments|OUTPUTORDER:38|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Outfit (Courtier's)|OUTPUTORDER:62|COST:30|WT:6.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Helm of Underwater Action|OUTPUTORDER:59|COST:24000|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Hip Flask|OUTPUTORDER:61|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Holy Symbol (Silver/Erastil)|OUTPUTORDER:44|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Silver)|DATA:NAME=Holy Symbol (Silver/Erastil)]
+EQUIPNAME:Holy Symbol (Wooden/Sarenrae)|OUTPUTORDER:45|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Holy Symbol (Wooden)|DATA:NAME=Holy Symbol (Wooden/Sarenrae)]
+EQUIPNAME:Holy Water (Flask)|OUTPUTORDER:35|COST:25|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Journal|OUTPUTORDER:36|COST:10|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Luck Blade|OUTPUTORDER:6|COST:22060.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Luck Blade (0 wishes)|DATA:NAME=Luck Blade$KEY=Luck Blade (0 wishes)$EQMOD=MAGIC_COST&pipe;13750.PLUS2W.STEEL]
 EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:9|COST:1|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Perfume (Common)|OUTPUTORDER:17|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:18|COST:50|WT:0.0|QUANTITY:1.0|NOTE:GT
 EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:19|COST:300|WT:0.0|QUANTITY:2.0|NOTE:GT
-EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:20|COST:750|WT:0.0|QUANTITY:2.0|NOTE:GT
+EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:20|COST:750|WT:0.0|QUANTITY:4.0|NOTE:GT
 EQUIPNAME:Potion of Invisibility|OUTPUTORDER:21|COST:300|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Pouch (Belt)|OUTPUTORDER:11|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:39|COST:0.5|WT:1.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:12|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:37|COST:0.5|WT:1.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Ring of Counterspells|OUTPUTORDER:22|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ring of Protection +2|OUTPUTORDER:6|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ring of Wizardry I|OUTPUTORDER:5|COST:20000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Robe (Monk's)|OUTPUTORDER:7|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Energy Resistance (Major/Electricity)|OUTPUTORDER:63|COST:28000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +2|OUTPUTORDER:5|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Wizardry I|OUTPUTORDER:4|COST:20000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Robe (Monk's)|OUTPUTORDER:8|COST:13000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rod (Enemy Detection)|OUTPUTORDER:58|COST:23500.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rod|DATA:NAME=Rod (Enemy Detection)$EQMOD=USES_PER_DAY_3&pipe;CHARGES&lbracket;3&rbracket;]
 EQUIPNAME:Runestone of Power (1st Level)|OUTPUTORDER:23|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scrivener's Kit|OUTPUTORDER:40|COST:2|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll (Dream)|OUTPUTORDER:52|COST:1125.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Dream)$EQMOD=SCROLL_ARCANE.SCROLL_MAJOR.A_1USEMA&pipe;SPELLNAME&lbracket;Dream&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;5&rbracket; CASTERLEVEL&lbracket;9&rbracket;]
-EQUIPNAME:Scroll (Enlarge Person (Mass))|OUTPUTORDER:53|COST:700|WT:0.01|QUANTITY:1.0|NOTE:
-EQUIPNAME:Scroll (Mind Fog)|OUTPUTORDER:54|COST:1125.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Mind Fog)$EQMOD=SCROLL_ARCANE.SCROLL_MAJOR.A_1USEMA&pipe;SPELLNAME&lbracket;Mind Fog&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;5&rbracket; CASTERLEVEL&lbracket;9&rbracket;]
+EQUIPNAME:Scrivener's Kit|OUTPUTORDER:38|COST:2|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Scroll (Cone of Cold)|OUTPUTORDER:51|COST:1125|WT:0.01|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Scroll (Dream)|OUTPUTORDER:54|COST:1125.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Dream)$EQMOD=SCROLL_ARCANE.SCROLL_MAJOR.A_1USEMA&pipe;SPELLNAME&lbracket;Dream&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;5&rbracket; CASTERLEVEL&lbracket;9&rbracket;]
+EQUIPNAME:Scroll (Enlarge Person (Mass))|OUTPUTORDER:60|COST:700|WT:0.01|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Scroll (Ice Storm)|OUTPUTORDER:52|COST:700|WT:0.01|QUANTITY:1.0|NOTE:GT
 EQUIPNAME:Scroll (Shield)|OUTPUTORDER:55|COST:25|WT:0.01|QUANTITY:1.0|NOTE:GT
 EQUIPNAME:Scroll (Symbol of Sleep)|OUTPUTORDER:56|COST:1125.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Scroll|DATA:NAME=Scroll (Symbol of Sleep)$EQMOD=SCROLL_ARCANE.SCROLL_MAJOR.A_1USEMA&pipe;SPELLNAME&lbracket;Symbol of Sleep&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;5&rbracket; CASTERLEVEL&lbracket;9&rbracket;]
-EQUIPNAME:Scroll Case (Silver)|OUTPUTORDER:51|COST:250|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scroll Case|DATA:NAME=Scroll Case (Silver)$SPROP=Engraved with abyssal prayer to Nocticula$COSTMOD=249]
-EQUIPNAME:Shard of Pride|OUTPUTORDER:28|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Signet Ring|OUTPUTORDER:60|COST:5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring]
-EQUIPNAME:Silverfang|OUTPUTORDER:4|COST:9320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Silverfang|DATA:NAME=Silverfang$EQMOD=PLUS1W.BANE&pipe;Undead.MAGIC_COST&pipe;1000]
-EQUIPNAME:Skyrocket (Firework)|OUTPUTORDER:41|COST:50|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Spell Component Pouch|OUTPUTORDER:25|COST:5|WT:2.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Spellbook (Mervai I)|OUTPUTORDER:42|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Mervai I)]
-EQUIPNAME:Spellbook (Mervai II)|OUTPUTORDER:43|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Mervai II)]
-EQUIPNAME:Spellbook (Mervai III)|OUTPUTORDER:44|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Mervai III)$SPROP=(Spellbook (Wizard's/Blank))]
-EQUIPNAME:Tindertwig|OUTPUTORDER:45|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Unholy Symbol (Silver/Yamasoth)|OUTPUTORDER:48|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unholy Symbol (Silver)|DATA:NAME=Unholy Symbol (Silver/Yamasoth)$SPROP=(Unholy Symbol (Silver))]
-EQUIPNAME:Unholy Symbol (Wooden/Zevgavizeb)|OUTPUTORDER:49|COST:1|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unholy Symbol (Wooden)|DATA:NAME=Unholy Symbol (Wooden/Zevgavizeb)$SPROP=(Unholy Symbol (Wooden))]
+EQUIPNAME:Scroll (Wall of Ice)|OUTPUTORDER:53|COST:700|WT:0.01|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Signet Ring|OUTPUTORDER:62|COST:5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signet Ring|DATA:NAME=Signet Ring]
+EQUIPNAME:Silverfang|OUTPUTORDER:64|COST:9320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Silverfang|DATA:NAME=Silverfang$EQMOD=PLUS1W.BANE&pipe;Undead.MAGIC_COST&pipe;1000]
+EQUIPNAME:Skyrocket (Firework)|OUTPUTORDER:39|COST:50|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Spell Component Pouch|OUTPUTORDER:26|COST:5|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Spellbook (Mervai I)|OUTPUTORDER:40|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Mervai I)]
+EQUIPNAME:Spellbook (Mervai II)|OUTPUTORDER:41|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Mervai II)]
+EQUIPNAME:Spellbook (Mervai III)|OUTPUTORDER:42|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Wizard's/Blank)|DATA:NAME=Spellbook (Mervai III)$SPROP=(Spellbook (Wizard's/Blank))]
+EQUIPNAME:Spellbook (Mervai IV)|OUTPUTORDER:49|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Spellbook (Arcanist's/Blank)|DATA:NAME=Spellbook (Mervai IV)]
+EQUIPNAME:Tindertwig|OUTPUTORDER:43|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Unholy Symbol (Silver/Yamasoth)|OUTPUTORDER:46|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unholy Symbol (Silver)|DATA:NAME=Unholy Symbol (Silver/Yamasoth)$SPROP=(Unholy Symbol (Silver))]
+EQUIPNAME:Unholy Symbol (Silver/Zura)|OUTPUTORDER:57|COST:25|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unholy Symbol (Silver)|DATA:NAME=Unholy Symbol (Silver/Zura)]
+EQUIPNAME:Unholy Symbol (Wooden/Zevgavizeb)|OUTPUTORDER:47|COST:1|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Unholy Symbol (Wooden)|DATA:NAME=Unholy Symbol (Wooden/Zevgavizeb)$SPROP=(Unholy Symbol (Wooden))]
 EQUIPNAME:Wand of Charm Person|OUTPUTORDER:29|COST:165.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Charm Person$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Charm Person&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;11&rbracket;$SPROP=This charm makes a humanoid creature regard you as its trusted friend and ally.]
-EQUIPNAME:Wand of Detect Secret Doors|OUTPUTORDER:33|COST:15.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Detect Secret Doors$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Detect Secret Doors&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;1&rbracket;$SPROP=You can detect secret doors, compartments, caches, and so forth.]
 EQUIPNAME:Wand of False Life (CL 10th)|OUTPUTORDER:0|COST:1500.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of False Life (CL 10th)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;False Life&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;10&rbracket; CHARGES&lbracket;5&rbracket;]
-EQUIPNAME:Wand of Fireball (CL 10th)|OUTPUTORDER:0|COST:3600.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Fireball (CL 10th)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Fireball&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;3&rbracket; CASTERLEVEL&lbracket;10&rbracket; CHARGES&lbracket;8&rbracket;]
+EQUIPNAME:Wand of Fireball (CL 10th)|OUTPUTORDER:0|COST:1800.0|WT:0.0|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Fireball (CL 10th)$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Fireball&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;3&rbracket; CASTERLEVEL&lbracket;10&rbracket; CHARGES&lbracket;4&rbracket;]
 EQUIPNAME:Wand of Flame Blade|OUTPUTORDER:0|COST:810.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Flame Blade$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Flame Blade&rbracket;SPELLLEVEL&lbracket;2&rbracket;CASTERLEVEL&lbracket;3&rbracket;CHARGES&lbracket;9&rbracket;$SPROP=A 3-foot-long, blazing beam of red-hot fire springs forth from your hand.]
 EQUIPNAME:Wand of Mage Armor|OUTPUTORDER:11|COST:30.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Mage Armor$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Mage Armor&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;2&rbracket;$SPROP=An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.]
 EQUIPNAME:Wand of Mount|OUTPUTORDER:0|COST:540.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Mount$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Mount&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;36&rbracket;$SPROP=You summon a light horse or a pony (your choice) to serve you as a mount.]
-EQUIPNAME:Wand of Shield|OUTPUTORDER:0|COST:135.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Shield$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Shield&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;9&rbracket;$SPROP=Shield creates an invisible shield of force that hovers in front of you.]
-EQUIPNAME:Wayfinder|OUTPUTORDER:26|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Weapon Cord|OUTPUTORDER:27|COST:0.1|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Whispering Coin|OUTPUTORDER:14|COST:3000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Wine (Fine/Bottle)|OUTPUTORDER:50|COST:10|WT:1.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Wand of Shield|OUTPUTORDER:0|COST:120.0|WT:0.0625|QUANTITY:1.0|NOTE:GT|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Shield$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Shield&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;8&rbracket;$SPROP=Shield creates an invisible shield of force that hovers in front of you.]
+EQUIPNAME:Wayfinder|OUTPUTORDER:27|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Weapon Cord|OUTPUTORDER:28|COST:0.1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Whispering Coin|OUTPUTORDER:14|COST:3000|WT:0.0|QUANTITY:2.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.05|VALUE:Pouch (Belt)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.05.05|VALUE:Coin (Silver Piece)|QUANTITY:6.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.05.06|VALUE:Coin (Copper Piece)|QUANTITY:6.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.05.09|VALUE:Whispering Coin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.09|VALUE:Whispering Coin|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.10|VALUE:Deathbalm Talisman|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.05.11|VALUE:Coin (Gold Piece)|QUANTITY:3.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.13|VALUE:Perfume (Common)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.14|VALUE:Potion of Cure Light Wounds|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.15|VALUE:Potion of Cure Moderate Wounds|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.05.16|VALUE:Potion of Cure Serious Wounds|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.16|VALUE:Potion of Cure Serious Wounds|QUANTITY:4.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.17|VALUE:Potion of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.18|VALUE:Ring of Counterspells|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.19|VALUE:Runestone of Power (1st Level)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.05.20|VALUE:Dust of Dryness|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Pouch (Belt)|ID:0.1.05.21|VALUE:Coin (Silver Piece)|QUANTITY:7.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.06|VALUE:Spell Component Pouch|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.07|VALUE:Wand of Mage Armor|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Not Carried|ID:0.1.15|VALUE:Alchemist's Lab|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.2|VALUE:Signet Ring|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Wrist|ID:0.1.20|VALUE:Bracers of Armor +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.23|VALUE:Wayfinder|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.24|VALUE:Weapon Cord|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.25|VALUE:Wand of Charm Person|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.31|VALUE:Silverfang|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.32|VALUE:Wand of Detect Secret Doors|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Body|ID:0.1.34|VALUE:Robe (Monk's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.35|VALUE:Ring of Wizardry I|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Ring|ID:0.1.36|VALUE:Ring of Protection +2|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Shoulders|ID:0.1.37|VALUE:Cloak of Resistance +3|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.38|VALUE:Amulet of Natural Armor +1|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Headband|ID:0.1.39|VALUE:Headband of Mental Prowess (WIS/CHA) +4|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Feet|ID:0.1.40|VALUE:Cat Burglar's Boots|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.42|VALUE:Shard of Pride|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.43|VALUE:Ioun Stone (Scarlet and blue Sphere)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Not Carried|ID:0.1.44|VALUE:Outfit (Courtier's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.45|VALUE:Handy Haversack|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.01|VALUE:Acid (Flask)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.02|VALUE:Alchemist's Kindness|QUANTITY:2.0|USETEMPMODS:Y
@@ -329,7 +324,6 @@ EQUIPSET:Handy Haversack|ID:0.1.45.04|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.05|VALUE:Drug (Pesh)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.06|VALUE:Holy Water (Flask)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.07|VALUE:Journal|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.45.08|VALUE:Marvelous Pigments|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.09|VALUE:Rations (Trail/Per Day)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.10|VALUE:Scrivener's Kit|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.11|VALUE:Skyrocket (Firework)|QUANTITY:1.0|USETEMPMODS:Y
@@ -341,15 +335,18 @@ EQUIPSET:Handy Haversack|ID:0.1.45.16|VALUE:Holy Symbol (Silver/Erastil)|QUANTIT
 EQUIPSET:Handy Haversack|ID:0.1.45.17|VALUE:Holy Symbol (Wooden/Sarenrae)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.18|VALUE:Unholy Symbol (Silver/Yamasoth)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.45.19|VALUE:Unholy Symbol (Wooden/Zevgavizeb)|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.45.20|VALUE:Wine (Fine/Bottle)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.45.21|VALUE:Scroll Case (Silver)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Scroll Case (Silver)|ID:0.1.45.21.01|VALUE:Scroll (Dream)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Scroll Case (Silver)|ID:0.1.45.21.02|VALUE:Scroll (Enlarge Person (Mass))|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Scroll Case (Silver)|ID:0.1.45.21.03|VALUE:Scroll (Mind Fog)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Scroll Case (Silver)|ID:0.1.45.21.04|VALUE:Scroll (Shield)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Scroll Case (Silver)|ID:0.1.45.21.05|VALUE:Scroll (Symbol of Sleep)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.45.22|VALUE:Coin (Platinum Piece)|QUANTITY:488.0|USETEMPMODS:Y
-EQUIPSET:Handy Haversack|ID:0.1.45.23|VALUE:Headband of Alluring Charisma +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.20|VALUE:Antitoxin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.21|VALUE:Spellbook (Mervai IV)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.22|VALUE:Scroll (Cone of Cold)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.23|VALUE:Scroll (Ice Storm)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.24|VALUE:Scroll (Wall of Ice)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.25|VALUE:Scroll (Dream)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.27|VALUE:Scroll (Shield)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.28|VALUE:Scroll (Symbol of Sleep)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.29|VALUE:Unholy Symbol (Silver/Zura)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.30|VALUE:Rod (Enemy Detection)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.31|VALUE:Helm of Underwater Action|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.45.32|VALUE:Scroll (Enlarge Person (Mass))|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.46|VALUE:Wand of False Life (CL 10th)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.47|VALUE:Wand of Fireball (CL 10th)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.48|VALUE:Wand of Flame Blade|QUANTITY:1.0|USETEMPMODS:Y
@@ -357,6 +354,12 @@ EQUIPSET:Equipped|ID:0.1.49|VALUE:Wand of Mount|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.50|VALUE:Wand of Shield|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.51|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.52|VALUE:Hip Flask|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.53|VALUE:Belt of Mighty Constitution +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Feet|ID:0.1.54|VALUE:Boots of Striding And Springing|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.55|VALUE:Cloak of Resistance +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.57|VALUE:Ring of Energy Resistance (Major/Electricity)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.58|VALUE:Luck Blade|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.59|VALUE:Silverfang|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -372,34 +375,134 @@ SPELLBOOK:Shard of Pride|TYPE:4
 SPELLBOOK:Spellbook (Mervai I)|TYPE:3
 SPELLBOOK:Spellbook (Mervai II)|TYPE:3
 SPELLBOOK:Spellbook (Mervai III)|TYPE:3
+SPELLBOOK:Spellbook (Mervai IV)|TYPE:3
 SPELLNAME:Acid Splash|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Antimagic Field|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Arcane Eye|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Arcane Mark|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Baleful Polymorph|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Ball Lightning|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Banshee Blast|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Bear's Endurance|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Bleed|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Blur|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Bull's Strength|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Burning Arc|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Burning Hands|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Burst of Radiance|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Chain Lightning|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Charm Monster|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Charm Person|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Chill Touch|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Clairaudience/Clairvoyance|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Cloudkill|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Color Spray|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Command Undead|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Compassionate Ally|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Comprehend Languages|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Cone of Cold|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Confusion|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Dancing Lights|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Daze|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Deep Slumber|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Detect Poison|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Detect Secret Doors|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Detonate|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Dimension Door|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Disguise Self|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Disintegrate|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Dismissal|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Dispel Magic|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Displacement|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Disrupt Undead|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Dominate Person|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Eldritch Conduit|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Elemental Body III|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Enervation|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Enlarge Person|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:False Life|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Fear|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Feather Fall|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Fire Shield|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Fireball|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Flaming Sphere|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Flare|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Flesh to Stone|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Fluid Form|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Fly|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Ghost Sound|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Glitterdust|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Haste|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Haunted Fey Aspect|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Heroism|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Hideous Laughter|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Hydraulic Torrent|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Ice Body|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Ice Spears|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Ice Storm|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Identify|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Invisibility|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Invisibility (Greater)|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Keep Watch|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Knock|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Legend Lore|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Light|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Lightning Arc|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Lightning Bolt|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Limited Wish|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Locate Object|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Mage Armor|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Mage Hand|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Make Whole|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Mending|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Message|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Mount|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Open/Close|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Phantasmal Killer|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Polypurpose Panacea|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Prestidigitation|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Prismatic Spray|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Protection from Arrows|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Protection from Energy|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Protection from Evil|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Protection from Evil (Communal)|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Protection from Good|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Ray of Enfeeblement|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Ray of Frost|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Read Magic|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Reckless Infatuation|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Reduce Person|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Resistance|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Scorching Ray|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Scrying|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Seducer's Eyes|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:See Invisibility|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Shield|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Shocking Grasp|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Shout|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Shrink Item|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Snapdragon Fireworks|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Sonic Form|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Spark|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Stinking Cloud|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Stone Shape|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Summon Monster III|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Summon Monster V|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Sure Casting|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Telekinetic Charge|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Teleport|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Touch of Fatigue|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Touch of Idiocy|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Undead Anatomy III|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Unprepared Combatant|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Vampiric Touch|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLNAME:Vanish|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Vengeful Comets|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Wall of Fire|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Wall of Force|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
+SPELLNAME:Waves of Fatigue|TIMES:1|CLASS:Arcanist|BOOK:Known Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Arcanist]
 SPELLLIST:Arcanist|CLASS.Arcanist|CLASS.Wizard
 
 # Character Description/Bio/History

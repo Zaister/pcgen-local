@@ -59,7 +59,7 @@ ALIGN:CG
 RACE:Half-Orc
 
 # Character Class(es)
-CLASS:Unchained Barbarian|LEVEL:13|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Unchained Barbarian|LEVEL:15|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Unchained Barbarian=1|HITPOINTS:12|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Unchained Barbarian=2|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Unchained Barbarian=3|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
@@ -73,9 +73,11 @@ CLASSABILITIESLEVEL:Unchained Barbarian=10|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMA
 CLASSABILITIESLEVEL:Unchained Barbarian=11|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Unchained Barbarian=12|HITPOINTS:7|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Unchained Barbarian=13|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unchained Barbarian=14|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Unchained Barbarian=15|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:361159
+EXPERIENCE:639059
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -89,12 +91,14 @@ TEMPLATESAPPLIED:[NAME:Bonus Background Trait]
 TEMPLATESAPPLIED:[NAME:Bite 1 (Medium)]
 TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Intelligence)|CHOSENTEMPLATE:[NAME:Inherent Intelligence Bonus +1]]
 TEMPLATESAPPLIED:[NAME:Inherent Intelligence Bonus +1]
+TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Strength)|CHOSENTEMPLATE:[NAME:Inherent Strength Bonus +3]]
+TEMPLATESAPPLIED:[NAME:Inherent Strength Bonus +3]
 
 # Character Region
 REGION:Varisia
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:11.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:13.0|COST:1|CLASSSKILL:Y]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Bluff|OUTPUTORDER:4|
@@ -112,7 +116,7 @@ SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
 SKILL:Disguise|OUTPUTORDER:17|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
 SKILL:Escape Artist|OUTPUTORDER:19|
-SKILL:Fly|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:8.0|COST:1|CLASSSKILL:N]
+SKILL:Fly|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:12.0|COST:1|CLASSSKILL:N]
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
 SKILL:Handle Animal|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
@@ -125,8 +129,8 @@ SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
 SKILL:Knowledge (Local)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:3.0|COST:1|CLASSSKILL:N]
 SKILL:Knowledge (Nature)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
-SKILL:Linguistics|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial
-SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:13.0|COST:1|CLASSSKILL:Y]
+SKILL:Linguistics|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Celestial
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:15.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:37|
 SKILL:Profession (Untrained)|OUTPUTORDER:38|
 SKILL:Ride|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Unchained Barbarian|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -145,7 +149,7 @@ SKILL:Untrained Strength|OUTPUTORDER:53|
 SKILL:Untrained Wisdom|OUTPUTORDER:54|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
-SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:44|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:55|
@@ -174,11 +178,12 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Rage Power|APPLIEDTO:|TYPE:Gene
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Lunge|TYPE:Combat.DruidShamanLion|DESC:You can strike foes that would normally be out of reach.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Reckless Rage|TYPE:Combat|DESC:When you use Power Attack while raging or while using raging song, you take an additional -1 penalty on melee attack rolls and combat maneuver checks, and you gain an additional +2 bonus on melee damage rolls. Modify this damage bonus appropriately based on the type of weapon you are using, as normal for Power Attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Resilient Brute|TYPE:General|DESC:You absorb punishment others find deadly.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Barbarian|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Superstitious Rage|APPLIEDTO:,,,,,,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBarbarian|DESC:Add +1/3 to the bonus from the superstitious rage power.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Superstitious Rage|APPLIEDTO:,,,,,,,,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBarbarian|DESC:Add +1/3 to the bonus from the superstitious rage power.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Half-Orc Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
 USERPOOL:Half-Orc Racial Subtype|POOLPOINTS:0.0
@@ -199,6 +204,7 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Undead Slayer|TY
 USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Rage Power ~ Ghost Rager|TYPE:RagePower.SpecialAttack.Supernatural.UnchainedRagePower|DESC:While raging, the barbarian deals normal damage to incorporeal creatures even when using nonmagical weapons. She also gains a +3 morale bonus to touch AC, which increases by 1 at 8th level and every 4 levels thereafter (to a maximum of +7 at 20th level). This can't raise her touch AC above her full AC. A barbarian must be at least 6th level before selecting this rage power.
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Accurate Stance|TYPE:BarbarianClassFeatures.ClassFeatures.UnchainedRagePower.SpecialAttack.Extraordinary|DESC:You can focus your strikes. You gain a +%1 competence bonus on melee attack rolls and thrown weapon attack rolls. This is a stance rage power.&pipe;AccurateStanceBonus
+ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Energy Resistance|APPLIEDTO:Cold|TYPE:BarbarianClassFeatures.ClassFeatures.UnchainedRagePower.SpecialAttack.Extraordinary|DESC:You gain resistance %1 to one energy type (acid, cold, electricity, fire, or sonic).&pipe;EnergyResistance|DESC:You also gain limited immunity to the same type of energy, as Protection from Energy. You can absorb %1 points of damage, and you apply your energy resistance first.&pipe;EnergyResistanceAbsorbDamage&pipe;PREVARGTEQ&colon;RagePowersLVL,8|DESC:The energy type is chosen when this rage power is selected, and it can't be changed. This rage power can be selected more than once; each time, it applies to a different energy type.
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Knockback|TYPE:BarbarianClassFeatures.ClassFeatures.UnchainedRagePower.SpecialAttack.Extraordinary|DESC:Once per round, you can attempt a bull rush against one target in place of a melee attack, using your full CMB regardless of the attack it replaces. If the bull rush is successful, the target takes an amount of damage equal to your Strength modifier and is knocked back as normal. You don't move with the target. This bull rush doesn't provoke an attack of opportunity.
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Sharpened Accuracy|TYPE:BarbarianClassFeatures.ClassFeatures.UnchainedRagePower.SpecialAttack.Extraordinary|DESC:While in the accurate stance, you ignore the miss chance for concealment and treat total concealment as concealment. You also ignore cover penalties except those from total cover.
 ABILITY:Unchained Rage Power|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Unchained Rage Power ~ Superstition|TYPE:BarbarianClassFeatures.ClassFeatures.UnchainedRagePower.SpecialQuality.Extraordinary|DESC:You gain a +%1 competence bonus on saving throws made to resist spells and spell-like abilities. You cannot be the willing target of any spell and must attempt saving throws to resist all spells, even those cast by allies.&pipe;SuperstitionSaveBonus
@@ -224,64 +230,57 @@ WEAPONPROF:[WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Ton
 WEAPONPROF:[WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Whip|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:Acid (Flask)|OUTPUTORDER:47|COST:10|WT:1.0|QUANTITY:2.0|NOTE:
+MONEY:0.00
+EQUIPNAME:Acid (Flask)|OUTPUTORDER:43|COST:10|WT:1.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Adamantine Dagger +1 (Furious)|OUTPUTORDER:46|COST:11002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger (Adamantine)|DATA:NAME=Adamantine Dagger +1 (Furious)$EQMOD=ADAMANT_WEAP.PLUS1W.FURIOUS$SPROP=(Adamantine Dagger +1 (Furious))]
 EQUIPNAME:Amulet of Natural Armor +2|OUTPUTORDER:1|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Arrow|OUTPUTORDER:17|COST:0.05|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
-EQUIPNAME:Bedroll|OUTPUTORDER:33|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bedroll|DATA:NAME=Bedroll]
-EQUIPNAME:Belt of Giant Strength +6|OUTPUTORDER:10|COST:36000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Arrow|OUTPUTORDER:16|COST:0.05|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Bedroll|OUTPUTORDER:30|COST:0.1|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bedroll|DATA:NAME=Bedroll]
+EQUIPNAME:Belt of Physical Might (STR/CON) +6|OUTPUTORDER:10|COST:90000|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
-EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:5|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
+EQUIPNAME:Bite (Natural/Primary)|OUTPUTORDER:4|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Bite|DATA:KEY=Bite]
 EQUIPNAME:Boots (Winged)|OUTPUTORDER:12|COST:16000|WT:2.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Cap of the Free Thinker|OUTPUTORDER:2|COST:12000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Climber's Kit|OUTPUTORDER:15|COST:80|WT:5.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Cloak of Resistance +4|OUTPUTORDER:11|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:29|COST:0.01|WT:0.02|QUANTITY:14.0|NOTE:
-EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:30|COST:1|WT:0.02|QUANTITY:439.0|NOTE:
-EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:32|COST:10|WT:0.02|QUANTITY:300.0|NOTE:
-EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:31|COST:0.1|WT:0.02|QUANTITY:12.0|NOTE:
-EQUIPNAME:Composite Longbow +1 (Strength Rating +2)|OUTPUTORDER:51|COST:2600.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Composite Longbow +1 (Strength Rating +2)$EQMOD=WOOD.BOWSTR&pipe;+2.PLUS1W$SPROP=(Longbow +1 (Composite/+2))]
-EQUIPNAME:Dagger +1 (Adamantine)|OUTPUTORDER:14|COST:5002.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Adamantine)$EQMOD=ADAMANT_WEAP.PLUS1W]
-EQUIPNAME:Fishhook|OUTPUTORDER:34|COST:0.1|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Fishhook|DATA:NAME=Fishhook]
-EQUIPNAME:Flint and Steel|OUTPUTORDER:35|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flint and Steel|DATA:NAME=Flint and Steel]
-EQUIPNAME:Grappling Hook|OUTPUTORDER:36|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Handy Haversack|OUTPUTORDER:27|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Climber's Kit|OUTPUTORDER:14|COST:80|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Cloak of Resistance +4|OUTPUTORDER:9|COST:16000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +4|DATA:NAME=Cloak of Resistance +4$EQMOD=CLOTH]
+EQUIPNAME:Coin (Copper Piece)|OUTPUTORDER:26|COST:0.01|WT:0.02|QUANTITY:9.0|NOTE:
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:27|COST:1|WT:0.02|QUANTITY:340.0|NOTE:
+EQUIPNAME:Coin (Silver Piece)|OUTPUTORDER:28|COST:0.1|WT:0.02|QUANTITY:3.0|NOTE:
+EQUIPNAME:Composite Longbow +1 (Strength Rating +2)|OUTPUTORDER:45|COST:2600.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Composite Longbow +1 (Strength Rating +2)$EQMOD=WOOD.BOWSTR&pipe;+2.PLUS1W$SPROP=(Longbow +1 (Composite/+2))]
+EQUIPNAME:Fishhook|OUTPUTORDER:31|COST:0.1|WT:0.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Fishhook|DATA:NAME=Fishhook]
+EQUIPNAME:Flint and Steel|OUTPUTORDER:32|COST:1|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Flint and Steel|DATA:NAME=Flint and Steel]
+EQUIPNAME:Grappling Hook|OUTPUTORDER:33|COST:1|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Handy Haversack|OUTPUTORDER:24|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
 EQUIPNAME:Headband of Inspired Wisdom +2|OUTPUTORDER:3|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Deep red Sphere)|OUTPUTORDER:49|COST:8000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ioun Stone (Dusty rose Prism)|OUTPUTORDER:48|COST:5000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Lucerne Hammer +3 (Furious)|OUTPUTORDER:6|COST:32315.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lucerne Hammer|DATA:NAME=Lucerne Hammer +3 (Furious)$EQMOD=BRACE.STEEL.FURIOUS.PLUS3W]
-EQUIPNAME:Mithral Breastplate +3 Deathless|OUTPUTORDER:9|COST:20200.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=Mithral Breastplate +3 Deathless$EQMOD=MITHRAL_ARMR_MED.PLUS3A.DTHLS]
-EQUIPNAME:Mug or Tankard (Clay)|OUTPUTORDER:37|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mug or Tankard (Clay)|DATA:NAME=Mug or Tankard (Clay)]
+EQUIPNAME:Lucerne Hammer +3 (Furious)|OUTPUTORDER:5|COST:32315.0|WT:12.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lucerne Hammer|DATA:NAME=Lucerne Hammer +3 (Furious)$EQMOD=BRACE.STEEL.FURIOUS.PLUS3W]
+EQUIPNAME:Mithral Breastplate +3 Deathless Light Fortification|OUTPUTORDER:11|COST:29200.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=Mithral Breastplate +3 Deathless Light Fortification$EQMOD=MITHRAL_ARMR_MED.PLUS3A.DTHLS.FRT_LGHT]
+EQUIPNAME:Mug or Tankard (Clay)|OUTPUTORDER:34|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Mug or Tankard (Clay)|DATA:NAME=Mug or Tankard (Clay)]
 EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:7|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
-EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:20|COST:50|WT:0.0|QUANTITY:3.0|NOTE:GT
-EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:24|COST:300|WT:0.0|QUANTITY:5.0|NOTE:GT
-EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:23|COST:750|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Potion of Displacement|OUTPUTORDER:21|COST:750|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:Pouch (Belt)|OUTPUTORDER:19|COST:1|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch (Belt)]
+EQUIPNAME:Portable Hole|OUTPUTORDER:44|COST:20000|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:19|COST:50|WT:0.0|QUANTITY:3.0|NOTE:GT
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:23|COST:300|WT:0.0|QUANTITY:5.0|NOTE:GT
+EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:22|COST:750|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Potion of Displacement|OUTPUTORDER:20|COST:750|WT:0.0|QUANTITY:1.0|NOTE:GT
+EQUIPNAME:Pouch (Belt)|OUTPUTORDER:18|COST:1|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pouch (Belt)|DATA:NAME=Pouch (Belt)]
 EQUIPNAME:Quick Runner's Shirt|OUTPUTORDER:8|COST:1000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:38|COST:0.5|WT:1.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day)]
-EQUIPNAME:Ring of Energy Resistance (Minor/Electricity)|OUTPUTORDER:22|COST:12000|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Ring of Feather Falling|OUTPUTORDER:4|COST:2200|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:39|COST:10|WT:5.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Sack|OUTPUTORDER:28|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
-EQUIPNAME:Second-Story Harness|OUTPUTORDER:16|COST:55|WT:3.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Sewing Needle|OUTPUTORDER:40|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sewing Needle|DATA:NAME=Sewing Needle]
-EQUIPNAME:Shard of Envy|OUTPUTORDER:26|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Shard of Wrath|OUTPUTORDER:50|COST:0|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Signal Whistle|OUTPUTORDER:41|COST:0.8|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signal Whistle|DATA:NAME=Signal Whistle]
-EQUIPNAME:Stone Salve (Ounce)|OUTPUTORDER:25|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:GT
-EQUIPNAME:String (50 ft.)|OUTPUTORDER:42|COST:0.01|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:String (50 ft.)|DATA:NAME=String (50 ft.)]
-EQUIPNAME:Tanglefoot Bag|OUTPUTORDER:43|COST:50|WT:4.0|QUANTITY:2.0|NOTE:
-EQUIPNAME:Waterskin (Filled with Magical Water)|OUTPUTORDER:44|COST:1|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin (Filled)|DATA:NAME=Waterskin (Filled with Magical Water)]
-EQUIPNAME:Wayfinder|OUTPUTORDER:18|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Whetstone|OUTPUTORDER:45|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whetstone|DATA:NAME=Whetstone]
+EQUIPNAME:Rations (Trail/Per Day)|OUTPUTORDER:35|COST:0.5|WT:1.0|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rations (Trail/Per Day)|DATA:NAME=Rations (Trail/Per Day)]
+EQUIPNAME:Ring of Energy Resistance (Minor/Electricity)|OUTPUTORDER:21|COST:12000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Freedom of Movement|OUTPUTORDER:6|COST:40000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Rope (Silk/50 ft)|OUTPUTORDER:36|COST:10|WT:5.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Sack|OUTPUTORDER:25|COST:0.1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Second-Story Harness|OUTPUTORDER:15|COST:55|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sewing Needle|OUTPUTORDER:37|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sewing Needle|DATA:NAME=Sewing Needle]
+EQUIPNAME:Signal Whistle|OUTPUTORDER:38|COST:0.8|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Signal Whistle|DATA:NAME=Signal Whistle]
+EQUIPNAME:String (50 ft.)|OUTPUTORDER:39|COST:0.01|WT:0.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:String (50 ft.)|DATA:NAME=String (50 ft.)]
+EQUIPNAME:Tanglefoot Bag|OUTPUTORDER:40|COST:50|WT:4.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Waterskin (Filled with Magical Water)|OUTPUTORDER:41|COST:1|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Waterskin (Filled)|DATA:NAME=Waterskin (Filled with Magical Water)]
+EQUIPNAME:Wayfinder|OUTPUTORDER:17|COST:500|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Whetstone|OUTPUTORDER:42|COST:0.02|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Whetstone|DATA:NAME=Whetstone]
 EQUIPNAME:Wrist Sheath (Spring Loaded)|OUTPUTORDER:13|COST:5|WT:1.0|QUANTITY:1.0|NOTE:
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.04|VALUE:Wrist Sheath (Spring Loaded)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Wrist Sheath (Spring Loaded)|ID:0.1.04.01|VALUE:Dagger +1 (Adamantine)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.09|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.10|VALUE:Climber's Kit|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Ring|ID:0.1.13|VALUE:Ring of Feather Falling|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.14|VALUE:Second-Story Harness|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.19|VALUE:Arrow|QUANTITY:20.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.27|VALUE:Wayfinder|QUANTITY:1.0|USETEMPMODS:Y
@@ -292,22 +291,18 @@ EQUIPSET:Pouch (Belt)|ID:0.1.3.06|VALUE:Potion of Displacement|QUANTITY:1.0|USET
 EQUIPSET:Pouch (Belt)|ID:0.1.3.07|VALUE:Ring of Energy Resistance (Minor/Electricity)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.3.09|VALUE:Potion of Cure Serious Wounds|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Pouch (Belt)|ID:0.1.3.10|VALUE:Potion of Cure Moderate Wounds|QUANTITY:5.0|USETEMPMODS:Y
-EQUIPSET:Pouch (Belt)|ID:0.1.3.11|VALUE:Stone Salve (Ounce)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.40|VALUE:Composite Longbow +1 (Strength Rating +2)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Neck|ID:0.1.41|VALUE:Amulet of Natural Armor +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Chest|ID:0.1.42|VALUE:Quick Runner's Shirt|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Head|ID:0.1.43|VALUE:Cap of the Free Thinker|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.47|VALUE:Shard of Envy|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Headband|ID:0.1.49|VALUE:Headband of Inspired Wisdom +2|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Both Hands|ID:0.1.51|VALUE:Lucerne Hammer +3 (Furious)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Armor|ID:0.1.53|VALUE:Mithral Breastplate +3 Deathless|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Feet|ID:0.1.54|VALUE:Boots (Winged)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Equipped|ID:0.1.56|VALUE:Handy Haversack|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.56.01|VALUE:Sack|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Sack|ID:0.1.56.01.01|VALUE:Coin (Copper Piece)|QUANTITY:14.0|USETEMPMODS:Y
-EQUIPSET:Sack|ID:0.1.56.01.02|VALUE:Coin (Gold Piece)|QUANTITY:439.0|USETEMPMODS:Y
-EQUIPSET:Sack|ID:0.1.56.01.03|VALUE:Coin (Silver Piece)|QUANTITY:12.0|USETEMPMODS:Y
-EQUIPSET:Sack|ID:0.1.56.01.04|VALUE:Coin (Platinum Piece)|QUANTITY:300.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.56.01.01|VALUE:Coin (Copper Piece)|QUANTITY:9.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.56.01.02|VALUE:Coin (Gold Piece)|QUANTITY:340.0|USETEMPMODS:Y
+EQUIPSET:Sack|ID:0.1.56.01.03|VALUE:Coin (Silver Piece)|QUANTITY:3.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.56.02|VALUE:Bedroll|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.56.03|VALUE:Fishhook|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.56.04|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
@@ -322,15 +317,16 @@ EQUIPSET:Handy Haversack|ID:0.1.56.12|VALUE:Tanglefoot Bag|QUANTITY:2.0|USETEMPM
 EQUIPSET:Handy Haversack|ID:0.1.56.13|VALUE:Waterskin (Filled with Magical Water)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.56.14|VALUE:Whetstone|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Handy Haversack|ID:0.1.56.16|VALUE:Acid (Flask)|QUANTITY:2.0|USETEMPMODS:Y
-EQUIPSET:Belt|ID:0.1.58|VALUE:Belt of Giant Strength +6|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.59|VALUE:Ioun Stone (Dusty rose Prism)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.60|VALUE:Ioun Stone (Deep red Sphere)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Equipped|ID:0.1.61|VALUE:Shard of Wrath|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Shoulders|ID:0.1.62|VALUE:Cloak of Resistance +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.63|VALUE:Portable Hole|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.64|VALUE:Ring of Freedom of Movement|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.65|VALUE:Belt of Physical Might (STR/CON) +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.66|VALUE:Adamantine Dagger +1 (Furious)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.67|VALUE:Mithral Breastplate +3 Deathless Light Fortification|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
-TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;3
+TEMPBONUS:FEAT=Hero Points|TBTARGET:PC|TBBONUS:VAR&pipe;HEROPOINTS&pipe;1
 TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Lucerne Hammer +3 (Furious)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
 TEMPBONUS:FEAT=Power Attack (Off-Hand)|TBTARGET:Bite (Natural/Primary)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE/2)+POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
 
