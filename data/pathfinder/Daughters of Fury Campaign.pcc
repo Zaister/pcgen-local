@@ -40,6 +40,9 @@ PCC:@/pathfinder/paizo/player_companion/bastards_of_golarion/bastards_of_golario
 # PlusRPG rule modifications
 PCC:$/plusrpg/plusrpg.pcc
 
+# Daughters of Fury Module miscellaneous data files
+SKILL:$/pathfinder/zaister/daughters_of_fury/df_skills.lst
+
 # Use Armor and Weapon Attunement rules
 BONUS:VAR|UseAttunement|1
 
