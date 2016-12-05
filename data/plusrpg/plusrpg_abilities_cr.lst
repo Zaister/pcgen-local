@@ -31,6 +31,7 @@ Ecology (Undead)			KEY:Ecology ~ Undead			CATEGORY:Special Ability	TYPE:EcologyS
 ###Block:Ecology Specialization - Creature Subtypes
 # Ability Name			Unique Key					Category of Ability		Type							Required Ability								Description
 Ecology (Constructs, robots)	KEY:Ecology ~ Constructs Robots	CATEGORY:Special Ability	TYPE:EcologySpecialization.SpecialQuality	PREABILITY:1,CATEGORY=Special Ability,Ecology ~ Constructs	DESC:You gain a +4 competence bonus on Ecology checks made to identify constructs with the robot subtype.
+Ecology (Outsiders, demons)	KEY:Ecology ~ Outsiders demons	CATEGORY:Special Ability	TYPE:EcologySpecialization.SpecialQuality	PREABILITY:1,CATEGORY=Special Ability,Ecology ~ Outsiders	DESC:You gain a +4 competence bonus on Ecology checks made to identify outsiders with the demon subtype.
 Ecology (Outsiders, devils)	KEY:Ecology ~ Outsiders devils	CATEGORY:Special Ability	TYPE:EcologySpecialization.SpecialQuality	PREABILITY:1,CATEGORY=Special Ability,Ecology ~ Outsiders	DESC:You gain a +4 competence bonus on Ecology checks made to identify outsiders with the devil subtype.
 
 ###Block:Ecology Specialization - Hazard Types
@@ -117,16 +118,3 @@ Thrown		KEY:Thrown		CATEGORY:Special Ability	TYPE:WeaponFocusSelection.SpecialAt
 #
 # End
 #
-
-
-
-# Orc Atavism
-###Block: Half-Orc Racial Trait Abilities
-# Ability Name	Unique Key				Category of Ability		Type																			Multiple Requirements																																											Description																																																																											Ability							Bonus Ability Pool									Stat bonus				Cost
-Orc Atavism		KEY:Half-Orc ~ Orc Atavism	CATEGORY:Special Ability	TYPE:RacialTraits.SpecialQuality.HalfOrcRacialTrait.HalfOrcFerocity.HalfOrcIntimidating.HalfOrcWeaponFamiliarity	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Half-Orc ~ Orc Atavism],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalfOrcFerocity],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalfOrcIntimidating],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.HalfOrcWeaponFamiliarity]	DESC:Some half-orcs have much stronger orc blood than human blood. Such half-orcs count as only half-orcs and orcs (not also humans) for any effect related to race. They gain a +2 bonus to Strength and a -2 penalty to one mental ability score of their choice. Finally, they gain the ferocity universal monster ability. This racial trait replaces the half-orc's usual racial ability score modifiers, as well as intimidating, orc blood, and orc ferocity.	ABILITY:Special Ability|AUTOMATIC|Ferocity	BONUS:ABILITYPOOL|Ability Bonus|-1	BONUS:ABILITYPOOL|Ability Penalty|1	BONUS:STAT|STR|2|TYPE=Racial	COST:0
-
-###Block: Ability Bonus Abilities
-# Ability Name	Category of Ability		Type				Visible		Stackable?	Multiple?	Stat bonus
--2 Intelligence	CATEGORY:Special Ability	TYPE:AbilityPenalty	VISIBLE:DISPLAY	STACK:NO	MULT:NO	BONUS:STAT|INT|-2|TYPE=Racial
--2 Wisdom		CATEGORY:Special Ability	TYPE:AbilityPenalty	VISIBLE:DISPLAY	STACK:NO	MULT:NO	BONUS:STAT|WIS|-2|TYPE=Racial
--2 Charisma		CATEGORY:Special Ability	TYPE:AbilityPenalty	VISIBLE:DISPLAY	STACK:NO	MULT:NO	BONUS:STAT|CHA|-2|TYPE=Racial
