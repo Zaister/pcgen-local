@@ -8,6 +8,11 @@ CATEGORY=Special Ability|Gnome ~ Fey Magic.MOD	SPELLS:Underground|TIMES=1|CASTER
 #Fix for Ifrit Fire Affinity
 CATEGORY=Special Ability|Ifrit ~ Fire Affinity.MOD	BONUS:DC|CLASS.Sorcerer|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana	BONUS:CONCENTRATION|CLASS.Sorcerer|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana	BONUS:VAR|BloodlinePowerTimes|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana	BONUS:VAR|ElementalBlastDC|1|PREABILITY:1,CATEGORY=Special Ability,Sorcerer Bloodline ~ Elemental (Fire),Primal Fire ~ Bloodline Arcana
 
+
+#Bloodline Mutation (Blood Havoc)		KEY:Sorcerer Archetype ~ Blood Havoc	CATEGORY:Archetype	TYPE:Archetype.SorcererArchetype.SorcererBloodlinePowerLvl1	DESC:You gain the blood havoc bloodline mutation.	ABILITY:Special Ability|AUTOMATIC|Bloodline Mutation ~ Blood Havoc	SOURCELONG:Magic Tactics Toolbox	SOURCEPAGE:p.10	COST:0
+
+#Blood Havoc	KEY:Bloodline Mutation ~ Blood Havoc	CATEGORY:Special Ability	TYPE:Bloodline Mutation Class Feature.Sorcerer Class Feature.SpecialAttack	DESC:Whenever you cast a bloodrager or sorcerer spell that deals damage, add 1 point of damage per die rolled. This benefit applies only to damaging spells that belong to schools you have selected with Spell Focus or that are bloodline spells for your bloodline. This ability replaces the sorcerer’s 1st-level bloodline power or the bloodrager’s 4th-level bloodline power.	SOURCELONG:Magic Tactics Toolbox	SOURCEPAGE:p.10
+
 #
 # End
 #
