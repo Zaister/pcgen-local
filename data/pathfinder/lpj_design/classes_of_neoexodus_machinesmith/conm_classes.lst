@@ -2,11 +2,11 @@
 SOURCELONG:Classes of NeoExodus: Machinesmith	SOURCESHORT:CONM	SOURCEWEB:http://paizo.com/products/btpy91pb?Classes-of-NeoExodus-Machinesmith	SOURCEDATE:2012-03
 
 # Class Name		Hit Dice	Type			Class Type		Abbreviation	Max Level	Source Page		Define																								Combat bonus											Save bonus																						Modify VAR
-CLASS:Machinesmith	HD:8		TYPE:Base.PC	CLASSTYPE:PC	ABB:Alc		MAXLEVEL:20	SOURCEPAGE:p.2	DEFINE:MachinesmithLVL|0	DEFINE:CasterLevelBLMachinesmith|0	DEFINE:Caster_Level_Machinesmith|0	DEFINE:Caster_Level_BL_Stripped_Machinesmith|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|MachinesmithLVL|CL	BONUS:VAR|Caster_Level_BL_Stripped_Machinesmith|Machinesmith_Caster_Level-CasterLevelBLMachinesmith	BONUS:VAR|Machinesmith_Caster_Level|CL+Caster_Level_Bonus+CasterLevelBLMachinesmith	BONUS:VAR|CasterLevelBL_x_Machinesmith|charbonusto("PCLEVEL","Machinesmith")	BONUS:VAR|Caster_Level_Highest__Arcane|Machinesmith_Caster_Level|TYPE=Base
+CLASS:Machinesmith	HD:8		TYPE:Base.PC	MAXLEVEL:20	SOURCEPAGE:p.2	DEFINE:MachinesmithLVL|0	DEFINE:CasterLevelBLMachinesmith|0	DEFINE:Caster_Level_Machinesmith|0	DEFINE:Caster_Level_BL_Stripped_Machinesmith|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:VAR|MachinesmithLVL|CL	BONUS:VAR|Caster_Level_BL_Stripped_Machinesmith|Machinesmith_Caster_Level-CasterLevelBLMachinesmith	BONUS:VAR|Machinesmith_Caster_Level|CL+Caster_Level_Bonus+CasterLevelBLMachinesmith	BONUS:VAR|CasterLevelBL_x_Machinesmith|charbonusto("PCLEVEL","Machinesmith")	BONUS:VAR|Caster_Level_Highest__Arcane|Machinesmith_Caster_Level|TYPE=Base	FACT:ClassType|PC	FACT:Abb|Mac	FACT:SpellType|Arcane
 # Class Name		Skill Pts/Lvl	Class Skill
 CLASS:Machinesmith	STARTSKILLPTS:4	CSKILL:Appraise|TYPE=Craft|Disable Device|Fly|Heal|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Engineering)|Knowledge (Geography)|Knowledge (Nature)|Knowledge (Planes)|Perception|TYPE=Profession|Spellcraft|Use Magic Device
-# Class Name		Spell Stat		Spell Type		Memorize		Spellbook		Caster level
-CLASS:Machinesmith	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:YES	SPELLBOOK:YES	BONUS:CASTERLEVEL|Machinesmith|Caster_Level_BL_Stripped_Machinesmith
+# Class Name		Spell Stat		Memorize		Spellbook		Caster level
+CLASS:Machinesmith	SPELLSTAT:INT	MEMORIZE:YES	SPELLBOOK:YES	BONUS:CASTERLEVEL|Machinesmith|Caster_Level_BL_Stripped_Machinesmith
 ###Block: Proficiencies
 1	ABILITY:Machinesmith Class Feature|AUTOMATIC|Weapon and Armor Proficiency ~ Machinesmith|!PREABILITY:1,CATEGORY=Archetype,TYPE.MachinesmithWeaponProficiencies
 ###Block: Machinesmith Book
@@ -15,10 +15,15 @@ CLASS:Machinesmith	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:YES	SPELLBOOK:YES	BON
 1	BONUS:VAR|MachinesmithCrafterLVL|CL
 1	BONUS:VAR|MachinesmithRepairLVL|CL
 1	BONUS:VAR|MachinesmithGreatworkLVL|CL
+2	BONUS:VAR|MachinesmithTrickLVL|CL
+3	BONUS:VAR|MachinesmithCraftingExpertiseLVL|CL
 ###Block: Class Abilities
 1	ABILITY:Machinesmith Class Feature|AUTOMATIC|Machinesmith ~ Crafter|!PREABILITY:1,CATEGORY=Archetype,TYPE.MachinesmithCrafter
 1	ABILITY:Machinesmith Class Feature|AUTOMATIC|Machinesmith ~ Repair|!PREABILITY:1,CATEGORY=Archetype,TYPE.MachinesmithRepair
 1	ABILITY:Machinesmith Class Feature|AUTOMATIC|Machinesmith ~ Greatworks|!PREABILITY:1,CATEGORY=Archetype,TYPE.MachinesmithGreatworks
+2	ABILITY:Machinesmith Class Feature|AUTOMATIC|Machinesmith ~ Machinesmith Tricks|!PREABILITY:1,CATEGORY=Archetype,TYPE.MachinesmithMachinesmithTricks
+3	ABILITY:Machinesmith Class Feature|AUTOMATIC|Machinesmith ~ Crafting Expertise|!PREABILITY:1,CATEGORY=Archetype,TYPE.MachinesmithCraftingExpertise
+7	ABILITY:Machinesmith Class Feature|AUTOMATIC|Machinesmith ~ Axiom|!PREABILITY:1,CATEGORY=Archetype,TYPE.MachinesmithAxiom
 ###Block: Spellcasting
 1	CAST:0,1
 2	CAST:0,2
@@ -46,8 +51,8 @@ CLASS:Machinesmith	SPELLSTAT:INT	SPELLTYPE:Arcane	MEMORIZE:YES	SPELLBOOK:YES	BON
 ## Block: Mechanus Companion Class
 ##
 
-# Class Name	Hit Dice	Type				Class Type			Max Level		Source Page		Ability					Define			Combat bonus										Save bonus													Modify VAR
-CLASS:Mechanus	HD:10		TYPE:Monster.Companion	CLASSTYPE:Companion	MAXLEVEL:NOLIMIT	SOURCEPAGE:p.5	ABILITY:FEAT|AUTOMATIC|CMB Output	DEFINE:MechanusLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:VAR|MechanusLVL|CL
+# Class Name	Hit Dice	Type				Max Level		Source Page		Ability					Define			Combat bonus										Save bonus													Modify VAR
+CLASS:Mechanus	HD:10		TYPE:Monster.Companion	MAXLEVEL:NOLIMIT	SOURCEPAGE:p.5	ABILITY:FEAT|AUTOMATIC|CMB Output	DEFINE:MechanusLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude,BASE.Reflex,BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:VAR|MechanusLVL|CL	FACT:ClassType|Companion
 # Class Name	Reg. Race Type
 CLASS:Mechanus	PRERACETYPE:Mechanus
 # Class Name	Skill Pts/Lvl

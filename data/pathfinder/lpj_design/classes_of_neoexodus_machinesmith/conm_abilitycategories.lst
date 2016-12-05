@@ -10,6 +10,7 @@ ABILITYCATEGORY:Machinesmith Archetype	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:NO	
 ABILITYCATEGORY:Machinesmith Class Feature	VISIBLE:QUALIFY	EDITABLE:NO		EDITPOOL:NO		CATEGORY:Special Ability	TYPE:MachinesmithClassFeatures.Machinesmith Class Feature	PLURAL:Machinesmith Class Features		DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Machinesmith Greatwork		VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	CATEGORY:Special Ability	TYPE:MachinesmithGreatwork						PLURAL:Machinesmith Greatwork			DISPLAYLOCATION:Class Features
 ABILITYCATEGORY:Machinesmith Greatwork Update	VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	CATEGORY:Special Ability	TYPE:MachinesmithGreatworkUpdate					PLURAL:Machinesmith Greatwork Update	DISPLAYLOCATION:Class Features
+ABILITYCATEGORY:Machinesmith Trick			VISIBLE:QUALIFY	EDITABLE:YES	EDITPOOL:YES	CATEGORY:Special Ability	TYPE:MachinesmithTrick							PLURAL:Machinesmith Tricks			DISPLAYLOCATION:Class Features
 
 ###Block: Mechanus Buckets
 # Ability Category				Visible		Editable?		Change Pool?	Fractional values?	Category of Object	Type of Object			Display Location
