@@ -13,6 +13,8 @@ LOGO:@/publisher_logos/Paizo_Publishing.png
 
 INFOTEXT:This pcc loads all the source materials needed for the Iron Gods Pathfinder Adventure Path Campaign.
 
+FORWARDREF:CLASSSPELLLIST|Medium,Mesmerist,Occultist,Psychic,Spiritualist
+
 # Pathfinder Roleplaying Game
 PCC:@/pathfinder/paizo/roleplaying_game/core_rulebook/core_rulebook.pcc
 PCC:@/pathfinder/paizo/roleplaying_game/bestiary/bestiary.pcc
