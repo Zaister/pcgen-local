@@ -2,8 +2,8 @@
 SOURCELONG:Occult Adventures	SOURCESHORT:OA	SOURCEWEB:http://paizo.com/products/btpy97vo	SOURCEDATE:2015-08
 # Original Entry by: Stefan Radermacher
 
-# Class Name	Hit Dice	Type			Class Type		Abbreviation	Max Level	Source Page		Ability																	Visible	Define			Combat bonus											Save bonus																						Modify VAR
-CLASS:Kineticist	HD:8		TYPE:Base.PC	CLASSTYPE:PC	ABB:Kin		MAXLEVEL:20	SOURCEPAGE:p.10	ABILITY:Internal|AUTOMATIC|Class Skills ~ Kineticist|!PREABILITY:1,CATEGORY=Archetype,KineticistClassSkills	VISIBLE:YES	DEFINE:KineticistLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:VAR|KineticistLVL|CL
+# Class Name	Hit Dice	Type			Max Level	Source Page		Ability																	Visible	Define			Combat bonus											Save bonus																						Modify VAR
+CLASS:Kineticist	HD:8		TYPE:Base.PC	MAXLEVEL:20	SOURCEPAGE:p.10	ABILITY:Internal|AUTOMATIC|Class Skills ~ Kineticist|!PREABILITY:1,CATEGORY=Archetype,KineticistClassSkills	VISIBLE:YES	DEFINE:KineticistLVL|0	BONUS:COMBAT|BASEAB|classlevel("APPLIEDAS=NONEPIC")*3/4|TYPE=Base.REPLACE	BONUS:SAVE|BASE.Fortitude,BASE.Reflex|classlevel("APPLIEDAS=NONEPIC")/2+2	BONUS:SAVE|BASE.Will|classlevel("APPLIEDAS=NONEPIC")/3	BONUS:VAR|KineticistLVL|CL	FACT:ClassType|PC	FACT:Abb|Kin
 # Class Name	Skill Pts/Lvl
 CLASS:Kineticist	STARTSKILLPTS:4
 # Class Name	Spell Stat		Spell Type		Spellbook		Caster level
