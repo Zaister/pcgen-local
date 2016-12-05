@@ -20,6 +20,7 @@ Artistry (Literature).MOD		BONUS:SKILL|Artistry (Literature)|3|TYPE=SkillFocus|P
 Artistry (Musical Composition).MOD	BONUS:SKILL|Artistry (Musical Composition)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Musical Composition))	BONUS:SKILL|Artistry (Musical Composition)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Musical Composition))|PRESKILL:1,Artistry (Musical Composition)=10
 Artistry (Philosophy).MOD		BONUS:SKILL|Artistry (Philosophy)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Philosophy))	BONUS:SKILL|Artistry (Philosophy)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Philosophy))|PRESKILL:1,Artistry (Philosophy)=10
 Artistry (Playwriting).MOD		BONUS:SKILL|Artistry (Playwriting)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Playwriting))	BONUS:SKILL|Artistry (Playwriting)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Artistry (Playwriting))|PRESKILL:1,Artistry (Playwriting)=10
+Lore.MOD					BONUS:SKILL|Lore|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Lore)	BONUS:SKILL|Lore|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Lore)|PRESKILL:1,Lore=10
 
 #
 # End
