@@ -1,12 +1,11 @@
-# CVS $Revision: $ $Author: $ -- Tue Aug 16 14:59:45 2016 -- reformated by PCGen PrettyLST v6.06.00
+# CVS $Revision: $ $Author: $ -- Wed Sep  7 13:03:11 2016 -- reformated by PCGen PrettyLST v6.06.00
 SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
 
 ###Block: Changed spells
-# Spell Name		Clear School			Sub-School				Clear Range					Target Area or Effect				Clear Duration						Source, Long Desc.	Clear Source Page
-Blood Transcription.MOD											RANGE:.CLEAR|Personal and touch	TARGETAREA:You and one dead spellcaster									SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
-Forbid Action.MOD							SUBSCHOOL:.CLEAR|Control																						SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
-Murderous Command.MOD						SUBSCHOOL:.CLEAR|Control																						SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
-Remove Fear.MOD		SCHOOL:.CLEAR|Necromancy																			DURATION:.CLEAR|Instantaneous or 10 minutes	SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
+# Spell Name		Sub-School				Clear Range					Target Area or Effect				Source, Long Desc.	Clear Source Page
+Blood Transcription.MOD						RANGE:.CLEAR|Personal and touch	TARGETAREA:You and one dead spellcaster	SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
+Forbid Action.MOD		SUBSCHOOL:.CLEAR|Control														SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
+Murderous Command.MOD	SUBSCHOOL:.CLEAR|Control														SOURCELONG:PlusRPG	SOURCEPAGE:.CLEAR
 
 #
 # End
