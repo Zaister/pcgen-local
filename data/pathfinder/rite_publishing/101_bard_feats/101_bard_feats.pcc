@@ -34,4 +34,4 @@ URL:WEBSITE|http://www.paizo.com/communityuse|Paizo's Community Use Policy.
 
 ABILITY:101bardfeats_abilities.lst
 ABILITYCATEGORY:101bardfeats_ability_categories.lst
-FEAT:101bardfeats_feats.lst
+ABILITY:101bardfeats_feats.lst

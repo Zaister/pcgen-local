@@ -37,7 +37,7 @@ COPYRIGHT:PCGen dataset conversion for "The Complete Advanced Feats" Copyright 2
 
 # Data files
 ABILITYCATEGORY:complete_advanced_feats_abilitycategories.lst
-FEAT:complete_advanced_feats_feats.lst
+ABILITY:complete_advanced_feats_feats.lst
 
 #
 # End

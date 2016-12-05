@@ -5,7 +5,7 @@ SOURCELONG:Curse of the Crimson Throne, Chapter 1 - Edge of Anarchy	SOURCESHORT:
 ###Block: Feats
 # Ability Name	Unique Key				Category of Ability		Type						Define					Description																																																																																																																							Ability						Modify VAR									Source Page		Aspects
 # Feat Name	Type			Required Feat			Required Skill				Description																							Source Page		Description of the Benefits
-Burn Riding	TYPE:General	PREFEAT:1,Mounted Combat	PRESKILL:2,Handle Animal=3,Ride=3	DESC:Through the ancient tradition of the Sklar-Quah, you can protect both yourself and your mount from flame while traveling at high speeds.	SOURCEPAGE:p.75	BENEFIT:As long as your mount travels at least 40 feet in a round, you gain fire resistance 3 for that round. You also receive a +4 bonus on all Reflex saves to avoid catching on fire and a +4 bonus on all Fortitude saves against choking on smoke. Each round, as a free action, you may confer the same bonuses to your mount with a successful DC 20 Ride check.
+Burn Riding	TYPE:General	CATEGORY:FEAT	PREFEAT:1,Mounted Combat	PRESKILL:2,Handle Animal=3,Ride=3	DESC:Through the ancient tradition of the Sklar-Quah, you can protect both yourself and your mount from flame while traveling at high speeds.	SOURCEPAGE:p.75	BENEFIT:As long as your mount travels at least 40 feet in a round, you gain fire resistance 3 for that round. You also receive a +4 bonus on all Reflex saves to avoid catching on fire and a +4 bonus on all Fortitude saves against choking on smoke. Each round, as a free action, you may confer the same bonuses to your mount with a successful DC 20 Ride check.
 
 #
 # End

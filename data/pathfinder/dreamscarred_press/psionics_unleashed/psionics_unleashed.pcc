@@ -40,7 +40,7 @@ ABILITY:psionics_unleashed_abilities_racial.lst
 ABILITYCATEGORY:psionics_unleashed_abilitycategories.lst
 BIOSET:psionics_unleashed_biosettings.lst
 CLASS:psionics_unleashed_classes_base.lst
-FEAT:psionics_unleashed_feats.lst
+ABILITY:psionics_unleashed_feats.lst
 KIT:psionics_unleashed_kits_racial_traits.lst
 RACE:psionics_unleashed_races_base.lst
 SKILL:psionics_unleashed_skills.lst

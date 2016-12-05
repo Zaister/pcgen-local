@@ -44,7 +44,7 @@ COPYRIGHT:PCGen dataset conversion for "Pathfinder Chronicles: City of Strangers
 ABILITY:cos_abilities.lst
 ABILITYCATEGORY:cos_abilitycategories.lst
 CLASS:cos_classes_prestige.lst
-FEAT:cos_feats.lst
+ABILITY:cos_feats.lst
 
 #
 # End

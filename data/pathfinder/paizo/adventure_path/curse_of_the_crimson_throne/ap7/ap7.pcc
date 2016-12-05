@@ -39,7 +39,7 @@ COPYRIGHT:PCGen dataset conversion for "Curse of the Crimson Throne, Chapter 1: 
 # Customized Pathfinder RPG data files
 ABILITY:ap7_abilities.lst
 EQUIPMENT:ap7_equip_artifacts.lst
-FEAT:ap7_feats.lst
+ABILITY:ap7_feats.lst
 KIT:ap7_kits_races.lst
 RACE:ap7_races.lst
 

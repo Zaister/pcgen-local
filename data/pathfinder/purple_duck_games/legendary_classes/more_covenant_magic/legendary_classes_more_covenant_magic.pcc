@@ -190,7 +190,7 @@ COPYRIGHT:PCGen dataset conversion for "Legendary Classes: More Covenant Magic" 
 # Data files
 ABILITY:lcmcm_abilities.lst
 ABILITYCATEGORY:lcmcm_abiliycategories.lst
-FEAT:lcmcm_feats.lst
+ABILITY:lcmcm_feats.lst
 
 #
 # End

@@ -4,11 +4,11 @@ SOURCELONG:Psionics Unleashed	SOURCESHORT:PsU	SOURCEWEB:http://dreamscarredpress
 
 ###Block: General Feats
 # Feat Name	Type			Description											Ability								Modify VAR				Source Page		Description of the Benefits
-Wild Talent	TYPE:General	DESC:Your mind wakes to a previously unrealized talent for psionics.	ABILITY:Special Ability|AUTOMATIC|Power Point Reserve	BONUS:VAR|PowerPointReserve|2	SOURCEPAGE:p.53	BENEFIT:Your latent power of psionics flares to life, conferring upon you the designation of a psionic character. As a psionic character, you gain a reserve of 2 power points and can take psionic feats, metapsionic feats, and psionic item creation feats. You do not, however, gain the ability to manifest powers simply by virtue of having this feat.
+Wild Talent	CATEGORY:FEAT	TYPE:General	DESC:Your mind wakes to a previously unrealized talent for psionics.	ABILITY:Special Ability|AUTOMATIC|Power Point Reserve	BONUS:VAR|PowerPointReserve|2	SOURCEPAGE:p.53	BENEFIT:Your latent power of psionics flares to life, conferring upon you the designation of a psionic character. As a psionic character, you gain a reserve of 2 power points and can take psionic feats, metapsionic feats, and psionic item creation feats. You do not, however, gain the ability to manifest powers simply by virtue of having this feat.
 
 ###Block: Psionic Feats
 # Feat Name		Type			Required Ability								Description												Stackable?	Multiple?	Choose		Modify VAR																Source Page		Description of the Benefits
-Psionic Talent	TYPE:Psionic	PREABILITY:1,CATEGORY=Special Ability,Power Point Reserve	DESC:You gain additional power points to supplement those you already had.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|PowerPointReserve|(COUNT[FEATNAME=Psionic Talent]*(COUNT[FEATNAME=Psionic Talent]+1))/2-1	SOURCEPAGE:p.51	BENEFIT:When you take this feat for the first time, you gain 2 power points. You can take this feat multiple times. Each time you take the feat after the first time, the number of power points you gain increases by 1.
+Psionic Talent	CATEGORY:FEAT	TYPE:Psionic	PREABILITY:1,CATEGORY=Special Ability,Power Point Reserve	DESC:You gain additional power points to supplement those you already had.	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:VAR|PowerPointReserve|(COUNT[FEATNAME=Psionic Talent]*(COUNT[FEATNAME=Psionic Talent]+1))/2-1	SOURCEPAGE:p.51	BENEFIT:When you take this feat for the first time, you gain 2 power points. You can take this feat multiple times. Each time you take the feat after the first time, the number of power points you gain increases by 1.
 
 #
 # End
