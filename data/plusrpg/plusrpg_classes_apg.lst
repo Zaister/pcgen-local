@@ -1,11 +1,13 @@
-# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:51:39 2015 -- reformated by PCGen PrettyLST v6.04.01
+# CVS $Revision: $ $Author: $ -- Wed Sep  7 12:33:52 2016 -- reformated by PCGen PrettyLST v6.06.00
 SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
 
 ###Block: Classes
 
-# Class Name		Class Skill
+# Class Name		Remove Class Skill	Class Skill
 CLASS:Inquisitor.MOD	CSKILL:.CLEAR		CSKILL:Athletics|Bluff|TYPE=Craft|Diplomacy|Disguise|Ecology|Heal|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Nature)|Knowledge (Planes)|Knowledge (Religion)|Perception|TYPE=Profession|Ride|Sense Motive|Spellcraft|Stealth|Survival
-CLASS:Oracle.MOD		CSKILL:Ecology
+
+# Class Name	Class Skill
+CLASS:Oracle.MOD	CSKILL:Ecology
 
 #
 # End
