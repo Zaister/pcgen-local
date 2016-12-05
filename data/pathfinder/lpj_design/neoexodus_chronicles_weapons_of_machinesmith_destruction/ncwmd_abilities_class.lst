@@ -1,0 +1,10 @@
+# CVS $Revision: $ $Author: $ -- Sun Nov  6 14:27:00 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:NeoExodus Chronicles: Weapons of Machinesmith Destruction	SOURCESHORT:NCWMD	SOURCEWEB:http://paizo.com/products/btpy9alb?NeoExodus-Chronicles-Weapons-of-Machinesmith-Destruction	SOURCEDATE:2014-12
+
+###Block: Machinesmith Tricks
+# Ability Name	Unique Key						Category of Ability		Type															Required Ability								Var. Min. Value			Description																																																																																																																		Source Page
+Mobius Reactor	KEY:Machinesmith Trick ~ Mobius Reactor	CATEGORY:Special Ability	TYPE:MachinesmithClassFeatures.SpecialAttack.Supernatural.MachinesmithTrick.Augmentation	PREABILITY:1,CATEGORY=Special Ability,Greatworks ~ Mechanus	PREVARGTEQ:MachinesmithLVL,4	DESC:The machinesmith optimizes the power output of the mechanus’ Mobius core, letting it use the excess power to increase its abilities in other ways. It gains a number of charges equal to the machinesmith’s Intelligence modifier + 1/2 her level (minimum 1). These charges return automatically if not used for 8 consecutive hours.As a swift action, the machinesmith can command the mechanus to use a swift action and expend a charge from its Mobius reactor to gain one of the following benefits: one extra natural attack at its highest base attack bonus, a +4 dodge bonus to armor class, or damage reduction 2/—. The machinesmith must be at least 4th level to select this trick.	SOURCEPAGE:p.2
+
+#
+# End
+#

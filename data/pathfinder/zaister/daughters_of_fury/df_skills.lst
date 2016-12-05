@@ -1,0 +1,16 @@
+# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:53:30 2015 -- reformated by PCGen PrettyLST v6.04.01
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: New skills
+# Skill Name				Key Stat	Untrained?		Type						Visible		Bonus to skill
+Lore (Infernal Contracts)		KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Lore.Base					BONUS:SKILL|Lore (Infernal Contracts)|3|TYPE=ClassSkill|PRECSKILL:1,Lore (Infernal Contracts)|PRESKILL:1,Lore (Infernal Contracts)=1
+Lore (Noble Houses of Cheliax)	KEYSTAT:INT	USEUNTRAINED:NO	TYPE:Intelligence.Lore.Base					BONUS:SKILL|Lore (Noble Houses of Cheliax)|3|TYPE=ClassSkill|PRECSKILL:1,Lore (Noble Houses of Cheliax)|PRESKILL:1,Lore (Noble Houses of Cheliax)=1
+
+###Block: New skills Skill Focus implementation
+# Skill Name				Bonus to skill
+Lore (Infernal Contracts).MOD		BONUS:SKILL|Lore (Infernal Contracts)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Lore (Infernal Contracts))	BONUS:SKILL|Lore (Infernal Contracts)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Lore (Infernal Contracts))|PRESKILL:1,Lore (Infernal Contracts)=10
+Lore (Noble Houses of Cheliax).MOD	BONUS:SKILL|Lore (Noble Houses of Cheliax)|3|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Lore (Noble Houses of Cheliax))	BONUS:SKILL|Lore (Noble Houses of Cheliax)|6|TYPE=SkillFocus|PREABILITY:1,CATEGORY=FEAT,Skill Focus (Lore (Noble Houses of Cheliax))|PRESKILL:1,Lore (Noble Houses of Cheliax)=10
+
+#
+# End
+#
