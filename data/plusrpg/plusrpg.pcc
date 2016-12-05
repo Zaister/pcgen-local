@@ -32,6 +32,7 @@ SPELL:plusrpg_spells_apg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Player's Guide
 
 # Advanced Class Guide
 ABILITY:plusrpg_abilities_acg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Class Guide
+SPELL:plusrpg_spells_acg.lst|PRECAMPAIGN:1,INCLUDES=Advanced Class Guide
 
 # Ultimate Combat
 ABILITY:plusrpg_abilities_uc.lst|PRECAMPAIGN:1,INCLUDES=Ultimate Combat
@@ -51,6 +52,9 @@ WEAPONPROF:plusrpg_profs_weapon_tg.lst|PRECAMPAIGN:1,INCLUDES=Technology Guide
 
 # Inner Sea Gods
 SPELL:plusrpg_spells_isg.lst|PRECAMPAIGN:1,INCLUDES=Inner Sea Gods
+
+# Inner Sea Races
+ABILITY:plusrpg_abilities_isr.lst|PRECAMPAIGN:1,INCLUDES=Inner Sea Races
 
 # Inner Sea World Guide
 SPELL:plusrpg_spells_iswg.lst|PRECAMPAIGN:1,INCLUDES=Inner Sea World Guide
