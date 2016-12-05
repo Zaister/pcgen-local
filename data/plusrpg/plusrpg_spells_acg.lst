@@ -1,0 +1,12 @@
+# CVS $Revision: $ $Author: $ -- Wed Sep  7 13:02:57 2016 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
+
+###Block: Changed spells
+# Spell Name	Classes of caster	School		Sub-School		Components	Casting Time			Range			Target Area or Effect	Duration			Description
+#Hero's Defiance	CLASSES:Paladin=1	SCHOOL:Necromancy	SUBSCHOOL:Healing	COMPS:V	CASTTIME:1 immediate action	RANGE:Personal	TARGETAREA:You		DURATION:Instantaneous	DESC:Allows the use of lay on hands while falling unconscious.
+
+# Spell Name	Sub-School
+Life Pact.MOD	SUBSCHOOL:Healing
+#
+# End
+#
