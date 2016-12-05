@@ -1,9 +1,18 @@
-# CVS $Revision: $ $Author: $ -- Tue Aug 18 12:51:39 2015 -- reformated by PCGen PrettyLST v6.04.01
+# CVS $Revision: $ $Author: $ -- Wed Sep  7 13:03:50 2016 -- reformated by PCGen PrettyLST v6.06.00
 SOURCELONG:PlusRPG	SOURCESHORT:Plus	SOURCEDATE:2099-12
 
 ###Block: Class skills
 # Ability Name						Remove Class Skill	Class Skill
+CATEGORY=Internal|Bloodrager ~ Class Skills.MOD	CSKILL:.CLEAR		CSKILL:Acrobatics|Athletics|TYPE=Craft|Endurance|Handle Animal|Intimidate|Knowledge (Arcana)|Perception|Ride|Spellcraft|Survival
 CATEGORY=Internal|Slayer ~ Class Skills.MOD	CSKILL:.CLEAR		CSKILL:Acrobatics|Athletics|Bluff|TYPE=Craft|Disguise|Ecology|Endurance|Heal|Intimidate|Knowledge (dungeoneering)|Knowledge (geography)|Knowledge (local)|Perception|TYPE=Profession|Ride|Sense Motive|Stealth|Survival
+
+###Block: Bloodrager
+# Ability Name	Unique Key				Category of Ability		Type															Serves As								Description																																																																																																																																																																																																																																																Ability								Modify VAR
+Bloodrage		KEY:Bloodrager ~ Bloodrage	CATEGORY:Special Ability	TYPE:Bloodrager Class Feature.SpecialQuality.Supernatural.AttackOption.Rage.Bloodrage	SERVESAS:ABILITY=Special Ability|Barbarian ~ Rage	DESC:You can call upon inner reserves of strength and ferocity, granting you additional combat prowess. You can bloodrage for %1 rounds per day. You can enter a bloodrage as a free action. The total number of rounds of bloodrage per day is renewed after resting for 8 hours, although these hours need not be consecutive. While in a bloodrage, you gain a +%2 bonus on melee attack rolls, melee damage rolls, thrown weapon damage rolls, and Will saving throws. In addition, you take a -%3 penalty to Armor Class. You also gain %4 temporary hit points. These temporary hit points are lost first when you take damage, disappear when the rage ends, and are not replenished if you enter a bloodrage again within 1 minute of your previous bloodrage or rage. While in a bloodrage, you cannot use any Charisma-, Dexterity-, or Intelligence-based skill (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration (such as spellcasting). You end your bloodrage as a free action, and are fatigued for 1 minute after a bloodrage ends. You can't enter a new bloodrage while fatigued or exhausted, but can otherwise enter a bloodrage multiple times per day. If you fall unconscious, your bloodrage immediately ends. Bloodrage counts as the barbarian's rage class feature for the purpose of feat prerequisites, feat abilities, magic item abilities, and spell effects.|RageDuration|RageBonus|RageACPenalty|RageBonusHP	ABILITY:Special Ability|AUTOMATIC|Unchained Rage	BONUS:VAR|RageLVL|BloodragerLVL	BONUS:VAR|RageDuration|HumanBloodragerFavClassBonus
+
+###Block: Bloodrager Primalist archetype
+# Ability Name	Unique Key					Category of Ability	Type					Stackable?	Multiple?	Choose		Bonus Ability Pool
+Rage Power		KEY:Primal Choice ~ Rage Power 4	CATEGORY:Internal		TYPE:Level 4 Primal Choice	STACK:YES	MULT:YES	CHOOSE:NOCHOICE	BONUS:ABILITYPOOL|Unchained Rage Power|2
 
 #
 # End
