@@ -3539,6 +3539,9 @@
 									<xsl:if test="note='GT'">
 										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x2729; </fo:inline>
 									</xsl:if>
+									<xsl:if test="note='L'">
+										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x272D; </fo:inline>
+									</xsl:if>
 									<xsl:value-of select="name"/>
 								</fo:block>
 
@@ -3548,7 +3551,7 @@
 								<fo:block space-before.optimum="1pt" font-size="5pt">
 									<xsl:value-of select="special_properties"/>
 								</fo:block>
-								<xsl:if test="note!='GT'">
+								<xsl:if test="note != '' and note != 'GT' and note != 'L'">
 									<fo:block space-before.optimum="1pt" font-size="5pt">
 										<xsl:value-of select="note"/>
 									</fo:block>
@@ -3659,6 +3662,9 @@
 									<xsl:if test="note='GT'">
 										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x2729; </fo:inline>
 									</xsl:if>
+									<xsl:if test="note='L'">
+										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x272D; </fo:inline>
+									</xsl:if>
 									<xsl:value-of select="name"/>
 								</fo:block>
 
@@ -3668,7 +3674,7 @@
 								<fo:block space-before.optimum="1pt" font-size="5pt">
 									<xsl:value-of select="special_properties"/>
 								</fo:block>
-								<xsl:if test="note!='GT'">
+								<xsl:if test="note != '' and note != 'GT' and note != 'L'">
 									<fo:block space-before.optimum="1pt" font-size="5pt">
 										<xsl:value-of select="note"/>
 									</fo:block>
@@ -3772,6 +3778,9 @@
 									<xsl:if test="note='GT'">
 										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x2729; </fo:inline>
 									</xsl:if>
+									<xsl:if test="note='L'">
+										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x272D; </fo:inline>
+									</xsl:if>
 									<xsl:value-of select="name"/>
 								</fo:block>
 
@@ -3781,7 +3790,7 @@
 								<fo:block space-before.optimum="1pt" font-size="5pt">
 									<xsl:value-of select="special_properties"/>
 								</fo:block>
-								<xsl:if test="note!='GT'">
+								<xsl:if test="note != '' and note != 'GT' and note != 'L'">
 									<fo:block space-before.optimum="1pt" font-size="5pt">
 										<xsl:value-of select="note"/>
 									</fo:block>
@@ -3890,6 +3899,9 @@
 									<xsl:if test="note='GT'">
 										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x2729; </fo:inline>
 									</xsl:if>
+									<xsl:if test="note='L'">
+										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x272D; </fo:inline>
+									</xsl:if>
 									<xsl:value-of select="name"/>
 								</fo:block>
 								<fo:block space-before.optimum="1pt" font-size="5pt">
@@ -3898,7 +3910,7 @@
 								<fo:block space-before.optimum="1pt" font-size="5pt">
 									<xsl:value-of select="special_properties"/>
 								</fo:block>
-								<xsl:if test="note!='GT'">
+								<xsl:if test="note != '' and note != 'GT' and note != 'L'">
 									<fo:block space-before.optimum="1pt" font-size="5pt">
 										<xsl:value-of select="note"/>
 									</fo:block>
@@ -4013,6 +4025,9 @@
 									<xsl:if test="note='GT'">
 										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x2729; </fo:inline>
 									</xsl:if>
+									<xsl:if test="note='L'">
+										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x272D; </fo:inline>
+									</xsl:if>
 									<xsl:value-of select="name"/>
 								</fo:block>
 								<fo:block space-before.optimum="1pt" font-size="5pt">
@@ -4021,7 +4036,7 @@
 								<fo:block space-before.optimum="1pt" font-size="5pt">
 									<xsl:value-of select="special_properties"/>
 								</fo:block>
-								<xsl:if test="note!='GT'">
+								<xsl:if test="note != '' and note != 'GT' and note != 'L'">
 									<fo:block space-before.optimum="1pt" font-size="5pt">
 										<xsl:value-of select="note"/>
 									</fo:block>
@@ -4137,6 +4152,9 @@
 								<fo:block space-before.optimum="1pt" font-size="8pt">
 									<xsl:if test="note='GT'">
 										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x2729; </fo:inline>
+									</xsl:if>
+									<xsl:if test="note='L'">
+										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x272D; </fo:inline>
 									</xsl:if>
 									<xsl:value-of select="name"/>
 								</fo:block>
@@ -4261,6 +4279,9 @@
 									<xsl:attribute name="font-weight">bold</xsl:attribute>
 									<xsl:if test="note='GT'">
 										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x2729; </fo:inline>
+									</xsl:if>
+									<xsl:if test="note='L'">
+										<fo:inline font-family="ZapfDingbats" font-weight="normal">&#x272D; </fo:inline>
 									</xsl:if>
 									<xsl:value-of select="name"/>
 								</fo:block>
@@ -4643,7 +4664,7 @@
 					</fo:table-row>
 					<xsl:variable name="TotalValueOwn">
 						<xsl:call-template name="Total">
-							<xsl:with-param name="Items" select="equipment/item[note != 'GT']"/>
+							<xsl:with-param name="Items" select="equipment/item[note != 'GT' and note != 'L']"/>
 							<xsl:with-param name="RunningTotal" select="0"/>
 						</xsl:call-template>
 					</xsl:variable>
@@ -4653,14 +4674,31 @@
 							<xsl:with-param name="RunningTotal" select="0"/>
 						</xsl:call-template>
 					</xsl:variable>
-					<xsl:if test="$TotalValueGT &gt; 0">
-					<fo:table-row xsl:use-attribute-sets="money.darkline">
-						<fo:table-cell text-align="end" border-left-width="0pt" padding-top="1pt" padding-right="1pt" number-columns-spanned="3">
-							<fo:block font-size="7pt" font-weight="bold">
-								Total Group Treasure Value: <xsl:value-of select="format-number($TotalValueGT, '#,##0.00')"/> gp
-							</fo:block>
-						</fo:table-cell>
-					</fo:table-row>
+                                        <xsl:variable name="TotalValueLeadership">
+                                                <xsl:call-template name="Total">
+                                                        <xsl:with-param name="Items" select="equipment/item[note = 'L']"/>
+                                                        <xsl:with-param name="RunningTotal" select="0"/>
+                                                </xsl:call-template>
+                                        </xsl:variable>
+					<xsl:if test="$TotalValueGT+$TotalValueLeadership &gt; 0">
+						<xsl:if test="$TotalValueGT &gt; 0">
+						<fo:table-row xsl:use-attribute-sets="money.darkline">
+							<fo:table-cell text-align="end" border-left-width="0pt" padding-top="1pt" padding-right="1pt" number-columns-spanned="3">
+								<fo:block font-size="7pt" font-weight="bold">
+									Total Group Treasure Value: <xsl:value-of select="format-number($TotalValueGT, '#,##0.00')"/> gp
+								</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						</xsl:if>
+						<xsl:if test="$TotalValueLeadership &gt; 0">
+						<fo:table-row xsl:use-attribute-sets="money.darkline">
+							<fo:table-cell text-align="end" border-left-width="0pt" padding-top="1pt" padding-right="1pt" number-columns-spanned="3">
+								<fo:block font-size="7pt" font-weight="bold">
+									Total Leadership PC Value: <xsl:value-of select="format-number($TotalValueLeadership, '#,##0.00')"/> gp
+								</fo:block>
+							</fo:table-cell>
+						</fo:table-row>
+						</xsl:if>
 					<fo:table-row xsl:use-attribute-sets="money.title">
 						<fo:table-cell text-align="end" border-left-width="0pt" padding-top="1pt" padding-right="1pt" number-columns-spanned="3">
 							<fo:block font-size="7pt" font-weight="bold">
